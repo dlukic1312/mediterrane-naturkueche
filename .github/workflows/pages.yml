@@ -23,6 +23,8 @@ jobs:
     steps:
       - name: Repository laden
         uses: actions/checkout@v4
+      - name: Sortiment und regionale Zuordnungen prüfen
+        run: node scripts/validate-content.mjs
       - name: GitHub Pages vorbereiten
         uses: actions/configure-pages@v5
       - name: Website hochladen
@@ -32,3 +34,4 @@ jobs:
       - name: Website veröffentlichen
         id: deployment
         uses: actions/deploy-pages@v4
+
