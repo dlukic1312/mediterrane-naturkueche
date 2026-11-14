@@ -2620,6 +2620,163 @@ window.MEDITERRANEAN = {
         "basis": "shared",
         "exclusive": false
       }
+    },
+    "dates": {
+      "regions": [
+        "MAR",
+        "DZA",
+        "TUN",
+        "LBY",
+        "EGY",
+        "JOR",
+        "ISR",
+        "PSE"
+      ],
+      "relatedRegions": [],
+      "text": "Datteln verbinden nordafrikanische Oasentraditionen mit den Küchen des Nahen Ostens. Belegte Beispiele sind Draa und Tafilalet in Marokko, Oued Rhir und Souf in Algerien, Djerid in Tunesien sowie das Jordantal. Auch Libyen und Ägypten haben Dattelanbautraditionen. Die Karte zeigt Beispiele und teilweise noch grobe Bezüge, keine flächendeckende Anbaukarte. Vorgesehen sind getrocknete oder geeignet haltbar verarbeitete Datteln; frische empfindliche Reifestadien gehören nicht zum Entwurf. Wildsammlung oder Bio-Qualität werden erst mit entsprechenden Lieferantennachweisen zugesagt.",
+      "source": "https://www.fao.org/4/Y4360E/y4360e06.htm",
+      "sources": [
+        {
+          "title": "FAO · Dattelpalme: geografische Verbreitung und Anbauräume",
+          "url": "https://www.fao.org/4/Y4360E/y4360e06.htm"
+        },
+        {
+          "title": "FAO · Datteln: Trocknung, Verpackung und Verarbeitung",
+          "url": "https://www.fao.org/4/Y4360E/y4360e0d.htm"
+        },
+        {
+          "title": "FAO · Dattelanbau im Jordantal",
+          "url": "https://www.fao.org/jordan/news/detail/jordan-advances-the-sustainability-and-competitiveness-of-the-date-palm-sector-with-fao-support/en"
+        }
+      ],
+      "kind": "Gemeinsame Tradition · Oasen und Hinterland",
+      "type": "shared",
+      "primaryLabel": "Belegte kulinarische und regionale Anbaubezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Getrocknete oder geeignet verpackte halbtrockene Datteln vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Dokumentierte Dattelanbautraditionen und haltbare Verarbeitungsformen; keine Lieferherkunft",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarischer Raum",
+        "summary": "Nordafrikanische Oasen und der Nahe Osten, unter anderem das Jordantal. Getrocknet oder halbtrocken gehören Datteln zur haltbaren Vorratsküche.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "mapFields": [
+        {
+          "reference": "MAR",
+          "places": [
+            {
+              "name": "Draa-Tal",
+              "lon": -6,
+              "lat": 30.5,
+              "rx": 0.6,
+              "ry": 0.65
+            },
+            {
+              "name": "Tafilalet",
+              "lon": -4.2,
+              "lat": 31.4,
+              "rx": 0.5,
+              "ry": 0.5
+            }
+          ]
+        },
+        {
+          "reference": "DZA",
+          "places": [
+            {
+              "name": "Oued Rhir",
+              "lon": 6.05,
+              "lat": 33.1,
+              "rx": 0.45,
+              "ry": 0.55
+            },
+            {
+              "name": "Souf",
+              "lon": 6.9,
+              "lat": 33.35,
+              "rx": 0.45,
+              "ry": 0.45
+            }
+          ]
+        },
+        {
+          "reference": "TUN",
+          "places": [
+            {
+              "name": "Djerid",
+              "lon": 8.2,
+              "lat": 33.8,
+              "rx": 0.5,
+              "ry": 0.45
+            }
+          ]
+        },
+        {
+          "reference": "EGY",
+          "places": [
+            {
+              "name": "Nördliches Nilgebiet · grober Bezug",
+              "lon": 31,
+              "lat": 30.4,
+              "rx": 1,
+              "ry": 0.9
+            }
+          ]
+        },
+        {
+          "reference": "JOR",
+          "places": [
+            {
+              "name": "Jordantal · regionales Beispiel",
+              "lon": 35.6,
+              "lat": 31.9,
+              "rx": 0.25,
+              "ry": 0.65
+            }
+          ]
+        },
+        {
+          "reference": "ISR",
+          "places": [
+            {
+              "name": "Jordantal · regionales Beispiel",
+              "lon": 35.55,
+              "lat": 32,
+              "rx": 0.25,
+              "ry": 0.65
+            }
+          ]
+        },
+        {
+          "reference": "PSE",
+          "places": [
+            {
+              "name": "Raum Jericho",
+              "lon": 35.45,
+              "lat": 31.85,
+              "rx": 0.25,
+              "ry": 0.25
+            }
+          ]
+        }
+      ],
+      "availability": "planned"
     }
   },
   "newProducts": [
@@ -2662,6 +2819,16 @@ window.MEDITERRANEAN = {
       "shared-3",
       "Levante",
       "Paprika-Walnuss-Aufstrich mit Granatapfelmelasse."
+    ],
+    [
+      "dates",
+      "Datteln",
+      "Früchte",
+      "Packung folgt",
+      null,
+      "dates",
+      "Neu im Sortiment",
+      "Getrocknete oder halbtrockene Datteln. Sorte, Packungsgröße und Preis werden mit dem Lieferprodukt festgelegt."
     ]
   ],
   "catalog": [
@@ -2933,6 +3100,16 @@ window.MEDITERRANEAN = {
       "shared-3",
       "Levante",
       "Paprika-Walnuss-Aufstrich mit Granatapfelmelasse."
+    ],
+    [
+      "dates",
+      "Datteln",
+      "Früchte",
+      "Packung folgt",
+      null,
+      "dates",
+      "Neu im Sortiment",
+      "Getrocknete oder halbtrockene Datteln. Sorte, Packungsgröße und Preis werden mit dem Lieferprodukt festgelegt."
     ]
   ],
   "reviewed": "2026-11-13",

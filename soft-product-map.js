@@ -56,12 +56,13 @@
         primary.replaceChildren(); variants.replaceChildren();
         if (!connection) return;
         const ids = connection.mapRegions||connection.regions;
-        ids.forEach(id=>add(id,primary));
+        ids.forEach(id=>{const field=connection.mapFields?.find(f=>f.reference===id);if(!field){add(id,primary);return}const group=make('g',{'data-reference':id});field.places.forEach(place=>{const [cx,cy]=xy(place.lon,place.lat);group.append(make('ellipse',{cx,cy,rx:place.rx/58*1000,ry:place.ry/24*560}))});primary.append(group)});
         connection.relatedRegions.filter(r=>!ids.includes(r.id)).forEach(r=>add(r.id,variants));
       },
       renderSelection(region) {
         selection.replaceChildren();
         if(!region||(!region.parent&&!region.members))return;
+        if(region.selectionFields){region.selectionFields.forEach(part=>part.polygons.forEach(polygon=>{const d='M'+polygon.map(([lon,lat])=>xy(lon,lat).join(',')).join(' L')+' Z';selection.append(make('path',{d,'data-tone':part.tone,style:'fill:'+part.color}))}));return}
         (region.members||[region.id]).forEach(id=>add(id,selection));
       },
       bounds(id) { return layer.querySelector('[data-reference="'+id+'"]')?.getBBox(); },

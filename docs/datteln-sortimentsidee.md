@@ -1,6 +1,6 @@
-# Datteln als mögliche Sortimentsergänzung
+# Datteln im geplanten Sortiment
 
-Stand: 14. November 2026. Recherche und Produktidee, kein bereits verfügbares Handelsprodukt und keine Preisfestlegung.
+Stand: 14. November 2026. Als Sortimentsentwurf aufgenommen, noch kein verfügbares Handelsprodukt. Packungsgröße und Preis sind offen.
 
 ## Ergebnis
 
@@ -26,7 +26,7 @@ Für die Beschaffung ist hier vor allem Kulturanbau relevant: Dattelpalmen werde
 
 > Datteln verbinden nordafrikanische Oasentraditionen mit den Küchen des Nahen Ostens. Getrocknet oder halbtrocken bereichern sie die haltbare Vorratsküche; regionale Sorten und Verarbeitungen setzen eigene Akzente.
 
-Die endgültige Formulierung sollte zur ausgewählten Sorte, Verarbeitung und belegten Herkunft passen. In der Probeansicht erscheint die Idee deshalb nur als unbepreister Hinweis in den größeren Räumen Nordafrika und Levante, nicht als zusätzliches kaufbares Produkt.
+Die endgültige Formulierung sollte zur ausgewählten Sorte, Verarbeitung und belegten Herkunft passen. In Hauptkarte und Sortiment erscheinen getrocknete oder halbtrockene Datteln mit eigenem Bild. Der Warenkorb bleibt für diesen Entwurf gesperrt, bis Lieferprodukt, Packungsgröße und Preis feststehen.
 
 ## Quellen
 
