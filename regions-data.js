@@ -1364,19 +1364,22 @@ window.MEDITERRANEAN = {
       }
     },
     "herbsalt": {
-      "regions": [],
-      "text": "Dieses Kräutersalz ist eine moderne Mischung ohne festgelegte regionale Rezeptur. Die Verbreitung der einzelnen Kräuter ist nicht mit der Heimat der Mischung gleichzusetzen.",
-      "source": "https://en.wikipedia.org/wiki/Mediterranean_cuisine",
-      "kind": "Moderne Sortimentidee",
+      "regions": [
+        "HR-DAL",
+        "HR-NIN"
+      ],
       "relatedRegions": [],
-      "type": "modern",
-      "primaryLabel": "Keine feste traditionelle Heimat",
+      "text": "Meersalz mit dalmatinischen Kräutern, etwa Oregano, Rosmarin, Basilikum, Majoran, Bohnenkraut, Thymian und Salbei. Solche Kräutersalze sind beispielsweise bei der Saline Nin belegt. Die Kräuter kommen auch anderswo vor; das ist keine exklusive dalmatinische Zusammensetzung. Wildsammlung wird erst mit Lieferantennachweisen zugesagt.",
+      "source": "https://www.solananin.hr/en/webshop/salt-with-spices/sea-salt-with-dalmatian-spices-250-g/",
       "sources": [
         {
-          "title": "Hintergrund zur Spezialität",
-          "url": "https://en.wikipedia.org/wiki/Mediterranean_cuisine"
+          "title": "Saline Nin · Meersalz mit dalmatinischen Kräutern",
+          "url": "https://www.solananin.hr/en/webshop/salt-with-spices/sea-salt-with-dalmatian-spices-250-g/"
         }
       ],
+      "kind": "Regionale Würztradition",
+      "type": "shared",
+      "primaryLabel": "Erfasster kulinarischer Bezug",
       "relatedLabel": "Verwandte regionale Varianten",
       "commercialOrigin": {
         "ingredients": null,
@@ -1384,23 +1387,29 @@ window.MEDITERRANEAN = {
         "status": "Noch nicht durch Lieferantennachweise festgelegt"
       },
       "preservation": {
-        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "format": "Trockene Mischung aus Meersalz und Kräutern",
         "freshProduct": false,
         "verifiedShelfLife": null,
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
         "date": "2026-11-14",
-        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "scope": "Regionale Würztradition; keine exklusive Verbreitung oder bestätigte Lieferherkunft",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
       },
       "culinaryRange": {
-        "label": "Kulinarische Einordnung",
-        "summary": "Mediterran inspirierte Kräutermischung. Die Verbreitung ihrer Zutaten belegt keine gemeinsame traditionelle Heimat der fertigen Mischung.",
-        "basis": "modern",
+        "label": "Kulinarische Verbreitung",
+        "summary": "Dalmatinische Küstenküche · belegte Kräutersalz-Zubereitungen, unter anderem aus Nin.",
+        "basis": "regional",
         "exclusive": false
-      }
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "HR-DAL",
+        "HR-NIN"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben."
     },
     "black": {
       "regions": [
@@ -2777,6 +2786,372 @@ window.MEDITERRANEAN = {
         }
       ],
       "availability": "planned"
+    },
+    "pinchos": {
+      "regions": [
+        "ES-AN"
+      ],
+      "relatedRegions": [],
+      "text": "Andalusische Würzung mit Verbindungen zum Maghreb. Je nach Rezeptur etwa Kreuzkümmel, Knoblauch, Koriander und Paprika. Als trockene Würzung auch für Gemüse geeignet. Keine einheitliche Rezeptur für ganz Iberien.",
+      "source": "https://www.spain.info/es/receta/pinchos-morunos/",
+      "sources": [
+        {
+          "title": "Andalusien · regional unterschiedliche Pinchos-Würzungen",
+          "url": "https://www.spain.info/es/receta/pinchos-morunos/"
+        }
+      ],
+      "kind": "Regionale Würztradition",
+      "type": "shared",
+      "primaryLabel": "Erfasster kulinarischer Bezug",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Trockene, geeignet verpackte Gewürz- beziehungsweise Kräutermischung",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Regionale Würztradition; keine exklusive Verbreitung oder bestätigte Lieferherkunft",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Andalusien · regional unterschiedliche Pinchos-Würzungen.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "ES-AN"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben."
+    },
+    "provence": {
+      "regions": [
+        "FR-PRO"
+      ],
+      "relatedRegions": [],
+      "text": "Getrocknete Kräutermischung im provenzalischen Zusammenhang, mit Thymian, Rosmarin, Bohnenkraut und Oregano. Die konkrete Rezeptur folgt dem späteren Lieferprodukt. Keine pauschale Zuordnung zu Ligurien; Label Rouge wird ohne Zertifizierung nicht zugesagt.",
+      "source": "https://www.herbes-de-provence.org/label-rouge-herbes-de-provence/",
+      "sources": [
+        {
+          "title": "Provenzalische Kräuterküche",
+          "url": "https://www.herbes-de-provence.org/label-rouge-herbes-de-provence/"
+        }
+      ],
+      "kind": "Regionale Würztradition",
+      "type": "shared",
+      "primaryLabel": "Erfasster kulinarischer Bezug",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Trockene, geeignet verpackte Gewürz- beziehungsweise Kräutermischung",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Regionale Würztradition; keine exklusive Verbreitung oder bestätigte Lieferherkunft",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Provenzalische Kräuterküche.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "FR-PRO"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben."
+    },
+    "aglio": {
+      "regions": [
+        "ITA"
+      ],
+      "relatedRegions": [],
+      "text": "Getrocknete Knoblauch- und Chiliflocken zur Zubereitung mit Olivenöl. Die Geschmackskombination ist aus der italienischen Pastaküche bekannt, unter anderem aus Rom und Neapel und auch an der Adria. Die fertige Trockenmischung ist eine praktische Produktform, keine eigenständige historische Inseltradition.",
+      "source": "https://www.turismoroma.it/de/node/85420",
+      "sources": [
+        {
+          "title": "Italienische Pastaküche · Trockenmischung nach bekannter Würzung",
+          "url": "https://www.turismoroma.it/de/node/85420"
+        },
+        {
+          "title": "Traditionelle Produkte Apuliens · Spaghetti aglio e olio",
+          "url": "https://www.patpuglia.it/it/12/Spaghetti_aglio_e_olio/7_392_C"
+        }
+      ],
+      "kind": "Regionale Würzung · Trockenrezeptur",
+      "type": "shared",
+      "primaryLabel": "Erfasster kulinarischer Bezug",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Trockene, geeignet verpackte Gewürz- beziehungsweise Kräutermischung",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Regionale Würztradition; keine exklusive Verbreitung oder bestätigte Lieferherkunft",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Italienische Pastaküche · Trockenmischung nach bekannter Würzung.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "ITA"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "mapFields": [
+        {
+          "reference": "ITA",
+          "places": [
+            {
+              "name": "Rom",
+              "lon": 12.5,
+              "lat": 41.9,
+              "rx": 0.6,
+              "ry": 0.5
+            },
+            {
+              "name": "Neapel",
+              "lon": 14.27,
+              "lat": 40.85,
+              "rx": 0.6,
+              "ry": 0.5
+            },
+            {
+              "name": "Apulien",
+              "lon": 16.9,
+              "lat": 40.9,
+              "rx": 0.7,
+              "ry": 0.6
+            }
+          ]
+        }
+      ],
+      "culinaryRooms": [
+        "NAV-CENTRAL",
+        "NAV-ADRIA"
+      ]
+    },
+    "sharena": {
+      "regions": [
+        "MKD"
+      ],
+      "relatedRegions": [],
+      "text": "Würzsalz nach einer nordmazedonischen Variante mit geröstetem Mais, Bohnenkraut und Oregano; scharfe Varianten enthalten Bukovec. Verwandte Würzsalze gibt es auch in Bulgarien. Die Karte erfasst den nordmazedonischen Bezug und behauptet keine einheitliche Balkanrezeptur.",
+      "source": "https://www.rajskagradina.mk/zachini-sarena-sol-blaga/",
+      "sources": [
+        {
+          "title": "Nordmazedonische Würzsalztradition · verwandte Balkanvarianten",
+          "url": "https://www.rajskagradina.mk/zachini-sarena-sol-blaga/"
+        }
+      ],
+      "kind": "Regionale Würztradition",
+      "type": "shared",
+      "primaryLabel": "Erfasster kulinarischer Bezug",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Trockene, geeignet verpackte Gewürz- beziehungsweise Kräutermischung",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Regionale Würztradition; keine exklusive Verbreitung oder bestätigte Lieferherkunft",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Nordmazedonische Würzsalztradition · verwandte Balkanvarianten.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "MKD"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben."
+    },
+    "aegeanherbs": {
+      "regions": [
+        "GRC",
+        "GR-AEG",
+        "GR-CRE"
+      ],
+      "relatedRegions": [],
+      "text": "Kräuterwürzung im griechisch-ägäischen Zusammenhang, für Grillgemüse und zum Würzen von Souvlaki. Oregano und Thymian prägen den Entwurf. Es gibt keine verbindliche ägäische Einheitsmischung; die fertige Trockenrezeptur wird als solche benannt.",
+      "source": "https://myrro.gr/en/product/blend-for-souvlaki-2/",
+      "sources": [
+        {
+          "title": "Griechisch-ägäische Kräuterküche · konkrete Mischung als Entwurf",
+          "url": "https://myrro.gr/en/product/blend-for-souvlaki-2/"
+        }
+      ],
+      "kind": "Regionale Würzung · Trockenrezeptur",
+      "type": "shared",
+      "primaryLabel": "Erfasster kulinarischer Bezug",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Trockene, geeignet verpackte Gewürz- beziehungsweise Kräutermischung",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Regionale Würztradition; keine exklusive Verbreitung oder bestätigte Lieferherkunft",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Griechisch-ägäische Kräuterküche · konkrete Mischung als Entwurf.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "GRC",
+        "GR-AEG",
+        "GR-CRE"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben."
+    },
+    "raselhanout": {
+      "regions": [
+        "MAR",
+        "DZA",
+        "TUN"
+      ],
+      "relatedRegions": [],
+      "text": "Gewürzmischung aus dem Maghreb mit unterschiedlichen Rezepturen in Marokko, Algerien und Tunesien. Je nach Mischung etwa Koriander, Kreuzkümmel, Ingwer, Zimt und Pfeffer. Es gibt keine feste Einheitsrezeptur. Zutaten können außerhalb des Mittelmeerraums angebaut sein; die Beschaffung muss zum Herkunftskonzept passen.",
+      "source": "https://en.wikipedia.org/wiki/Ras_el_hanout",
+      "sources": [
+        {
+          "title": "Maghreb · unterschiedliche Familien- und Händlerrezepturen",
+          "url": "https://en.wikipedia.org/wiki/Ras_el_hanout"
+        }
+      ],
+      "kind": "Regionale Würztradition",
+      "type": "shared",
+      "primaryLabel": "Erfasster kulinarischer Bezug",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Trockene, geeignet verpackte Gewürz- beziehungsweise Kräutermischung",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Regionale Würztradition; keine exklusive Verbreitung oder bestätigte Lieferherkunft",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Maghreb · unterschiedliche Familien- und Händlerrezepturen.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "MAR",
+        "DZA",
+        "TUN"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben."
+    },
+    "dukkah": {
+      "regions": [
+        "EGY"
+      ],
+      "relatedRegions": [],
+      "text": "Trockene ägyptische Mischung aus gerösteten Nüssen beziehungsweise Saaten und Gewürzen, etwa Sesam, Koriander und Kreuzkümmel. Zum Dippen mit Brot und Olivenöl oder für Gemüse. Rezepturen unterscheiden sich. Je nach Rezeptur sind Sesam, Schalenfrüchte oder Erdnüsse enthalten; die endgültige Zutaten- und Allergenangabe folgt dem Lieferprodukt. Nicht dem gesamten östlichen Nordafrika pauschal zugeordnet. Die Karte zeigt einen groben ägyptischen Bezug, keine vollständig erhobene Verbreitungsfläche.",
+      "source": "https://www.sbs.com.au/food/recipe/dukkah/0r415xt0p",
+      "sources": [
+        {
+          "title": "Ägyptische Nuss-, Saaten- und Gewürztradition",
+          "url": "https://www.sbs.com.au/food/recipe/dukkah/0r415xt0p"
+        }
+      ],
+      "kind": "Regionale Würztradition",
+      "type": "shared",
+      "primaryLabel": "Erfasster kulinarischer Bezug",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Trockene geröstete Nuss- und Saatenmischung; Aromaschutz und Lagerbedingungen sind produktabhängig",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Regionale Würztradition; keine exklusive Verbreitung oder bestätigte Lieferherkunft",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Ägyptische Nuss-, Saaten- und Gewürztradition.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "EGY"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben."
     }
   },
   "newProducts": [
@@ -2829,6 +3204,76 @@ window.MEDITERRANEAN = {
       "dates",
       "Neu im Sortiment",
       "Getrocknete oder halbtrockene Datteln. Sorte, Packungsgröße und Preis werden mit dem Lieferprodukt festgelegt."
+    ],
+    [
+      "pinchos",
+      "Pinchos-Gewürz",
+      "Gewürzmischungen",
+      "Packung folgt",
+      null,
+      "spice-0",
+      "In Vorbereitung",
+      "Andalusien · regional unterschiedliche Pinchos-Würzungen."
+    ],
+    [
+      "provence",
+      "Herbes de Provence",
+      "Gewürzmischungen",
+      "Packung folgt",
+      null,
+      "spice-1",
+      "In Vorbereitung",
+      "Provenzalische Kräuterküche."
+    ],
+    [
+      "aglio",
+      "Aglio e peperoncino",
+      "Gewürzmischungen",
+      "Packung folgt",
+      null,
+      "spice-2",
+      "In Vorbereitung",
+      "Italienische Pastaküche · Trockenmischung nach bekannter Würzung."
+    ],
+    [
+      "sharena",
+      "Šarena sol",
+      "Gewürzmischungen",
+      "Packung folgt",
+      null,
+      "spice-3",
+      "In Vorbereitung",
+      "Nordmazedonische Würzsalztradition · verwandte Balkanvarianten."
+    ],
+    [
+      "aegeanherbs",
+      "Oregano & Thymian",
+      "Gewürzmischungen",
+      "Packung folgt",
+      null,
+      "spice-4",
+      "In Vorbereitung",
+      "Griechisch-ägäische Kräuterküche · konkrete Mischung als Entwurf."
+    ],
+    [
+      "raselhanout",
+      "Ras el Hanout",
+      "Gewürzmischungen",
+      "Packung folgt",
+      null,
+      "spice-5",
+      "In Vorbereitung",
+      "Maghreb · unterschiedliche Familien- und Händlerrezepturen."
+    ],
+    [
+      "dukkah",
+      "Dukkah",
+      "Gewürzmischungen",
+      "Packung folgt",
+      null,
+      "spice-6",
+      "In Vorbereitung",
+      "Ägyptische Nuss-, Saaten- und Gewürztradition."
     ]
   ],
   "catalog": [
@@ -2897,12 +3342,13 @@ window.MEDITERRANEAN = {
     ],
     [
       "herbsalt",
-      "Meersalz mit Wildkräutern",
+      "Meersalz mit dalmatinischen Kräutern",
       "Meersalz",
       "100 g",
       6.9,
-      "photo-1466692476868-aef1dfb1e735",
-      "Wildkräuter"
+      "spice-7",
+      "Kräutersalz",
+      "Meersalz mit Kräutern nach dalmatinischem Vorbild. Wildsammlung nur mit Nachweis."
     ],
     [
       "black",
@@ -3110,6 +3556,76 @@ window.MEDITERRANEAN = {
       "dates",
       "Neu im Sortiment",
       "Getrocknete oder halbtrockene Datteln. Sorte, Packungsgröße und Preis werden mit dem Lieferprodukt festgelegt."
+    ],
+    [
+      "pinchos",
+      "Pinchos-Gewürz",
+      "Gewürzmischungen",
+      "Packung folgt",
+      null,
+      "spice-0",
+      "In Vorbereitung",
+      "Andalusien · regional unterschiedliche Pinchos-Würzungen."
+    ],
+    [
+      "provence",
+      "Herbes de Provence",
+      "Gewürzmischungen",
+      "Packung folgt",
+      null,
+      "spice-1",
+      "In Vorbereitung",
+      "Provenzalische Kräuterküche."
+    ],
+    [
+      "aglio",
+      "Aglio e peperoncino",
+      "Gewürzmischungen",
+      "Packung folgt",
+      null,
+      "spice-2",
+      "In Vorbereitung",
+      "Italienische Pastaküche · Trockenmischung nach bekannter Würzung."
+    ],
+    [
+      "sharena",
+      "Šarena sol",
+      "Gewürzmischungen",
+      "Packung folgt",
+      null,
+      "spice-3",
+      "In Vorbereitung",
+      "Nordmazedonische Würzsalztradition · verwandte Balkanvarianten."
+    ],
+    [
+      "aegeanherbs",
+      "Oregano & Thymian",
+      "Gewürzmischungen",
+      "Packung folgt",
+      null,
+      "spice-4",
+      "In Vorbereitung",
+      "Griechisch-ägäische Kräuterküche · konkrete Mischung als Entwurf."
+    ],
+    [
+      "raselhanout",
+      "Ras el Hanout",
+      "Gewürzmischungen",
+      "Packung folgt",
+      null,
+      "spice-5",
+      "In Vorbereitung",
+      "Maghreb · unterschiedliche Familien- und Händlerrezepturen."
+    ],
+    [
+      "dukkah",
+      "Dukkah",
+      "Gewürzmischungen",
+      "Packung folgt",
+      null,
+      "spice-6",
+      "In Vorbereitung",
+      "Ägyptische Nuss-, Saaten- und Gewürztradition."
     ]
   ],
   "reviewed": "2026-11-13",

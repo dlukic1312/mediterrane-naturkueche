@@ -12,13 +12,14 @@
     {...room('NAV-BALKAN','Balkan','Balkan',[21,43.5],[balkanInland]),selectionFields:[{tone:'hinterland',polygons:[balkanInland]}]},
     room('NAV-AEGEAN','Ägäis','Ägäis',[26,38],[[[20.7,40.6],[23,41.6],[26.5,41.5],[29.5,40.5],[29,37],[27.8,35.3],[24,34.5],[21.5,36],[20.2,38.2]]]),
     room('NAV-EAST','Levante und östliches Mittelmeer','Levante',[34.8,34],[[[28.7,37.5],[31.5,38],[35,38.4],[38.4,38.1],[38.7,35],[37.6,31],[35,29.4],[33.4,30],[33.2,33.5],[30.3,35.1],[28.3,36.5]]]),
-    room('NAV-NORTH','Nordafrikanischer Mittelmeerraum','Nordafrika',[5.5,32],[[[-10,32],[-8.5,35.9],[-5.5,36],[-2,35.5],[0,36.8],[5,37.4],[9,37.8],[11,37.2],[11.5,34.2],[15.5,33],[21.5,33],[26,32],[34,31.9],[34,29.4],[29,29.5],[24,30],[20,30.5],[15,30.2],[10,31.5],[5,33],[0,33],[-5,31.5]]])
+    room('NAV-NORTH','Maghreb','Maghreb',[4,34],[[[-10,32],[-8.5,35.9],[-5.5,36],[-2,35.5],[0,36.8],[5,37.4],[9,37.8],[11,37.2],[12,34],[18.8,33.4],[21,32.7],[20.5,30.6],[15,30.2],[10,31.5],[5,33],[0,33],[-5,31.5]]]),
+    room('NAV-EGYPT','Ägypten und östliches Nordafrika','Ägypten & östliches Nordafrika',[28,31],[[[18.5,33.2],[21.5,33],[26,32],[34,31.9],[34,29.4],[29,29.5],[24,30],[19,30.5]]])
   ];
-  const palette={'NAV-IBERIA':'#99a273','NAV-LIGURIAN':'#b79a87','NAV-CENTRAL':'#b8a56f','NAV-ADRIA':'#c59c72','NAV-BALKAN':'#8298a4','NAV-AEGEAN':'#80a79b','NAV-EAST':'#af93a3','NAV-NORTH':'#bfac87'};
+  const palette={'NAV-IBERIA':'#99a273','NAV-LIGURIAN':'#b79a87','NAV-CENTRAL':'#b8a56f','NAV-ADRIA':'#c59c72','NAV-BALKAN':'#8298a4','NAV-AEGEAN':'#80a79b','NAV-EAST':'#af93a3','NAV-NORTH':'#bfac87','NAV-EGYPT':'#c3916f'};
   areas.forEach(area=>{area.color=palette[area.id];area.selectionFields.forEach(part=>part.color=area.color)});
-  const W='NAV-IBERIA',L='NAV-LIGURIAN',C='NAV-CENTRAL',A='NAV-ADRIA',B='NAV-BALKAN',G='NAV-AEGEAN',E='NAV-EAST',N='NAV-NORTH';
+  const W='NAV-IBERIA',L='NAV-LIGURIAN',C='NAV-CENTRAL',A='NAV-ADRIA',B='NAV-BALKAN',G='NAV-AEGEAN',E='NAV-EAST',N='NAV-NORTH',Q='NAV-EGYPT';
   // A coarse country reference may touch several rooms; it never owns its subregions.
-  const countries={PRT:[W],ESP:[W],FRA:[L,C],ITA:[L,C,A],SVN:[A,B],HRV:[A,B],BIH:[A,B],MNE:[A,B],ALB:[A,B],MKD:[B],GRC:[B,G],TUR:[G,E],CYP:[E],MLT:[C],MAR:[N],DZA:[N],TUN:[N],LBY:[N],EGY:[N],LBN:[E],SYR:[E],ISR:[E],PSE:[E],JOR:[E]};
+  const countries={PRT:[W],ESP:[W],FRA:[L,C],ITA:[L,C,A],SVN:[A,B],HRV:[A,B],BIH:[A,B],MNE:[A,B],ALB:[A,B],MKD:[B],GRC:[B,G],TUR:[G,E],CYP:[E],MLT:[C],MAR:[N],DZA:[N],TUN:[N],LBY:[N,Q],EGY:[Q],LBN:[E],SYR:[E],ISR:[E],PSE:[E],JOR:[E]};
   const precise={'HR-IST':[A],'SI-IST':[A],'IT-IST':[A],'XB-ISTRIA':[A],'XB-NERETVA':[A,B],'HR-NER':[A,B],'BIH-NER':[A,B],'HR-DAL':[A,B],'BIH-HER':[A,B],'BIH-BOS':[B],'HR-NIN':[A],'HR-STON':[A],'SI-PIR':[A],'FR-COR':[C],'FR-PRO':[L],'FR-ROU':[L],'FR-RIV':[L],'IT-LIG':[L],'IT-PIE':[L],'IT-TOS':[C],'IT-UMB':[C],'IT-SAR':[C],'IT-SIC':[C],'GR-CRE':[G],'GR-AEG':[G],'TR-AEG':[G],'TR-GAZ':[E],'SY-ALE':[E],'XB-AEGEAN':[G],'XB-CATALAN':[W,L],'XB-RIVIERA':[L],'XB-GUADIANA':[W],'XB-LEVANT':[E],'XB-MAGHREB':[N]};
   const data=window.MEDITERRANEAN;
   const find=id=>data.regions.find(r=>r.id===id)||data.crossBorderAreas.find(r=>r.id===id);
@@ -35,7 +36,7 @@
   function references(ids,roomId){return effective(ids).filter(id=>roomsFor(id).includes(roomId))}
   function hit(lon,lat){
     // Coastal geography, not a clicked country's identity, determines the room.
-    return [N,A,E,G,B,W,L,C].find(id=>areas.find(a=>a.id===id).selectionFields.some(part=>part.polygons.some(poly=>inside([lon,lat],poly))))||null;
+    return [N,Q,A,E,G,B,W,L,C].find(id=>areas.find(a=>a.id===id).selectionFields.some(part=>part.polygons.some(poly=>inside([lon,lat],poly))))||null;
   }
-  window.MEDITERRANEAN_ROOMS={areas,hitOrder:[N,A,E,G,B,W,L,C],roomsFor,references,effective,hit,isRoom:id=>areas.some(a=>a.id===id),isCoarse:id=>(countries[id]?.length||0)>1,find};
+  window.MEDITERRANEAN_ROOMS={areas,hitOrder:[N,Q,A,E,G,B,W,L,C],roomsFor,references,effective,hit,isRoom:id=>areas.some(a=>a.id===id),isCoarse:id=>(countries[id]?.length||0)>1,find};
 })();

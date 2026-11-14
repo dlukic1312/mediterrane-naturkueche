@@ -2,7 +2,7 @@
 
 Stand: 14. November 2026. Die freigegebene Kartennavigation wurde in die Hauptansicht übernommen.
 
-Acht größere, teilweise überlappende Entdeckungsräume sind direkt per Karte und Tastatur wählbar: Iberien und Balearen; Südfrankreich und Ligurien; Tyrrhenische Küsten und zentrale Inselwelt; Adria; Balkan; Ägäis; Levante und östliches Mittelmeer; Nordafrikanischer Mittelmeerraum.
+Neun größere, teilweise überlappende Entdeckungsräume sind direkt per Karte und Tastatur wählbar: Iberien und Balearen; Südfrankreich und Ligurien; Tyrrhenische Küsten und zentrale Inselwelt; Adria; Balkan; Ägäis; Levante und östliches Mittelmeer; Maghreb; Ägypten und östliches Nordafrika.
 
 Die Räume sind redaktionelle geografische Zusammenhänge, keine Staatsgebiete oder exakten Klimazonen. Istrien und die italienische Ostküste gehören zur Adria. Adria und Balkan überschneiden sich im Küstenhinterland. Korsika, Sardinien, Sizilien und Malta gehören zum zentralen Inselraum. Länder können an mehreren Räumen teilhaben; präzise regionale Produktbezüge haben Vorrang vor groben Länderangaben.
 
@@ -11,3 +11,5 @@ Es gibt keine Dropdowns und keine geografischen Beschriftungen auf der Karte. De
 Produktansichten zeigen erfasste kulinarische Verbreitung, keine bestätigte Lieferherkunft. Die Anzeige eines Produktes in einem Raum bedeutet nicht, dass es überall dort üblich ist. Datteln sind als unbepreister Sortimentsentwurf aufgenommen; Lieferprodukt, Packung und Preis bleiben offen.
 
 Geografische Orientierung: https://de.wikipedia.org/wiki/Mittelmeerraum . Einzelne Produktquellen stehen in regions-data.js.
+
+Nordafrika ist in zwei kulinarische Räume aufgeteilt, mit weichem Übergang innerhalb Libyens. Länderzugehörigkeit allein legt keine scharfe Raumgrenze fest. Dukkah hat einen ägyptischen Rezepturbezug, Ras el Hanout unterschiedliche Maghreb-Bezüge.
