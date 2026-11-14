@@ -16,3 +16,5 @@ body[data-navigation="map"] .map-wrap [data-region]:not(.subregion-shape){fill:#
 .room-overview-legend{gap:8px 18px}.room-overview-legend span{font-size:11px}
 
 @media(prefers-reduced-motion:reduce){.room-color-guide{transition:none}}
+
+.room-region-options{display:flex;flex-wrap:wrap;gap:6px 14px;width:100%}.room-region-option{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:7px 10px;background:transparent;border:1px solid transparent;border-radius:7px;color:#293c30;font:12px/1.4 Arial,sans-serif;text-align:left;cursor:pointer}.room-region-option:before{content:'';display:block;flex:0 0 12px;width:12px;height:12px;border-radius:50%;background:var(--room-color)}.room-region-option:hover,.room-region-option[aria-pressed="true"]{background:#e8ecdf;border-color:#b4bea8}.room-region-option[aria-pressed="true"]{font-weight:bold}.room-region-option:focus-visible{outline:2px solid #805739;outline-offset:2px}

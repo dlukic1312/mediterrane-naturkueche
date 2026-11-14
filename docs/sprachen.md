@@ -9,3 +9,7 @@ Längere Texte wurden lokal mit M2M100 (MIT-Lizenz, CTranslate2-Modell) als erst
 Modell: https://huggingface.co/gn64/M2M100_418M_CTranslate2 ; ursprüngliches Modell: https://huggingface.co/facebook/m2m100_418M (MIT). Modelle/Abhängigkeiten werden nicht mit der Website ausgeliefert.
 
 Deutsche Quelltexte werden mit locales/source-de.json erfasst. Gepflegte manuelle Fassungen stehen in locales/manual-overrides.json und sind in den ausgelieferten Wörterbüchern enthalten. Änderungen an deutschem Inhalt erfordern die Aktualisierung der jeweiligen Übersetzungen.
+
+## Kartenbedienung nachgeprüft
+
+Alle sieben Sprachen: Regionsauswahl per farbigem Feld und per neun beschrifteten Schaltflächen unter der Karte, aktiver Zustand und Tastaturauswahl; Vergrößern/Verkleinern mit Vollbild-Fallback; Zoom-Beschriftungen; Zurück/Übersicht, Produktauswahl und Links zum Sortiment. Zentrale Texte wurden sprachlich nachgearbeitet, insbesondere der kroatische Übersichtshinweis (keine Sahara-/Belohnungsfehlübersetzung). Die Produktliste der Karte findet zusätzlich lokalisierte Produktnamen. Die geschützte Karteneinfärbung wurde nicht verändert.
