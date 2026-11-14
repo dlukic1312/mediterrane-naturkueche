@@ -6597,6 +6597,856 @@ window.MEDITERRANEAN = {
           "quantity": 1
         }
       ]
+    },
+    "elderflowersyrup": {
+      "regions": [
+        "BIH-BOS"
+      ],
+      "relatedRegions": [],
+      "text": "Holunderblütensirup ist in mehreren europäischen Küchen zuhause. Ein dokumentiertes Beispiel aus unserem Balkan-Hinterland ist die bosnische Zova-Tradition. Nicht ausschließlich mediterran.",
+      "source": "https://shop.miloselo.ba/proizvod/sirup-od-zove/",
+      "sources": [
+        {
+          "title": "Milo Selo · Holunderblütensirup",
+          "url": "https://shop.miloselo.ba/proizvod/sirup-od-zove/"
+        }
+      ],
+      "kind": "Getränkesirup",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Geeignet haltbar verarbeiteter und verpackter Sirup bzw. Fruchtkonzentrat",
+        "verifiedShelfLife": null,
+        "note": "Verarbeitung, MHD und Lagerung hängen vom konkreten Lieferprodukt ab; nach dem Öffnen gelten die Angaben auf der Flasche."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Dokumentierte Sirup- und Fruchtreduktionstraditionen; keine Gesundheitsversprechen, keine vollständige Verbreitungskartierung",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Holunderblütensirup ist in mehreren europäischen Küchen zuhause. Ein dokumentiertes Beispiel aus unserem Balkan-Hinterland ist die bosnische Zova-Tradition. Nicht ausschließlich mediterran.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "BIH-BOS"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Blumiger Sirup für Wasser, Schorlen und alkoholfreie Aperitifs.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "syrupUse": "drink"
+    },
+    "elderberrysyrup": {
+      "regions": [
+        "HRV"
+      ],
+      "relatedRegions": [],
+      "text": "Von Blütensirup zu unterscheiden: Hier werden die Beeren des Schwarzen Holunders, Sambucus nigra, verarbeitet. Ein kroatischer Produzent dokumentiert pasteurisierten Beerensirup. Wildsammlung und Anbau können vorkommen; eine konkrete Liefercharge ist dadurch nicht belegt.",
+      "source": "https://opghranjecbelak.com/en/products/sirupic-sirup-od-bobica-bazge-0-75l",
+      "sources": [
+        {
+          "title": "OPG Hranjec-Belak · pasteurisierter Holunderbeerensirup",
+          "url": "https://opghranjecbelak.com/en/products/sirupic-sirup-od-bobica-bazge-0-75l"
+        }
+      ],
+      "kind": "Getränkesirup",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Geeignet haltbar verarbeiteter und verpackter Sirup bzw. Fruchtkonzentrat",
+        "verifiedShelfLife": null,
+        "note": "Verarbeitung, MHD und Lagerung hängen vom konkreten Lieferprodukt ab; nach dem Öffnen gelten die Angaben auf der Flasche."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Dokumentierte Sirup- und Fruchtreduktionstraditionen; keine Gesundheitsversprechen, keine vollständige Verbreitungskartierung",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Von Blütensirup zu unterscheiden: Hier werden die Beeren des Schwarzen Holunders, Sambucus nigra, verarbeitet. Ein kroatischer Produzent dokumentiert pasteurisierten Beerensirup. Wildsammlung und Anbau können vorkommen; eine konkrete Liefercharge ist dadurch nicht belegt.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "HRV"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Dunkelfruchtiger Sirup aus verarbeiteten Holunderbeeren für Getränke und Desserts.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "syrupUse": "drink",
+      "mapFields": [
+        {
+          "reference": "HRV",
+          "places": [
+            {
+              "name": "Kroatisches Hinterland · Produzentenbeispiel",
+              "lon": 16.3,
+              "lat": 46.2,
+              "rx": 0.7,
+              "ry": 0.5
+            }
+          ]
+        }
+      ],
+      "culinaryRooms": [
+        "NAV-BALKAN"
+      ]
+    },
+    "rosesyrup": {
+      "regions": [
+        "IT-LIG",
+        "BIH-BOS",
+        "TUN"
+      ],
+      "relatedRegions": [],
+      "text": "Rosensirup verbindet unterschiedliche Traditionen, darunter Genua und Ligurien, Bosnien und Herzegowina sowie tunesische Zubereitungen. Rezepturen und Rosensorten unterscheiden sich. Rosenwasser ist ein anderes Produkt.",
+      "source": "https://www.fondazioneslowfood.com/it/presidi-slow-food/sciroppo-di-rose/",
+      "sources": [
+        {
+          "title": "Slow Food · Rosensirup aus Genua und Ligurien",
+          "url": "https://www.fondazioneslowfood.com/it/presidi-slow-food/sciroppo-di-rose/"
+        },
+        {
+          "title": "Sherbetlook · Rosensirup in Bosnien und Herzegowina",
+          "url": "https://sherbetlook.ba/proizvod/ruza-sirup/"
+        },
+        {
+          "title": "Masmoudi · Sirupe aus Tunesien",
+          "url": "https://masmoudi.tn/collections/sirops-et-boissons"
+        }
+      ],
+      "kind": "Getränkesirup",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Geeignet haltbar verarbeiteter und verpackter Sirup bzw. Fruchtkonzentrat",
+        "verifiedShelfLife": null,
+        "note": "Verarbeitung, MHD und Lagerung hängen vom konkreten Lieferprodukt ab; nach dem Öffnen gelten die Angaben auf der Flasche."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Dokumentierte Sirup- und Fruchtreduktionstraditionen; keine Gesundheitsversprechen, keine vollständige Verbreitungskartierung",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Rosensirup verbindet unterschiedliche Traditionen, darunter Genua und Ligurien, Bosnien und Herzegowina sowie tunesische Zubereitungen. Rezepturen und Rosensorten unterscheiden sich. Rosenwasser ist ein anderes Produkt.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "IT-LIG",
+        "BIH-BOS",
+        "TUN"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Duftiger Rosensirup für kalte Getränke, Desserts und feines Gebäck.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "syrupUse": "drink"
+    },
+    "lemonsyrup": {
+      "regions": [
+        "TUN"
+      ],
+      "relatedRegions": [],
+      "text": "Zitronensirup ist unter anderem durch die Sfaxer Siruptradition und tunesische Produktangebote dokumentiert. Das ist ein Beispiel seiner mediterranen Verbreitung, keine exklusive tunesische Heimat.",
+      "source": "https://www.sirotella.tn/la-maison/",
+      "sources": [
+        {
+          "title": "Sirotella · Zitronensirup-Tradition aus Sfax",
+          "url": "https://www.sirotella.tn/la-maison/"
+        },
+        {
+          "title": "Masmoudi · Zitronensirup",
+          "url": "https://masmoudi.tn/products/sirop-citron-25-cl"
+        }
+      ],
+      "kind": "Getränkesirup",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Geeignet haltbar verarbeiteter und verpackter Sirup bzw. Fruchtkonzentrat",
+        "verifiedShelfLife": null,
+        "note": "Verarbeitung, MHD und Lagerung hängen vom konkreten Lieferprodukt ab; nach dem Öffnen gelten die Angaben auf der Flasche."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Dokumentierte Sirup- und Fruchtreduktionstraditionen; keine Gesundheitsversprechen, keine vollständige Verbreitungskartierung",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Zitronensirup ist unter anderem durch die Sfaxer Siruptradition und tunesische Produktangebote dokumentiert. Das ist ein Beispiel seiner mediterranen Verbreitung, keine exklusive tunesische Heimat.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "TUN"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Fruchtig-säuerlicher Sirup für Limonaden, Schorlen und Desserts.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "syrupUse": "drink"
+    },
+    "cherrysyrup": {
+      "regions": [
+        "ITA",
+        "GRC"
+      ],
+      "relatedRegions": [],
+      "text": "Erfasste Beispiele sind Amarena-Sirup aus Apulien und griechische Sauerkirsch-Cordials. Sauerkirschsorten und Rezepturen sind nicht überall identisch.",
+      "source": "https://www.fiumeliquoriesciroppi.it/prodotto/amarena/",
+      "sources": [
+        {
+          "title": "Fiume/Licor · Amarena-Sirup aus Apulien",
+          "url": "https://www.fiumeliquoriesciroppi.it/prodotto/amarena/"
+        },
+        {
+          "title": "Argoudelis · Sauerkirschsirup",
+          "url": "https://mikaelas-goods.gr/en/treats/1910-sour-cherry-cordial-condensed-fruit-juice-in-syrup-argoudelis-400g.html"
+        }
+      ],
+      "kind": "Getränkesirup",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Geeignet haltbar verarbeiteter und verpackter Sirup bzw. Fruchtkonzentrat",
+        "verifiedShelfLife": null,
+        "note": "Verarbeitung, MHD und Lagerung hängen vom konkreten Lieferprodukt ab; nach dem Öffnen gelten die Angaben auf der Flasche."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Dokumentierte Sirup- und Fruchtreduktionstraditionen; keine Gesundheitsversprechen, keine vollständige Verbreitungskartierung",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Erfasste Beispiele sind Amarena-Sirup aus Apulien und griechische Sauerkirsch-Cordials. Sauerkirschsorten und Rezepturen sind nicht überall identisch.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "ITA",
+        "GRC"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Aromatischer Sauerkirschsirup für kalte Getränke, Sorbets und Desserts.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "syrupUse": "drink",
+      "mapFields": [
+        {
+          "reference": "ITA",
+          "places": [
+            {
+              "name": "Apulien · Putignano",
+              "lon": 17.12,
+              "lat": 40.85,
+              "rx": 0.7,
+              "ry": 0.5
+            }
+          ]
+        }
+      ],
+      "culinaryRooms": [
+        "NAV-ADRIA",
+        "NAV-AEGEAN",
+        "NAV-BALKAN"
+      ]
+    },
+    "mintsyrup": {
+      "regions": [
+        "BIH-BOS",
+        "ITA"
+      ],
+      "relatedRegions": [],
+      "text": "Minzsirup ist beispielsweise in bosnischen Hofprodukten und apulischen Sirupangeboten dokumentiert. Seine Verwendung reicht über diese Beispiele hinaus; die Farbe hängt von Rezeptur und Verarbeitung ab.",
+      "source": "https://shop.miloselo.ba/proizvod/sirup-od-mente/",
+      "sources": [
+        {
+          "title": "Milo Selo · Minzsirup",
+          "url": "https://shop.miloselo.ba/proizvod/sirup-od-mente/"
+        },
+        {
+          "title": "Fiume/Licor · Minzsirup aus Apulien",
+          "url": "https://www.fiumeliquoriesciroppi.it/prodotto/menta/"
+        }
+      ],
+      "kind": "Getränkesirup",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Geeignet haltbar verarbeiteter und verpackter Sirup bzw. Fruchtkonzentrat",
+        "verifiedShelfLife": null,
+        "note": "Verarbeitung, MHD und Lagerung hängen vom konkreten Lieferprodukt ab; nach dem Öffnen gelten die Angaben auf der Flasche."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Dokumentierte Sirup- und Fruchtreduktionstraditionen; keine Gesundheitsversprechen, keine vollständige Verbreitungskartierung",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Minzsirup ist beispielsweise in bosnischen Hofprodukten und apulischen Sirupangeboten dokumentiert. Seine Verwendung reicht über diese Beispiele hinaus; die Farbe hängt von Rezeptur und Verarbeitung ab.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "BIH-BOS",
+        "ITA"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Frischer Minzgeschmack für Wasser, Eistee und alkoholfreie Mischgetränke.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "syrupUse": "drink",
+      "mapFields": [
+        {
+          "reference": "ITA",
+          "places": [
+            {
+              "name": "Apulien · Putignano",
+              "lon": 17.12,
+              "lat": 40.85,
+              "rx": 0.7,
+              "ry": 0.5
+            }
+          ]
+        }
+      ],
+      "culinaryRooms": [
+        "NAV-ADRIA",
+        "NAV-AEGEAN",
+        "NAV-BALKAN"
+      ]
+    },
+    "almondsyrup": {
+      "regions": [
+        "CYP"
+      ],
+      "relatedRegions": [],
+      "text": "Soumada ist eine dokumentierte zyprische Mandelsirup- und Getränketradition. Verwandte Mandelsirupe gibt es in weiteren Mittelmeerküchen. Die Handelsbezeichnung Orzata allein garantiert keine bestimmte Mandelrezeptur.",
+      "source": "https://www.visitcyprus.com/discover-cyprus/food-drink/local-drinks/",
+      "sources": [
+        {
+          "title": "Tourismus Zypern · Soumada",
+          "url": "https://www.visitcyprus.com/discover-cyprus/food-drink/local-drinks/"
+        },
+        {
+          "title": "CVAR · Mandelsirup und Soumada",
+          "url": "https://cvar.severis.org/tr/explore/our-blog/did-you-know/did-you-know-orgeat-syrup-or-soumada/"
+        }
+      ],
+      "kind": "Getränkesirup",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Geeignet haltbar verarbeiteter und verpackter Sirup bzw. Fruchtkonzentrat",
+        "verifiedShelfLife": null,
+        "note": "Verarbeitung, MHD und Lagerung hängen vom konkreten Lieferprodukt ab; nach dem Öffnen gelten die Angaben auf der Flasche."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Dokumentierte Sirup- und Fruchtreduktionstraditionen; keine Gesundheitsversprechen, keine vollständige Verbreitungskartierung",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Soumada ist eine dokumentierte zyprische Mandelsirup- und Getränketradition. Verwandte Mandelsirupe gibt es in weiteren Mittelmeerküchen. Die Handelsbezeichnung Orzata allein garantiert keine bestimmte Mandelrezeptur.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "CYP"
+      ],
+      "allergenNote": "Enthält Mandeln. Vollständige Zutaten- und Kreuzkontaktangaben sind lieferproduktabhängig.",
+      "shopDescription": "Mandelsirup zum Verdünnen und für Desserts. Enthält Mandeln.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "syrupUse": "drink"
+    },
+    "carobsyrup": {
+      "regions": [
+        "CYP",
+        "MT-GOZ"
+      ],
+      "relatedRegions": [],
+      "text": "Johannisbrotsirup ist unter anderem auf Zypern und Malta/Gozo dokumentiert. Bezeichnungen wie Haroupomelo oder Ġulepp tal-Ħarrub stehen für lokale Varianten. Nicht mit Bienenhonig gleichsetzen.",
+      "source": "https://www.visitcyprus.com/discover-cyprus/food-drink/local-produce/carob-syrup/",
+      "sources": [
+        {
+          "title": "Tourismus Zypern · Johannisbrotsirup",
+          "url": "https://www.visitcyprus.com/discover-cyprus/food-drink/local-produce/carob-syrup/"
+        },
+        {
+          "title": "Savina · Johannisbrotsirup aus Gozo",
+          "url": "https://www.savina.com.mt/honey/savina-pure-carob-syrup/"
+        }
+      ],
+      "kind": "Fruchtsüße",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Geeignet haltbar verarbeiteter und verpackter Sirup bzw. Fruchtkonzentrat",
+        "verifiedShelfLife": null,
+        "note": "Verarbeitung, MHD und Lagerung hängen vom konkreten Lieferprodukt ab; nach dem Öffnen gelten die Angaben auf der Flasche."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Dokumentierte Sirup- und Fruchtreduktionstraditionen; keine Gesundheitsversprechen, keine vollständige Verbreitungskartierung",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Johannisbrotsirup ist unter anderem auf Zypern und Malta/Gozo dokumentiert. Bezeichnungen wie Haroupomelo oder Ġulepp tal-Ħarrub stehen für lokale Varianten. Nicht mit Bienenhonig gleichsetzen.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "CYP",
+        "MT-GOZ"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Dunkler, süßer Johannisbrotsirup für Gebäck, Desserts und zum Verfeinern.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "syrupUse": "sweeten"
+    },
+    "datesyrup": {
+      "regions": [
+        "LBY",
+        "ISR"
+      ],
+      "relatedRegions": [],
+      "text": "Dattelsirup ist unter anderem als Rub in Libyen und als Silan in israelischen Produkten dokumentiert. Er verbindet nordafrikanische und nahöstliche Vorratsküchen. Das ist keine exklusive Verbreitungsangabe.",
+      "source": "https://www.fao.org/4/t0681e/t0681e07.htm",
+      "sources": [
+        {
+          "title": "FAO · Herstellung von Dattelsirup, einschließlich Libyen",
+          "url": "https://www.fao.org/4/t0681e/t0681e07.htm"
+        },
+        {
+          "title": "Galilees · Silan-Herstellung",
+          "url": "https://galilees.com/faq/"
+        }
+      ],
+      "kind": "Fruchtsüße",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Geeignet haltbar verarbeiteter und verpackter Sirup bzw. Fruchtkonzentrat",
+        "verifiedShelfLife": null,
+        "note": "Verarbeitung, MHD und Lagerung hängen vom konkreten Lieferprodukt ab; nach dem Öffnen gelten die Angaben auf der Flasche."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Dokumentierte Sirup- und Fruchtreduktionstraditionen; keine Gesundheitsversprechen, keine vollständige Verbreitungskartierung",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Dattelsirup ist unter anderem als Rub in Libyen und als Silan in israelischen Produkten dokumentiert. Er verbindet nordafrikanische und nahöstliche Vorratsküchen. Das ist keine exklusive Verbreitungsangabe.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "LBY",
+        "ISR"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Kräftige Dattelsüße für Gebäck, Dressings und Desserts.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "syrupUse": "sweeten"
+    },
+    "grapesyrup": {
+      "regions": [
+        "GR-CRE",
+        "TUR"
+      ],
+      "relatedRegions": [],
+      "text": "Erfasste Beispiele sind kretisches Petimezi und türkischer Trauben-Pekmez. Andere mediterrane Mostreduktionen können verwandt sein, ohne dieselbe Rezeptur zu haben.",
+      "source": "https://www.melissakis.gr/product/grape-syrup-petimezi/",
+      "sources": [
+        {
+          "title": "Melissakis · Petimezi",
+          "url": "https://www.melissakis.gr/product/grape-syrup-petimezi/"
+        },
+        {
+          "title": "Türkische Küchentraditionen · Trauben-Pekmez",
+          "url": "https://www.turkish-cuisine.org/ingredients-7/ingredients-used-in-turkish-cuisine-66/drinks-6/regional-cuisine-4/eastern-anatolian-region-126/ingredients-7/ingredients-unique-to-turkish-cuisine-68/grape-molasses-87.html"
+        }
+      ],
+      "kind": "Fruchtsüße",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Geeignet haltbar verarbeiteter und verpackter Sirup bzw. Fruchtkonzentrat",
+        "verifiedShelfLife": null,
+        "note": "Verarbeitung, MHD und Lagerung hängen vom konkreten Lieferprodukt ab; nach dem Öffnen gelten die Angaben auf der Flasche."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Dokumentierte Sirup- und Fruchtreduktionstraditionen; keine Gesundheitsversprechen, keine vollständige Verbreitungskartierung",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Erfasste Beispiele sind kretisches Petimezi und türkischer Trauben-Pekmez. Andere mediterrane Mostreduktionen können verwandt sein, ohne dieselbe Rezeptur zu haben.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "GR-CRE",
+        "TUR"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Eingedickter Traubenmost für Gebäck, Saucen und Desserts.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "syrupUse": "sweeten"
+    },
+    "pomegranatemolasses": {
+      "regions": [
+        "TUR"
+      ],
+      "relatedRegions": [],
+      "text": "Granatapfelmelasse, etwa Nar ekşisi, ist eine konzentrierte Fruchtzubereitung der türkischen und weiterer nahöstlicher Küchen. Sie ist kein gewöhnlicher süßer Getränkesirup und keine Grenadine. Fruchtanteil und Rezeptur unterscheiden sich bei Handelsprodukten.",
+      "source": "https://dergipark.org.tr/en/pub/ziraatuludag/article/174203",
+      "sources": [
+        {
+          "title": "Fachstudie · Granatapfelmelasse",
+          "url": "https://dergipark.org.tr/en/pub/ziraatuludag/article/174203"
+        },
+        {
+          "title": "WeNatur · Granatapfelmelasse / Nar ekşisi",
+          "url": "https://wenatur.com/en/products/pomegranate-molasses-nar-eksisi-330g"
+        }
+      ],
+      "kind": "Zum Würzen",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Geeignet haltbar verarbeiteter und verpackter Sirup bzw. Fruchtkonzentrat",
+        "verifiedShelfLife": null,
+        "note": "Verarbeitung, MHD und Lagerung hängen vom konkreten Lieferprodukt ab; nach dem Öffnen gelten die Angaben auf der Flasche."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Dokumentierte Sirup- und Fruchtreduktionstraditionen; keine Gesundheitsversprechen, keine vollständige Verbreitungskartierung",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Granatapfelmelasse, etwa Nar ekşisi, ist eine konzentrierte Fruchtzubereitung der türkischen und weiterer nahöstlicher Küchen. Sie ist kein gewöhnlicher süßer Getränkesirup und keine Grenadine. Fruchtanteil und Rezeptur unterscheiden sich bei Handelsprodukten.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "TUR"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Säuerlich-fruchtige Granatapfelreduktion für Dressings, Marinaden und Gemüse.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "syrupUse": "season"
+    },
+    "mulberrymolasses": {
+      "regions": [
+        "TUR"
+      ],
+      "relatedRegions": [],
+      "text": "Maulbeer-Pekmez gehört zu den dokumentierten türkischen Fruchtreduktionen. Die Quellen belegen die Produktfamilie, keine flächendeckende Verbreitung an jeder Küste oder eine konkrete Lieferherkunft.",
+      "source": "https://onlinelibrary.wiley.com/doi/full/10.1002/fsn3.70662",
+      "sources": [
+        {
+          "title": "Fachstudie · Traditionelle Pekmez-Arten, darunter Maulbeere",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/fsn3.70662"
+        }
+      ],
+      "kind": "Fruchtsüße",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Geeignet haltbar verarbeiteter und verpackter Sirup bzw. Fruchtkonzentrat",
+        "verifiedShelfLife": null,
+        "note": "Verarbeitung, MHD und Lagerung hängen vom konkreten Lieferprodukt ab; nach dem Öffnen gelten die Angaben auf der Flasche."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Dokumentierte Sirup- und Fruchtreduktionstraditionen; keine Gesundheitsversprechen, keine vollständige Verbreitungskartierung",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Maulbeer-Pekmez gehört zu den dokumentierten türkischen Fruchtreduktionen. Die Quellen belegen die Produktfamilie, keine flächendeckende Verbreitung an jeder Küste oder eine konkrete Lieferherkunft.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "TUR"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Aromatische Maulbeerreduktion für Desserts, Gebäck und zum Süßen.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "syrupUse": "sweeten"
+    },
+    "jallab": {
+      "regions": [
+        "LBN"
+      ],
+      "relatedRegions": [],
+      "text": "Jallab ist besonders mit levantinischen Getränketraditionen verbunden. Ein dokumentiertes libanesisches Beispiel kombiniert Dattel- und Traubenmelasse mit Rosenwasser. Rezepturen unterscheiden sich; das ist kein reiner Dattelsirup.",
+      "source": "https://lb.lebanesesignature.com/products/terroirs-du-liban-date-syrup-jallab-250ml",
+      "sources": [
+        {
+          "title": "Terroirs du Liban · Jallab-Rezeptur aus der Bekaa-Ebene",
+          "url": "https://lb.lebanesesignature.com/products/terroirs-du-liban-date-syrup-jallab-250ml"
+        }
+      ],
+      "kind": "Getränkesirup",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Geeignet haltbar verarbeiteter und verpackter Sirup bzw. Fruchtkonzentrat",
+        "verifiedShelfLife": null,
+        "note": "Verarbeitung, MHD und Lagerung hängen vom konkreten Lieferprodukt ab; nach dem Öffnen gelten die Angaben auf der Flasche."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Dokumentierte Sirup- und Fruchtreduktionstraditionen; keine Gesundheitsversprechen, keine vollständige Verbreitungskartierung",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Jallab ist besonders mit levantinischen Getränketraditionen verbunden. Ein dokumentiertes libanesisches Beispiel kombiniert Dattel- und Traubenmelasse mit Rosenwasser. Rezepturen unterscheiden sich; das ist kein reiner Dattelsirup.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "LBN"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Duftiger Sirup aus der Dattel-Trauben-Familie mit Rosenwasser. Mit Wasser und Eis servieren.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "syrupUse": "drink"
     }
   },
   "newProducts": [
@@ -7109,6 +7959,136 @@ window.MEDITERRANEAN = {
       "giftroom-8",
       "Geschenkbox",
       "Dukkah 100 g · Datteln 250 g · Natives Olivenöl extra 500 ml."
+    ],
+    [
+      "elderflowersyrup",
+      "Holunderblütensirup",
+      "Sirup & Fruchtsüße",
+      "500 ml",
+      7.9,
+      "syrup-0",
+      "Getränkesirup",
+      "Blumiger Sirup für Wasser, Schorlen und alkoholfreie Aperitifs."
+    ],
+    [
+      "elderberrysyrup",
+      "Holunderbeerensirup",
+      "Sirup & Fruchtsüße",
+      "500 ml",
+      8.9,
+      "syrup-1",
+      "Getränkesirup",
+      "Dunkelfruchtiger Sirup aus verarbeiteten Holunderbeeren für Getränke und Desserts."
+    ],
+    [
+      "rosesyrup",
+      "Rosensirup",
+      "Sirup & Fruchtsüße",
+      "250 ml",
+      7.9,
+      "syrup-2",
+      "Getränkesirup",
+      "Duftiger Rosensirup für kalte Getränke, Desserts und feines Gebäck."
+    ],
+    [
+      "lemonsyrup",
+      "Zitronensirup",
+      "Sirup & Fruchtsüße",
+      "500 ml",
+      7.9,
+      "syrup-3",
+      "Getränkesirup",
+      "Fruchtig-säuerlicher Sirup für Limonaden, Schorlen und Desserts."
+    ],
+    [
+      "cherrysyrup",
+      "Sauerkirschsirup",
+      "Sirup & Fruchtsüße",
+      "500 ml",
+      8.9,
+      "syrup-4",
+      "Getränkesirup",
+      "Aromatischer Sauerkirschsirup für kalte Getränke, Sorbets und Desserts."
+    ],
+    [
+      "mintsyrup",
+      "Minzsirup",
+      "Sirup & Fruchtsüße",
+      "500 ml",
+      7.9,
+      "syrup-5",
+      "Getränkesirup",
+      "Frischer Minzgeschmack für Wasser, Eistee und alkoholfreie Mischgetränke."
+    ],
+    [
+      "almondsyrup",
+      "Mandelsirup · Soumada",
+      "Sirup & Fruchtsüße",
+      "250 ml",
+      8.9,
+      "syrup-6",
+      "Getränkesirup",
+      "Mandelsirup zum Verdünnen und für Desserts. Enthält Mandeln."
+    ],
+    [
+      "carobsyrup",
+      "Johannisbrotsirup",
+      "Sirup & Fruchtsüße",
+      "250 g",
+      6.9,
+      "syrup-7",
+      "Fruchtsüße",
+      "Dunkler, süßer Johannisbrotsirup für Gebäck, Desserts und zum Verfeinern."
+    ],
+    [
+      "datesyrup",
+      "Dattelsirup",
+      "Sirup & Fruchtsüße",
+      "250 g",
+      6.9,
+      "syrup-8",
+      "Fruchtsüße",
+      "Kräftige Dattelsüße für Gebäck, Dressings und Desserts."
+    ],
+    [
+      "grapesyrup",
+      "Traubenmostsirup",
+      "Sirup & Fruchtsüße",
+      "250 g",
+      6.9,
+      "syrup-9",
+      "Fruchtsüße",
+      "Eingedickter Traubenmost für Gebäck, Saucen und Desserts."
+    ],
+    [
+      "pomegranatemolasses",
+      "Granatapfelmelasse",
+      "Sirup & Fruchtsüße",
+      "250 g",
+      7.9,
+      "syrup-10",
+      "Zum Würzen",
+      "Säuerlich-fruchtige Granatapfelreduktion für Dressings, Marinaden und Gemüse."
+    ],
+    [
+      "mulberrymolasses",
+      "Maulbeersirup · Pekmez",
+      "Sirup & Fruchtsüße",
+      "250 g",
+      7.9,
+      "syrup-11",
+      "Fruchtsüße",
+      "Aromatische Maulbeerreduktion für Desserts, Gebäck und zum Süßen."
+    ],
+    [
+      "jallab",
+      "Jallab · Dattel-Trauben-Sirup",
+      "Sirup & Fruchtsüße",
+      "250 ml",
+      7.9,
+      "syrup-12",
+      "Getränkesirup",
+      "Duftiger Sirup aus der Dattel-Trauben-Familie mit Rosenwasser. Mit Wasser und Eis servieren."
     ]
   ],
   "catalog": [
@@ -7871,6 +8851,136 @@ window.MEDITERRANEAN = {
       "giftroom-8",
       "Geschenkbox",
       "Dukkah 100 g · Datteln 250 g · Natives Olivenöl extra 500 ml."
+    ],
+    [
+      "elderflowersyrup",
+      "Holunderblütensirup",
+      "Sirup & Fruchtsüße",
+      "500 ml",
+      7.9,
+      "syrup-0",
+      "Getränkesirup",
+      "Blumiger Sirup für Wasser, Schorlen und alkoholfreie Aperitifs."
+    ],
+    [
+      "elderberrysyrup",
+      "Holunderbeerensirup",
+      "Sirup & Fruchtsüße",
+      "500 ml",
+      8.9,
+      "syrup-1",
+      "Getränkesirup",
+      "Dunkelfruchtiger Sirup aus verarbeiteten Holunderbeeren für Getränke und Desserts."
+    ],
+    [
+      "rosesyrup",
+      "Rosensirup",
+      "Sirup & Fruchtsüße",
+      "250 ml",
+      7.9,
+      "syrup-2",
+      "Getränkesirup",
+      "Duftiger Rosensirup für kalte Getränke, Desserts und feines Gebäck."
+    ],
+    [
+      "lemonsyrup",
+      "Zitronensirup",
+      "Sirup & Fruchtsüße",
+      "500 ml",
+      7.9,
+      "syrup-3",
+      "Getränkesirup",
+      "Fruchtig-säuerlicher Sirup für Limonaden, Schorlen und Desserts."
+    ],
+    [
+      "cherrysyrup",
+      "Sauerkirschsirup",
+      "Sirup & Fruchtsüße",
+      "500 ml",
+      8.9,
+      "syrup-4",
+      "Getränkesirup",
+      "Aromatischer Sauerkirschsirup für kalte Getränke, Sorbets und Desserts."
+    ],
+    [
+      "mintsyrup",
+      "Minzsirup",
+      "Sirup & Fruchtsüße",
+      "500 ml",
+      7.9,
+      "syrup-5",
+      "Getränkesirup",
+      "Frischer Minzgeschmack für Wasser, Eistee und alkoholfreie Mischgetränke."
+    ],
+    [
+      "almondsyrup",
+      "Mandelsirup · Soumada",
+      "Sirup & Fruchtsüße",
+      "250 ml",
+      8.9,
+      "syrup-6",
+      "Getränkesirup",
+      "Mandelsirup zum Verdünnen und für Desserts. Enthält Mandeln."
+    ],
+    [
+      "carobsyrup",
+      "Johannisbrotsirup",
+      "Sirup & Fruchtsüße",
+      "250 g",
+      6.9,
+      "syrup-7",
+      "Fruchtsüße",
+      "Dunkler, süßer Johannisbrotsirup für Gebäck, Desserts und zum Verfeinern."
+    ],
+    [
+      "datesyrup",
+      "Dattelsirup",
+      "Sirup & Fruchtsüße",
+      "250 g",
+      6.9,
+      "syrup-8",
+      "Fruchtsüße",
+      "Kräftige Dattelsüße für Gebäck, Dressings und Desserts."
+    ],
+    [
+      "grapesyrup",
+      "Traubenmostsirup",
+      "Sirup & Fruchtsüße",
+      "250 g",
+      6.9,
+      "syrup-9",
+      "Fruchtsüße",
+      "Eingedickter Traubenmost für Gebäck, Saucen und Desserts."
+    ],
+    [
+      "pomegranatemolasses",
+      "Granatapfelmelasse",
+      "Sirup & Fruchtsüße",
+      "250 g",
+      7.9,
+      "syrup-10",
+      "Zum Würzen",
+      "Säuerlich-fruchtige Granatapfelreduktion für Dressings, Marinaden und Gemüse."
+    ],
+    [
+      "mulberrymolasses",
+      "Maulbeersirup · Pekmez",
+      "Sirup & Fruchtsüße",
+      "250 g",
+      7.9,
+      "syrup-11",
+      "Fruchtsüße",
+      "Aromatische Maulbeerreduktion für Desserts, Gebäck und zum Süßen."
+    ],
+    [
+      "jallab",
+      "Jallab · Dattel-Trauben-Sirup",
+      "Sirup & Fruchtsüße",
+      "250 ml",
+      7.9,
+      "syrup-12",
+      "Getränkesirup",
+      "Duftiger Sirup aus der Dattel-Trauben-Familie mit Rosenwasser. Mit Wasser und Eis servieren."
     ]
   ],
   "reviewed": "2026-11-13",
