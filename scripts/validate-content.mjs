@@ -1,3 +1,4 @@
+import { createHash } from 'node:crypto';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
@@ -13,6 +14,10 @@ assert.equal(productIds.size,data.catalog.length,'Duplicate product IDs');
 assert.deepEqual([...countryIds].sort(),data.countryBorderReview.map(r=>r.country).sort(),'Every country needs a border review');
 const source=s=>{assert.ok(s.title?.trim(),'Source title missing');assert.equal(new URL(s.url).protocol,'https:','Use explicit HTTPS source URLs')};
 const html=readFileSync(root+'mittelmeer.html','utf8');
+const approved=JSON.parse(readFileSync(root+'design-constraints.json','utf8')).approvedMediterraneanColoring.sha256;
+const css=readFileSync(root+'mittelmeer.css','utf8');
+const frozen={field:html.match(/<g class="culinary-influence"[\s\S]*?<\/g>/)?.[0],softness:html.match(/<filter id="influence-soft"[\s\S]*?<\/filter>/)?.[0],color:css.match(/\.map-wrap \.culinary-influence path\{[^}]*\}/)?.[0]};
+for(const [key,value] of Object.entries(frozen)){assert.ok(value,'Missing approved map '+key);assert.equal(createHash('sha256').update(value).digest('hex'),approved[key],'Approved map '+key+' requires explicit user instruction to change')}
 for(const r of data.regions){assert.ok(html.includes('data-region="'+r.id+'"'),'Missing map target '+r.id);if(r.parent)assert.ok(countryIds.has(r.parent),'Unknown parent '+r.id)}
 for(const group of data.crossBorderAreas){assert.ok(group.members.length&&group.countries.length,'Empty shared space');for(const id of group.members)assert.ok(geoIds.has(id),'Unknown shared-region member '+id);for(const id of group.countries)assert.ok(countryIds.has(id),'Unknown shared-region country '+id);assert.ok(group.sources.length,'Shared-space source missing');group.sources.forEach(source)}
 for(const r of data.regions.filter(r=>r.sharedRegion)){const g=data.crossBorderAreas.find(g=>g.id===r.sharedRegion);assert.ok(g?.unified&&g.members.includes(r.id)&&g.countries.includes(r.parent),'Shared region must be reachable from its country: '+r.id)}

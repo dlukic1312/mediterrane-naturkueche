@@ -1,0 +1,10 @@
+{
+  "approvedMediterraneanColoring": {
+    "instruction": "Do not change the approved coloring, extent or softness without explicit user instruction. Viewport and layout may change without altering the coloring.",
+    "sha256": {
+      "field": "0d7ff83604207aec0e59c02a9b464ead3815364119a27aa06ecfe4bc5b6de4a3",
+      "softness": "1d8e93488f39a924cf217e8315cf507e5a7b3c6eecfd2ef9d2e85022cbadb691",
+      "color": "0ab2dae79100b0ecae4c150a5d2a00adb7c83efd0cf91eb8af5d58643b3fa58d"
+    }
+  }
+}
