@@ -7542,6 +7542,205 @@ window.MEDITERRANEAN = {
         "NAV-NORTH",
         "NAV-EGYPT"
       ]
+    },
+    "pumpkinoil": {
+      "regions": [
+        "HRV",
+        "SVN"
+      ],
+      "text": "Im kulinarischen Großraum Balkan zuhause, auch in Kroatien und Slowenien verbreitet. Die Zuordnung beschreibt ausgewählte Traditionen, keine flächendeckende Nutzung.",
+      "source": "https://www.grbic.hr/en",
+      "kind": "Tradition & Verbreitung",
+      "relatedRegions": [],
+      "type": "shared",
+      "primaryLabel": "Als Zutat oder Spezialität verbreitet",
+      "sources": [
+        {
+          "title": "Grbić · Kürbiskernöl aus Kroatien",
+          "url": "https://www.grbic.hr/en"
+        },
+        {
+          "title": "Tovarna olja GEA · Kürbiskernöl aus Slowenien",
+          "url": "https://gea.si/en/pumpkin-seed-oil/"
+        },
+        {
+          "title": "Tourismus Ivanić-Grad · Kürbisprodukte",
+          "url": "https://www.tzig.hr/dozivljaji-suveniri/proizvodi-od-bu%C4%8De"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Geeignet abgefülltes und verschlossenes Speiseöl",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "Lichtgeschützt und gut verschlossen lagern; konkrete Lagerung und Haltbarkeit nach Packungsangabe. Keine Lieferantenspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Belegte kulinarische Verwendung; Darstellung in bestehenden Großräumen, keine flächendeckende Verbreitung oder bestätigte Lieferherkunft",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Großräume",
+        "summary": "Im kulinarischen Großraum Balkan zuhause, auch in Kroatien und Slowenien verbreitet. Die Zuordnung beschreibt ausgewählte Traditionen, keine flächendeckende Nutzung.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "shopDescription": "Nussig-aromatisches Kürbiskernöl für Salate, Bohnen und als Abschluss auf Suppen.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Szenariopreis für den deutschen Feinkosthandel; keine bestätigte Lieferantenkalkulation"
+      },
+      "availability": "planned",
+      "culinaryRooms": [
+        "NAV-BALKAN"
+      ],
+      "distributionRooms": [
+        "NAV-BALKAN"
+      ],
+      "kitchenProfile": [
+        "Kräftig nussig und dunkel; die Intensität hängt von Röstung und Herstellung ab.",
+        "Über fertige Suppen, Bohnen oder Salat geben. Zum Verfeinern verwenden, nicht zum scharfen Anbraten."
+      ]
+    },
+    "walnutoil": {
+      "regions": [
+        "HRV",
+        "FRA"
+      ],
+      "text": "Kulinarische Bezüge im Balkan und in Südfrankreich. Die Großräume fassen unterschiedliche Traditionen zusammen; die Zuordnung bedeutet nicht, dass das Öl überall dort üblich ist.",
+      "source": "https://opgvidovic.com.hr/product/hladno-presano-orahovo-ulje/",
+      "kind": "Tradition & Verbreitung",
+      "relatedRegions": [],
+      "type": "shared",
+      "primaryLabel": "Als Zutat oder Spezialität verbreitet",
+      "sources": [
+        {
+          "title": "OPG Vidović · Walnussöl aus Kroatien",
+          "url": "https://opgvidovic.com.hr/product/hladno-presano-orahovo-ulje/"
+        },
+        {
+          "title": "GRANA · Walnussöl für die Küche",
+          "url": "https://www.grana.hr/proizvod/orahovo-ulje-hladno-presano-100-ml/"
+        },
+        {
+          "title": "INAO · Traditionelles Walnussöl in Südfrankreich",
+          "url": "https://inao.gouv.fr/huile-de-noix-perigord-reconnue-aop"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Geeignet abgefülltes und verschlossenes Speiseöl",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "Lichtgeschützt und gut verschlossen lagern; konkrete Lagerung und Haltbarkeit nach Packungsangabe. Keine Lieferantenspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Belegte kulinarische Verwendung; Darstellung in bestehenden Großräumen, keine flächendeckende Verbreitung oder bestätigte Lieferherkunft",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Großräume",
+        "summary": "Kulinarische Bezüge im Balkan und in Südfrankreich. Die Großräume fassen unterschiedliche Traditionen zusammen; die Zuordnung bedeutet nicht, dass das Öl überall dort üblich ist.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "shopDescription": "Feines Walnussöl für Salate, Gemüse und kalte Saucen. Enthält Walnüsse.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Szenariopreis für den deutschen Feinkosthandel; keine bestätigte Lieferantenkalkulation"
+      },
+      "availability": "planned",
+      "culinaryRooms": [
+        "NAV-BALKAN",
+        "NAV-LIGURIAN"
+      ],
+      "distributionRooms": [
+        "NAV-BALKAN",
+        "NAV-LIGURIAN"
+      ],
+      "kitchenProfile": [
+        "Fein nussig; der Geschmack hängt von Rohware und Pressung ab.",
+        "Für Dressings oder zum Abschluss über gegartes Gemüse geben. Enthält Walnüsse; nicht als allergenfrei einordnen."
+      ],
+      "allergenNote": "Enthält Walnüsse. Weitere Zutaten- und Kreuzkontaktangaben hängen vom konkreten Lieferprodukt ab."
+    },
+    "arganoil": {
+      "regions": [
+        "MAR"
+      ],
+      "text": "Im kulinarischen Großraum Maghreb zuhause, besonders mit der marokkanischen Küche verbunden. Gemeint ist Speiseöl aus gerösteten Kernen, kein kosmetisches Arganöl.",
+      "source": "https://www.unesco.org/en/mab/arganeraie",
+      "kind": "Tradition & Verbreitung",
+      "relatedRegions": [],
+      "type": "shared",
+      "primaryLabel": "Als Zutat oder Spezialität verbreitet",
+      "sources": [
+        {
+          "title": "UNESCO · Arganeraie und kulinarische Nutzung",
+          "url": "https://www.unesco.org/en/mab/arganeraie"
+        },
+        {
+          "title": "Fachstudie · Geröstete Argankerne für Speisearganöl",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7026351/"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Geeignet abgefülltes und verschlossenes Speiseöl",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "Lichtgeschützt und gut verschlossen lagern; konkrete Lagerung und Haltbarkeit nach Packungsangabe. Keine Lieferantenspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Belegte kulinarische Verwendung; Darstellung in bestehenden Großräumen, keine flächendeckende Verbreitung oder bestätigte Lieferherkunft",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Großräume",
+        "summary": "Im kulinarischen Großraum Maghreb zuhause, besonders mit der marokkanischen Küche verbunden. Gemeint ist Speiseöl aus gerösteten Kernen, kein kosmetisches Arganöl.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "shopDescription": "Speisearganöl aus gerösteten Kernen für Salate, Gemüse und zum Dippen.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Szenariopreis für den deutschen Feinkosthandel; keine bestätigte Lieferantenkalkulation"
+      },
+      "availability": "planned",
+      "culinaryRooms": [
+        "NAV-NORTH"
+      ],
+      "distributionRooms": [
+        "NAV-NORTH"
+      ],
+      "kitchenProfile": [
+        "Röstig und nussig; zum sparsamen Verfeinern.",
+        "Wenige Tropfen über fertiges Gemüse oder in ein Dressing geben. Ausschließlich Speisequalität verwenden."
+      ]
     }
   },
   "newProducts": [
@@ -8194,6 +8393,36 @@ window.MEDITERRANEAN = {
       "table-olives",
       "In Salzlake",
       "Grüne Oliven in Salzlake für Antipasti, Salate und die Mezze-Tafel. Abtropfgewicht: 180 g."
+    ],
+    [
+      "pumpkinoil",
+      "Kürbiskernöl",
+      "Weitere Speiseöle",
+      "250 ml",
+      11.9,
+      "seedoil-0",
+      "Zum Verfeinern",
+      "Nussig-aromatisches Kürbiskernöl für Salate, Bohnen und als Abschluss auf Suppen."
+    ],
+    [
+      "walnutoil",
+      "Walnussöl",
+      "Weitere Speiseöle",
+      "250 ml",
+      9.9,
+      "seedoil-1",
+      "Zum Verfeinern",
+      "Feines Walnussöl für Salate, Gemüse und kalte Saucen. Enthält Walnüsse."
+    ],
+    [
+      "arganoil",
+      "Geröstetes Arganöl · Speiseöl",
+      "Weitere Speiseöle",
+      "100 ml",
+      12.9,
+      "seedoil-2",
+      "Zum Verfeinern",
+      "Speisearganöl aus gerösteten Kernen für Salate, Gemüse und zum Dippen."
     ]
   ],
   "catalog": [
@@ -9096,6 +9325,36 @@ window.MEDITERRANEAN = {
       "table-olives",
       "In Salzlake",
       "Grüne Oliven in Salzlake für Antipasti, Salate und die Mezze-Tafel. Abtropfgewicht: 180 g."
+    ],
+    [
+      "pumpkinoil",
+      "Kürbiskernöl",
+      "Weitere Speiseöle",
+      "250 ml",
+      11.9,
+      "seedoil-0",
+      "Zum Verfeinern",
+      "Nussig-aromatisches Kürbiskernöl für Salate, Bohnen und als Abschluss auf Suppen."
+    ],
+    [
+      "walnutoil",
+      "Walnussöl",
+      "Weitere Speiseöle",
+      "250 ml",
+      9.9,
+      "seedoil-1",
+      "Zum Verfeinern",
+      "Feines Walnussöl für Salate, Gemüse und kalte Saucen. Enthält Walnüsse."
+    ],
+    [
+      "arganoil",
+      "Geröstetes Arganöl · Speiseöl",
+      "Weitere Speiseöle",
+      "100 ml",
+      12.9,
+      "seedoil-2",
+      "Zum Verfeinern",
+      "Speisearganöl aus gerösteten Kernen für Salate, Gemüse und zum Dippen."
     ]
   ],
   "reviewed": "2026-11-13",

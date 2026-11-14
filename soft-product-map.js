@@ -55,6 +55,7 @@
       render(connection) {
         primary.replaceChildren(); variants.replaceChildren();
         if (!connection) return;
+        if(connection.distributionRooms){connection.distributionRooms.forEach(id=>{const room=window.MEDITERRANEAN_ROOMS?.areas.find(r=>r.id===id);if(!room)return;const group=make('g',{'data-reference':id});room.selectionFields.forEach(part=>part.polygons.forEach(polygon=>{group.append(make('path',{d:'M'+polygon.map(([lon,lat])=>xy(lon,lat).join(',')).join(' L')+' Z'}))}));primary.append(group)});return}
         const ids = connection.mapRegions||connection.regions;
         ids.forEach(id=>{const field=connection.mapFields?.find(f=>f.reference===id);if(!field){add(id,primary);return}const group=make('g',{'data-reference':id});field.places.forEach(place=>{const [cx,cy]=xy(place.lon,place.lat);group.append(make('ellipse',{cx,cy,rx:place.rx/58*1000,ry:place.ry/24*560}))});primary.append(group)});
         connection.relatedRegions.filter(r=>!ids.includes(r.id)).forEach(r=>add(r.id,variants));
