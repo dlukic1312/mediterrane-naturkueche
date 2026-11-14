@@ -18,3 +18,14 @@
 .map-wrap.distribution-mode .subregion-shape:focus{fill:transparent;stroke:#293c30;stroke-width:1}
 .distribution-mode~.legend span:first-child:before{background:linear-gradient(90deg,#719563,#e8e6dd)}
 .distribution-mode~.legend span:nth-child(2):before{background:linear-gradient(90deg,#c59c72,#e8e6dd)}
+
+.geographic-mode .culinary-influence{display:block}
+.map-wrap.geographic-mode [data-region].country-selected{fill:#e8e6dd;stroke:#63785b;stroke-width:1.1}
+.map-wrap.geographic-mode .subregion-shape.visible{fill:transparent;stroke:rgba(92,111,84,.35);stroke-width:.65}
+.map-wrap.geographic-mode .subregion-shape:hover,.map-wrap.geographic-mode .subregion-shape:focus{fill:rgba(157,112,80,.12);stroke:#63785b;stroke-width:1.2}
+.region-selection-field{display:none;opacity:.4}.geographic-mode .region-selection-field{display:block}
+.map-wrap .region-selection-field path,.map-wrap .region-selection-field ellipse{fill:#c59c72;stroke:none}
+.geographic-mode~.legend span:first-child:before{background:linear-gradient(90deg,#719563,#e8e6dd)}
+.geographic-mode:not(.influence-overview)~.legend span:nth-child(2):before{background:#c59c72}
+
+.geographic-mode.country-view~.legend span:nth-child(2):before{background:transparent;border:1px solid #63785b}

@@ -31,7 +31,8 @@
     const variants = make('g',{'class':'product-range-variants',filter:'url(#product-range-soft)'});
     const primary = make('g',{'class':'product-range-primary',filter:'url(#product-range-soft)'});
     layer.append(variants,primary);
-    svg.querySelector('.culinary-influence').before(layer);
+    const selection=make('g',{'class':'region-selection-field','clip-path':'url(#influence-land-clip)','pointer-events':'none','aria-hidden':'true',filter:'url(#product-range-soft)'});
+    svg.querySelector('.culinary-influence').before(layer);svg.querySelector('.culinary-influence').after(selection);
     const add = (id,target) => {
       const group = make('g',{'data-reference':id});
       const region = data.regions.find(r => r.id===id);
@@ -57,6 +58,11 @@
         const ids = connection.mapRegions||connection.regions;
         ids.forEach(id=>add(id,primary));
         connection.relatedRegions.filter(r=>!ids.includes(r.id)).forEach(r=>add(r.id,variants));
+      },
+      renderSelection(region) {
+        selection.replaceChildren();
+        if(!region||(!region.parent&&!region.members))return;
+        (region.members||[region.id]).forEach(id=>add(id,selection));
       },
       bounds(id) { return layer.querySelector('[data-reference="'+id+'"]')?.getBBox(); },
       soften() {
