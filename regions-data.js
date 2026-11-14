@@ -55,12 +55,6 @@ window.MEDITERRANEAN = {
       "level": "country"
     },
     {
-      "id": "SRB",
-      "name": "Serbien",
-      "subtitle": "Balkan im Hinterland",
-      "level": "country"
-    },
-    {
       "id": "MKD",
       "name": "Nordmazedonien",
       "subtitle": "Balkan im Hinterland",
@@ -1429,7 +1423,6 @@ window.MEDITERRANEAN = {
     },
     "ajvar": {
       "regions": [
-        "SRB",
         "MKD",
         "BIH",
         "HRV",
@@ -1725,7 +1718,6 @@ window.MEDITERRANEAN = {
     },
     "plum": {
       "regions": [
-        "SRB",
         "BIH",
         "HRV",
         "MKD",
@@ -3085,26 +3077,6 @@ window.MEDITERRANEAN = {
         {
           "title": "UNESCO · grenzüberschreitender Prespa-Raum",
           "url": "https://whc.unesco.org/en/tentativelists/5864/"
-        }
-      ],
-      "reviewed": "2026-11-13"
-    },
-    {
-      "country": "SRB",
-      "summary": "Syrmien/Srem wird mit Kroatien geteilt; Sandžak mit Montenegro. Der Save-Raum verbindet weitere Länder des westlichen Balkans. Serbien ist in dieser Karte ein kulinarisches Binnenland, kein Mittelmeer-Anrainer.",
-      "type": "Historische und hydrologische Nachbarräume",
-      "sources": [
-        {
-          "title": "Hintergrund · Syrmien/Srem/Srijem",
-          "url": "https://en.wikipedia.org/wiki/Syrmia"
-        },
-        {
-          "title": "Princeton Encyclopedia · historischer Sandžak",
-          "url": "https://pesd.princeton.edu/node/731"
-        },
-        {
-          "title": "Internationale Save-Kommission · grenzüberschreitendes Einzugsgebiet",
-          "url": "https://www.savacommission.org/UserDocsImages/05_documents_publications/other_publications/transboundary_eco_tourism_guidelines.pdf?vel=7916430"
         }
       ],
       "reviewed": "2026-11-13"
