@@ -1,1 +1,3329 @@
-window.MEDITERRANEAN = {"regions": [{"id": "ESP", "name": "Spanien", "subtitle": "Iberische Küste & Balearen", "level": "country"}, {"id": "PRT", "name": "Portugal", "subtitle": "Atlantikküste · mediterrane Esskultur", "level": "country"}, {"id": "FRA", "name": "Frankreich", "subtitle": "Unter anderem Provence & Korsika", "level": "country"}, {"id": "ITA", "name": "Italien", "subtitle": "Ligurien, Toskana, Süditalien & Sizilien", "level": "country"}, {"id": "SVN", "name": "Slowenien", "subtitle": "Istrien & Adria", "level": "country"}, {"id": "HRV", "name": "Kroatien", "subtitle": "Istrien & Dalmatien", "level": "country"}, {"id": "BIH", "name": "Bosnien und Herzegowina", "subtitle": "Balkan & kleine Adriaküste", "level": "country"}, {"id": "MNE", "name": "Montenegro", "subtitle": "Adria & Balkan", "level": "country"}, {"id": "ALB", "name": "Albanien", "subtitle": "Adria & Ionisches Meer", "level": "country"}, {"id": "SRB", "name": "Serbien", "subtitle": "Balkan im Hinterland", "level": "country"}, {"id": "MKD", "name": "Nordmazedonien", "subtitle": "Balkan im Hinterland", "level": "country"}, {"id": "GRC", "name": "Griechenland", "subtitle": "Festland & Inseln", "level": "country"}, {"id": "TUR", "name": "Türkei", "subtitle": "Ägäis, Mittelmeerküste & Anatolien", "level": "country"}, {"id": "CYP", "name": "Zypern", "subtitle": "Östliches Mittelmeer", "level": "country"}, {"id": "MLT", "name": "Malta", "subtitle": "Zentrales Mittelmeer", "level": "country"}, {"id": "MAR", "name": "Marokko", "subtitle": "Maghreb", "level": "country"}, {"id": "DZA", "name": "Algerien", "subtitle": "Maghreb", "level": "country"}, {"id": "TUN", "name": "Tunesien", "subtitle": "Maghreb", "level": "country"}, {"id": "LBY", "name": "Libyen", "subtitle": "Nordafrika", "level": "country"}, {"id": "EGY", "name": "Ägypten", "subtitle": "Südöstliches Mittelmeer", "level": "country"}, {"id": "LBN", "name": "Libanon", "subtitle": "Levante", "level": "country"}, {"id": "SYR", "name": "Syrien", "subtitle": "Levante & Aleppo", "level": "country"}, {"id": "ISR", "name": "Israel", "subtitle": "Östliches Mittelmeer", "level": "country"}, {"id": "PSE", "name": "Palästina", "subtitle": "Levante", "level": "country"}, {"id": "JOR", "name": "Jordanien", "subtitle": "Levantinisches Hinterland", "level": "country"}, {"id": "ES-CT", "name": "Katalonien", "parent": "ESP", "subtitle": "Barcelona & Tarragona", "lon": 1.7, "lat": 41.4, "level": "subregion", "sources": [{"title": "Tarragona Turisme · Romesco", "url": "https://www.tarragonaturisme.cat/en/cuisine"}]}, {"id": "ES-AN", "name": "Andalusien", "parent": "ESP", "subtitle": "Südspanien", "lon": -4.5, "lat": 37.4, "level": "subregion", "sources": [{"title": "Turismo Andalucía · Olivenöl", "url": "https://en.andalucia.org/activities-and-attractions/food-and-drink/savor-andalusia/oils/"}]}, {"id": "ES-IB", "name": "Balearen", "parent": "ESP", "subtitle": "Mallorca, Menorca, Ibiza & Formentera", "lon": 2.7, "lat": 39.6, "level": "subregion", "sources": [{"title": "Tourismus Balearen · Salz und Fleur de Sel", "url": "https://www.illesbalears.travel/index.php/en/ibiza/the-mallorca-ibiza-and-formentera-salt-mines"}]}, {"id": "FR-COR", "name": "Korsika", "parent": "FRA", "subtitle": "Insel im westlichen Mittelmeer", "lon": 9.0, "lat": 42.1, "level": "subregion", "sources": [{"title": "Tourismus Korsika · Olivenöl", "url": "https://www.visit-corsica.com/en/content/view/full/38779"}]}, {"id": "FR-PRO", "name": "Provence", "parent": "FRA", "subtitle": "Südfrankreich", "lon": 5.6, "lat": 43.8, "level": "subregion", "sources": [{"title": "Vaucluse Tourisme · Olivenöl und Tapenade", "url": "https://www.provenceguide.com/decouvrir/saveurs/produits-terroir/olive-huile/"}]}, {"id": "IT-SAR", "name": "Sardinien", "parent": "ITA", "subtitle": "Selargius & sardische Küchentraditionen", "lon": 9.0, "lat": 40.0, "level": "subregion", "sources": [{"title": "Regione Sardegna · Gastronomie", "url": "https://www.sardegnacultura.it/en/categories/tradizioni/gastronomia"}]}, {"id": "IT-SIC", "name": "Sizilien", "parent": "ITA", "subtitle": "Palermo, Trapani & Pantelleria", "lon": 14.0, "lat": 37.5, "level": "subregion", "sources": [{"title": "Visit Sicily · Caponata", "url": "https://www.visitsicily.info/en/ricetta/caponata/"}]}, {"id": "PT-ALG", "name": "Algarve", "parent": "PRT", "subtitle": "Südportugal", "lon": -8.0, "lat": 37.2, "level": "subregion", "sources": [{"title": "Visit Portugal · Algarve-Küche", "url": "https://www.visitportugal.com/en/destinos/algarve/73815"}]}, {"id": "PT-ALE", "name": "Alentejo", "parent": "PRT", "subtitle": "Südliches portugiesisches Binnenland", "lon": -7.8, "lat": 38.5, "level": "subregion", "sources": [{"title": "Visit Portugal · Alentejo", "url": "https://www.visitportugal.com/en/destinos/alentejo/73794"}]}, {"id": "PT-TMO", "name": "Trás-os-Montes", "parent": "PRT", "subtitle": "Nordostportugal", "lon": -7.0, "lat": 41.5, "level": "subregion", "sources": [{"title": "Visit Portugal · Olivenölregionen", "url": "https://www.visitportugal.com/en/content/olive-tourism"}]}, {"id": "HR-IST", "name": "Istrien", "parent": "HRV", "subtitle": "Hier: kroatischer Teil Istriens", "lon": 13.9, "lat": 45.1, "level": "subregion", "sources": [{"title": "Tourismus Istrien · Olivenöl und Trüffel", "url": "https://www.istra.hr/en/gourmet/gourmet-spots"}]}, {"id": "GR-CRE", "name": "Kreta", "parent": "GRC", "subtitle": "Griechische Insel", "lon": 24.9, "lat": 35.2, "level": "subregion", "sources": [{"title": "Region Kreta · Zertifizierte Produkte", "url": "https://www.incrediblecrete.gr/en/certified-companies/"}]}, {"id": "TR-AEG", "name": "Türkische Ägäis", "parent": "TUR", "subtitle": "Aydın, İzmir & Muğla", "lon": 27.4, "lat": 38.0, "level": "subregion", "sources": [{"title": "GoTürkiye · Ägäische Küche", "url": "https://goturkiye.com/branding/press-releases/turkish-cuisine-week-highlights-the-aegean-flavours-in-2024"}]}, {"id": "MT-GOZ", "name": "Gozo", "parent": "MLT", "subtitle": "Insel des maltesischen Archipels", "lon": 14.25, "lat": 36.05, "level": "subregion", "sources": [{"title": "Visit Gozo · Lokale Spezialitäten", "url": "https://visitgozo.com/experience/local-delicacies/"}]}, {"id": "CY-TIL", "name": "Tylliria", "parent": "CYP", "subtitle": "Nordwesten Zyperns · Feigentradition", "lon": 32.7, "lat": 35.1, "level": "subregion", "sources": [{"title": "Republik Zypern · Tylliria-Feigen", "url": "https://publications.gov.cy/en/assets/user/publications/2022/2022_040/HTML/index.html"}]}, {"id": "IT-LIG", "name": "Ligurien", "parent": "ITA", "subtitle": "Taggiasca-Oliven & ligurische Küste", "lon": 8.2, "lat": 44.2, "level": "subregion", "sources": [{"title": "Ligurien · Regionaler kulinarischer Hintergrund", "url": "https://lamialiguria.it/en/experiences/adopt-a-taggiasca-cultivar-olive-tree/"}]}, {"id": "IT-TOS", "name": "Toskana", "parent": "ITA", "subtitle": "Olivenöl, Salbei & Trüffelküche", "lon": 11, "lat": 43.5, "level": "subregion", "sources": [{"title": "Toskana · Regionaler kulinarischer Hintergrund", "url": "https://www.visittuscany.com/en/ideas/2e7437ee-5119-11e7-87d1-c25849f3fc0c/"}]}, {"id": "HR-DAL", "name": "Dalmatien", "parent": "HRV", "subtitle": "Kroatische Adriaküste & Inselküchen", "lon": 16.5, "lat": 43.5, "level": "subregion", "sources": [{"title": "Dalmatien · Regionaler kulinarischer Hintergrund", "url": "https://croatia-hotspots.com/en/category/gastro-en/page/2/"}]}, {"id": "IT-PIE", "name": "Piemont · Alba/Langhe", "parent": "ITA", "subtitle": "Hinterland · haltbare Trüffelspezialitäten", "lon": 7.95, "lat": 44.7, "level": "subregion", "sources": [{"title": "Hersteller in Alba/Piemont · konservierte Trüffelspezialitäten", "url": "https://shop.tartuflanghe.com/en/collections/specialita-al-tartufo"}]}, {"id": "IT-UMB", "name": "Umbrien", "parent": "ITA", "subtitle": "Hinterland · Trüffel und aromatisierte Öle", "lon": 12.5, "lat": 43.0, "level": "subregion", "sources": [{"title": "Umbriatourism · aromatisierte Öle des Frantoio Bartolini", "url": "https://www.umbriatourism.it/en/dettaglio-offerta/-/dettaglio/frantoio-bartolini_9324_producer_en"}]}, {"id": "ES-ARA", "name": "Aragón · Teruel", "parent": "ESP", "subtitle": "Hinterland · schwarze Trüffel", "lon": -0.9, "lat": 40.35, "level": "subregion", "sources": [{"title": "Turismo de Aragón · Trüffelkultur", "url": "https://www.turismodearagon.com/en/aragon/gastronomia-aragonesa/"}]}, {"id": "SI-IST", "name": "Slowenisches Istrien", "parent": "SVN", "subtitle": "Koper, Izola, Piran & Hinterland", "lon": 13.75, "lat": 45.5, "level": "subregion", "sources": [{"title": "Slovenian Tourist Board · Trüffel in slowenischem Istrien", "url": "https://www.slovenia.info/en/press-centre/news-of-the-tourism-press-agency/10387-top-3-foodie-experiences-in-the-hinterland-of-portoroz-and-piran"}]}, {"id": "IT-IST", "name": "Muggia · italienisches Istrien", "parent": "ITA", "subtitle": "Istrischer Teil des Golfs von Triest", "lon": 13.77, "lat": 45.59, "level": "subregion", "sources": [{"title": "PromoTurismoFVG · Olivenöl aus Muggia", "url": "https://www.turismofvg.it/en/food-and-wine/lenardon-bruno?LangSetCMS=en"}]}, {"id": "BIH-BOS", "name": "Bosnien", "parent": "BIH", "subtitle": "Unter anderem Podrinje, Majevica & Gradačac", "lon": 18.0, "lat": 44.3, "level": "subregion", "sources": [{"title": "Regional Rural Development SWG · Pflaumenregionen und Verarbeitung in BiH", "url": "https://seerural.org/wp-content/uploads/2023/01/State-of-the-art-of-the-fresh-fruit-and-vegetable-marketing-standards.pdf"}]}, {"id": "BIH-HER", "name": "Herzegowina", "parent": "BIH", "subtitle": "Südliches Binnenland · Čapljina & Ljubuški", "lon": 17.7, "lat": 43.2, "level": "subregion", "sources": [{"title": "Lebensmittelsicherheitsbehörde BiH · Olivenöl der Herzegowina", "url": "https://fsa.gov.ba/wp-content/uploads/2025/04/Product-specification-EXTRA-VIRGIN-OLIVE-OIL-OF-HERZEGOVINA.pdf"}]}, {"id": "HR-NER", "name": "Neretva-Tal · kroatischer Teil", "parent": "HRV", "subtitle": "Untere Neretva · Metković & Opuzen", "lon": 17.58, "lat": 43.02, "level": "subregion", "sources": [{"title": "Kroatisches Landwirtschaftsministerium · Mandarinen-Anbaugebiete", "url": "https://poljoprivreda.gov.hr/UserDocsImages/dokumenti/poljoprivreda/vo%C4%87arstvo/Program%20potpore%20za%20proizvo%C4%91a%C4%8De%20mandarina%20za%202019.%20godinu.pdf"}]}, {"id": "BIH-NER", "name": "Neretva-Tal · herzegowinischer Teil", "parent": "BIH", "subtitle": "Unter anderem Umgebung von Čapljina", "lon": 17.72, "lat": 43.12, "level": "subregion", "sources": [{"title": "Fachartikel · Mandarinenanbau in der südlichen Herzegowina", "url": "https://hrcak.srce.hr/en/clanak/406151"}]}, {"id": "SY-ALE", "name": "Aleppo", "parent": "SYR", "subtitle": "Kulinarischer Bezug von Muhammara", "lon": 37.16, "lat": 36.2, "level": "subregion", "sources": [{"title": "Hintergrund · Muhammara und Aleppo", "url": "https://en.wikipedia.org/wiki/Muhammara"}]}, {"id": "TR-GAZ", "name": "Gaziantep", "parent": "TUR", "subtitle": "Regionale Muhammara-Zubereitungen", "lon": 37.38, "lat": 37.06, "level": "subregion", "sources": [{"title": "GoTürkiye · Muhammara in Gaziantep", "url": "https://goturkiye.com/branding/press-releases/traditional-turkish-breakfast-the-golden-meal-of-the-day"}]}, {"id": "FR-ROU", "name": "Roussillon · französischer katalanischer Raum", "parent": "FRA", "subtitle": "Regionaler Referenzpunkt · keine exakte flächige Abgrenzung", "lon": 2.8, "lat": 42.65, "level": "subregion", "sources": [{"title": "Tourisme Pyrénées-Orientales · Route zwischen französischem und spanischem katalanischem Raum", "url": "https://www.tourisme-pyreneesorientales.com/activites/circuit-vtt-haut-vallespir-raid-des-deux-catalognes-saint-laurent-de-cerdans-fr-5744061/"}]}, {"id": "FR-RIV", "name": "Französische Riviera · Raum Nizza", "parent": "FRA", "subtitle": "Regionaler Referenzpunkt · keine exakte flächige Abgrenzung", "lon": 7.2, "lat": 43.7, "level": "subregion", "sources": [{"title": "World Encyclopedia · Riviera in Frankreich und Italien", "url": "https://www.encyclopedia.com/places/spain-portugal-italy-greece-and-balkans/italian-political-geography/riviera"}]}, {"id": "PT-GUA", "name": "Untere Guadiana · portugiesischer Teil", "parent": "PRT", "subtitle": "Regionaler Referenzpunkt · keine exakte flächige Abgrenzung", "lon": -7.45, "lat": 37.25, "level": "subregion", "sources": [{"title": "Europäische Kommission · gemeinsames Guadiana-Einzugsgebiet", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52019SC0032"}]}, {"id": "ES-GUA", "name": "Untere Guadiana · spanischer Teil", "parent": "ESP", "subtitle": "Regionaler Referenzpunkt · keine exakte flächige Abgrenzung", "lon": -7.35, "lat": 37.3, "level": "subregion", "sources": [{"title": "Europäische Kommission · gemeinsames Guadiana-Einzugsgebiet", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52019SC0032"}]}, {"id": "GR-AEG", "name": "Griechische Ägäis", "parent": "GRC", "subtitle": "Regionaler Referenzpunkt · keine exakte flächige Abgrenzung", "lon": 25.0, "lat": 38.0, "level": "subregion", "sources": [{"title": "EBSCO · Ägäis zwischen Griechenland und Türkei", "url": "https://www.ebsco.com/research-starters/geography-and-cartography/aegean-sea"}]}], "connections": {"oil": {"regions": ["PRT", "ESP", "FRA", "ITA", "SVN", "HRV", "BIH", "MNE", "ALB", "GRC", "TUR", "CYP", "MLT", "MAR", "DZA", "TUN", "LBY", "EGY", "LBN", "SYR", "ISR", "PSE", "JOR", "ES-CT", "ES-AN", "ES-IB", "FR-COR", "FR-PRO", "IT-SAR", "IT-SIC", "PT-ALG", "PT-ALE", "PT-TMO", "HR-IST", "GR-CRE", "TR-AEG", "MT-GOZ", "IT-LIG", "IT-TOS", "HR-DAL", "BIH-HER", "BIH-NER", "SI-IST", "IT-IST", "FR-RIV", "GR-AEG"], "text": "Olivenöl ist in vielen mediterranen Küchen üblich und wird in zahlreichen Ländern und Regionen angebaut, hergestellt und verwendet. Dazu gehören ausdrücklich Portugal sowie Bosnien und Herzegowina mit der Herzegowina. Die Markierungen zeigen erfasste kulinarische beziehungsweise regionale Produktionsbezüge. Sie sind keine Herkunftsangabe für unser Entwurfsöl und keine genaue flächendeckende Anbaukarte.", "source": "https://en.wikipedia.org/wiki/Olive_oil", "kind": "Tradition & Verbreitung", "relatedRegions": [], "type": "shared", "primaryLabel": "Als Zutat oder Spezialität verbreitet", "sources": [{"title": "Visit Portugal · Olivenölregionen", "url": "https://www.visitportugal.com/en/content/olive-tourism"}, {"title": "Visit Cyprus · Lokale Zutaten", "url": "https://www.visitcyprus.com/discover-cyprus/food-drink/local-produce/"}, {"title": "Malta Tourism Authority · Spezialitäten", "url": "https://www.visitmalta.com/en/delicacies/"}, {"title": "Hintergrund zur Spezialität", "url": "https://en.wikipedia.org/wiki/Olive_oil"}, {"title": "Tarragona Turisme · Romesco", "url": "https://www.tarragonaturisme.cat/en/cuisine"}, {"title": "Turismo Andalucía · Olivenöl", "url": "https://en.andalucia.org/activities-and-attractions/food-and-drink/savor-andalusia/oils/"}, {"title": "Tourismus Balearen · Salz und Fleur de Sel", "url": "https://www.illesbalears.travel/index.php/en/ibiza/the-mallorca-ibiza-and-formentera-salt-mines"}, {"title": "Tourismus Korsika · Olivenöl", "url": "https://www.visit-corsica.com/en/content/view/full/38779"}, {"title": "Vaucluse Tourisme · Olivenöl und Tapenade", "url": "https://www.provenceguide.com/decouvrir/saveurs/produits-terroir/olive-huile/"}, {"title": "Regione Sardegna · Gastronomie", "url": "https://www.sardegnacultura.it/en/categories/tradizioni/gastronomia"}, {"title": "Visit Sicily · Caponata", "url": "https://www.visitsicily.info/en/ricetta/caponata/"}, {"title": "Visit Portugal · Algarve-Küche", "url": "https://www.visitportugal.com/en/destinos/algarve/73815"}, {"title": "Visit Portugal · Alentejo", "url": "https://www.visitportugal.com/en/destinos/alentejo/73794"}, {"title": "Tourismus Istrien · Olivenöl und Trüffel", "url": "https://www.istra.hr/en/gourmet/gourmet-spots"}, {"title": "Region Kreta · Zertifizierte Produkte", "url": "https://www.incrediblecrete.gr/en/certified-companies/"}, {"title": "GoTürkiye · Ägäische Küche", "url": "https://goturkiye.com/branding/press-releases/turkish-cuisine-week-highlights-the-aegean-flavours-in-2024"}, {"title": "Visit Gozo · Lokale Spezialitäten", "url": "https://visitgozo.com/experience/local-delicacies/"}, {"title": "Ligurien · Regionaler kulinarischer Hintergrund", "url": "https://lamialiguria.it/en/experiences/adopt-a-taggiasca-cultivar-olive-tree/"}, {"title": "Toskana · Regionaler kulinarischer Hintergrund", "url": "https://www.visittuscany.com/en/ideas/2e7437ee-5119-11e7-87d1-c25849f3fc0c/"}, {"title": "Dalmatien · Regionaler kulinarischer Hintergrund", "url": "https://croatia-hotspots.com/en/category/gastro-en/page/2/"}, {"title": "Lebensmittelsicherheitsbehörde BiH · Olivenöl der Herzegowina", "url": "https://fsa.gov.ba/wp-content/uploads/2025/04/Product-specification-EXTRA-VIRGIN-OLIVE-OIL-OF-HERZEGOVINA.pdf"}, {"title": "Slovenian Tourist Board · Olivenöl aus slowenischem Istrien", "url": "https://www.slovenia.info/en/stories/learn-about-the-story-of-slovenian-olive-oil"}, {"title": "PromoTurismoFVG · Olivenöl aus Muggia", "url": "https://www.turismofvg.it/en/food-and-wine/lenardon-bruno?LangSetCMS=en"}, {"title": "Internationaler Olivenrat · Olivenölproduktion in mehreren Ländern", "url": "https://www.internationaloliveoil.org/wp-content/uploads/2019/12/NEWSLETTER_NOVEMBER-2015_ENGLISH.pdf"}, {"title": "Office de Tourisme Nice · Olivenöl und regionale Verarbeitung", "url": "https://www.explorenicecotedazur.com/en/producer/moulin-a-huile-nicolas-alziari/"}, {"title": "Visit Greece · ägäische Küche mit Olivenöl, Oregano und Kapern", "url": "https://www.visitgreece.gr/en/experiences/gastronomy/traditional-cuisine/aegean-cuisine"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "truffle": {"regions": ["HR-IST", "IT-PIE", "IT-UMB", "FR-PRO"], "text": "Haltbare Trüffelöle sind unter anderem im kroatischen Istrien, im Piemont, in Umbrien und in der Provence anhand konkreter regionaler Angebote dokumentiert. Istrien ist ein wichtiger kroatischer Trüffelschwerpunkt, besonders um Motovun, Buzet und Livade. Trüffel kommen auch in anderen Gebieten vor. Die Karte zeigt die regionale Produktfamilie, nicht die nachgewiesene Rohstoff- oder Herstellungsherkunft dieses Entwurfsprodukts.", "source": "https://en.wikipedia.org/wiki/Truffle", "kind": "Regional belegte Feinkost-Produktfamilie", "relatedRegions": [{"id": "ES-ARA", "title": "Trüffelgebiet Aragón/Teruel", "note": "Belegter Bezug zum Rohstoff Trüffel. Daraus wird keine traditionelle Herkunft genau unserer Öl- oder Salzmischung abgeleitet.", "sources": [{"title": "Turismo de Aragón · Trüffelkultur", "url": "https://www.turismodearagon.com/en/aragon/gastronomia-aragonesa/"}]}, {"id": "SI-IST", "title": "Trüffelgebiet slowenisches Istrien", "note": "Trüffelkultur ist hier belegt; das allein bestätigt weder die genaue Rezeptur noch die Herkunft unseres Entwurfsprodukts.", "sources": [{"title": "Slovenian Tourist Board · Trüffel in slowenischem Istrien", "url": "https://www.slovenia.info/en/press-centre/news-of-the-tourism-press-agency/10387-top-3-foodie-experiences-in-the-hinterland-of-portoroz-and-piran"}]}, {"id": "IT-TOS", "title": "Trüffelküche der Toskana", "note": "Belegter regionaler Rohstoff- und Küchenbezug; genaue Produktrezepturen können abweichen.", "sources": [{"title": "Visit Tuscany · Trüffelküche", "url": "https://www.visittuscany.com/en/ideas/truffles-in-tuscany-quick-guide/"}]}], "type": "regional-product-family", "primaryLabel": "Belegte regionale Trüffelzubereitungen", "sources": [{"title": "Tourismus Istrien · Trüffelküche und Produkte", "url": "https://www.istra.hr/en/gourmet/gourmet-spots"}, {"title": "Istrischer Hersteller · Öl mit echten Trüffelstücken", "url": "https://zigantetartufi.com/products/black-truffle-extra-virgin-olive-oil-with-truffle-pieces"}, {"title": "Hersteller in Alba/Piemont · konservierte Trüffelspezialitäten", "url": "https://shop.tartuflanghe.com/en/collections/specialita-al-tartufo"}, {"title": "Umbriatourism · aromatisierte Öle des Frantoio Bartolini", "url": "https://www.umbriatourism.it/en/dettaglio-offerta/-/dettaglio/frantoio-bartolini_9324_producer_en"}, {"title": "Vaucluse Tourisme · Trüffelöl auf regionalen Märkten", "url": "https://press.provenceguide.com/centuries-old-truffle-markets-in-vaucluse/"}], "relatedLabel": "Weitere Trüffelgebiete · Rohstoffbezug", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "lemonoil": {"regions": [], "text": "Zitrone, Basilikum und Olivenöl sind mediterrane Zutaten. Für ihre konkrete Kombination in diesem Entwurfsöl ist keine einzelne traditionelle Heimat belegt. Aromatisierte Öle gibt es heute in unterschiedlichen Regionen.", "source": "https://en.wikipedia.org/wiki/Mediterranean_cuisine", "kind": "Moderne Sortimentidee", "relatedRegions": [], "type": "modern", "primaryLabel": "Keine feste traditionelle Heimat", "sources": [{"title": "Hintergrund zur Spezialität", "url": "https://en.wikipedia.org/wiki/Mediterranean_cuisine"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "chilioil": {"regions": [], "text": "Dieses Chili-Knoblauch-Olivenöl ist eine moderne Rezeptidee. Aus der Verwendung von Chili und Knoblauch lässt sich keine traditionelle Heimat genau dieser Ölmischung ableiten.", "source": "https://en.wikipedia.org/wiki/Chili_oil", "kind": "Moderne Sortimentidee", "relatedRegions": [], "type": "modern", "primaryLabel": "Keine feste traditionelle Heimat", "sources": [{"title": "Hintergrund zur Spezialität", "url": "https://en.wikipedia.org/wiki/Chili_oil"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "fleur": {"regions": ["FRA", "PRT", "ESP", "SVN", "HRV", "ES-IB", "PT-ALG"], "text": "Fleur de Sel beziehungsweise Flor de Sal ist nicht auf Frankreich beschränkt. Dokumentierte Traditionen gibt es unter anderem in Portugal, auf den Balearen und in Piran. Salzblumen unterscheiden sich je nach Saline; die französische Bezeichnung allein belegt keine französische Herkunft.", "source": "https://en.wikipedia.org/wiki/Fleur_de_sel", "kind": "Tradition & Verbreitung", "relatedRegions": [], "type": "shared", "primaryLabel": "Als Zutat oder Spezialität verbreitet", "sources": [{"title": "Visit Portugal · Algarve-Küche", "url": "https://www.visitportugal.com/en/destinos/algarve/73815"}, {"title": "Slovenian Tourist Board · Piran-Salinen", "url": "https://www.slovenia.info/en/places-to-go/attractions/piran-and-salt-pans"}, {"title": "Tourismus Balearen · Salz und Fleur de Sel", "url": "https://www.illesbalears.travel/index.php/en/ibiza/the-mallorca-ibiza-and-formentera-salt-mines"}, {"title": "Hintergrund zur Spezialität", "url": "https://en.wikipedia.org/wiki/Fleur_de_sel"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "sea": {"regions": ["ESP", "FRA", "ITA", "SVN", "HRV", "BIH", "MNE", "ALB", "GRC", "TUR", "CYP", "MLT", "MAR", "DZA", "TUN", "LBY", "EGY", "LBN", "SYR", "ISR", "PSE", "PRT", "ES-IB", "IT-SAR", "IT-SIC", "PT-ALG", "MT-GOZ"], "text": "Meersalz wird in vielen Küchen verwendet, auch in Portugal. Beispiele für regionale Salzgewinnung sind die Algarve, Piran in Slowenien, die Balearen, Sizilien, Sardinien und Gozo. Eine Verwendung in einem Land ist kein Nachweis, dass unser Salz dort gewonnen wurde.", "source": "https://en.wikipedia.org/wiki/Sea_salt", "kind": "Tradition & Verbreitung", "relatedRegions": [], "type": "shared", "primaryLabel": "Als Zutat oder Spezialität verbreitet", "sources": [{"title": "Visit Portugal · Algarve-Küche", "url": "https://www.visitportugal.com/en/destinos/algarve/73815"}, {"title": "Slovenian Tourist Board · Piran-Salinen", "url": "https://www.slovenia.info/en/places-to-go/attractions/piran-and-salt-pans"}, {"title": "Tourismus Balearen · Salz und Fleur de Sel", "url": "https://www.illesbalears.travel/index.php/en/ibiza/the-mallorca-ibiza-and-formentera-salt-mines"}, {"title": "Visit Gozo · Salztradition", "url": "https://visitgozo.com/2025/10/27/gozos-saltpans-tradition-nature-timeless-beauty/"}, {"title": "Slow Food · Selargius und sardisches Salz", "url": "https://www.fondazioneslowfood.com/it/presidi-slow-food/cappero-di-selargius/"}, {"title": "Hintergrund zur Spezialität", "url": "https://en.wikipedia.org/wiki/Sea_salt"}, {"title": "Regione Sardegna · Gastronomie", "url": "https://www.sardegnacultura.it/en/categories/tradizioni/gastronomia"}, {"title": "Visit Sicily · Caponata", "url": "https://www.visitsicily.info/en/ricetta/caponata/"}, {"title": "Visit Gozo · Lokale Spezialitäten", "url": "https://visitgozo.com/experience/local-delicacies/"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "trufflesalt": {"regions": ["HR-IST", "IT-PIE"], "text": "Haltbare Trüffelsalze sind anhand konkreter Herstellerangebote im kroatischen Istrien und im Piemont dokumentiert. Salzart, Trüffelart und Rezeptur unterscheiden sich; nicht jedes belegte Trüffelsalz ist Fleur de Sel. Istrien ist ein wichtiger kroatischer Trüffelschwerpunkt, besonders um Motovun, Buzet und Livade. Trüffel kommen auch in anderen Gebieten vor. Die Karte zeigt die regionale Produktfamilie, nicht die nachgewiesene Rohstoff- oder Herstellungsherkunft dieses Entwurfsprodukts.", "source": "https://en.wikipedia.org/wiki/Truffle", "kind": "Regional belegte Feinkost-Produktfamilie", "relatedRegions": [{"id": "ES-ARA", "title": "Trüffelgebiet Aragón/Teruel", "note": "Belegter Bezug zum Rohstoff Trüffel. Daraus wird keine traditionelle Herkunft genau unserer Öl- oder Salzmischung abgeleitet.", "sources": [{"title": "Turismo de Aragón · Trüffelkultur", "url": "https://www.turismodearagon.com/en/aragon/gastronomia-aragonesa/"}]}, {"id": "SI-IST", "title": "Trüffelgebiet slowenisches Istrien", "note": "Trüffelkultur ist hier belegt; das allein bestätigt weder die genaue Rezeptur noch die Herkunft unseres Entwurfsprodukts.", "sources": [{"title": "Slovenian Tourist Board · Trüffel in slowenischem Istrien", "url": "https://www.slovenia.info/en/press-centre/news-of-the-tourism-press-agency/10387-top-3-foodie-experiences-in-the-hinterland-of-portoroz-and-piran"}]}, {"id": "IT-TOS", "title": "Trüffelküche der Toskana", "note": "Belegter regionaler Rohstoff- und Küchenbezug; genaue Produktrezepturen können abweichen.", "sources": [{"title": "Visit Tuscany · Trüffelküche", "url": "https://www.visittuscany.com/en/ideas/truffles-in-tuscany-quick-guide/"}]}], "type": "regional-product-family", "primaryLabel": "Belegte regionale Trüffelzubereitungen", "sources": [{"title": "Tourismus Istrien · Trüffelküche und Produkte", "url": "https://www.istra.hr/en/gourmet/gourmet-spots"}, {"title": "Istrischer Hersteller · Trüffelsalz", "url": "https://zigantetartufi.com/products/sea-salt-black-truffle-zigante"}, {"title": "Hersteller in Alba/Piemont · Trüffelsalz und Zutatenherkunft", "url": "https://shop.tartuflanghe.com/en/products/condimento-a-base-di-sale-con-tartufo-bianco-small"}], "relatedLabel": "Weitere Trüffelgebiete · Rohstoffbezug", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "herbsalt": {"regions": [], "text": "Dieses Kräutersalz ist eine moderne Mischung ohne festgelegte regionale Rezeptur. Die Verbreitung der einzelnen Kräuter ist nicht mit der Heimat der Mischung gleichzusetzen.", "source": "https://en.wikipedia.org/wiki/Mediterranean_cuisine", "kind": "Moderne Sortimentidee", "relatedRegions": [], "type": "modern", "primaryLabel": "Keine feste traditionelle Heimat", "sources": [{"title": "Hintergrund zur Spezialität", "url": "https://en.wikipedia.org/wiki/Mediterranean_cuisine"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "black": {"regions": ["ESP"], "text": "Schwarzer Knoblauch ist keine ursprünglich mediterrane Spezialität. Er wird mit ostasiatischen Verarbeitungstraditionen verbunden; heute ist seine Herstellung beispielsweise in Spanien dokumentiert. Das ist ein heutiger Produktionsbezug, keine traditionelle spanische Herkunft.", "source": "https://en.wikipedia.org/wiki/Black_garlic", "kind": "Heutige Verarbeitung", "relatedRegions": [], "type": "contemporary", "primaryLabel": "Heutige Herstellung · keine ursprüngliche Heimat", "sources": [{"title": "Spanischer Hersteller · Schwarzer Knoblauch", "url": "https://www.alimentacion-naturfood.com/en/empresa"}, {"title": "Hintergrund zur Spezialität", "url": "https://en.wikipedia.org/wiki/Black_garlic"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Geeignet verpackter schwarzer Knoblauch; Lagerbedingungen und MHD nach Lieferantenspezifikation", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "fig": {"regions": ["TUR", "GRC", "HRV", "ITA", "ESP", "MAR", "TUN", "ALB", "DZA", "LBN", "PRT", "CYP", "FRA", "PT-ALG", "TR-AEG", "CY-TIL", "HR-DAL"], "text": "Getrocknete Feigen gehören zu mehreren Küchentraditionen, ausdrücklich auch in Portugal und Zypern. In Portugal sind etwa Algarve, Douro und Torres Novas dokumentiert; in Zypern unter anderem Tylliria. Auch die Türkei, Griechenland, Dalmatien und weitere mediterrane Regionen haben eigene Feigenkulturen.", "source": "https://en.wikipedia.org/wiki/Fig", "kind": "Tradition & Verbreitung", "relatedRegions": [], "type": "shared", "primaryLabel": "Als Zutat oder Spezialität verbreitet", "sources": [{"title": "DGADR · Getrocknete Feigen der Algarve", "url": "https://tradicional.dgadr.gov.pt/en/categories/fresh-fruit/1240-figos-do-algarve-en"}, {"title": "Cyprus Food Museum · Feigen und Konfitüre", "url": "https://www.cyprusfoodmuseum.com/en/sylloges/trofima/syko-fig"}, {"title": "Hintergrund zur Spezialität", "url": "https://en.wikipedia.org/wiki/Fig"}, {"title": "Visit Portugal · Algarve-Küche", "url": "https://www.visitportugal.com/en/destinos/algarve/73815"}, {"title": "GoTürkiye · Ägäische Küche", "url": "https://goturkiye.com/branding/press-releases/turkish-cuisine-week-highlights-the-aegean-flavours-in-2024"}, {"title": "Republik Zypern · Tylliria-Feigen", "url": "https://publications.gov.cy/en/assets/user/publications/2022/2022_040/HTML/index.html"}, {"title": "Dalmatien · Regionaler kulinarischer Hintergrund", "url": "https://croatia-hotspots.com/en/category/gastro-en/page/2/"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Getrocknete Feigen", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "ajvar": {"regions": ["SRB", "MKD", "BIH", "HRV", "MNE", "ALB", "SVN"], "text": "Ajvar gehört zu mehreren Balkanküchen, besonders in Serbien und Nordmazedonien, und wird auch in Bosnien und Herzegowina, Kroatien und weiteren Nachbarländern gegessen. Er ist keine exklusive Spezialität eines einzelnen Landes.", "source": "https://en.wikipedia.org/wiki/Ajvar", "kind": "Tradition & Verbreitung", "relatedRegions": [], "type": "shared", "primaryLabel": "Als Zutat oder Spezialität verbreitet", "sources": [{"title": "Tourismus Serbien · Ajvar", "url": "https://www.serbia.travel/sr-lat/pijace/"}, {"title": "Hintergrund zur Spezialität", "url": "https://en.wikipedia.org/wiki/Ajvar"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "capers": {"regions": ["ITA", "ESP", "GRC", "HRV", "TUR", "MAR", "CYP", "MLT", "IT-SAR", "IT-SIC", "MT-GOZ", "GR-AEG"], "text": "Echte Kapern sind die Knospen des Kapernstrauchs. Sie werden etwa in Sizilien, Sardinien, Malta, Zypern, Griechenland, Spanien, der Türkei und weiteren Mittelmeerregionen verwendet. Salz, Essig und Lake sind unterschiedliche Konservierungen. Die regionalen Beispiele belegen daher nicht jeweils genau unsere Salzlake-Rezeptur.", "source": "https://en.wikipedia.org/wiki/Caper", "kind": "Tradition & Verbreitung", "relatedRegions": [], "type": "shared", "primaryLabel": "Als Zutat oder Spezialität verbreitet", "sources": [{"title": "Visit Sicily · Olivenöl, Kapern und Salz", "url": "https://www.visitsicily.info/en/localita/trapani/"}, {"title": "Regione Sardegna · Kapern von Selargius", "url": "https://www.regione.sardegna.it/documenti/1_850_20190418164027.pdf"}, {"title": "Visit Gozo · Kapern und Konservierung", "url": "https://visitgozo.com/2024/04/24/its-that-time-of-the-year-caper-time/"}, {"title": "Visit Cyprus · Kapern im Dorfsalat", "url": "https://www.visitcyprus.com/discover-cyprus/food-drink/local-recipes/village-salad/"}, {"title": "Hintergrund zur Spezialität", "url": "https://en.wikipedia.org/wiki/Caper"}, {"title": "Regione Sardegna · Gastronomie", "url": "https://www.sardegnacultura.it/en/categories/tradizioni/gastronomia"}, {"title": "Visit Sicily · Caponata", "url": "https://www.visitsicily.info/en/ricetta/caponata/"}, {"title": "Visit Gozo · Lokale Spezialitäten", "url": "https://visitgozo.com/experience/local-delicacies/"}, {"title": "Visit Greece · ägäische Küche mit Olivenöl, Oregano und Kapern", "url": "https://www.visitgreece.gr/en/experiences/gastronomy/traditional-cuisine/aegean-cuisine"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "sage": {"regions": ["HRV", "ALB", "GRC", "ITA", "TUR", "IT-TOS"], "text": "Salbei ist besonders mit der dalmatinischen und adriatischen Küste verbunden, wächst und wird aber auch in Italien, Albanien, Griechenland und der Türkei verwendet. Eine Wildsammlung ist damit nicht nachgewiesen.", "source": "https://en.wikipedia.org/wiki/Salvia_officinalis", "kind": "Tradition & Verbreitung", "relatedRegions": [], "type": "shared", "primaryLabel": "Als Zutat oder Spezialität verbreitet", "sources": [{"title": "Tourismus Cres · Salbei", "url": "https://visitcres.croatia.hr/en-gb/nature"}, {"title": "Hintergrund zur Spezialität", "url": "https://en.wikipedia.org/wiki/Salvia_officinalis"}, {"title": "Toskana · Regionaler kulinarischer Hintergrund", "url": "https://www.visittuscany.com/en/ideas/2e7437ee-5119-11e7-87d1-c25849f3fc0c/"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Getrocknete Kräuter beziehungsweise trockene Gewürzmischung", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "oregano": {"regions": ["GRC", "TUR", "ALB", "HRV", "ITA", "PRT", "CYP", "PT-ALG", "PT-ALE", "GR-CRE", "GR-AEG"], "text": "Oregano wird unter anderem in Portugal, Griechenland, Zypern, Italien, der Türkei und an der Adria verwendet. In Portugal ist er beispielsweise für die Küche des Alentejo und der Algarve dokumentiert. Regionale Pflanzenarten und Mischungen unterscheiden sich; eine Wildsammlung unseres Entwurfsprodukts ist nicht nachgewiesen.", "source": "https://en.wikipedia.org/wiki/Oregano", "kind": "Tradition & Verbreitung", "relatedRegions": [], "type": "shared", "primaryLabel": "Als Zutat oder Spezialität verbreitet", "sources": [{"title": "Visit Portugal · Alentejo", "url": "https://www.visitportugal.com/en/destinos/alentejo/73794"}, {"title": "Visit Cyprus · Lokale Zutaten", "url": "https://www.visitcyprus.com/discover-cyprus/food-drink/local-produce/"}, {"title": "Hintergrund zur Spezialität", "url": "https://en.wikipedia.org/wiki/Oregano"}, {"title": "Visit Portugal · Algarve-Küche", "url": "https://www.visitportugal.com/en/destinos/algarve/73815"}, {"title": "Region Kreta · Zertifizierte Produkte", "url": "https://www.incrediblecrete.gr/en/certified-companies/"}, {"title": "Visit Greece · ägäische Küche mit Olivenöl, Oregano und Kapern", "url": "https://www.visitgreece.gr/en/experiences/gastronomy/traditional-cuisine/aegean-cuisine"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Getrocknete Kräuter beziehungsweise trockene Gewürzmischung", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "figjam": {"regions": ["HRV", "ITA", "FRA", "ESP", "GRC", "TUR", "MAR", "PRT", "CYP", "FR-COR"], "text": "Feigenkonfitüre ist keine exklusive Spezialität eines Landes. Beispiele finden sich in Portugal, auf Korsika, in Zypern und in weiteren mediterranen Küchen. Die jeweilige Fruchtsorte, Zuckermenge und Aromatisierung können unterschiedlich sein.", "source": "https://en.wikipedia.org/wiki/Fig", "kind": "Tradition & Verbreitung", "relatedRegions": [], "type": "shared", "primaryLabel": "Als Zutat oder Spezialität verbreitet", "sources": [{"title": "Visit Portugal · Feigenkonfitüre", "url": "https://www.visitportugal.com/pt-pt/NR/exeres/B68B2717-C67D-42D8-8B0F-A6F70C593B0B"}, {"title": "Cyprus Food Museum · Feigen und Konfitüre", "url": "https://www.cyprusfoodmuseum.com/en/sylloges/trofima/syko-fig"}, {"title": "Tourismus Korsika · Feigenkonfitüre", "url": "https://www.visit-corsica.com/en/Explore-Corsica/Our-inspirations/Gourmet-inspirations/5-Corsican-specialities-to-rediscover-to-liberate-your-taste-buds"}, {"title": "Hintergrund zur Spezialität", "url": "https://en.wikipedia.org/wiki/Fig"}, {"title": "Tourismus Korsika · Olivenöl", "url": "https://www.visit-corsica.com/en/content/view/full/38779"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "plum": {"regions": ["SRB", "BIH", "HRV", "MKD", "SVN", "BIH-BOS"], "text": "Dick eingekochte Pflaumenaufstriche sind in mehreren Balkan- und südosteuropäischen Küchen verbreitet. Bosnien hat eine dokumentierte Pflaumenanbau- und Verarbeitungstradition, unter anderem in Podrinje, Majevica, Gradačac und Zentralbosnien. Bosnische Bezeichnungen wie Bestilj und verschiedene Pekmez-Zubereitungen sind zu unterscheiden; Pekmez kann auch aus anderen Früchten bestehen. Das Entwurfsprodukt ist Pflaumenmus. Die Herkunft der später verwendeten Pflaumen muss separat belegt werden.", "source": "https://en.wikipedia.org/wiki/Powidl", "kind": "Tradition & Verbreitung", "relatedRegions": [], "type": "shared", "primaryLabel": "Als Zutat oder Spezialität verbreitet", "sources": [{"title": "Tourismus Serbien · Pflaumen-Pekmez", "url": "https://www.serbia.travel/sr-lat/kraljevo/"}, {"title": "Hintergrund zur Spezialität", "url": "https://en.wikipedia.org/wiki/Powidl"}, {"title": "Regional Rural Development SWG · Pflaumenregionen und Verarbeitung in BiH", "url": "https://seerural.org/wp-content/uploads/2023/01/State-of-the-art-of-the-fresh-fruit-and-vegetable-marketing-standards.pdf"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "figbread": {"regions": ["HRV"], "text": "Dieses Feigenbrot ist ein dichtes Konfekt aus getrockneten Feigen und Walnüssen, kein frischer Kuchen. Es steht in einer mediterranen Familie gepresster Feigenzubereitungen, zu der auch dalmatinischer Hib gehört. Die Varianten unterscheiden sich bei Nüssen, Gewürzen und gegebenenfalls Alkohol. Portugiesischer Queijo de Figo mit Mandeln oder spanischer Pan de higo sind verwandt, aber keine identischen Rezepturen.", "source": "https://en.wikipedia.org/wiki/Fig-cake_(fruit)", "kind": "Feigen-Nuss-Rezeptfamilie", "relatedRegions": [{"id": "ESP", "title": "Pan de higo · verwandtes Feigenkonfekt", "note": "Spanische Varianten verwenden häufig Mandeln. Nicht mit unserem Feigen-Walnuss-Entwurf gleichzusetzen.", "sources": []}, {"id": "PRT", "title": "Queijo de Figo · portugiesische Variante", "note": "Das dokumentierte portugiesische Konfekt verwendet Feigen und Mandeln; es ist nicht dieselbe Feigen-Walnuss-Rezeptur.", "sources": [{"title": "DGADR · Queijo de Figo mit Mandeln", "url": "https://tradicional.dgadr.gov.pt/en/categories/desserts-and-pastry/1254-queijo-de-figo-en"}]}, {"id": "CYP", "title": "Sykopitta · zyprische Varianten", "note": "Es gibt Varianten mit Mandeln sowie solche mit Walnüssen und weiteren Aromen; eine eigene regionale Rezeptfamilie.", "sources": [{"title": "Cyprus Food Museum · Sykopitta", "url": "https://www.cyprusfoodmuseum.com/en/sylloges/paradosiakes-syntages/sykopitta"}]}], "type": "regional", "primaryLabel": "Rezepturbezug · Feigen mit Walnüssen", "sources": [{"title": "Hintergrund · Gepresste Trockenfeigen, kein Rührkuchen", "url": "https://en.wikipedia.org/wiki/Fig-cake_(fruit)"}, {"title": "Regionaler Hintergrund · Dalmatinischer Hib", "url": "https://www.frankaboutcroatia.com/fall-in-love-with-vis-croatia/"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Gepresstes Trockenfrucht-Konfekt", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "mustard": {"regions": [], "text": "Dieser Feigensenf ist ein moderner Feinkostentwurf ohne belegte traditionelle regionale Rezeptur. Französische Senfspezialitäten oder italienische Mostarda sind nicht automatisch dasselbe Produkt.", "source": "https://en.wikipedia.org/wiki/Mostarda", "kind": "Moderne Sortimentidee", "relatedRegions": [], "type": "modern", "primaryLabel": "Keine feste traditionelle Heimat", "sources": [{"title": "Hintergrund zur Spezialität", "url": "https://en.wikipedia.org/wiki/Mostarda"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "tapenade": {"regions": ["FRA", "FR-COR", "FR-PRO", "FR-RIV"], "text": "Tapenade ist besonders mit der Provence verbunden und enthält klassisch Kapern, häufig auch Sardellen. Sie wird heute auch anderswo hergestellt, unter anderem auf Korsika. Der provenzalische Name ist dennoch nicht die Bezeichnung für jede portugiesische, griechische oder kroatische Olivenpaste.", "source": "https://en.wikipedia.org/wiki/Tapenade", "kind": "Tradition & Verbreitung", "relatedRegions": [], "type": "shared", "primaryLabel": "Als Zutat oder Spezialität verbreitet", "sources": [{"title": "Vaucluse Tourisme · Olivenöl und Tapenade", "url": "https://www.provenceguide.com/decouvrir/saveurs/produits-terroir/olive-huile/"}, {"title": "Tourismus Korsika · Olivenpasten", "url": "https://www.visit-corsica.com/en/Mon-sejour/Producteurs-et-degustation/Toutes-les-productions/MOULIN-DU-VALINCO"}, {"title": "Hintergrund zur Spezialität", "url": "https://en.wikipedia.org/wiki/Tapenade"}, {"title": "Tourismus Korsika · Olivenöl", "url": "https://www.visit-corsica.com/en/content/view/full/38779"}, {"title": "Office de Tourisme Nice · Olivenpaste und Tapenade", "url": "https://www.explorenicecotedazur.com/en/shop/boutique-alziari/"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "gift1": {"regions": [], "text": "Diese Geschenkbox ist eine moderne Zusammenstellung. Sie hat keine eigene traditionelle Heimat. Die enthaltenen Zutaten und Spezialitäten haben jeweils eigene kulinarische Verbindungen.", "source": "https://en.wikipedia.org/wiki/Mediterranean_cuisine", "kind": "Moderne Sortimentidee", "relatedRegions": [], "type": "modern", "primaryLabel": "Keine feste traditionelle Heimat", "sources": [{"title": "Hintergrund zur Spezialität", "url": "https://en.wikipedia.org/wiki/Mediterranean_cuisine"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "gift2": {"regions": [], "text": "Diese Geschenkbox ist eine moderne Zusammenstellung. Sie hat keine eigene traditionelle Heimat. Eine Zuordnung zu allen Mittelmeerländern wäre irreführend.", "source": "https://en.wikipedia.org/wiki/Mediterranean_cuisine", "kind": "Moderne Sortimentidee", "relatedRegions": [], "type": "modern", "primaryLabel": "Keine feste traditionelle Heimat", "sources": [{"title": "Hintergrund zur Spezialität", "url": "https://en.wikipedia.org/wiki/Mediterranean_cuisine"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "caponata": {"regions": ["ITA", "IT-SIC"], "text": "Caponata ist besonders mit Sizilien verbunden. Unser Entwurf folgt dieser sizilianischen Rezeptidee. Das macht Caponata nicht automatisch zu einer traditionellen sardischen oder ligurischen Spezialität.", "source": "https://en.wikipedia.org/wiki/Caponata", "kind": "Tradition & Verbreitung", "relatedRegions": [], "type": "regional", "primaryLabel": "Gezeigte regionale Rezeptur", "sources": [{"title": "Visit Sicily · Caponata", "url": "https://www.visitsicily.info/en/ricetta/caponata/"}, {"title": "Hintergrund zur Spezialität", "url": "https://en.wikipedia.org/wiki/Caponata"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "romesco": {"regions": ["ESP", "ES-CT"], "text": "Romesco ist besonders mit Tarragona und seiner Umgebung in Katalonien verbunden. Katalonien ist die autonome Region, zu der auch Barcelona gehört. Die Zuordnung ist genauer als eine pauschale Übertragung auf alle spanischen Unterregionen.", "source": "https://en.wikipedia.org/wiki/Romesco", "kind": "Tradition & Verbreitung", "relatedRegions": [], "type": "regional", "primaryLabel": "Gezeigte regionale Rezeptur", "sources": [{"title": "Tarragona Turisme · Romesco", "url": "https://www.tarragonaturisme.cat/en/cuisine"}, {"title": "Hintergrund zur Spezialität", "url": "https://en.wikipedia.org/wiki/Romesco"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "harissa": {"regions": ["TUN"], "text": "Das Entwurfsprodukt ist nach tunesischer Art gedacht. Die UNESCO dokumentiert Harissa als Teil der tunesischen Alltags- und Vorratsküche. Harissa wird auch in anderen Maghrebländern gegessen; deren Varianten sind nicht automatisch dieselbe tunesische Rezeptur.", "source": "https://en.wikipedia.org/wiki/Harissa", "kind": "Tunesische Rezeptidee", "relatedRegions": [{"id": "DZA", "title": "Harissa · weitere Maghreb-Varianten", "note": "Hier gibt es verwandte Harissa-Zubereitungen. Unser Entwurf bleibt nach tunesischer Art benannt; Gewürze und Schärfe können abweichen.", "sources": []}, {"id": "MAR", "title": "Harissa · weitere Maghreb-Varianten", "note": "Hier gibt es verwandte Harissa-Zubereitungen. Unser Entwurf bleibt nach tunesischer Art benannt; Gewürze und Schärfe können abweichen.", "sources": []}, {"id": "LBY", "title": "Harissa · weitere Maghreb-Varianten", "note": "Hier gibt es verwandte Harissa-Zubereitungen. Unser Entwurf bleibt nach tunesischer Art benannt; Gewürze und Schärfe können abweichen.", "sources": []}], "type": "regional", "primaryLabel": "Gezeigte regionale Rezeptur", "sources": [{"title": "UNESCO · Tunesische Harissa-Tradition", "url": "https://ich.unesco.org/en/RL/harissa-knowledge-skills-and-culinary-and-social-practices-01710"}, {"title": "Hintergrund zur Spezialität", "url": "https://en.wikipedia.org/wiki/Harissa"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "saltlemons": {"regions": ["MAR"], "text": "Das Entwurfsprodukt ist ausdrücklich nach marokkanischer Art gedacht. Salzzitronen gehören zur marokkanischen Küche. Eingelegte Zitronen sind auch anderswo belegt; diese verwandten Zubereitungen werden hier nicht als identische marokkanische Rezeptur geführt.", "source": "https://en.wikipedia.org/wiki/Preserved_lemon", "kind": "Marokkanische Rezeptidee", "relatedRegions": [{"id": "TUN", "title": "Eingelegte Zitronen · tunesische Varianten", "note": "In Tunesien sind eigene eingelegte Zitronen dokumentiert. Das macht das marokkanisch benannte Entwurfsprodukt nicht zu einer tunesischen Rezeptur.", "sources": [{"title": "Rogers Collection · Tunesische Salzzitronen", "url": "https://www.rogerscollection.us/wp-content/uploads/2016/01/Organic-Natural-Preserved-Lemon-Sell-Sheet.pdf"}]}], "type": "regional", "primaryLabel": "Gezeigte regionale Rezeptur", "sources": [{"title": "Taste of Maroc · Marokkanische Salzzitronen", "url": "https://tasteofmaroc.com/how-to-make-preserved-lemons/"}, {"title": "Hintergrund zur Spezialität", "url": "https://en.wikipedia.org/wiki/Preserved_lemon"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "olivepaste": {"regions": ["GRC", "HRV", "ITA", "TUR", "FRA", "ESP", "PRT", "FR-COR", "FR-PRO", "PT-TMO", "IT-LIG", "HR-DAL", "FR-RIV"], "text": "Olivenpasten sind in mehreren Mittelmeerküchen und auch in Portugal üblich. Belegte Beispiele sind portugiesische Pasta de Azeitonas, kroatische und griechische Olivenaufstriche sowie korsische und provenzalische Zubereitungen. Rezepturen unterscheiden sich: Eine Olivenpaste ist nicht automatisch eine klassische Tapenade.", "source": "https://en.wikipedia.org/wiki/Olive", "kind": "Gemeinsam verbreitete Spezialität", "relatedRegions": [], "type": "shared", "primaryLabel": "Als Zutat oder Spezialität verbreitet", "sources": [{"title": "DGADR · Portugiesische Olivenpaste", "url": "https://tradicional.dgadr.gov.pt/en/categories/other-traditional-dishes/1551-pasta-ou-pastada-de-azeitonas-en"}, {"title": "Tourismus Korsika · Olivenpasten", "url": "https://www.visit-corsica.com/en/Mon-sejour/Producteurs-et-degustation/Toutes-les-productions/MOULIN-DU-VALINCO"}, {"title": "Hintergrund zur Spezialität", "url": "https://en.wikipedia.org/wiki/Olive"}, {"title": "Tourismus Korsika · Olivenöl", "url": "https://www.visit-corsica.com/en/content/view/full/38779"}, {"title": "Vaucluse Tourisme · Olivenöl und Tapenade", "url": "https://www.provenceguide.com/decouvrir/saveurs/produits-terroir/olive-huile/"}, {"title": "Visit Portugal · Olivenölregionen", "url": "https://www.visitportugal.com/en/content/olive-tourism"}, {"title": "Ligurien · Regionaler kulinarischer Hintergrund", "url": "https://lamialiguria.it/en/experiences/adopt-a-taggiasca-cultivar-olive-tree/"}, {"title": "Dalmatien · Regionaler kulinarischer Hintergrund", "url": "https://croatia-hotspots.com/en/category/gastro-en/page/2/"}, {"title": "Office de Tourisme Nice · Olivenpaste und Tapenade", "url": "https://www.explorenicecotedazur.com/en/shop/boutique-alziari/"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "acuka": {"regions": ["TUR"], "text": "Acuka ist als würziger Aufstrich in der türkischen Frühstücksküche dokumentiert. Der Name wird auch für türkische Varianten der mit Aleppo verbundenen Muhammara-Familie verwendet. Paprikamark, Walnüsse und Gewürze variieren regional. Der türkische Rezepturbezug ist keine Aussage, dass diese gesamte Rezeptfamilie ausschließlich in der Türkei entstanden sei.", "source": "https://en.wikipedia.org/wiki/Acuka", "kind": "Tradition & Verbreitung", "relatedRegions": [], "type": "regional", "primaryLabel": "Gezeigte regionale Rezeptur", "sources": [{"title": "GoTürkiye · Acuka in der türkischen Frühstücksküche", "url": "https://gastronomy.goturkiye.com/turkish-breakfast"}, {"title": "Hintergrund · verwandte Muhammara-Rezeptfamilie", "url": "https://en.wikipedia.org/wiki/Muhammara"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "zaatar": {"regions": ["LBN", "PSE", "ISR", "SYR", "JOR"], "text": "Za’atar ist in der Levante verbreitet, unter anderem im Libanon, in Palästina, Israel, Syrien und Jordanien. Kräuter, Sumach und Sesam sind typisch; jede Region und Familie mischt anders.", "source": "https://en.wikipedia.org/wiki/Za%27atar", "kind": "Tradition & Verbreitung", "relatedRegions": [], "type": "shared", "primaryLabel": "Als Zutat oder Spezialität verbreitet", "sources": [{"title": "Hintergrund zur Spezialität", "url": "https://en.wikipedia.org/wiki/Za%27atar"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Getrocknete Kräuter beziehungsweise trockene Gewürzmischung", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}, "muhammara": {"regions": ["SYR", "TUR", "LBN", "SY-ALE", "TR-GAZ"], "text": "Muhammara wird besonders mit Aleppo in Syrien verbunden. Verwandte Zubereitungen sind in der südlichen Türkei, etwa in Gaziantep, und in der Levante verbreitet. Acuka kann als Name einer türkischen Variante dieser Paprika-Walnuss-Familie verwendet werden. Rezepturen unterscheiden sich. Für das Sortiment ist ausschließlich eine haltbar verarbeitete, geeignete verpackte Variante vorgesehen; ein frischer hausgemachter Dip ist nicht das geplante Handelsprodukt.", "source": "https://en.wikipedia.org/wiki/Muhammara", "kind": "Tradition & Verbreitung", "relatedRegions": [], "type": "shared", "primaryLabel": "Als Zutat oder Spezialität verbreitet", "sources": [{"title": "GoTürkiye · Muhammara in Gaziantep", "url": "https://goturkiye.com/branding/press-releases/traditional-turkish-breakfast-the-golden-meal-of-the-day"}, {"title": "Hintergrund · Muhammara und Aleppo", "url": "https://en.wikipedia.org/wiki/Muhammara"}], "relatedLabel": "Verwandte regionale Varianten", "commercialOrigin": {"ingredients": null, "processing": null, "status": "Noch nicht durch Lieferantennachweise festgelegt"}, "preservation": {"format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen", "freshProduct": false, "verifiedShelfLife": null, "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."}, "review": {"date": "2026-11-13", "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug", "exclusiveOriginClaim": false, "supplierOriginVerified": false}}}, "newProducts": [["olivepaste", "Mediterrane Olivenpaste", "Aufstriche", "140 g", 5.9, "shared-0", "Gemeinsame Tradition", "Olivenaufstrich, wie er in mehreren Mittelmeerküchen vorkommt."], ["acuka", "Türkische Acuka", "Aufstriche", "180 g", 5.9, "shared-1", "Türkische Art", "Würziger Paprika-Walnuss-Aufstrich."], ["zaatar", "Levantinisches Za’atar", "Wildkräuter", "60 g", 5.9, "shared-2", "Levante", "Kräutermischung mit Sumach und Sesam."], ["muhammara", "Levantinische Muhammara", "Aufstriche", "180 g", 6.9, "shared-3", "Levante", "Paprika-Walnuss-Aufstrich mit Granatapfelmelasse."]], "catalog": [["oil", "Natives Olivenöl extra", "Olivenöl", "500 ml", 21.9, "photo-1474979266404-7eaacbcd87c5", "Favorit"], ["truffle", "Olivenöl mit echtem Trüffel", "Olivenöl", "100 ml", 24.9, "photo-1504545102780-26774c1bb073", "Premium"], ["lemonoil", "Zitrone & Basilikum Olivenöl", "Olivenöl", "250 ml", 14.9, "photo-1474979266404-7eaacbcd87c5", ""], ["chilioil", "Chili & Knoblauch Olivenöl", "Olivenöl", "250 ml", 14.9, "photo-1474979266404-7eaacbcd87c5", ""], ["fleur", "Fleur de Sel", "Meersalz", "100 g", 7.9, "photo-1518977676601-b53f82aba655", "Neu"], ["sea", "Naturbelassenes Meersalz", "Meersalz", "250 g", 3.9, "photo-1518977676601-b53f82aba655", ""], ["trufflesalt", "Fleur de Sel mit echtem Trüffel", "Meersalz", "70 g", 12.9, "photo-1518977676601-b53f82aba655", "Premium"], ["herbsalt", "Meersalz mit Wildkräutern", "Meersalz", "100 g", 6.9, "photo-1466692476868-aef1dfb1e735", "Wildkräuter"], ["black", "Schwarzer Knoblauch", "Feinkost", "60 g", 8.9, "photo-1540148426945-6cf22a6b2383", "Highlight"], ["fig", "Getrocknete Feigen", "Früchte", "250 g", 6.5, "photo-1601493700631-2b16ec4b4716", ""], ["ajvar", "Gerösteter Ajvar", "Feinkost", "350 g", 4.9, "photo-1604908176997-431ba0d9fd33", ""], ["capers", "Kapern in Meersalzlake", "Feinkost", "120 g", 5.9, "photo-1604908176997-431ba0d9fd33", "Neu"], ["sage", "Wild-Salbei", "Wildkräuter", "20 g", 5.9, "photo-1466692476868-aef1dfb1e735", "Wild"], ["oregano", "Wild-Oregano", "Wildkräuter", "20 g", 5.9, "photo-1466692476868-aef1dfb1e735", "Wild"], ["figjam", "Feigenkonfitüre", "Aufstriche", "220 g", 4.9, "photo-1601493700631-2b16ec4b4716", ""], ["plum", "Pflaumenmus", "Aufstriche", "250 g", 4.5, "photo-1606313564200-e75d5e30476c", ""], ["figbread", "Feigenbrot mit Walnüssen", "Früchte", "150 g", 6.9, "photo-1509440159596-0249088772ff", ""], ["mustard", "Feigensenf", "Aufstriche", "140 g", 5.9, "photo-1601493700631-2b16ec4b4716", ""], ["tapenade", "Oliven-Tapenade", "Feinkost", "140 g", 5.9, "photo-1474979266404-7eaacbcd87c5", ""], ["gift1", "Geschenkbox Mediterrane Küche", "Geschenke", "4 Produkte", 34.9, "photo-1549465220-1a8b9238cd48", ""], ["gift2", "Geschenkbox Kleiner Luxus", "Geschenke", "3 Produkte", 39.9, "photo-1549465220-1a8b9238cd48", ""], ["caponata", "Sizilianische Caponata", "Feinkost", "200 g", 6.9, "regional-0", "Sizilien", "Auberginengemüse nach sizilianischer Art mit Tomaten, Oliven und Kapern."], ["romesco", "Katalanische Romesco", "Feinkost", "180 g", 5.9, "regional-1", "Katalonien", "Paprika-Tomaten-Sauce nach katalanischer Art mit Mandeln. Zu Gemüse und Brot."], ["harissa", "Tunesische Harissa", "Feinkost", "100 g", 4.9, "regional-2", "Tunesien", "Scharfe Chilipaste nach tunesischer Art mit Knoblauch und Gewürzen."], ["saltlemons", "Marokkanische Salzzitronen", "Feinkost", "300 g", 6.9, "regional-3", "Marokko", "In Salzlake eingelegte Zitronen nach marokkanischer Art. Aromatisch zu Gemüse und Couscous."], ["olivepaste", "Mediterrane Olivenpaste", "Aufstriche", "140 g", 5.9, "shared-0", "Gemeinsame Tradition", "Olivenaufstrich, wie er in mehreren Mittelmeerküchen vorkommt."], ["acuka", "Türkische Acuka", "Aufstriche", "180 g", 5.9, "shared-1", "Türkische Art", "Würziger Paprika-Walnuss-Aufstrich."], ["zaatar", "Levantinisches Za’atar", "Wildkräuter", "60 g", 5.9, "shared-2", "Levante", "Kräutermischung mit Sumach und Sesam."], ["muhammara", "Levantinische Muhammara", "Aufstriche", "180 g", 6.9, "shared-3", "Levante", "Paprika-Walnuss-Aufstrich mit Granatapfelmelasse."]], "reviewed": "2026-11-13", "method": "Kulinarische Verbreitung, regionale Verarbeitung und tatsächliche Warenherkunft bleiben getrennt. Unterregionen und grenzüberschreitende Räume erhalten nur explizit dokumentierte Verbindungen. Gezeigt werden ausschließlich haltbare Sortimentsentwürfe.", "crossBorderAreas": [{"id": "XB-ISTRIA", "name": "Istrien · länderübergreifend", "subtitle": "Kroatien, Slowenien & italienischer Teil", "members": ["HR-IST", "SI-IST", "IT-IST"], "countries": ["HRV", "SVN", "ITA"], "text": "Istrien ist ein gemeinsamer geografischer und kulinarischer Raum über Staatsgrenzen hinweg. Angezeigt werden nur die einzeln erfassten Bezüge der jeweiligen Teilgebiete; eine Spezialität wird nicht automatisch allen Teilen zugerechnet.", "sources": [{"title": "Slovenian Tourist Board · gemeinsamer Istrien-Genussführer für drei Länder", "url": "https://www.slovenia.info/en/press-centre/news-of-the-tourism-press-agency/6611-first-food-and-wine-guide-to-istria"}]}, {"id": "XB-NERETVA", "name": "Neretva · länderübergreifend", "subtitle": "Kroatien & Bosnien und Herzegowina", "members": ["HR-NER", "BIH-NER"], "countries": ["HRV", "BIH"], "text": "Das Neretva-Tal ist grenzüberschreitend. Kroatische und herzegowinische Anbauorte werden getrennt belegt; ein Bezug zum Tal allein bestätigt kein konkretes Herkunftsland einer späteren Lieferung.", "sources": [{"title": "Kroatisches Landwirtschaftsministerium · Mandarinen-Anbaugebiete", "url": "https://poljoprivreda.gov.hr/UserDocsImages/dokumenti/poljoprivreda/vo%C4%87arstvo/Program%20potpore%20za%20proizvo%C4%91a%C4%8De%20mandarina%20za%202019.%20godinu.pdf"}, {"title": "Fachartikel · Mandarinenanbau in der südlichen Herzegowina", "url": "https://hrcak.srce.hr/en/clanak/406151"}]}, {"id": "XB-LEVANT", "name": "Levante · kulinarischer Raum", "subtitle": "Hier: Syrien, Libanon, Jordanien, Israel & Palästina", "members": ["SYR", "LBN", "JOR", "ISR", "PSE"], "countries": ["SYR", "LBN", "JOR", "ISR", "PSE"], "text": "Eine Auswahl miteinander verbundener Küchen im östlichen Mittelmeerraum. Die hier zusammengefassten Zuordnungen gelten jeweils für die angegebenen Länder oder Teilgebiete, nicht automatisch für den gesamten Kulturraum.", "sources": [{"title": "Hintergrund · levantinische Küchen", "url": "https://en.wikipedia.org/wiki/Levantine_cuisine"}]}, {"id": "XB-MAGHREB", "name": "Maghreb · kulinarischer Raum", "subtitle": "Hier dargestellter Ausschnitt: Marokko, Algerien, Tunesien & Libyen", "members": ["MAR", "DZA", "TUN", "LBY"], "countries": ["MAR", "DZA", "TUN", "LBY"], "text": "Die Ansicht verbindet erfasste nordafrikanische Küchen, ohne länderspezifische Rezepturen gleichzusetzen. Sie ist keine vollständige geografische Definition des Maghreb.", "sources": [{"title": "Hintergrund · Maghreb-Küchen", "url": "https://en.wikipedia.org/wiki/Maghrebi_cuisine"}]}, {"id": "XB-CATALAN", "name": "Katalanischer Kulturraum", "subtitle": "Frankreich & Spanien", "members": ["FR-ROU", "ES-CT"], "countries": ["FRA", "ESP"], "text": "Katalonien als spanische autonome Region ist vom weiteren katalanischen Kulturraum zu unterscheiden. Die Ansicht zeigt den französisch-spanischen Ausschnitt; weitere katalanischsprachige Gebiete sind damit nicht ausgeschlossen. Romesco wird nur seinem belegten katalanischen Rezepturbezug zugeordnet, nicht automatisch dem französischen Teil.", "sources": [{"title": "Tourisme Pyrénées-Orientales · Route zwischen französischem und spanischem katalanischem Raum", "url": "https://www.tourisme-pyreneesorientales.com/activites/circuit-vtt-haut-vallespir-raid-des-deux-catalognes-saint-laurent-de-cerdans-fr-5744061/"}]}, {"id": "XB-RIVIERA", "name": "Riviera / Ligurischer Küstenbogen", "subtitle": "Frankreich & Italien", "members": ["FR-RIV", "IT-LIG"], "countries": ["FRA", "ITA"], "text": "Ein grenzüberschreitender Küstenraum mit mehreren regionalen Küchen. Gezeigt werden die erfassten Bezüge im Raum Nizza und in Ligurien; die Produkte müssen nicht auf beiden Seiten identisch sein.", "sources": [{"title": "World Encyclopedia · Riviera in Frankreich und Italien", "url": "https://www.encyclopedia.com/places/spain-portugal-italy-greece-and-balkans/italian-political-geography/riviera"}]}, {"id": "XB-GUADIANA", "name": "Untere Guadiana", "subtitle": "Portugal & Spanien", "members": ["PT-GUA", "ES-GUA"], "countries": ["PRT", "ESP"], "text": "Die gemeinsame Fluss- und Grenzregion ist geografisch belegt. Sie liegt am Atlantik und wird hier als Nachbarraum mediterraner Esskulturen gezeigt. Für konkrete Produkte werden keine Zuordnungen aus der bloßen Flussnähe erfunden.", "sources": [{"title": "Europäische Kommission · gemeinsames Guadiana-Einzugsgebiet", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52019SC0032"}]}, {"id": "XB-AEGEAN", "name": "Ägäischer Küsten- und Inselraum", "subtitle": "Griechenland & Türkei", "members": ["GR-AEG", "GR-CRE", "TR-AEG"], "countries": ["GRC", "TUR"], "text": "Ein gemeinsamer maritimer Raum mit eigenständigen griechischen und türkischen Küchen. Die aggregierten Produkte bleiben den jeweils belegten Teilräumen zugeordnet.", "sources": [{"title": "EBSCO · Ägäis zwischen Griechenland und Türkei", "url": "https://www.ebsco.com/research-starters/geography-and-cartography/aegean-sea"}]}], "rawMaterialIdeas": [{"id": "mandarin-herzegovina", "name": "Mandarinen · Rohstoffbezug", "regions": ["BIH-HER", "BIH-NER", "HR-NER"], "text": "Mandarinenanbau ist sowohl im kroatischen Neretva-Gebiet als auch in der südlichen Herzegowina dokumentiert. Die Quellen belegen Anbau, keine bereits vereinbarte Beschaffung und keine exklusive Heimat.", "formats": ["Mandarinen-Fruchtaufstrich", "Mandarinen-Chutney"], "sources": [{"title": "Fachartikel · Mandarinenanbau in der südlichen Herzegowina", "url": "https://hrcak.srce.hr/en/clanak/406151"}, {"title": "Kroatisches Landwirtschaftsministerium · Mandarinen-Anbaugebiete", "url": "https://poljoprivreda.gov.hr/UserDocsImages/dokumenti/poljoprivreda/vo%C4%87arstvo/Program%20potpore%20za%20proizvo%C4%91a%C4%8De%20mandarina%20za%202019.%20godinu.pdf"}]}, {"id": "plums-bosnia", "name": "Pflaumen aus Bosnien · Rohstoffidee", "regions": ["BIH-BOS"], "text": "Bosniens Pflaumenanbau und die Verarbeitung sind dokumentiert. Für das Sortiment kommen verarbeitete, haltbare Varianten infrage. Eine tatsächliche Warenherkunft wird erst nach Lieferantennachweis angegeben.", "formats": ["Pflaumenmus / Bestilj", "Trockenpflaumen"], "sources": [{"title": "Regional Rural Development SWG · Pflaumenregionen und Verarbeitung in BiH", "url": "https://seerural.org/wp-content/uploads/2023/01/State-of-the-art-of-the-fresh-fruit-and-vegetable-marketing-standards.pdf"}]}], "countryBorderReview": [{"country": "PRT", "summary": "Guadiana mit Spanien; weitere gemeinsame Flussräume sind Douro, Tejo, Minho und Lima. Portugal liegt am Atlantik und wird hier wegen seiner mediterranen Esskultur berücksichtigt.", "type": "Fluss- und Kooperationsräume; atlantischer Nachbar", "sources": [{"title": "Europäische Kommission · gemeinsames Guadiana-Einzugsgebiet", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52019SC0032"}], "reviewed": "2026-11-13"}, {"country": "ESP", "summary": "Mit Frankreich: Pyrenäen und katalanischer Kulturraum; mit Portugal: Guadiana und weitere Flussräume. Zur marokkanischen Küste besteht eine maritime Nachbarschaft über die Straße von Gibraltar, keine gemeinsame Landregion.", "type": "Geografische und kulturelle Räume getrennt von maritimer Nachbarschaft", "sources": [{"title": "Tourisme Pyrénées-Orientales · Route zwischen französischem und spanischem katalanischem Raum", "url": "https://www.tourisme-pyreneesorientales.com/activites/circuit-vtt-haut-vallespir-raid-des-deux-catalognes-saint-laurent-de-cerdans-fr-5744061/"}, {"title": "Europäische Kommission · gemeinsames Guadiana-Einzugsgebiet", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52019SC0032"}, {"title": "Hintergrund · Mittelmeerraum und Teilbecken", "url": "https://en.wikipedia.org/wiki/Mediterranean_Sea"}], "reviewed": "2026-11-13"}, {"country": "FRA", "summary": "Mit Spanien: Pyrenäen und katalanischer Kulturraum; mit Italien: Riviera/Ligurischer Küstenbogen. Die spanische autonome Region Katalonien und der weitere katalanische Kulturraum sind zu unterscheiden.", "type": "Grenzüberschreitende geografische und kulturelle Räume", "sources": [{"title": "Tourisme Pyrénées-Orientales · Route zwischen französischem und spanischem katalanischem Raum", "url": "https://www.tourisme-pyreneesorientales.com/activites/circuit-vtt-haut-vallespir-raid-des-deux-catalognes-saint-laurent-de-cerdans-fr-5744061/"}, {"title": "World Encyclopedia · Riviera in Frankreich und Italien", "url": "https://www.encyclopedia.com/places/spain-portugal-italy-greece-and-balkans/italian-political-geography/riviera"}], "reviewed": "2026-11-13"}, {"country": "ITA", "summary": "Mit Frankreich: Riviera; mit Slowenien und Kroatien: Istrien. Sizilien, Malta und die nordafrikanische Küste liegen im verbundenen zentralen Mittelmeerraum, bilden aber keine gemeinsame Landregion.", "type": "Landregionen und maritimer Raum getrennt", "sources": [{"title": "World Encyclopedia · Riviera in Frankreich und Italien", "url": "https://www.encyclopedia.com/places/spain-portugal-italy-greece-and-balkans/italian-political-geography/riviera"}, {"title": "Slovenian Tourist Board · Istrien in drei Ländern", "url": "https://www.slovenia.info/en/press-centre/news-of-the-tourism-press-agency/6611-first-food-and-wine-guide-to-istria"}, {"title": "UNEP/MAP · Kanal von Sizilien und tunesisches Plateau", "url": "https://rac-spa.org/nfp12/documents/information/wg.408_inf22_eng.pdf"}], "reviewed": "2026-11-13"}, {"country": "SVN", "summary": "Istrien verbindet slowenische, kroatische und italienische Teilgebiete. Im Hinterland ist außerdem der grenzüberschreitende Save-Raum relevant.", "type": "Kulinarische Halbinselregion und Flussraum", "sources": [{"title": "Slovenian Tourist Board · Istrien in drei Ländern", "url": "https://www.slovenia.info/en/press-centre/news-of-the-tourism-press-agency/6611-first-food-and-wine-guide-to-istria"}, {"title": "Internationale Save-Kommission · grenzüberschreitendes Einzugsgebiet", "url": "https://www.savacommission.org/UserDocsImages/05_documents_publications/other_publications/transboundary_eco_tourism_guidelines.pdf?vel=7916430"}], "reviewed": "2026-11-13"}, {"country": "HRV", "summary": "Istrien verbindet mit Slowenien und Italien; die Neretva mit der Herzegowina; Syrmien/Srijem mit Serbien. Der Save-Raum reicht ebenfalls über Grenzen.", "type": "Mehrere unterschiedliche gemeinsame Regionen", "sources": [{"title": "Slovenian Tourist Board · Istrien in drei Ländern", "url": "https://www.slovenia.info/en/press-centre/news-of-the-tourism-press-agency/6611-first-food-and-wine-guide-to-istria"}, {"title": "Fachartikel · Mandarinen in der südlichen Herzegowina", "url": "https://hrcak.srce.hr/en/clanak/406151"}, {"title": "Hintergrund · Syrmien/Srem/Srijem", "url": "https://en.wikipedia.org/wiki/Syrmia"}, {"title": "Internationale Save-Kommission · grenzüberschreitendes Einzugsgebiet", "url": "https://www.savacommission.org/UserDocsImages/05_documents_publications/other_publications/transboundary_eco_tourism_guidelines.pdf?vel=7916430"}], "reviewed": "2026-11-13"}, {"country": "BIH", "summary": "Neretva und Herzegowina sind zu unterscheiden: Das Flusssystem verbindet mit Kroatien. Bosnien hat eigene Binnenlandtraditionen; das Save-Einzugsgebiet reicht in weitere Länder. Eine gemeinsame Flussregion bestätigt keine konkrete Warenherkunft.", "type": "Flussräume und historische Teilregionen", "sources": [{"title": "Fachartikel · Mandarinen in der südlichen Herzegowina", "url": "https://hrcak.srce.hr/en/clanak/406151"}, {"title": "Internationale Save-Kommission · grenzüberschreitendes Einzugsgebiet", "url": "https://www.savacommission.org/UserDocsImages/05_documents_publications/other_publications/transboundary_eco_tourism_guidelines.pdf?vel=7916430"}, {"title": "Lebensmittelbehörde BiH · Olivenöl der Herzegowina", "url": "https://fsa.gov.ba/wp-content/uploads/2025/04/Product-specification-EXTRA-VIRGIN-OLIVE-OIL-OF-HERZEGOVINA.pdf"}], "reviewed": "2026-11-13"}, {"country": "MNE", "summary": "Der Skadar-/Shkodra-See wird mit Albanien geteilt; Sandžak ist ein historischer Raum mit Serbien. Montenegro ist außerdem Teil des weiteren Save-Einzugsgebiets.", "type": "Seegebiet, historischer Raum und Einzugsgebiet", "sources": [{"title": "Montenegro Tourismus · Skadarsee in Montenegro und Albanien", "url": "https://www.montenegro.travel/adventure-your-way-through-montenegro-s-national-parks"}, {"title": "Princeton Encyclopedia · historischer Sandžak", "url": "https://pesd.princeton.edu/node/731"}, {"title": "Internationale Save-Kommission · grenzüberschreitendes Einzugsgebiet", "url": "https://www.savacommission.org/UserDocsImages/05_documents_publications/other_publications/transboundary_eco_tourism_guidelines.pdf?vel=7916430"}], "reviewed": "2026-11-13"}, {"country": "ALB", "summary": "Mit Montenegro: Skadar-/Shkodra-See. Mit Griechenland: historisch-geografischer Epirus-Raum. Mit Nordmazedonien und Griechenland: Prespa. Diese Räume haben unterschiedliche Grenzen und Bedeutungen.", "type": "Seegebiete und historisch-geografische Region", "sources": [{"title": "Montenegro Tourismus · Skadarsee in Montenegro und Albanien", "url": "https://www.montenegro.travel/adventure-your-way-through-montenegro-s-national-parks"}, {"title": "Getty Research · historisch-geografischer Epirus-Raum", "url": "https://www.getty.edu/vow/TGNFullDisplay?english=Y&find=bern&nation=switzerland&place=&subjectid=7030329"}, {"title": "UNESCO · grenzüberschreitender Prespa-Raum", "url": "https://whc.unesco.org/en/tentativelists/5864/"}], "reviewed": "2026-11-13"}, {"country": "SRB", "summary": "Syrmien/Srem wird mit Kroatien geteilt; Sandžak mit Montenegro. Der Save-Raum verbindet weitere Länder des westlichen Balkans. Serbien ist in dieser Karte ein kulinarisches Binnenland, kein Mittelmeer-Anrainer.", "type": "Historische und hydrologische Nachbarräume", "sources": [{"title": "Hintergrund · Syrmien/Srem/Srijem", "url": "https://en.wikipedia.org/wiki/Syrmia"}, {"title": "Princeton Encyclopedia · historischer Sandžak", "url": "https://pesd.princeton.edu/node/731"}, {"title": "Internationale Save-Kommission · grenzüberschreitendes Einzugsgebiet", "url": "https://www.savacommission.org/UserDocsImages/05_documents_publications/other_publications/transboundary_eco_tourism_guidelines.pdf?vel=7916430"}], "reviewed": "2026-11-13"}, {"country": "MKD", "summary": "Der Prespa-Raum verbindet Nordmazedonien, Albanien und Griechenland. Eine Rezeptur wird dadurch nicht automatisch allen drei Küchen zugerechnet.", "type": "Grenzüberschreitender Seenraum", "sources": [{"title": "UNESCO · grenzüberschreitender Prespa-Raum", "url": "https://whc.unesco.org/en/tentativelists/5864/"}], "reviewed": "2026-11-13"}, {"country": "GRC", "summary": "Mit Albanien: historisch-geografischer Epirus-Raum; mit Albanien und Nordmazedonien: Prespa. Die Ägäis verbindet griechische und türkische Küsten und Inselräume.", "type": "Land- und Seenregionen sowie maritimer Raum", "sources": [{"title": "Getty Research · historisch-geografischer Epirus-Raum", "url": "https://www.getty.edu/vow/TGNFullDisplay?english=Y&find=bern&nation=switzerland&place=&subjectid=7030329"}, {"title": "UNESCO · grenzüberschreitender Prespa-Raum", "url": "https://whc.unesco.org/en/tentativelists/5864/"}, {"title": "EBSCO · Ägäis zwischen Griechenland und Türkei", "url": "https://www.ebsco.com/research-starters/geography-and-cartography/aegean-sea"}], "reviewed": "2026-11-13"}, {"country": "TUR", "summary": "Die Ägäis verbindet mit Griechenland. Südosttürkische Zubereitungen, etwa um Gaziantep, stehen außerdem mit levantinischen Rezeptfamilien in Beziehung. Daraus folgt keine pauschale Zuordnung der ganzen Türkei zur Levante.", "type": "Maritimer Raum und konkret benannte kulinarische Beziehungen", "sources": [{"title": "EBSCO · Ägäis zwischen Griechenland und Türkei", "url": "https://www.ebsco.com/research-starters/geography-and-cartography/aegean-sea"}, {"title": "Hintergrund · levantinische Küchen", "url": "https://en.wikipedia.org/wiki/Levantine_cuisine"}], "reviewed": "2026-11-13"}, {"country": "CYP", "summary": "Die Inselküche verbindet griechische und nahöstliche Einflüsse. Hier wird daraus keine gemeinsame Landregion mit einem Nachbarstaat und keine automatische Übernahme dessen Produktliste abgeleitet.", "type": "Inselküche mit mehreren kulturellen Bezügen", "sources": [{"title": "Visit Cyprus · griechische und nahöstliche Kücheneinflüsse", "url": "https://www.visitcyprus.com/discover-cyprus/gastronomy/"}], "reviewed": "2026-11-13"}, {"country": "MLT", "summary": "Sizilianische und nordafrikanische Kücheneinflüsse sind dokumentiert. Malta liegt im zentralen Mittelmeerraum; eine maritime Nachbarschaft ist keine gemeinsame Landregion mit Italien oder Tunesien.", "type": "Inselküche und maritimer Verbindungsraum", "sources": [{"title": "Malta Tourism Authority · sizilianische und nordafrikanische Einflüsse", "url": "https://www.visitmalta.com/en/delicacies/"}, {"title": "UNEP/MAP · Kanal von Sizilien und tunesisches Plateau", "url": "https://rac-spa.org/nfp12/documents/information/wg.408_inf22_eng.pdf"}], "reviewed": "2026-11-13"}, {"country": "MAR", "summary": "Mit Algerien und weiteren Ländern wird der Maghreb als Großraum geteilt. Die Straße von Gibraltar verbindet zur spanischen Küste; diese maritime Lage macht regionale Rezepturen nicht identisch.", "type": "Kulinarischer Großraum und maritime Nachbarschaft", "sources": [{"title": "Hintergrund · Maghreb als gemeinsamer Großraum", "url": "https://en.wikipedia.org/wiki/Maghreb"}, {"title": "Hintergrund · Mittelmeerraum und Teilbecken", "url": "https://en.wikipedia.org/wiki/Mediterranean_Sea"}], "reviewed": "2026-11-13"}, {"country": "DZA", "summary": "Algerien gehört zum Maghreb. Das Medjerda-Einzugsgebiet reicht von Algerien nach Tunesien. Der geografische Bezug ist getrennt von der konkreten Rezeptur zu behandeln.", "type": "Großraum und grenzüberschreitendes Flussgebiet", "sources": [{"title": "Hintergrund · Maghreb als gemeinsamer Großraum", "url": "https://en.wikipedia.org/wiki/Maghreb"}, {"title": "Hintergrund · Medjerda zwischen Algerien und Tunesien", "url": "https://en.wikipedia.org/wiki/Medjerda_River"}], "reviewed": "2026-11-13"}, {"country": "TUN", "summary": "Mit Algerien: Medjerda-Gebiet; mit Libyen: Djeffara-Ebene. Der Kanal von Sizilien verbindet zur italienischen Küste. Die tunesische Harissa-Tradition bleibt ausdrücklich eine eigene Zuordnung.", "type": "Flussgebiet, Küstenebene und maritimer Raum", "sources": [{"title": "Hintergrund · Medjerda zwischen Algerien und Tunesien", "url": "https://en.wikipedia.org/wiki/Medjerda_River"}, {"title": "Académie des sciences · Djeffara-Ebene in Tunesien und Libyen", "url": "https://comptes-rendus.academie-sciences.fr/geoscience/articles/10.5802/crgeos.74/"}, {"title": "UNEP/MAP · Kanal von Sizilien und tunesisches Plateau", "url": "https://rac-spa.org/nfp12/documents/information/wg.408_inf22_eng.pdf"}], "reviewed": "2026-11-13"}, {"country": "LBY", "summary": "Die Djeffara-Ebene liegt in Libyen und Tunesien. Libyens östliche Nachbarschaft zu Ägypten wird hier nicht als Beleg für eine einzige gemeinsame kulinarische Regionalidentität verwendet.", "type": "Belegter grenzüberschreitender Naturraum; weitere Küstennachbarschaft", "sources": [{"title": "Académie des sciences · Djeffara-Ebene in Tunesien und Libyen", "url": "https://comptes-rendus.academie-sciences.fr/geoscience/articles/10.5802/crgeos.74/"}, {"title": "Hintergrund · Mittelmeerraum und Teilbecken", "url": "https://en.wikipedia.org/wiki/Mediterranean_Sea"}], "reviewed": "2026-11-13"}, {"country": "EGY", "summary": "Ägyptens Mittelmeerküste verbindet zum südlichen und östlichen Mittelmeerraum. Küstennachbarschaft mit Libyen und Verbindungen in den Nahen Osten begründen keine automatische Gleichsetzung der jeweiligen Küchen.", "type": "Küsten- und Kulturkontakte, kein pauschal einheitliches Grenzgebiet", "sources": [{"title": "Hintergrund · Mittelmeerraum und Teilbecken", "url": "https://en.wikipedia.org/wiki/Mediterranean_Sea"}], "reviewed": "2026-11-13"}, {"country": "LBN", "summary": "Libanon gehört zu den hier erfassten levantinischen Küchen. Es bestehen geteilte Rezeptfamilien mit benachbarten Küchen; lokale Varianten bleiben getrennt.", "type": "Gemeinsamer kulinarischer Großraum", "sources": [{"title": "Hintergrund · levantinische Küchen", "url": "https://en.wikipedia.org/wiki/Levantine_cuisine"}], "reviewed": "2026-11-13"}, {"country": "SYR", "summary": "Syrien ist Teil der Levante. Aleppo und Gaziantep bieten konkret benennbare Bezüge über die syrisch-türkische Grenze; nicht jede syrische Spezialität ist dadurch automatisch in der gesamten Türkei üblich.", "type": "Kulinarischer Großraum und konkrete regionale Bezüge", "sources": [{"title": "Hintergrund · levantinische Küchen", "url": "https://en.wikipedia.org/wiki/Levantine_cuisine"}], "reviewed": "2026-11-13"}, {"country": "ISR", "summary": "Israel wird mit weiteren levantinischen Küchen in Verbindung gezeigt. Gemeinsame Spezialitäten sind nicht exklusiv einer Nationalküche zuzuschreiben; konkrete Varianten und Warenherkunft bleiben einzeln zu prüfen.", "type": "Gemeinsamer kulinarischer Großraum", "sources": [{"title": "Hintergrund · levantinische Küchen", "url": "https://en.wikipedia.org/wiki/Levantine_cuisine"}], "reviewed": "2026-11-13"}, {"country": "PSE", "summary": "Palästinensische Küchen stehen in einem levantinischen Zusammenhang mit benachbarten Küchen. Geteilte Zutaten oder Rezeptnamen sind kein Nachweis identischer Rezeptur oder einer bestimmten Lieferherkunft.", "type": "Gemeinsamer kulinarischer Großraum", "sources": [{"title": "Hintergrund · levantinische Küchen", "url": "https://en.wikipedia.org/wiki/Levantine_cuisine"}], "reviewed": "2026-11-13"}, {"country": "JOR", "summary": "Jordanien ist ein kulinarisches Hinterland der Levante und kein Mittelmeer-Küstenstaat. Seine Bezüge zu benachbarten Küchen werden als Kultur- und Rezeptverbindungen dargestellt.", "type": "Kulinarischer Hinterlandraum", "sources": [{"title": "Hintergrund · levantinische Küchen", "url": "https://en.wikipedia.org/wiki/Levantine_cuisine"}], "reviewed": "2026-11-13"}]};
+window.MEDITERRANEAN = {
+  "regions": [
+    {
+      "id": "ESP",
+      "name": "Spanien",
+      "subtitle": "Iberische Küste & Balearen",
+      "level": "country"
+    },
+    {
+      "id": "PRT",
+      "name": "Portugal",
+      "subtitle": "Atlantikküste · mediterrane Esskultur",
+      "level": "country"
+    },
+    {
+      "id": "FRA",
+      "name": "Frankreich",
+      "subtitle": "Unter anderem Provence & Korsika",
+      "level": "country"
+    },
+    {
+      "id": "ITA",
+      "name": "Italien",
+      "subtitle": "Ligurien, Toskana, Süditalien & Sizilien",
+      "level": "country"
+    },
+    {
+      "id": "SVN",
+      "name": "Slowenien",
+      "subtitle": "Istrien & Adria",
+      "level": "country"
+    },
+    {
+      "id": "HRV",
+      "name": "Kroatien",
+      "subtitle": "Istrien & Dalmatien",
+      "level": "country"
+    },
+    {
+      "id": "BIH",
+      "name": "Bosnien und Herzegowina",
+      "subtitle": "Balkan & kleine Adriaküste",
+      "level": "country"
+    },
+    {
+      "id": "MNE",
+      "name": "Montenegro",
+      "subtitle": "Adria & Balkan",
+      "level": "country"
+    },
+    {
+      "id": "ALB",
+      "name": "Albanien",
+      "subtitle": "Adria & Ionisches Meer",
+      "level": "country"
+    },
+    {
+      "id": "SRB",
+      "name": "Serbien",
+      "subtitle": "Balkan im Hinterland",
+      "level": "country"
+    },
+    {
+      "id": "MKD",
+      "name": "Nordmazedonien",
+      "subtitle": "Balkan im Hinterland",
+      "level": "country"
+    },
+    {
+      "id": "GRC",
+      "name": "Griechenland",
+      "subtitle": "Festland & Inseln",
+      "level": "country"
+    },
+    {
+      "id": "TUR",
+      "name": "Türkei",
+      "subtitle": "Ägäis, Mittelmeerküste & Anatolien",
+      "level": "country"
+    },
+    {
+      "id": "CYP",
+      "name": "Zypern",
+      "subtitle": "Östliches Mittelmeer",
+      "level": "country"
+    },
+    {
+      "id": "MLT",
+      "name": "Malta",
+      "subtitle": "Zentrales Mittelmeer",
+      "level": "country"
+    },
+    {
+      "id": "MAR",
+      "name": "Marokko",
+      "subtitle": "Maghreb",
+      "level": "country"
+    },
+    {
+      "id": "DZA",
+      "name": "Algerien",
+      "subtitle": "Maghreb",
+      "level": "country"
+    },
+    {
+      "id": "TUN",
+      "name": "Tunesien",
+      "subtitle": "Maghreb",
+      "level": "country"
+    },
+    {
+      "id": "LBY",
+      "name": "Libyen",
+      "subtitle": "Nordafrika",
+      "level": "country"
+    },
+    {
+      "id": "EGY",
+      "name": "Ägypten",
+      "subtitle": "Südöstliches Mittelmeer",
+      "level": "country"
+    },
+    {
+      "id": "LBN",
+      "name": "Libanon",
+      "subtitle": "Levante",
+      "level": "country"
+    },
+    {
+      "id": "SYR",
+      "name": "Syrien",
+      "subtitle": "Levante & Aleppo",
+      "level": "country"
+    },
+    {
+      "id": "ISR",
+      "name": "Israel",
+      "subtitle": "Östliches Mittelmeer",
+      "level": "country"
+    },
+    {
+      "id": "PSE",
+      "name": "Palästina",
+      "subtitle": "Levante",
+      "level": "country"
+    },
+    {
+      "id": "JOR",
+      "name": "Jordanien",
+      "subtitle": "Levantinisches Hinterland",
+      "level": "country"
+    },
+    {
+      "id": "ES-CT",
+      "name": "Katalonien",
+      "parent": "ESP",
+      "subtitle": "Barcelona & Tarragona",
+      "lon": 1.7,
+      "lat": 41.4,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Tarragona Turisme · Romesco",
+          "url": "https://www.tarragonaturisme.cat/en/cuisine"
+        }
+      ]
+    },
+    {
+      "id": "ES-AN",
+      "name": "Andalusien",
+      "parent": "ESP",
+      "subtitle": "Südspanien",
+      "lon": -4.5,
+      "lat": 37.4,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Turismo Andalucía · Olivenöl",
+          "url": "https://en.andalucia.org/activities-and-attractions/food-and-drink/savor-andalusia/oils/"
+        }
+      ]
+    },
+    {
+      "id": "ES-IB",
+      "name": "Balearen",
+      "parent": "ESP",
+      "subtitle": "Mallorca, Menorca, Ibiza & Formentera",
+      "lon": 2.7,
+      "lat": 39.6,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Tourismus Balearen · Salz und Fleur de Sel",
+          "url": "https://www.illesbalears.travel/index.php/en/ibiza/the-mallorca-ibiza-and-formentera-salt-mines"
+        }
+      ]
+    },
+    {
+      "id": "FR-COR",
+      "name": "Korsika",
+      "parent": "FRA",
+      "subtitle": "Insel im westlichen Mittelmeer",
+      "lon": 9.0,
+      "lat": 42.1,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Tourismus Korsika · Olivenöl",
+          "url": "https://www.visit-corsica.com/en/content/view/full/38779"
+        }
+      ]
+    },
+    {
+      "id": "FR-PRO",
+      "name": "Provence",
+      "parent": "FRA",
+      "subtitle": "Südfrankreich",
+      "lon": 5.6,
+      "lat": 43.8,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Vaucluse Tourisme · Olivenöl und Tapenade",
+          "url": "https://www.provenceguide.com/decouvrir/saveurs/produits-terroir/olive-huile/"
+        }
+      ]
+    },
+    {
+      "id": "IT-SAR",
+      "name": "Sardinien",
+      "parent": "ITA",
+      "subtitle": "Selargius & sardische Küchentraditionen",
+      "lon": 9.0,
+      "lat": 40.0,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Regione Sardegna · Gastronomie",
+          "url": "https://www.sardegnacultura.it/en/categories/tradizioni/gastronomia"
+        }
+      ]
+    },
+    {
+      "id": "IT-SIC",
+      "name": "Sizilien",
+      "parent": "ITA",
+      "subtitle": "Palermo, Trapani & Pantelleria",
+      "lon": 14.0,
+      "lat": 37.5,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Visit Sicily · Caponata",
+          "url": "https://www.visitsicily.info/en/ricetta/caponata/"
+        }
+      ]
+    },
+    {
+      "id": "PT-ALG",
+      "name": "Algarve",
+      "parent": "PRT",
+      "subtitle": "Südportugal",
+      "lon": -8.0,
+      "lat": 37.2,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Visit Portugal · Algarve-Küche",
+          "url": "https://www.visitportugal.com/en/destinos/algarve/73815"
+        }
+      ]
+    },
+    {
+      "id": "PT-ALE",
+      "name": "Alentejo",
+      "parent": "PRT",
+      "subtitle": "Südliches portugiesisches Binnenland",
+      "lon": -7.8,
+      "lat": 38.5,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Visit Portugal · Alentejo",
+          "url": "https://www.visitportugal.com/en/destinos/alentejo/73794"
+        }
+      ]
+    },
+    {
+      "id": "PT-TMO",
+      "name": "Trás-os-Montes",
+      "parent": "PRT",
+      "subtitle": "Nordostportugal",
+      "lon": -7.0,
+      "lat": 41.5,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Visit Portugal · Olivenölregionen",
+          "url": "https://www.visitportugal.com/en/content/olive-tourism"
+        }
+      ]
+    },
+    {
+      "id": "HR-IST",
+      "name": "Istrien",
+      "parent": "HRV",
+      "subtitle": "Hier: kroatischer Teil Istriens",
+      "lon": 13.9,
+      "lat": 45.1,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Tourismus Istrien · Olivenöl und Trüffel",
+          "url": "https://www.istra.hr/en/gourmet/gourmet-spots"
+        }
+      ]
+    },
+    {
+      "id": "GR-CRE",
+      "name": "Kreta",
+      "parent": "GRC",
+      "subtitle": "Griechische Insel",
+      "lon": 24.9,
+      "lat": 35.2,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Region Kreta · Zertifizierte Produkte",
+          "url": "https://www.incrediblecrete.gr/en/certified-companies/"
+        }
+      ]
+    },
+    {
+      "id": "TR-AEG",
+      "name": "Türkische Ägäis",
+      "parent": "TUR",
+      "subtitle": "Aydın, İzmir & Muğla",
+      "lon": 27.4,
+      "lat": 38.0,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "GoTürkiye · Ägäische Küche",
+          "url": "https://goturkiye.com/branding/press-releases/turkish-cuisine-week-highlights-the-aegean-flavours-in-2024"
+        }
+      ]
+    },
+    {
+      "id": "MT-GOZ",
+      "name": "Gozo",
+      "parent": "MLT",
+      "subtitle": "Insel des maltesischen Archipels",
+      "lon": 14.25,
+      "lat": 36.05,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Visit Gozo · Lokale Spezialitäten",
+          "url": "https://visitgozo.com/experience/local-delicacies/"
+        }
+      ]
+    },
+    {
+      "id": "CY-TIL",
+      "name": "Tylliria",
+      "parent": "CYP",
+      "subtitle": "Nordwesten Zyperns · Feigentradition",
+      "lon": 32.7,
+      "lat": 35.1,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Republik Zypern · Tylliria-Feigen",
+          "url": "https://publications.gov.cy/en/assets/user/publications/2022/2022_040/HTML/index.html"
+        }
+      ]
+    },
+    {
+      "id": "IT-LIG",
+      "name": "Ligurien",
+      "parent": "ITA",
+      "subtitle": "Taggiasca-Oliven & ligurische Küste",
+      "lon": 8.2,
+      "lat": 44.2,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Ligurien · Regionaler kulinarischer Hintergrund",
+          "url": "https://lamialiguria.it/en/experiences/adopt-a-taggiasca-cultivar-olive-tree/"
+        }
+      ]
+    },
+    {
+      "id": "IT-TOS",
+      "name": "Toskana",
+      "parent": "ITA",
+      "subtitle": "Olivenöl, Salbei & Trüffelküche",
+      "lon": 11,
+      "lat": 43.5,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Toskana · Regionaler kulinarischer Hintergrund",
+          "url": "https://www.visittuscany.com/en/ideas/2e7437ee-5119-11e7-87d1-c25849f3fc0c/"
+        }
+      ]
+    },
+    {
+      "id": "HR-DAL",
+      "name": "Dalmatien",
+      "parent": "HRV",
+      "subtitle": "Kroatische Adriaküste & Inselküchen",
+      "lon": 16.5,
+      "lat": 43.5,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Dalmatien · Regionaler kulinarischer Hintergrund",
+          "url": "https://croatia-hotspots.com/en/category/gastro-en/page/2/"
+        }
+      ]
+    },
+    {
+      "id": "IT-PIE",
+      "name": "Piemont · Alba/Langhe",
+      "parent": "ITA",
+      "subtitle": "Hinterland · haltbare Trüffelspezialitäten",
+      "lon": 7.95,
+      "lat": 44.7,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Hersteller in Alba/Piemont · konservierte Trüffelspezialitäten",
+          "url": "https://shop.tartuflanghe.com/en/collections/specialita-al-tartufo"
+        }
+      ]
+    },
+    {
+      "id": "IT-UMB",
+      "name": "Umbrien",
+      "parent": "ITA",
+      "subtitle": "Hinterland · Trüffel und aromatisierte Öle",
+      "lon": 12.5,
+      "lat": 43.0,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Umbriatourism · aromatisierte Öle des Frantoio Bartolini",
+          "url": "https://www.umbriatourism.it/en/dettaglio-offerta/-/dettaglio/frantoio-bartolini_9324_producer_en"
+        }
+      ]
+    },
+    {
+      "id": "ES-ARA",
+      "name": "Aragón · Teruel",
+      "parent": "ESP",
+      "subtitle": "Hinterland · schwarze Trüffel",
+      "lon": -0.9,
+      "lat": 40.35,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Turismo de Aragón · Trüffelkultur",
+          "url": "https://www.turismodearagon.com/en/aragon/gastronomia-aragonesa/"
+        }
+      ]
+    },
+    {
+      "id": "SI-IST",
+      "name": "Slowenisches Istrien",
+      "parent": "SVN",
+      "subtitle": "Koper, Izola, Piran & Hinterland",
+      "lon": 13.75,
+      "lat": 45.5,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Slovenian Tourist Board · Trüffel in slowenischem Istrien",
+          "url": "https://www.slovenia.info/en/press-centre/news-of-the-tourism-press-agency/10387-top-3-foodie-experiences-in-the-hinterland-of-portoroz-and-piran"
+        }
+      ]
+    },
+    {
+      "id": "IT-IST",
+      "name": "Muggia · italienisches Istrien",
+      "parent": "ITA",
+      "subtitle": "Istrischer Teil des Golfs von Triest",
+      "lon": 13.77,
+      "lat": 45.59,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "PromoTurismoFVG · Olivenöl aus Muggia",
+          "url": "https://www.turismofvg.it/en/food-and-wine/lenardon-bruno?LangSetCMS=en"
+        }
+      ]
+    },
+    {
+      "id": "BIH-BOS",
+      "name": "Bosnien",
+      "parent": "BIH",
+      "subtitle": "Unter anderem Podrinje, Majevica & Gradačac",
+      "lon": 18.0,
+      "lat": 44.3,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Regional Rural Development SWG · Pflaumenregionen und Verarbeitung in BiH",
+          "url": "https://seerural.org/wp-content/uploads/2023/01/State-of-the-art-of-the-fresh-fruit-and-vegetable-marketing-standards.pdf"
+        }
+      ]
+    },
+    {
+      "id": "BIH-HER",
+      "name": "Herzegowina",
+      "parent": "BIH",
+      "subtitle": "Südliches Binnenland · Čapljina & Ljubuški",
+      "lon": 17.7,
+      "lat": 43.2,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Lebensmittelsicherheitsbehörde BiH · Olivenöl der Herzegowina",
+          "url": "https://fsa.gov.ba/wp-content/uploads/2025/04/Product-specification-EXTRA-VIRGIN-OLIVE-OIL-OF-HERZEGOVINA.pdf"
+        }
+      ]
+    },
+    {
+      "id": "HR-NER",
+      "name": "Neretva-Tal · kroatischer Teil",
+      "parent": "HRV",
+      "subtitle": "Untere Neretva · Metković & Opuzen",
+      "lon": 17.58,
+      "lat": 43.02,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Kroatisches Landwirtschaftsministerium · Mandarinen-Anbaugebiete",
+          "url": "https://poljoprivreda.gov.hr/UserDocsImages/dokumenti/poljoprivreda/vo%C4%87arstvo/Program%20potpore%20za%20proizvo%C4%91a%C4%8De%20mandarina%20za%202019.%20godinu.pdf"
+        }
+      ]
+    },
+    {
+      "id": "BIH-NER",
+      "name": "Neretva-Tal · herzegowinischer Teil",
+      "parent": "BIH",
+      "subtitle": "Unter anderem Umgebung von Čapljina",
+      "lon": 17.72,
+      "lat": 43.12,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Fachartikel · Mandarinenanbau in der südlichen Herzegowina",
+          "url": "https://hrcak.srce.hr/en/clanak/406151"
+        }
+      ]
+    },
+    {
+      "id": "SY-ALE",
+      "name": "Aleppo",
+      "parent": "SYR",
+      "subtitle": "Kulinarischer Bezug von Muhammara",
+      "lon": 37.16,
+      "lat": 36.2,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Hintergrund · Muhammara und Aleppo",
+          "url": "https://en.wikipedia.org/wiki/Muhammara"
+        }
+      ]
+    },
+    {
+      "id": "TR-GAZ",
+      "name": "Gaziantep",
+      "parent": "TUR",
+      "subtitle": "Regionale Muhammara-Zubereitungen",
+      "lon": 37.38,
+      "lat": 37.06,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "GoTürkiye · Muhammara in Gaziantep",
+          "url": "https://goturkiye.com/branding/press-releases/traditional-turkish-breakfast-the-golden-meal-of-the-day"
+        }
+      ]
+    },
+    {
+      "id": "FR-ROU",
+      "name": "Roussillon · französischer katalanischer Raum",
+      "parent": "FRA",
+      "subtitle": "Regionaler Referenzpunkt · keine exakte flächige Abgrenzung",
+      "lon": 2.8,
+      "lat": 42.65,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Tourisme Pyrénées-Orientales · Route zwischen französischem und spanischem katalanischem Raum",
+          "url": "https://www.tourisme-pyreneesorientales.com/activites/circuit-vtt-haut-vallespir-raid-des-deux-catalognes-saint-laurent-de-cerdans-fr-5744061/"
+        }
+      ]
+    },
+    {
+      "id": "FR-RIV",
+      "name": "Französische Riviera · Raum Nizza",
+      "parent": "FRA",
+      "subtitle": "Regionaler Referenzpunkt · keine exakte flächige Abgrenzung",
+      "lon": 7.2,
+      "lat": 43.7,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "World Encyclopedia · Riviera in Frankreich und Italien",
+          "url": "https://www.encyclopedia.com/places/spain-portugal-italy-greece-and-balkans/italian-political-geography/riviera"
+        }
+      ]
+    },
+    {
+      "id": "PT-GUA",
+      "name": "Untere Guadiana · portugiesischer Teil",
+      "parent": "PRT",
+      "subtitle": "Regionaler Referenzpunkt · keine exakte flächige Abgrenzung",
+      "lon": -7.45,
+      "lat": 37.25,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Europäische Kommission · gemeinsames Guadiana-Einzugsgebiet",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52019SC0032"
+        }
+      ]
+    },
+    {
+      "id": "ES-GUA",
+      "name": "Untere Guadiana · spanischer Teil",
+      "parent": "ESP",
+      "subtitle": "Regionaler Referenzpunkt · keine exakte flächige Abgrenzung",
+      "lon": -7.35,
+      "lat": 37.3,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "Europäische Kommission · gemeinsames Guadiana-Einzugsgebiet",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52019SC0032"
+        }
+      ]
+    },
+    {
+      "id": "GR-AEG",
+      "name": "Griechische Ägäis",
+      "parent": "GRC",
+      "subtitle": "Regionaler Referenzpunkt · keine exakte flächige Abgrenzung",
+      "lon": 25.0,
+      "lat": 38.0,
+      "level": "subregion",
+      "sources": [
+        {
+          "title": "EBSCO · Ägäis zwischen Griechenland und Türkei",
+          "url": "https://www.ebsco.com/research-starters/geography-and-cartography/aegean-sea"
+        }
+      ]
+    },
+    {
+      "id": "HR-NIN",
+      "name": "Nin",
+      "parent": "HRV",
+      "lon": 15.18,
+      "lat": 44.24,
+      "level": "subregion",
+      "subtitle": "Salinenregion · Adria",
+      "sources": [
+        {
+          "title": "Solana Nin · Naturbelassenes Meersalz",
+          "url": "https://www.solananin.hr/en/webshop/unrefined-sea-salt/"
+        }
+      ]
+    },
+    {
+      "id": "HR-STON",
+      "name": "Ston",
+      "parent": "HRV",
+      "lon": 17.7,
+      "lat": 42.84,
+      "level": "subregion",
+      "subtitle": "Salinenregion · Adria",
+      "sources": [
+        {
+          "title": "Solana Ston · Meersalzgewinnung",
+          "url": "https://www.solanaston.hr/en/about-us-en/about-us"
+        }
+      ]
+    },
+    {
+      "id": "SI-PIR",
+      "name": "Piran / Sečovlje",
+      "parent": "SVN",
+      "lon": 13.61,
+      "lat": 45.48,
+      "level": "subregion",
+      "subtitle": "Salinenregion · Adria",
+      "sources": [
+        {
+          "title": "Slovenian Tourist Board · Unraffiniertes Piran-Salz",
+          "url": "https://www.slovenia.info/en/press-centre/news-of-the-tourism-press-agency/5554-best-from-slovenia"
+        }
+      ]
+    }
+  ],
+  "connections": {
+    "oil": {
+      "regions": [
+        "PRT",
+        "ESP",
+        "FRA",
+        "ITA",
+        "SVN",
+        "HRV",
+        "BIH",
+        "MNE",
+        "ALB",
+        "GRC",
+        "TUR",
+        "CYP",
+        "MLT",
+        "MAR",
+        "DZA",
+        "TUN",
+        "LBY",
+        "EGY",
+        "LBN",
+        "SYR",
+        "ISR",
+        "PSE",
+        "JOR",
+        "ES-CT",
+        "ES-AN",
+        "ES-IB",
+        "FR-COR",
+        "FR-PRO",
+        "IT-SAR",
+        "IT-SIC",
+        "PT-ALG",
+        "PT-ALE",
+        "PT-TMO",
+        "HR-IST",
+        "GR-CRE",
+        "TR-AEG",
+        "MT-GOZ",
+        "IT-LIG",
+        "IT-TOS",
+        "HR-DAL",
+        "BIH-HER",
+        "BIH-NER",
+        "SI-IST",
+        "IT-IST",
+        "FR-RIV",
+        "GR-AEG"
+      ],
+      "text": "Olivenöl ist in vielen mediterranen Küchen üblich und wird in zahlreichen Ländern und Regionen angebaut, hergestellt und verwendet. Dazu gehören ausdrücklich Portugal sowie Bosnien und Herzegowina mit der Herzegowina. Die Markierungen zeigen erfasste kulinarische beziehungsweise regionale Produktionsbezüge. Sie sind keine Herkunftsangabe für unser Entwurfsöl und keine genaue flächendeckende Anbaukarte.",
+      "source": "https://en.wikipedia.org/wiki/Olive_oil",
+      "kind": "Tradition & Verbreitung",
+      "relatedRegions": [],
+      "type": "shared",
+      "primaryLabel": "Als Zutat oder Spezialität verbreitet",
+      "sources": [
+        {
+          "title": "Visit Portugal · Olivenölregionen",
+          "url": "https://www.visitportugal.com/en/content/olive-tourism"
+        },
+        {
+          "title": "Visit Cyprus · Lokale Zutaten",
+          "url": "https://www.visitcyprus.com/discover-cyprus/food-drink/local-produce/"
+        },
+        {
+          "title": "Malta Tourism Authority · Spezialitäten",
+          "url": "https://www.visitmalta.com/en/delicacies/"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Olive_oil"
+        },
+        {
+          "title": "Tarragona Turisme · Romesco",
+          "url": "https://www.tarragonaturisme.cat/en/cuisine"
+        },
+        {
+          "title": "Turismo Andalucía · Olivenöl",
+          "url": "https://en.andalucia.org/activities-and-attractions/food-and-drink/savor-andalusia/oils/"
+        },
+        {
+          "title": "Tourismus Balearen · Salz und Fleur de Sel",
+          "url": "https://www.illesbalears.travel/index.php/en/ibiza/the-mallorca-ibiza-and-formentera-salt-mines"
+        },
+        {
+          "title": "Tourismus Korsika · Olivenöl",
+          "url": "https://www.visit-corsica.com/en/content/view/full/38779"
+        },
+        {
+          "title": "Vaucluse Tourisme · Olivenöl und Tapenade",
+          "url": "https://www.provenceguide.com/decouvrir/saveurs/produits-terroir/olive-huile/"
+        },
+        {
+          "title": "Regione Sardegna · Gastronomie",
+          "url": "https://www.sardegnacultura.it/en/categories/tradizioni/gastronomia"
+        },
+        {
+          "title": "Visit Sicily · Caponata",
+          "url": "https://www.visitsicily.info/en/ricetta/caponata/"
+        },
+        {
+          "title": "Visit Portugal · Algarve-Küche",
+          "url": "https://www.visitportugal.com/en/destinos/algarve/73815"
+        },
+        {
+          "title": "Visit Portugal · Alentejo",
+          "url": "https://www.visitportugal.com/en/destinos/alentejo/73794"
+        },
+        {
+          "title": "Tourismus Istrien · Olivenöl und Trüffel",
+          "url": "https://www.istra.hr/en/gourmet/gourmet-spots"
+        },
+        {
+          "title": "Region Kreta · Zertifizierte Produkte",
+          "url": "https://www.incrediblecrete.gr/en/certified-companies/"
+        },
+        {
+          "title": "GoTürkiye · Ägäische Küche",
+          "url": "https://goturkiye.com/branding/press-releases/turkish-cuisine-week-highlights-the-aegean-flavours-in-2024"
+        },
+        {
+          "title": "Visit Gozo · Lokale Spezialitäten",
+          "url": "https://visitgozo.com/experience/local-delicacies/"
+        },
+        {
+          "title": "Ligurien · Regionaler kulinarischer Hintergrund",
+          "url": "https://lamialiguria.it/en/experiences/adopt-a-taggiasca-cultivar-olive-tree/"
+        },
+        {
+          "title": "Toskana · Regionaler kulinarischer Hintergrund",
+          "url": "https://www.visittuscany.com/en/ideas/2e7437ee-5119-11e7-87d1-c25849f3fc0c/"
+        },
+        {
+          "title": "Dalmatien · Regionaler kulinarischer Hintergrund",
+          "url": "https://croatia-hotspots.com/en/category/gastro-en/page/2/"
+        },
+        {
+          "title": "Lebensmittelsicherheitsbehörde BiH · Olivenöl der Herzegowina",
+          "url": "https://fsa.gov.ba/wp-content/uploads/2025/04/Product-specification-EXTRA-VIRGIN-OLIVE-OIL-OF-HERZEGOVINA.pdf"
+        },
+        {
+          "title": "Slovenian Tourist Board · Olivenöl aus slowenischem Istrien",
+          "url": "https://www.slovenia.info/en/stories/learn-about-the-story-of-slovenian-olive-oil"
+        },
+        {
+          "title": "PromoTurismoFVG · Olivenöl aus Muggia",
+          "url": "https://www.turismofvg.it/en/food-and-wine/lenardon-bruno?LangSetCMS=en"
+        },
+        {
+          "title": "Internationaler Olivenrat · Olivenölproduktion in mehreren Ländern",
+          "url": "https://www.internationaloliveoil.org/wp-content/uploads/2019/12/NEWSLETTER_NOVEMBER-2015_ENGLISH.pdf"
+        },
+        {
+          "title": "Office de Tourisme Nice · Olivenöl und regionale Verarbeitung",
+          "url": "https://www.explorenicecotedazur.com/en/producer/moulin-a-huile-nicolas-alziari/"
+        },
+        {
+          "title": "Visit Greece · ägäische Küche mit Olivenöl, Oregano und Kapern",
+          "url": "https://www.visitgreece.gr/en/experiences/gastronomy/traditional-cuisine/aegean-cuisine"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "truffle": {
+      "regions": [
+        "HR-IST",
+        "IT-PIE",
+        "IT-UMB",
+        "FR-PRO"
+      ],
+      "text": "Haltbare Trüffelöle sind unter anderem im kroatischen Istrien, im Piemont, in Umbrien und in der Provence anhand konkreter regionaler Angebote dokumentiert. Istrien ist ein wichtiger kroatischer Trüffelschwerpunkt, besonders um Motovun, Buzet und Livade. Trüffel kommen auch in anderen Gebieten vor. Die Karte zeigt die regionale Produktfamilie, nicht die nachgewiesene Rohstoff- oder Herstellungsherkunft dieses Entwurfsprodukts.",
+      "source": "https://en.wikipedia.org/wiki/Truffle",
+      "kind": "Regional belegte Feinkost-Produktfamilie",
+      "relatedRegions": [
+        {
+          "id": "ES-ARA",
+          "title": "Trüffelgebiet Aragón/Teruel",
+          "note": "Belegter Bezug zum Rohstoff Trüffel. Daraus wird keine traditionelle Herkunft genau unserer Öl- oder Salzmischung abgeleitet.",
+          "sources": [
+            {
+              "title": "Turismo de Aragón · Trüffelkultur",
+              "url": "https://www.turismodearagon.com/en/aragon/gastronomia-aragonesa/"
+            }
+          ]
+        },
+        {
+          "id": "SI-IST",
+          "title": "Trüffelgebiet slowenisches Istrien",
+          "note": "Trüffelkultur ist hier belegt; das allein bestätigt weder die genaue Rezeptur noch die Herkunft unseres Entwurfsprodukts.",
+          "sources": [
+            {
+              "title": "Slovenian Tourist Board · Trüffel in slowenischem Istrien",
+              "url": "https://www.slovenia.info/en/press-centre/news-of-the-tourism-press-agency/10387-top-3-foodie-experiences-in-the-hinterland-of-portoroz-and-piran"
+            }
+          ]
+        },
+        {
+          "id": "IT-TOS",
+          "title": "Trüffelküche der Toskana",
+          "note": "Belegter regionaler Rohstoff- und Küchenbezug; genaue Produktrezepturen können abweichen.",
+          "sources": [
+            {
+              "title": "Visit Tuscany · Trüffelküche",
+              "url": "https://www.visittuscany.com/en/ideas/truffles-in-tuscany-quick-guide/"
+            }
+          ]
+        }
+      ],
+      "type": "regional-product-family",
+      "primaryLabel": "Belegte regionale Trüffelzubereitungen",
+      "sources": [
+        {
+          "title": "Tourismus Istrien · Trüffelküche und Produkte",
+          "url": "https://www.istra.hr/en/gourmet/gourmet-spots"
+        },
+        {
+          "title": "Istrischer Hersteller · Öl mit echten Trüffelstücken",
+          "url": "https://zigantetartufi.com/products/black-truffle-extra-virgin-olive-oil-with-truffle-pieces"
+        },
+        {
+          "title": "Hersteller in Alba/Piemont · konservierte Trüffelspezialitäten",
+          "url": "https://shop.tartuflanghe.com/en/collections/specialita-al-tartufo"
+        },
+        {
+          "title": "Umbriatourism · aromatisierte Öle des Frantoio Bartolini",
+          "url": "https://www.umbriatourism.it/en/dettaglio-offerta/-/dettaglio/frantoio-bartolini_9324_producer_en"
+        },
+        {
+          "title": "Vaucluse Tourisme · Trüffelöl auf regionalen Märkten",
+          "url": "https://press.provenceguide.com/centuries-old-truffle-markets-in-vaucluse/"
+        }
+      ],
+      "relatedLabel": "Weitere Trüffelgebiete · Rohstoffbezug",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "lemonoil": {
+      "regions": [],
+      "text": "Zitrone, Basilikum und Olivenöl sind mediterrane Zutaten. Für ihre konkrete Kombination in diesem Entwurfsöl ist keine einzelne traditionelle Heimat belegt. Aromatisierte Öle gibt es heute in unterschiedlichen Regionen.",
+      "source": "https://en.wikipedia.org/wiki/Mediterranean_cuisine",
+      "kind": "Moderne Sortimentidee",
+      "relatedRegions": [],
+      "type": "modern",
+      "primaryLabel": "Keine feste traditionelle Heimat",
+      "sources": [
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Mediterranean_cuisine"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "chilioil": {
+      "regions": [],
+      "text": "Dieses Chili-Knoblauch-Olivenöl ist eine moderne Rezeptidee. Aus der Verwendung von Chili und Knoblauch lässt sich keine traditionelle Heimat genau dieser Ölmischung ableiten.",
+      "source": "https://en.wikipedia.org/wiki/Chili_oil",
+      "kind": "Moderne Sortimentidee",
+      "relatedRegions": [],
+      "type": "modern",
+      "primaryLabel": "Keine feste traditionelle Heimat",
+      "sources": [
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Chili_oil"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "fleur": {
+      "regions": [
+        "FRA",
+        "PRT",
+        "ESP",
+        "SVN",
+        "HRV",
+        "ES-IB",
+        "PT-ALG"
+      ],
+      "text": "Fleur de Sel beziehungsweise Flor de Sal ist nicht auf Frankreich beschränkt. Dokumentierte Traditionen gibt es unter anderem in Portugal, auf den Balearen und in Piran. Salzblumen unterscheiden sich je nach Saline; die französische Bezeichnung allein belegt keine französische Herkunft.",
+      "source": "https://en.wikipedia.org/wiki/Fleur_de_sel",
+      "kind": "Tradition & Verbreitung",
+      "relatedRegions": [],
+      "type": "shared",
+      "primaryLabel": "Als Zutat oder Spezialität verbreitet",
+      "sources": [
+        {
+          "title": "Visit Portugal · Algarve-Küche",
+          "url": "https://www.visitportugal.com/en/destinos/algarve/73815"
+        },
+        {
+          "title": "Slovenian Tourist Board · Piran-Salinen",
+          "url": "https://www.slovenia.info/en/places-to-go/attractions/piran-and-salt-pans"
+        },
+        {
+          "title": "Tourismus Balearen · Salz und Fleur de Sel",
+          "url": "https://www.illesbalears.travel/index.php/en/ibiza/the-mallorca-ibiza-and-formentera-salt-mines"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Fleur_de_sel"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "sea": {
+      "regions": [
+        "ESP",
+        "FRA",
+        "ITA",
+        "SVN",
+        "HRV",
+        "BIH",
+        "MNE",
+        "ALB",
+        "GRC",
+        "TUR",
+        "CYP",
+        "MLT",
+        "MAR",
+        "DZA",
+        "TUN",
+        "LBY",
+        "EGY",
+        "LBN",
+        "SYR",
+        "ISR",
+        "PSE",
+        "PRT",
+        "ES-IB",
+        "IT-SAR",
+        "IT-SIC",
+        "PT-ALG",
+        "MT-GOZ",
+        "HR-NIN",
+        "HR-STON",
+        "SI-PIR"
+      ],
+      "text": "Meersalz gehört zu vielen Küchen des Mittelmeerraums und Portugals. Belegte Gewinnungsregionen sind unter anderem Algarve, Balearen, Sizilien, Sardinien, Gozo sowie Piran/Sečovlje, Nin und Ston an der Adria. Für Nin und Piran sind auch unraffinierte Salze dokumentiert. Ob ein konkretes Salz naturbelassen, unraffiniert oder ohne Zusätze ist, wird anhand seiner Produktspezifikation geprüft. Die Länderbezüge zeigen kulinarische Verwendung; die einzeln erfassten Salinenregionen Beispiele der Gewinnung. Beides ist keine bestätigte Lieferherkunft unseres Produkts.",
+      "source": "https://en.wikipedia.org/wiki/Sea_salt",
+      "kind": "Tradition & Verbreitung",
+      "relatedRegions": [],
+      "type": "shared",
+      "primaryLabel": "Kulinarische Verwendung & belegte Salzregionen",
+      "sources": [
+        {
+          "title": "Visit Portugal · Algarve-Küche",
+          "url": "https://www.visitportugal.com/en/destinos/algarve/73815"
+        },
+        {
+          "title": "Slovenian Tourist Board · Piran-Salinen",
+          "url": "https://www.slovenia.info/en/places-to-go/attractions/piran-and-salt-pans"
+        },
+        {
+          "title": "Tourismus Balearen · Salz und Fleur de Sel",
+          "url": "https://www.illesbalears.travel/index.php/en/ibiza/the-mallorca-ibiza-and-formentera-salt-mines"
+        },
+        {
+          "title": "Visit Gozo · Salztradition",
+          "url": "https://visitgozo.com/2025/10/27/gozos-saltpans-tradition-nature-timeless-beauty/"
+        },
+        {
+          "title": "Slow Food · Selargius und sardisches Salz",
+          "url": "https://www.fondazioneslowfood.com/it/presidi-slow-food/cappero-di-selargius/"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Sea_salt"
+        },
+        {
+          "title": "Regione Sardegna · Gastronomie",
+          "url": "https://www.sardegnacultura.it/en/categories/tradizioni/gastronomia"
+        },
+        {
+          "title": "Visit Gozo · Lokale Spezialitäten",
+          "url": "https://visitgozo.com/experience/local-delicacies/"
+        },
+        {
+          "title": "Solana Nin · Naturbelassenes Meersalz",
+          "url": "https://www.solananin.hr/en/webshop/unrefined-sea-salt/"
+        },
+        {
+          "title": "Solana Ston · Meersalzgewinnung",
+          "url": "https://www.solanaston.hr/en/about-us-en/about-us"
+        },
+        {
+          "title": "Slovenian Tourist Board · Unraffiniertes Piran-Salz",
+          "url": "https://www.slovenia.info/en/press-centre/news-of-the-tourism-press-agency/5554-best-from-slovenia"
+        },
+        {
+          "title": "Visit Sicily · Trapani und Salinen",
+          "url": "https://www.visitsicily.info/en/localita/trapani/"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "trufflesalt": {
+      "regions": [
+        "HR-IST",
+        "IT-PIE"
+      ],
+      "text": "Haltbare Trüffelsalze sind anhand konkreter Herstellerangebote im kroatischen Istrien und im Piemont dokumentiert. Salzart, Trüffelart und Rezeptur unterscheiden sich; nicht jedes belegte Trüffelsalz ist Fleur de Sel. Istrien ist ein wichtiger kroatischer Trüffelschwerpunkt, besonders um Motovun, Buzet und Livade. Trüffel kommen auch in anderen Gebieten vor. Die Karte zeigt die regionale Produktfamilie, nicht die nachgewiesene Rohstoff- oder Herstellungsherkunft dieses Entwurfsprodukts.",
+      "source": "https://en.wikipedia.org/wiki/Truffle",
+      "kind": "Regional belegte Feinkost-Produktfamilie",
+      "relatedRegions": [
+        {
+          "id": "ES-ARA",
+          "title": "Trüffelgebiet Aragón/Teruel",
+          "note": "Belegter Bezug zum Rohstoff Trüffel. Daraus wird keine traditionelle Herkunft genau unserer Öl- oder Salzmischung abgeleitet.",
+          "sources": [
+            {
+              "title": "Turismo de Aragón · Trüffelkultur",
+              "url": "https://www.turismodearagon.com/en/aragon/gastronomia-aragonesa/"
+            }
+          ]
+        },
+        {
+          "id": "SI-IST",
+          "title": "Trüffelgebiet slowenisches Istrien",
+          "note": "Trüffelkultur ist hier belegt; das allein bestätigt weder die genaue Rezeptur noch die Herkunft unseres Entwurfsprodukts.",
+          "sources": [
+            {
+              "title": "Slovenian Tourist Board · Trüffel in slowenischem Istrien",
+              "url": "https://www.slovenia.info/en/press-centre/news-of-the-tourism-press-agency/10387-top-3-foodie-experiences-in-the-hinterland-of-portoroz-and-piran"
+            }
+          ]
+        },
+        {
+          "id": "IT-TOS",
+          "title": "Trüffelküche der Toskana",
+          "note": "Belegter regionaler Rohstoff- und Küchenbezug; genaue Produktrezepturen können abweichen.",
+          "sources": [
+            {
+              "title": "Visit Tuscany · Trüffelküche",
+              "url": "https://www.visittuscany.com/en/ideas/truffles-in-tuscany-quick-guide/"
+            }
+          ]
+        }
+      ],
+      "type": "regional-product-family",
+      "primaryLabel": "Belegte regionale Trüffelzubereitungen",
+      "sources": [
+        {
+          "title": "Tourismus Istrien · Trüffelküche und Produkte",
+          "url": "https://www.istra.hr/en/gourmet/gourmet-spots"
+        },
+        {
+          "title": "Istrischer Hersteller · Trüffelsalz",
+          "url": "https://zigantetartufi.com/products/sea-salt-black-truffle-zigante"
+        },
+        {
+          "title": "Hersteller in Alba/Piemont · Trüffelsalz und Zutatenherkunft",
+          "url": "https://shop.tartuflanghe.com/en/products/condimento-a-base-di-sale-con-tartufo-bianco-small"
+        }
+      ],
+      "relatedLabel": "Weitere Trüffelgebiete · Rohstoffbezug",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "herbsalt": {
+      "regions": [],
+      "text": "Dieses Kräutersalz ist eine moderne Mischung ohne festgelegte regionale Rezeptur. Die Verbreitung der einzelnen Kräuter ist nicht mit der Heimat der Mischung gleichzusetzen.",
+      "source": "https://en.wikipedia.org/wiki/Mediterranean_cuisine",
+      "kind": "Moderne Sortimentidee",
+      "relatedRegions": [],
+      "type": "modern",
+      "primaryLabel": "Keine feste traditionelle Heimat",
+      "sources": [
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Mediterranean_cuisine"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "black": {
+      "regions": [
+        "ESP"
+      ],
+      "text": "Schwarzer Knoblauch ist keine ursprünglich mediterrane Spezialität. Er wird mit ostasiatischen Verarbeitungstraditionen verbunden; heute ist seine Herstellung beispielsweise in Spanien dokumentiert. Das ist ein heutiger Produktionsbezug, keine traditionelle spanische Herkunft.",
+      "source": "https://en.wikipedia.org/wiki/Black_garlic",
+      "kind": "Heutige Verarbeitung",
+      "relatedRegions": [],
+      "type": "contemporary",
+      "primaryLabel": "Heutige Herstellung · keine ursprüngliche Heimat",
+      "sources": [
+        {
+          "title": "Spanischer Hersteller · Schwarzer Knoblauch",
+          "url": "https://www.alimentacion-naturfood.com/en/empresa"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Black_garlic"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Geeignet verpackter schwarzer Knoblauch; Lagerbedingungen und MHD nach Lieferantenspezifikation",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "fig": {
+      "regions": [
+        "TUR",
+        "GRC",
+        "HRV",
+        "ITA",
+        "ESP",
+        "MAR",
+        "TUN",
+        "ALB",
+        "DZA",
+        "LBN",
+        "PRT",
+        "CYP",
+        "FRA",
+        "PT-ALG",
+        "TR-AEG",
+        "CY-TIL",
+        "HR-DAL"
+      ],
+      "text": "Getrocknete Feigen gehören zu mehreren Küchentraditionen, ausdrücklich auch in Portugal und Zypern. In Portugal sind etwa Algarve, Douro und Torres Novas dokumentiert; in Zypern unter anderem Tylliria. Auch die Türkei, Griechenland, Dalmatien und weitere mediterrane Regionen haben eigene Feigenkulturen.",
+      "source": "https://en.wikipedia.org/wiki/Fig",
+      "kind": "Tradition & Verbreitung",
+      "relatedRegions": [],
+      "type": "shared",
+      "primaryLabel": "Als Zutat oder Spezialität verbreitet",
+      "sources": [
+        {
+          "title": "DGADR · Getrocknete Feigen der Algarve",
+          "url": "https://tradicional.dgadr.gov.pt/en/categories/fresh-fruit/1240-figos-do-algarve-en"
+        },
+        {
+          "title": "Cyprus Food Museum · Feigen und Konfitüre",
+          "url": "https://www.cyprusfoodmuseum.com/en/sylloges/trofima/syko-fig"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Fig"
+        },
+        {
+          "title": "Visit Portugal · Algarve-Küche",
+          "url": "https://www.visitportugal.com/en/destinos/algarve/73815"
+        },
+        {
+          "title": "GoTürkiye · Ägäische Küche",
+          "url": "https://goturkiye.com/branding/press-releases/turkish-cuisine-week-highlights-the-aegean-flavours-in-2024"
+        },
+        {
+          "title": "Republik Zypern · Tylliria-Feigen",
+          "url": "https://publications.gov.cy/en/assets/user/publications/2022/2022_040/HTML/index.html"
+        },
+        {
+          "title": "Dalmatien · Regionaler kulinarischer Hintergrund",
+          "url": "https://croatia-hotspots.com/en/category/gastro-en/page/2/"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Getrocknete Feigen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "ajvar": {
+      "regions": [
+        "SRB",
+        "MKD",
+        "BIH",
+        "HRV",
+        "MNE",
+        "ALB",
+        "SVN"
+      ],
+      "text": "Ajvar gehört zu mehreren Balkanküchen, besonders in Serbien und Nordmazedonien, und wird auch in Bosnien und Herzegowina, Kroatien und weiteren Nachbarländern gegessen. Er ist keine exklusive Spezialität eines einzelnen Landes.",
+      "source": "https://en.wikipedia.org/wiki/Ajvar",
+      "kind": "Tradition & Verbreitung",
+      "relatedRegions": [],
+      "type": "shared",
+      "primaryLabel": "Als Zutat oder Spezialität verbreitet",
+      "sources": [
+        {
+          "title": "Tourismus Serbien · Ajvar",
+          "url": "https://www.serbia.travel/sr-lat/pijace/"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Ajvar"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "capers": {
+      "regions": [
+        "ITA",
+        "ESP",
+        "GRC",
+        "HRV",
+        "TUR",
+        "MAR",
+        "CYP",
+        "MLT",
+        "IT-SAR",
+        "IT-SIC",
+        "MT-GOZ",
+        "GR-AEG"
+      ],
+      "text": "Echte Kapern sind die Knospen des Kapernstrauchs. Sie werden etwa in Sizilien, Sardinien, Malta, Zypern, Griechenland, Spanien, der Türkei und weiteren Mittelmeerregionen verwendet. Salz, Essig und Lake sind unterschiedliche Konservierungen. Die regionalen Beispiele belegen daher nicht jeweils genau unsere Salzlake-Rezeptur.",
+      "source": "https://en.wikipedia.org/wiki/Caper",
+      "kind": "Tradition & Verbreitung",
+      "relatedRegions": [],
+      "type": "shared",
+      "primaryLabel": "Als Zutat oder Spezialität verbreitet",
+      "sources": [
+        {
+          "title": "Visit Sicily · Olivenöl, Kapern und Salz",
+          "url": "https://www.visitsicily.info/en/localita/trapani/"
+        },
+        {
+          "title": "Regione Sardegna · Kapern von Selargius",
+          "url": "https://www.regione.sardegna.it/documenti/1_850_20190418164027.pdf"
+        },
+        {
+          "title": "Visit Gozo · Kapern und Konservierung",
+          "url": "https://visitgozo.com/2024/04/24/its-that-time-of-the-year-caper-time/"
+        },
+        {
+          "title": "Visit Cyprus · Kapern im Dorfsalat",
+          "url": "https://www.visitcyprus.com/discover-cyprus/food-drink/local-recipes/village-salad/"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Caper"
+        },
+        {
+          "title": "Regione Sardegna · Gastronomie",
+          "url": "https://www.sardegnacultura.it/en/categories/tradizioni/gastronomia"
+        },
+        {
+          "title": "Visit Sicily · Caponata",
+          "url": "https://www.visitsicily.info/en/ricetta/caponata/"
+        },
+        {
+          "title": "Visit Gozo · Lokale Spezialitäten",
+          "url": "https://visitgozo.com/experience/local-delicacies/"
+        },
+        {
+          "title": "Visit Greece · ägäische Küche mit Olivenöl, Oregano und Kapern",
+          "url": "https://www.visitgreece.gr/en/experiences/gastronomy/traditional-cuisine/aegean-cuisine"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "sage": {
+      "regions": [
+        "HRV",
+        "ALB",
+        "GRC",
+        "ITA",
+        "TUR",
+        "IT-TOS"
+      ],
+      "text": "Salbei ist besonders mit der dalmatinischen und adriatischen Küste verbunden, wächst und wird aber auch in Italien, Albanien, Griechenland und der Türkei verwendet. Eine Wildsammlung ist damit nicht nachgewiesen.",
+      "source": "https://en.wikipedia.org/wiki/Salvia_officinalis",
+      "kind": "Tradition & Verbreitung",
+      "relatedRegions": [],
+      "type": "shared",
+      "primaryLabel": "Als Zutat oder Spezialität verbreitet",
+      "sources": [
+        {
+          "title": "Tourismus Cres · Salbei",
+          "url": "https://visitcres.croatia.hr/en-gb/nature"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Salvia_officinalis"
+        },
+        {
+          "title": "Toskana · Regionaler kulinarischer Hintergrund",
+          "url": "https://www.visittuscany.com/en/ideas/2e7437ee-5119-11e7-87d1-c25849f3fc0c/"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Getrocknete Kräuter beziehungsweise trockene Gewürzmischung",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "oregano": {
+      "regions": [
+        "GRC",
+        "TUR",
+        "ALB",
+        "HRV",
+        "ITA",
+        "PRT",
+        "CYP",
+        "PT-ALG",
+        "PT-ALE",
+        "GR-CRE",
+        "GR-AEG"
+      ],
+      "text": "Oregano wird unter anderem in Portugal, Griechenland, Zypern, Italien, der Türkei und an der Adria verwendet. In Portugal ist er beispielsweise für die Küche des Alentejo und der Algarve dokumentiert. Regionale Pflanzenarten und Mischungen unterscheiden sich; eine Wildsammlung unseres Entwurfsprodukts ist nicht nachgewiesen.",
+      "source": "https://en.wikipedia.org/wiki/Oregano",
+      "kind": "Tradition & Verbreitung",
+      "relatedRegions": [],
+      "type": "shared",
+      "primaryLabel": "Als Zutat oder Spezialität verbreitet",
+      "sources": [
+        {
+          "title": "Visit Portugal · Alentejo",
+          "url": "https://www.visitportugal.com/en/destinos/alentejo/73794"
+        },
+        {
+          "title": "Visit Cyprus · Lokale Zutaten",
+          "url": "https://www.visitcyprus.com/discover-cyprus/food-drink/local-produce/"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Oregano"
+        },
+        {
+          "title": "Visit Portugal · Algarve-Küche",
+          "url": "https://www.visitportugal.com/en/destinos/algarve/73815"
+        },
+        {
+          "title": "Region Kreta · Zertifizierte Produkte",
+          "url": "https://www.incrediblecrete.gr/en/certified-companies/"
+        },
+        {
+          "title": "Visit Greece · ägäische Küche mit Olivenöl, Oregano und Kapern",
+          "url": "https://www.visitgreece.gr/en/experiences/gastronomy/traditional-cuisine/aegean-cuisine"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Getrocknete Kräuter beziehungsweise trockene Gewürzmischung",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "figjam": {
+      "regions": [
+        "HRV",
+        "ITA",
+        "FRA",
+        "ESP",
+        "GRC",
+        "TUR",
+        "MAR",
+        "PRT",
+        "CYP",
+        "FR-COR"
+      ],
+      "text": "Feigenkonfitüre ist keine exklusive Spezialität eines Landes. Beispiele finden sich in Portugal, auf Korsika, in Zypern und in weiteren mediterranen Küchen. Die jeweilige Fruchtsorte, Zuckermenge und Aromatisierung können unterschiedlich sein.",
+      "source": "https://en.wikipedia.org/wiki/Fig",
+      "kind": "Tradition & Verbreitung",
+      "relatedRegions": [],
+      "type": "shared",
+      "primaryLabel": "Als Zutat oder Spezialität verbreitet",
+      "sources": [
+        {
+          "title": "Visit Portugal · Feigenkonfitüre",
+          "url": "https://www.visitportugal.com/pt-pt/NR/exeres/B68B2717-C67D-42D8-8B0F-A6F70C593B0B"
+        },
+        {
+          "title": "Cyprus Food Museum · Feigen und Konfitüre",
+          "url": "https://www.cyprusfoodmuseum.com/en/sylloges/trofima/syko-fig"
+        },
+        {
+          "title": "Tourismus Korsika · Feigenkonfitüre",
+          "url": "https://www.visit-corsica.com/en/Explore-Corsica/Our-inspirations/Gourmet-inspirations/5-Corsican-specialities-to-rediscover-to-liberate-your-taste-buds"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Fig"
+        },
+        {
+          "title": "Tourismus Korsika · Olivenöl",
+          "url": "https://www.visit-corsica.com/en/content/view/full/38779"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "plum": {
+      "regions": [
+        "SRB",
+        "BIH",
+        "HRV",
+        "MKD",
+        "SVN",
+        "BIH-BOS"
+      ],
+      "text": "Dick eingekochte Pflaumenaufstriche sind in mehreren Balkan- und südosteuropäischen Küchen verbreitet. Bosnien hat eine dokumentierte Pflaumenanbau- und Verarbeitungstradition, unter anderem in Podrinje, Majevica, Gradačac und Zentralbosnien. Bosnische Bezeichnungen wie Bestilj und verschiedene Pekmez-Zubereitungen sind zu unterscheiden; Pekmez kann auch aus anderen Früchten bestehen. Das Entwurfsprodukt ist Pflaumenmus. Die Herkunft der später verwendeten Pflaumen muss separat belegt werden.",
+      "source": "https://en.wikipedia.org/wiki/Powidl",
+      "kind": "Tradition & Verbreitung",
+      "relatedRegions": [],
+      "type": "shared",
+      "primaryLabel": "Als Zutat oder Spezialität verbreitet",
+      "sources": [
+        {
+          "title": "Tourismus Serbien · Pflaumen-Pekmez",
+          "url": "https://www.serbia.travel/sr-lat/kraljevo/"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Powidl"
+        },
+        {
+          "title": "Regional Rural Development SWG · Pflaumenregionen und Verarbeitung in BiH",
+          "url": "https://seerural.org/wp-content/uploads/2023/01/State-of-the-art-of-the-fresh-fruit-and-vegetable-marketing-standards.pdf"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "figbread": {
+      "regions": [
+        "HRV"
+      ],
+      "text": "Dieses Feigenbrot ist ein dichtes Konfekt aus getrockneten Feigen und Walnüssen, kein frischer Kuchen. Es steht in einer mediterranen Familie gepresster Feigenzubereitungen, zu der auch dalmatinischer Hib gehört. Die Varianten unterscheiden sich bei Nüssen, Gewürzen und gegebenenfalls Alkohol. Portugiesischer Queijo de Figo mit Mandeln oder spanischer Pan de higo sind verwandt, aber keine identischen Rezepturen.",
+      "source": "https://en.wikipedia.org/wiki/Fig-cake_(fruit)",
+      "kind": "Feigen-Nuss-Rezeptfamilie",
+      "relatedRegions": [
+        {
+          "id": "ESP",
+          "title": "Pan de higo · verwandtes Feigenkonfekt",
+          "note": "Spanische Varianten verwenden häufig Mandeln. Nicht mit unserem Feigen-Walnuss-Entwurf gleichzusetzen.",
+          "sources": []
+        },
+        {
+          "id": "PRT",
+          "title": "Queijo de Figo · portugiesische Variante",
+          "note": "Das dokumentierte portugiesische Konfekt verwendet Feigen und Mandeln; es ist nicht dieselbe Feigen-Walnuss-Rezeptur.",
+          "sources": [
+            {
+              "title": "DGADR · Queijo de Figo mit Mandeln",
+              "url": "https://tradicional.dgadr.gov.pt/en/categories/desserts-and-pastry/1254-queijo-de-figo-en"
+            }
+          ]
+        },
+        {
+          "id": "CYP",
+          "title": "Sykopitta · zyprische Varianten",
+          "note": "Es gibt Varianten mit Mandeln sowie solche mit Walnüssen und weiteren Aromen; eine eigene regionale Rezeptfamilie.",
+          "sources": [
+            {
+              "title": "Cyprus Food Museum · Sykopitta",
+              "url": "https://www.cyprusfoodmuseum.com/en/sylloges/paradosiakes-syntages/sykopitta"
+            }
+          ]
+        }
+      ],
+      "type": "regional",
+      "primaryLabel": "Rezepturbezug · Feigen mit Walnüssen",
+      "sources": [
+        {
+          "title": "Hintergrund · Gepresste Trockenfeigen, kein Rührkuchen",
+          "url": "https://en.wikipedia.org/wiki/Fig-cake_(fruit)"
+        },
+        {
+          "title": "Regionaler Hintergrund · Dalmatinischer Hib",
+          "url": "https://www.frankaboutcroatia.com/fall-in-love-with-vis-croatia/"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Gepresstes Trockenfrucht-Konfekt",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "mustard": {
+      "regions": [],
+      "text": "Dieser Feigensenf ist ein moderner Feinkostentwurf ohne belegte traditionelle regionale Rezeptur. Französische Senfspezialitäten oder italienische Mostarda sind nicht automatisch dasselbe Produkt.",
+      "source": "https://en.wikipedia.org/wiki/Mostarda",
+      "kind": "Moderne Sortimentidee",
+      "relatedRegions": [],
+      "type": "modern",
+      "primaryLabel": "Keine feste traditionelle Heimat",
+      "sources": [
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Mostarda"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "tapenade": {
+      "regions": [
+        "FRA",
+        "FR-COR",
+        "FR-PRO",
+        "FR-RIV"
+      ],
+      "text": "Tapenade ist besonders mit der Provence verbunden und enthält klassisch Kapern, häufig auch Sardellen. Sie wird heute auch anderswo hergestellt, unter anderem auf Korsika. Der provenzalische Name ist dennoch nicht die Bezeichnung für jede portugiesische, griechische oder kroatische Olivenpaste.",
+      "source": "https://en.wikipedia.org/wiki/Tapenade",
+      "kind": "Tradition & Verbreitung",
+      "relatedRegions": [],
+      "type": "shared",
+      "primaryLabel": "Als Zutat oder Spezialität verbreitet",
+      "sources": [
+        {
+          "title": "Vaucluse Tourisme · Olivenöl und Tapenade",
+          "url": "https://www.provenceguide.com/decouvrir/saveurs/produits-terroir/olive-huile/"
+        },
+        {
+          "title": "Tourismus Korsika · Olivenpasten",
+          "url": "https://www.visit-corsica.com/en/Mon-sejour/Producteurs-et-degustation/Toutes-les-productions/MOULIN-DU-VALINCO"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Tapenade"
+        },
+        {
+          "title": "Tourismus Korsika · Olivenöl",
+          "url": "https://www.visit-corsica.com/en/content/view/full/38779"
+        },
+        {
+          "title": "Office de Tourisme Nice · Olivenpaste und Tapenade",
+          "url": "https://www.explorenicecotedazur.com/en/shop/boutique-alziari/"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "gift1": {
+      "regions": [],
+      "text": "Diese Geschenkbox ist eine moderne Zusammenstellung. Sie hat keine eigene traditionelle Heimat. Die enthaltenen Zutaten und Spezialitäten haben jeweils eigene kulinarische Verbindungen.",
+      "source": "https://en.wikipedia.org/wiki/Mediterranean_cuisine",
+      "kind": "Moderne Sortimentidee",
+      "relatedRegions": [],
+      "type": "modern",
+      "primaryLabel": "Keine feste traditionelle Heimat",
+      "sources": [
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Mediterranean_cuisine"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "gift2": {
+      "regions": [],
+      "text": "Diese Geschenkbox ist eine moderne Zusammenstellung. Sie hat keine eigene traditionelle Heimat. Eine Zuordnung zu allen Mittelmeerländern wäre irreführend.",
+      "source": "https://en.wikipedia.org/wiki/Mediterranean_cuisine",
+      "kind": "Moderne Sortimentidee",
+      "relatedRegions": [],
+      "type": "modern",
+      "primaryLabel": "Keine feste traditionelle Heimat",
+      "sources": [
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Mediterranean_cuisine"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "caponata": {
+      "regions": [
+        "ITA",
+        "IT-SIC"
+      ],
+      "text": "Caponata ist besonders mit Sizilien verbunden. Unser Entwurf folgt dieser sizilianischen Rezeptidee. Das macht Caponata nicht automatisch zu einer traditionellen sardischen oder ligurischen Spezialität.",
+      "source": "https://en.wikipedia.org/wiki/Caponata",
+      "kind": "Tradition & Verbreitung",
+      "relatedRegions": [],
+      "type": "regional",
+      "primaryLabel": "Gezeigte regionale Rezeptur",
+      "sources": [
+        {
+          "title": "Visit Sicily · Caponata",
+          "url": "https://www.visitsicily.info/en/ricetta/caponata/"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Caponata"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "romesco": {
+      "regions": [
+        "ESP",
+        "ES-CT"
+      ],
+      "text": "Romesco ist besonders mit Tarragona und seiner Umgebung in Katalonien verbunden. Katalonien ist die autonome Region, zu der auch Barcelona gehört. Die Zuordnung ist genauer als eine pauschale Übertragung auf alle spanischen Unterregionen.",
+      "source": "https://en.wikipedia.org/wiki/Romesco",
+      "kind": "Tradition & Verbreitung",
+      "relatedRegions": [],
+      "type": "regional",
+      "primaryLabel": "Gezeigte regionale Rezeptur",
+      "sources": [
+        {
+          "title": "Tarragona Turisme · Romesco",
+          "url": "https://www.tarragonaturisme.cat/en/cuisine"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Romesco"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "harissa": {
+      "regions": [
+        "TUN"
+      ],
+      "text": "Das Entwurfsprodukt ist nach tunesischer Art gedacht. Die UNESCO dokumentiert Harissa als Teil der tunesischen Alltags- und Vorratsküche. Harissa wird auch in anderen Maghrebländern gegessen; deren Varianten sind nicht automatisch dieselbe tunesische Rezeptur.",
+      "source": "https://en.wikipedia.org/wiki/Harissa",
+      "kind": "Tunesische Rezeptidee",
+      "relatedRegions": [
+        {
+          "id": "DZA",
+          "title": "Harissa · weitere Maghreb-Varianten",
+          "note": "Hier gibt es verwandte Harissa-Zubereitungen. Unser Entwurf bleibt nach tunesischer Art benannt; Gewürze und Schärfe können abweichen.",
+          "sources": []
+        },
+        {
+          "id": "MAR",
+          "title": "Harissa · weitere Maghreb-Varianten",
+          "note": "Hier gibt es verwandte Harissa-Zubereitungen. Unser Entwurf bleibt nach tunesischer Art benannt; Gewürze und Schärfe können abweichen.",
+          "sources": []
+        },
+        {
+          "id": "LBY",
+          "title": "Harissa · weitere Maghreb-Varianten",
+          "note": "Hier gibt es verwandte Harissa-Zubereitungen. Unser Entwurf bleibt nach tunesischer Art benannt; Gewürze und Schärfe können abweichen.",
+          "sources": []
+        }
+      ],
+      "type": "regional",
+      "primaryLabel": "Gezeigte regionale Rezeptur",
+      "sources": [
+        {
+          "title": "UNESCO · Tunesische Harissa-Tradition",
+          "url": "https://ich.unesco.org/en/RL/harissa-knowledge-skills-and-culinary-and-social-practices-01710"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Harissa"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "saltlemons": {
+      "regions": [
+        "MAR"
+      ],
+      "text": "Das Entwurfsprodukt ist ausdrücklich nach marokkanischer Art gedacht. Salzzitronen gehören zur marokkanischen Küche. Eingelegte Zitronen sind auch anderswo belegt; diese verwandten Zubereitungen werden hier nicht als identische marokkanische Rezeptur geführt.",
+      "source": "https://en.wikipedia.org/wiki/Preserved_lemon",
+      "kind": "Marokkanische Rezeptidee",
+      "relatedRegions": [
+        {
+          "id": "TUN",
+          "title": "Eingelegte Zitronen · tunesische Varianten",
+          "note": "In Tunesien sind eigene eingelegte Zitronen dokumentiert. Das macht das marokkanisch benannte Entwurfsprodukt nicht zu einer tunesischen Rezeptur.",
+          "sources": [
+            {
+              "title": "Rogers Collection · Tunesische Salzzitronen",
+              "url": "https://www.rogerscollection.us/wp-content/uploads/2016/01/Organic-Natural-Preserved-Lemon-Sell-Sheet.pdf"
+            }
+          ]
+        }
+      ],
+      "type": "regional",
+      "primaryLabel": "Gezeigte regionale Rezeptur",
+      "sources": [
+        {
+          "title": "Taste of Maroc · Marokkanische Salzzitronen",
+          "url": "https://tasteofmaroc.com/how-to-make-preserved-lemons/"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Preserved_lemon"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "olivepaste": {
+      "regions": [
+        "GRC",
+        "HRV",
+        "ITA",
+        "TUR",
+        "FRA",
+        "ESP",
+        "PRT",
+        "FR-COR",
+        "FR-PRO",
+        "PT-TMO",
+        "IT-LIG",
+        "HR-DAL",
+        "FR-RIV"
+      ],
+      "text": "Olivenpasten sind in mehreren Mittelmeerküchen und auch in Portugal üblich. Belegte Beispiele sind portugiesische Pasta de Azeitonas, kroatische und griechische Olivenaufstriche sowie korsische und provenzalische Zubereitungen. Rezepturen unterscheiden sich: Eine Olivenpaste ist nicht automatisch eine klassische Tapenade.",
+      "source": "https://en.wikipedia.org/wiki/Olive",
+      "kind": "Gemeinsam verbreitete Spezialität",
+      "relatedRegions": [],
+      "type": "shared",
+      "primaryLabel": "Als Zutat oder Spezialität verbreitet",
+      "sources": [
+        {
+          "title": "DGADR · Portugiesische Olivenpaste",
+          "url": "https://tradicional.dgadr.gov.pt/en/categories/other-traditional-dishes/1551-pasta-ou-pastada-de-azeitonas-en"
+        },
+        {
+          "title": "Tourismus Korsika · Olivenpasten",
+          "url": "https://www.visit-corsica.com/en/Mon-sejour/Producteurs-et-degustation/Toutes-les-productions/MOULIN-DU-VALINCO"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Olive"
+        },
+        {
+          "title": "Tourismus Korsika · Olivenöl",
+          "url": "https://www.visit-corsica.com/en/content/view/full/38779"
+        },
+        {
+          "title": "Vaucluse Tourisme · Olivenöl und Tapenade",
+          "url": "https://www.provenceguide.com/decouvrir/saveurs/produits-terroir/olive-huile/"
+        },
+        {
+          "title": "Visit Portugal · Olivenölregionen",
+          "url": "https://www.visitportugal.com/en/content/olive-tourism"
+        },
+        {
+          "title": "Ligurien · Regionaler kulinarischer Hintergrund",
+          "url": "https://lamialiguria.it/en/experiences/adopt-a-taggiasca-cultivar-olive-tree/"
+        },
+        {
+          "title": "Dalmatien · Regionaler kulinarischer Hintergrund",
+          "url": "https://croatia-hotspots.com/en/category/gastro-en/page/2/"
+        },
+        {
+          "title": "Office de Tourisme Nice · Olivenpaste und Tapenade",
+          "url": "https://www.explorenicecotedazur.com/en/shop/boutique-alziari/"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "acuka": {
+      "regions": [
+        "TUR"
+      ],
+      "text": "Acuka ist als würziger Aufstrich in der türkischen Frühstücksküche dokumentiert. Der Name wird auch für türkische Varianten der mit Aleppo verbundenen Muhammara-Familie verwendet. Paprikamark, Walnüsse und Gewürze variieren regional. Der türkische Rezepturbezug ist keine Aussage, dass diese gesamte Rezeptfamilie ausschließlich in der Türkei entstanden sei.",
+      "source": "https://en.wikipedia.org/wiki/Acuka",
+      "kind": "Tradition & Verbreitung",
+      "relatedRegions": [],
+      "type": "regional",
+      "primaryLabel": "Gezeigte regionale Rezeptur",
+      "sources": [
+        {
+          "title": "GoTürkiye · Acuka in der türkischen Frühstücksküche",
+          "url": "https://gastronomy.goturkiye.com/turkish-breakfast"
+        },
+        {
+          "title": "Hintergrund · verwandte Muhammara-Rezeptfamilie",
+          "url": "https://en.wikipedia.org/wiki/Muhammara"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "zaatar": {
+      "regions": [
+        "LBN",
+        "PSE",
+        "ISR",
+        "SYR",
+        "JOR"
+      ],
+      "text": "Za’atar ist in der Levante verbreitet, unter anderem im Libanon, in Palästina, Israel, Syrien und Jordanien. Kräuter, Sumach und Sesam sind typisch; jede Region und Familie mischt anders.",
+      "source": "https://en.wikipedia.org/wiki/Za%27atar",
+      "kind": "Tradition & Verbreitung",
+      "relatedRegions": [],
+      "type": "shared",
+      "primaryLabel": "Als Zutat oder Spezialität verbreitet",
+      "sources": [
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Za%27atar"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Getrocknete Kräuter beziehungsweise trockene Gewürzmischung",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    },
+    "muhammara": {
+      "regions": [
+        "SYR",
+        "TUR",
+        "LBN",
+        "SY-ALE",
+        "TR-GAZ"
+      ],
+      "text": "Muhammara wird besonders mit Aleppo in Syrien verbunden. Verwandte Zubereitungen sind in der südlichen Türkei, etwa in Gaziantep, und in der Levante verbreitet. Acuka kann als Name einer türkischen Variante dieser Paprika-Walnuss-Familie verwendet werden. Rezepturen unterscheiden sich. Für das Sortiment ist ausschließlich eine haltbar verarbeitete, geeignete verpackte Variante vorgesehen; ein frischer hausgemachter Dip ist nicht das geplante Handelsprodukt.",
+      "source": "https://en.wikipedia.org/wiki/Muhammara",
+      "kind": "Tradition & Verbreitung",
+      "relatedRegions": [],
+      "type": "shared",
+      "primaryLabel": "Als Zutat oder Spezialität verbreitet",
+      "sources": [
+        {
+          "title": "GoTürkiye · Muhammara in Gaziantep",
+          "url": "https://goturkiye.com/branding/press-releases/traditional-turkish-breakfast-the-golden-meal-of-the-day"
+        },
+        {
+          "title": "Hintergrund · Muhammara und Aleppo",
+          "url": "https://en.wikipedia.org/wiki/Muhammara"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-13",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      }
+    }
+  },
+  "newProducts": [
+    [
+      "olivepaste",
+      "Mediterrane Olivenpaste",
+      "Aufstriche",
+      "140 g",
+      5.9,
+      "shared-0",
+      "Gemeinsame Tradition",
+      "Olivenaufstrich, wie er in mehreren Mittelmeerküchen vorkommt."
+    ],
+    [
+      "acuka",
+      "Türkische Acuka",
+      "Aufstriche",
+      "180 g",
+      5.9,
+      "shared-1",
+      "Türkische Art",
+      "Würziger Paprika-Walnuss-Aufstrich."
+    ],
+    [
+      "zaatar",
+      "Levantinisches Za’atar",
+      "Wildkräuter",
+      "60 g",
+      5.9,
+      "shared-2",
+      "Levante",
+      "Kräutermischung mit Sumach und Sesam."
+    ],
+    [
+      "muhammara",
+      "Levantinische Muhammara",
+      "Aufstriche",
+      "180 g",
+      6.9,
+      "shared-3",
+      "Levante",
+      "Paprika-Walnuss-Aufstrich mit Granatapfelmelasse."
+    ]
+  ],
+  "catalog": [
+    [
+      "oil",
+      "Natives Olivenöl extra",
+      "Olivenöl",
+      "500 ml",
+      21.9,
+      "photo-1474979266404-7eaacbcd87c5",
+      "Favorit"
+    ],
+    [
+      "truffle",
+      "Olivenöl mit echtem Trüffel",
+      "Olivenöl",
+      "100 ml",
+      24.9,
+      "photo-1504545102780-26774c1bb073",
+      "Premium"
+    ],
+    [
+      "lemonoil",
+      "Zitrone & Basilikum Olivenöl",
+      "Olivenöl",
+      "250 ml",
+      14.9,
+      "photo-1474979266404-7eaacbcd87c5",
+      ""
+    ],
+    [
+      "chilioil",
+      "Chili & Knoblauch Olivenöl",
+      "Olivenöl",
+      "250 ml",
+      14.9,
+      "photo-1474979266404-7eaacbcd87c5",
+      ""
+    ],
+    [
+      "fleur",
+      "Fleur de Sel",
+      "Meersalz",
+      "100 g",
+      7.9,
+      "photo-1518977676601-b53f82aba655",
+      "Neu"
+    ],
+    [
+      "sea",
+      "Naturbelassenes Meersalz",
+      "Meersalz",
+      "250 g",
+      3.9,
+      "photo-1518977676601-b53f82aba655",
+      ""
+    ],
+    [
+      "trufflesalt",
+      "Fleur de Sel mit echtem Trüffel",
+      "Meersalz",
+      "70 g",
+      12.9,
+      "photo-1518977676601-b53f82aba655",
+      "Premium"
+    ],
+    [
+      "herbsalt",
+      "Meersalz mit Wildkräutern",
+      "Meersalz",
+      "100 g",
+      6.9,
+      "photo-1466692476868-aef1dfb1e735",
+      "Wildkräuter"
+    ],
+    [
+      "black",
+      "Schwarzer Knoblauch",
+      "Feinkost",
+      "60 g",
+      8.9,
+      "photo-1540148426945-6cf22a6b2383",
+      "Highlight"
+    ],
+    [
+      "fig",
+      "Getrocknete Feigen",
+      "Früchte",
+      "250 g",
+      6.5,
+      "photo-1601493700631-2b16ec4b4716",
+      ""
+    ],
+    [
+      "ajvar",
+      "Gerösteter Ajvar",
+      "Feinkost",
+      "350 g",
+      4.9,
+      "photo-1604908176997-431ba0d9fd33",
+      ""
+    ],
+    [
+      "capers",
+      "Kapern in Meersalzlake",
+      "Feinkost",
+      "120 g",
+      5.9,
+      "photo-1604908176997-431ba0d9fd33",
+      "Neu"
+    ],
+    [
+      "sage",
+      "Wild-Salbei",
+      "Wildkräuter",
+      "20 g",
+      5.9,
+      "photo-1466692476868-aef1dfb1e735",
+      "Wild"
+    ],
+    [
+      "oregano",
+      "Wild-Oregano",
+      "Wildkräuter",
+      "20 g",
+      5.9,
+      "photo-1466692476868-aef1dfb1e735",
+      "Wild"
+    ],
+    [
+      "figjam",
+      "Feigenkonfitüre",
+      "Aufstriche",
+      "220 g",
+      4.9,
+      "photo-1601493700631-2b16ec4b4716",
+      ""
+    ],
+    [
+      "plum",
+      "Pflaumenmus",
+      "Aufstriche",
+      "250 g",
+      4.5,
+      "photo-1606313564200-e75d5e30476c",
+      ""
+    ],
+    [
+      "figbread",
+      "Feigenbrot mit Walnüssen",
+      "Früchte",
+      "150 g",
+      6.9,
+      "photo-1509440159596-0249088772ff",
+      ""
+    ],
+    [
+      "mustard",
+      "Feigensenf",
+      "Aufstriche",
+      "140 g",
+      5.9,
+      "photo-1601493700631-2b16ec4b4716",
+      ""
+    ],
+    [
+      "tapenade",
+      "Oliven-Tapenade",
+      "Feinkost",
+      "140 g",
+      5.9,
+      "photo-1474979266404-7eaacbcd87c5",
+      ""
+    ],
+    [
+      "gift1",
+      "Geschenkbox Mediterrane Küche",
+      "Geschenke",
+      "4 Produkte",
+      34.9,
+      "photo-1549465220-1a8b9238cd48",
+      ""
+    ],
+    [
+      "gift2",
+      "Geschenkbox Kleiner Luxus",
+      "Geschenke",
+      "3 Produkte",
+      39.9,
+      "photo-1549465220-1a8b9238cd48",
+      ""
+    ],
+    [
+      "caponata",
+      "Sizilianische Caponata",
+      "Feinkost",
+      "200 g",
+      6.9,
+      "regional-0",
+      "Sizilien",
+      "Auberginengemüse nach sizilianischer Art mit Tomaten, Oliven und Kapern."
+    ],
+    [
+      "romesco",
+      "Katalanische Romesco",
+      "Feinkost",
+      "180 g",
+      5.9,
+      "regional-1",
+      "Katalonien",
+      "Paprika-Tomaten-Sauce nach katalanischer Art mit Mandeln. Zu Gemüse und Brot."
+    ],
+    [
+      "harissa",
+      "Tunesische Harissa",
+      "Feinkost",
+      "100 g",
+      4.9,
+      "regional-2",
+      "Tunesien",
+      "Scharfe Chilipaste nach tunesischer Art mit Knoblauch und Gewürzen."
+    ],
+    [
+      "saltlemons",
+      "Marokkanische Salzzitronen",
+      "Feinkost",
+      "300 g",
+      6.9,
+      "regional-3",
+      "Marokko",
+      "In Salzlake eingelegte Zitronen nach marokkanischer Art. Aromatisch zu Gemüse und Couscous."
+    ],
+    [
+      "olivepaste",
+      "Mediterrane Olivenpaste",
+      "Aufstriche",
+      "140 g",
+      5.9,
+      "shared-0",
+      "Gemeinsame Tradition",
+      "Olivenaufstrich, wie er in mehreren Mittelmeerküchen vorkommt."
+    ],
+    [
+      "acuka",
+      "Türkische Acuka",
+      "Aufstriche",
+      "180 g",
+      5.9,
+      "shared-1",
+      "Türkische Art",
+      "Würziger Paprika-Walnuss-Aufstrich."
+    ],
+    [
+      "zaatar",
+      "Levantinisches Za’atar",
+      "Wildkräuter",
+      "60 g",
+      5.9,
+      "shared-2",
+      "Levante",
+      "Kräutermischung mit Sumach und Sesam."
+    ],
+    [
+      "muhammara",
+      "Levantinische Muhammara",
+      "Aufstriche",
+      "180 g",
+      6.9,
+      "shared-3",
+      "Levante",
+      "Paprika-Walnuss-Aufstrich mit Granatapfelmelasse."
+    ]
+  ],
+  "reviewed": "2026-11-13",
+  "method": "Kulinarische Verbreitung, regionale Verarbeitung und tatsächliche Warenherkunft bleiben getrennt. Unterregionen und grenzüberschreitende Räume erhalten nur explizit dokumentierte Verbindungen. Gezeigt werden ausschließlich haltbare Sortimentsentwürfe.",
+  "crossBorderAreas": [
+    {
+      "id": "XB-ISTRIA",
+      "name": "Istrien · länderübergreifend",
+      "subtitle": "Kroatien, Slowenien & italienischer Teil",
+      "members": [
+        "HR-IST",
+        "SI-IST",
+        "IT-IST"
+      ],
+      "countries": [
+        "HRV",
+        "SVN",
+        "ITA"
+      ],
+      "text": "Istrien ist ein gemeinsamer geografischer und kulinarischer Raum über Staatsgrenzen hinweg. Angezeigt werden nur die einzeln erfassten Bezüge der jeweiligen Teilgebiete; eine Spezialität wird nicht automatisch allen Teilen zugerechnet.",
+      "sources": [
+        {
+          "title": "Slovenian Tourist Board · gemeinsamer Istrien-Genussführer für drei Länder",
+          "url": "https://www.slovenia.info/en/press-centre/news-of-the-tourism-press-agency/6611-first-food-and-wine-guide-to-istria"
+        }
+      ]
+    },
+    {
+      "id": "XB-NERETVA",
+      "name": "Neretva · länderübergreifend",
+      "subtitle": "Kroatien & Bosnien und Herzegowina",
+      "members": [
+        "HR-NER",
+        "BIH-NER"
+      ],
+      "countries": [
+        "HRV",
+        "BIH"
+      ],
+      "text": "Das Neretva-Tal ist grenzüberschreitend. Kroatische und herzegowinische Anbauorte werden getrennt belegt; ein Bezug zum Tal allein bestätigt kein konkretes Herkunftsland einer späteren Lieferung.",
+      "sources": [
+        {
+          "title": "Kroatisches Landwirtschaftsministerium · Mandarinen-Anbaugebiete",
+          "url": "https://poljoprivreda.gov.hr/UserDocsImages/dokumenti/poljoprivreda/vo%C4%87arstvo/Program%20potpore%20za%20proizvo%C4%91a%C4%8De%20mandarina%20za%202019.%20godinu.pdf"
+        },
+        {
+          "title": "Fachartikel · Mandarinenanbau in der südlichen Herzegowina",
+          "url": "https://hrcak.srce.hr/en/clanak/406151"
+        }
+      ]
+    },
+    {
+      "id": "XB-LEVANT",
+      "name": "Levante · kulinarischer Raum",
+      "subtitle": "Hier: Syrien, Libanon, Jordanien, Israel & Palästina",
+      "members": [
+        "SYR",
+        "LBN",
+        "JOR",
+        "ISR",
+        "PSE"
+      ],
+      "countries": [
+        "SYR",
+        "LBN",
+        "JOR",
+        "ISR",
+        "PSE"
+      ],
+      "text": "Eine Auswahl miteinander verbundener Küchen im östlichen Mittelmeerraum. Die hier zusammengefassten Zuordnungen gelten jeweils für die angegebenen Länder oder Teilgebiete, nicht automatisch für den gesamten Kulturraum.",
+      "sources": [
+        {
+          "title": "Hintergrund · levantinische Küchen",
+          "url": "https://en.wikipedia.org/wiki/Levantine_cuisine"
+        }
+      ]
+    },
+    {
+      "id": "XB-MAGHREB",
+      "name": "Maghreb · kulinarischer Raum",
+      "subtitle": "Hier dargestellter Ausschnitt: Marokko, Algerien, Tunesien & Libyen",
+      "members": [
+        "MAR",
+        "DZA",
+        "TUN",
+        "LBY"
+      ],
+      "countries": [
+        "MAR",
+        "DZA",
+        "TUN",
+        "LBY"
+      ],
+      "text": "Die Ansicht verbindet erfasste nordafrikanische Küchen, ohne länderspezifische Rezepturen gleichzusetzen. Sie ist keine vollständige geografische Definition des Maghreb.",
+      "sources": [
+        {
+          "title": "Hintergrund · Maghreb-Küchen",
+          "url": "https://en.wikipedia.org/wiki/Maghrebi_cuisine"
+        }
+      ]
+    },
+    {
+      "id": "XB-CATALAN",
+      "name": "Katalanischer Kulturraum",
+      "subtitle": "Frankreich & Spanien",
+      "members": [
+        "FR-ROU",
+        "ES-CT"
+      ],
+      "countries": [
+        "FRA",
+        "ESP"
+      ],
+      "text": "Katalonien als spanische autonome Region ist vom weiteren katalanischen Kulturraum zu unterscheiden. Die Ansicht zeigt den französisch-spanischen Ausschnitt; weitere katalanischsprachige Gebiete sind damit nicht ausgeschlossen. Romesco wird nur seinem belegten katalanischen Rezepturbezug zugeordnet, nicht automatisch dem französischen Teil.",
+      "sources": [
+        {
+          "title": "Tourisme Pyrénées-Orientales · Route zwischen französischem und spanischem katalanischem Raum",
+          "url": "https://www.tourisme-pyreneesorientales.com/activites/circuit-vtt-haut-vallespir-raid-des-deux-catalognes-saint-laurent-de-cerdans-fr-5744061/"
+        }
+      ]
+    },
+    {
+      "id": "XB-RIVIERA",
+      "name": "Riviera / Ligurischer Küstenbogen",
+      "subtitle": "Frankreich & Italien",
+      "members": [
+        "FR-RIV",
+        "IT-LIG"
+      ],
+      "countries": [
+        "FRA",
+        "ITA"
+      ],
+      "text": "Ein grenzüberschreitender Küstenraum mit mehreren regionalen Küchen. Gezeigt werden die erfassten Bezüge im Raum Nizza und in Ligurien; die Produkte müssen nicht auf beiden Seiten identisch sein.",
+      "sources": [
+        {
+          "title": "World Encyclopedia · Riviera in Frankreich und Italien",
+          "url": "https://www.encyclopedia.com/places/spain-portugal-italy-greece-and-balkans/italian-political-geography/riviera"
+        }
+      ]
+    },
+    {
+      "id": "XB-GUADIANA",
+      "name": "Untere Guadiana",
+      "subtitle": "Portugal & Spanien",
+      "members": [
+        "PT-GUA",
+        "ES-GUA"
+      ],
+      "countries": [
+        "PRT",
+        "ESP"
+      ],
+      "text": "Die gemeinsame Fluss- und Grenzregion ist geografisch belegt. Sie liegt am Atlantik und wird hier als Nachbarraum mediterraner Esskulturen gezeigt. Für konkrete Produkte werden keine Zuordnungen aus der bloßen Flussnähe erfunden.",
+      "sources": [
+        {
+          "title": "Europäische Kommission · gemeinsames Guadiana-Einzugsgebiet",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52019SC0032"
+        }
+      ]
+    },
+    {
+      "id": "XB-AEGEAN",
+      "name": "Ägäischer Küsten- und Inselraum",
+      "subtitle": "Griechenland & Türkei",
+      "members": [
+        "GR-AEG",
+        "GR-CRE",
+        "TR-AEG"
+      ],
+      "countries": [
+        "GRC",
+        "TUR"
+      ],
+      "text": "Ein gemeinsamer maritimer Raum mit eigenständigen griechischen und türkischen Küchen. Die aggregierten Produkte bleiben den jeweils belegten Teilräumen zugeordnet.",
+      "sources": [
+        {
+          "title": "EBSCO · Ägäis zwischen Griechenland und Türkei",
+          "url": "https://www.ebsco.com/research-starters/geography-and-cartography/aegean-sea"
+        }
+      ]
+    }
+  ],
+  "rawMaterialIdeas": [
+    {
+      "id": "mandarin-herzegovina",
+      "name": "Mandarinen · Rohstoffbezug",
+      "regions": [
+        "BIH-HER",
+        "BIH-NER",
+        "HR-NER"
+      ],
+      "text": "Mandarinenanbau ist sowohl im kroatischen Neretva-Gebiet als auch in der südlichen Herzegowina dokumentiert. Die Quellen belegen Anbau, keine bereits vereinbarte Beschaffung und keine exklusive Heimat.",
+      "formats": [
+        "Mandarinen-Fruchtaufstrich",
+        "Mandarinen-Chutney"
+      ],
+      "sources": [
+        {
+          "title": "Fachartikel · Mandarinenanbau in der südlichen Herzegowina",
+          "url": "https://hrcak.srce.hr/en/clanak/406151"
+        },
+        {
+          "title": "Kroatisches Landwirtschaftsministerium · Mandarinen-Anbaugebiete",
+          "url": "https://poljoprivreda.gov.hr/UserDocsImages/dokumenti/poljoprivreda/vo%C4%87arstvo/Program%20potpore%20za%20proizvo%C4%91a%C4%8De%20mandarina%20za%202019.%20godinu.pdf"
+        }
+      ]
+    },
+    {
+      "id": "plums-bosnia",
+      "name": "Pflaumen aus Bosnien · Rohstoffidee",
+      "regions": [
+        "BIH-BOS"
+      ],
+      "text": "Bosniens Pflaumenanbau und die Verarbeitung sind dokumentiert. Für das Sortiment kommen verarbeitete, haltbare Varianten infrage. Eine tatsächliche Warenherkunft wird erst nach Lieferantennachweis angegeben.",
+      "formats": [
+        "Pflaumenmus / Bestilj",
+        "Trockenpflaumen"
+      ],
+      "sources": [
+        {
+          "title": "Regional Rural Development SWG · Pflaumenregionen und Verarbeitung in BiH",
+          "url": "https://seerural.org/wp-content/uploads/2023/01/State-of-the-art-of-the-fresh-fruit-and-vegetable-marketing-standards.pdf"
+        }
+      ]
+    }
+  ],
+  "countryBorderReview": [
+    {
+      "country": "PRT",
+      "summary": "Guadiana mit Spanien; weitere gemeinsame Flussräume sind Douro, Tejo, Minho und Lima. Portugal liegt am Atlantik und wird hier wegen seiner mediterranen Esskultur berücksichtigt.",
+      "type": "Fluss- und Kooperationsräume; atlantischer Nachbar",
+      "sources": [
+        {
+          "title": "Europäische Kommission · gemeinsames Guadiana-Einzugsgebiet",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52019SC0032"
+        }
+      ],
+      "reviewed": "2026-11-13"
+    },
+    {
+      "country": "ESP",
+      "summary": "Mit Frankreich: Pyrenäen und katalanischer Kulturraum; mit Portugal: Guadiana und weitere Flussräume. Zur marokkanischen Küste besteht eine maritime Nachbarschaft über die Straße von Gibraltar, keine gemeinsame Landregion.",
+      "type": "Geografische und kulturelle Räume getrennt von maritimer Nachbarschaft",
+      "sources": [
+        {
+          "title": "Tourisme Pyrénées-Orientales · Route zwischen französischem und spanischem katalanischem Raum",
+          "url": "https://www.tourisme-pyreneesorientales.com/activites/circuit-vtt-haut-vallespir-raid-des-deux-catalognes-saint-laurent-de-cerdans-fr-5744061/"
+        },
+        {
+          "title": "Europäische Kommission · gemeinsames Guadiana-Einzugsgebiet",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52019SC0032"
+        },
+        {
+          "title": "Hintergrund · Mittelmeerraum und Teilbecken",
+          "url": "https://en.wikipedia.org/wiki/Mediterranean_Sea"
+        }
+      ],
+      "reviewed": "2026-11-13"
+    },
+    {
+      "country": "FRA",
+      "summary": "Mit Spanien: Pyrenäen und katalanischer Kulturraum; mit Italien: Riviera/Ligurischer Küstenbogen. Die spanische autonome Region Katalonien und der weitere katalanische Kulturraum sind zu unterscheiden.",
+      "type": "Grenzüberschreitende geografische und kulturelle Räume",
+      "sources": [
+        {
+          "title": "Tourisme Pyrénées-Orientales · Route zwischen französischem und spanischem katalanischem Raum",
+          "url": "https://www.tourisme-pyreneesorientales.com/activites/circuit-vtt-haut-vallespir-raid-des-deux-catalognes-saint-laurent-de-cerdans-fr-5744061/"
+        },
+        {
+          "title": "World Encyclopedia · Riviera in Frankreich und Italien",
+          "url": "https://www.encyclopedia.com/places/spain-portugal-italy-greece-and-balkans/italian-political-geography/riviera"
+        }
+      ],
+      "reviewed": "2026-11-13"
+    },
+    {
+      "country": "ITA",
+      "summary": "Mit Frankreich: Riviera; mit Slowenien und Kroatien: Istrien. Sizilien, Malta und die nordafrikanische Küste liegen im verbundenen zentralen Mittelmeerraum, bilden aber keine gemeinsame Landregion.",
+      "type": "Landregionen und maritimer Raum getrennt",
+      "sources": [
+        {
+          "title": "World Encyclopedia · Riviera in Frankreich und Italien",
+          "url": "https://www.encyclopedia.com/places/spain-portugal-italy-greece-and-balkans/italian-political-geography/riviera"
+        },
+        {
+          "title": "Slovenian Tourist Board · Istrien in drei Ländern",
+          "url": "https://www.slovenia.info/en/press-centre/news-of-the-tourism-press-agency/6611-first-food-and-wine-guide-to-istria"
+        },
+        {
+          "title": "UNEP/MAP · Kanal von Sizilien und tunesisches Plateau",
+          "url": "https://rac-spa.org/nfp12/documents/information/wg.408_inf22_eng.pdf"
+        }
+      ],
+      "reviewed": "2026-11-13"
+    },
+    {
+      "country": "SVN",
+      "summary": "Istrien verbindet slowenische, kroatische und italienische Teilgebiete. Im Hinterland ist außerdem der grenzüberschreitende Save-Raum relevant.",
+      "type": "Kulinarische Halbinselregion und Flussraum",
+      "sources": [
+        {
+          "title": "Slovenian Tourist Board · Istrien in drei Ländern",
+          "url": "https://www.slovenia.info/en/press-centre/news-of-the-tourism-press-agency/6611-first-food-and-wine-guide-to-istria"
+        },
+        {
+          "title": "Internationale Save-Kommission · grenzüberschreitendes Einzugsgebiet",
+          "url": "https://www.savacommission.org/UserDocsImages/05_documents_publications/other_publications/transboundary_eco_tourism_guidelines.pdf?vel=7916430"
+        }
+      ],
+      "reviewed": "2026-11-13"
+    },
+    {
+      "country": "HRV",
+      "summary": "Istrien verbindet mit Slowenien und Italien; die Neretva mit der Herzegowina; Syrmien/Srijem mit Serbien. Der Save-Raum reicht ebenfalls über Grenzen.",
+      "type": "Mehrere unterschiedliche gemeinsame Regionen",
+      "sources": [
+        {
+          "title": "Slovenian Tourist Board · Istrien in drei Ländern",
+          "url": "https://www.slovenia.info/en/press-centre/news-of-the-tourism-press-agency/6611-first-food-and-wine-guide-to-istria"
+        },
+        {
+          "title": "Fachartikel · Mandarinen in der südlichen Herzegowina",
+          "url": "https://hrcak.srce.hr/en/clanak/406151"
+        },
+        {
+          "title": "Hintergrund · Syrmien/Srem/Srijem",
+          "url": "https://en.wikipedia.org/wiki/Syrmia"
+        },
+        {
+          "title": "Internationale Save-Kommission · grenzüberschreitendes Einzugsgebiet",
+          "url": "https://www.savacommission.org/UserDocsImages/05_documents_publications/other_publications/transboundary_eco_tourism_guidelines.pdf?vel=7916430"
+        }
+      ],
+      "reviewed": "2026-11-13"
+    },
+    {
+      "country": "BIH",
+      "summary": "Neretva und Herzegowina sind zu unterscheiden: Das Flusssystem verbindet mit Kroatien. Bosnien hat eigene Binnenlandtraditionen; das Save-Einzugsgebiet reicht in weitere Länder. Eine gemeinsame Flussregion bestätigt keine konkrete Warenherkunft.",
+      "type": "Flussräume und historische Teilregionen",
+      "sources": [
+        {
+          "title": "Fachartikel · Mandarinen in der südlichen Herzegowina",
+          "url": "https://hrcak.srce.hr/en/clanak/406151"
+        },
+        {
+          "title": "Internationale Save-Kommission · grenzüberschreitendes Einzugsgebiet",
+          "url": "https://www.savacommission.org/UserDocsImages/05_documents_publications/other_publications/transboundary_eco_tourism_guidelines.pdf?vel=7916430"
+        },
+        {
+          "title": "Lebensmittelbehörde BiH · Olivenöl der Herzegowina",
+          "url": "https://fsa.gov.ba/wp-content/uploads/2025/04/Product-specification-EXTRA-VIRGIN-OLIVE-OIL-OF-HERZEGOVINA.pdf"
+        }
+      ],
+      "reviewed": "2026-11-13"
+    },
+    {
+      "country": "MNE",
+      "summary": "Der Skadar-/Shkodra-See wird mit Albanien geteilt; Sandžak ist ein historischer Raum mit Serbien. Montenegro ist außerdem Teil des weiteren Save-Einzugsgebiets.",
+      "type": "Seegebiet, historischer Raum und Einzugsgebiet",
+      "sources": [
+        {
+          "title": "Montenegro Tourismus · Skadarsee in Montenegro und Albanien",
+          "url": "https://www.montenegro.travel/adventure-your-way-through-montenegro-s-national-parks"
+        },
+        {
+          "title": "Princeton Encyclopedia · historischer Sandžak",
+          "url": "https://pesd.princeton.edu/node/731"
+        },
+        {
+          "title": "Internationale Save-Kommission · grenzüberschreitendes Einzugsgebiet",
+          "url": "https://www.savacommission.org/UserDocsImages/05_documents_publications/other_publications/transboundary_eco_tourism_guidelines.pdf?vel=7916430"
+        }
+      ],
+      "reviewed": "2026-11-13"
+    },
+    {
+      "country": "ALB",
+      "summary": "Mit Montenegro: Skadar-/Shkodra-See. Mit Griechenland: historisch-geografischer Epirus-Raum. Mit Nordmazedonien und Griechenland: Prespa. Diese Räume haben unterschiedliche Grenzen und Bedeutungen.",
+      "type": "Seegebiete und historisch-geografische Region",
+      "sources": [
+        {
+          "title": "Montenegro Tourismus · Skadarsee in Montenegro und Albanien",
+          "url": "https://www.montenegro.travel/adventure-your-way-through-montenegro-s-national-parks"
+        },
+        {
+          "title": "Getty Research · historisch-geografischer Epirus-Raum",
+          "url": "https://www.getty.edu/vow/TGNFullDisplay?english=Y&find=bern&nation=switzerland&place=&subjectid=7030329"
+        },
+        {
+          "title": "UNESCO · grenzüberschreitender Prespa-Raum",
+          "url": "https://whc.unesco.org/en/tentativelists/5864/"
+        }
+      ],
+      "reviewed": "2026-11-13"
+    },
+    {
+      "country": "SRB",
+      "summary": "Syrmien/Srem wird mit Kroatien geteilt; Sandžak mit Montenegro. Der Save-Raum verbindet weitere Länder des westlichen Balkans. Serbien ist in dieser Karte ein kulinarisches Binnenland, kein Mittelmeer-Anrainer.",
+      "type": "Historische und hydrologische Nachbarräume",
+      "sources": [
+        {
+          "title": "Hintergrund · Syrmien/Srem/Srijem",
+          "url": "https://en.wikipedia.org/wiki/Syrmia"
+        },
+        {
+          "title": "Princeton Encyclopedia · historischer Sandžak",
+          "url": "https://pesd.princeton.edu/node/731"
+        },
+        {
+          "title": "Internationale Save-Kommission · grenzüberschreitendes Einzugsgebiet",
+          "url": "https://www.savacommission.org/UserDocsImages/05_documents_publications/other_publications/transboundary_eco_tourism_guidelines.pdf?vel=7916430"
+        }
+      ],
+      "reviewed": "2026-11-13"
+    },
+    {
+      "country": "MKD",
+      "summary": "Der Prespa-Raum verbindet Nordmazedonien, Albanien und Griechenland. Eine Rezeptur wird dadurch nicht automatisch allen drei Küchen zugerechnet.",
+      "type": "Grenzüberschreitender Seenraum",
+      "sources": [
+        {
+          "title": "UNESCO · grenzüberschreitender Prespa-Raum",
+          "url": "https://whc.unesco.org/en/tentativelists/5864/"
+        }
+      ],
+      "reviewed": "2026-11-13"
+    },
+    {
+      "country": "GRC",
+      "summary": "Mit Albanien: historisch-geografischer Epirus-Raum; mit Albanien und Nordmazedonien: Prespa. Die Ägäis verbindet griechische und türkische Küsten und Inselräume.",
+      "type": "Land- und Seenregionen sowie maritimer Raum",
+      "sources": [
+        {
+          "title": "Getty Research · historisch-geografischer Epirus-Raum",
+          "url": "https://www.getty.edu/vow/TGNFullDisplay?english=Y&find=bern&nation=switzerland&place=&subjectid=7030329"
+        },
+        {
+          "title": "UNESCO · grenzüberschreitender Prespa-Raum",
+          "url": "https://whc.unesco.org/en/tentativelists/5864/"
+        },
+        {
+          "title": "EBSCO · Ägäis zwischen Griechenland und Türkei",
+          "url": "https://www.ebsco.com/research-starters/geography-and-cartography/aegean-sea"
+        }
+      ],
+      "reviewed": "2026-11-13"
+    },
+    {
+      "country": "TUR",
+      "summary": "Die Ägäis verbindet mit Griechenland. Südosttürkische Zubereitungen, etwa um Gaziantep, stehen außerdem mit levantinischen Rezeptfamilien in Beziehung. Daraus folgt keine pauschale Zuordnung der ganzen Türkei zur Levante.",
+      "type": "Maritimer Raum und konkret benannte kulinarische Beziehungen",
+      "sources": [
+        {
+          "title": "EBSCO · Ägäis zwischen Griechenland und Türkei",
+          "url": "https://www.ebsco.com/research-starters/geography-and-cartography/aegean-sea"
+        },
+        {
+          "title": "Hintergrund · levantinische Küchen",
+          "url": "https://en.wikipedia.org/wiki/Levantine_cuisine"
+        }
+      ],
+      "reviewed": "2026-11-13"
+    },
+    {
+      "country": "CYP",
+      "summary": "Die Inselküche verbindet griechische und nahöstliche Einflüsse. Hier wird daraus keine gemeinsame Landregion mit einem Nachbarstaat und keine automatische Übernahme dessen Produktliste abgeleitet.",
+      "type": "Inselküche mit mehreren kulturellen Bezügen",
+      "sources": [
+        {
+          "title": "Visit Cyprus · griechische und nahöstliche Kücheneinflüsse",
+          "url": "https://www.visitcyprus.com/discover-cyprus/gastronomy/"
+        }
+      ],
+      "reviewed": "2026-11-13"
+    },
+    {
+      "country": "MLT",
+      "summary": "Sizilianische und nordafrikanische Kücheneinflüsse sind dokumentiert. Malta liegt im zentralen Mittelmeerraum; eine maritime Nachbarschaft ist keine gemeinsame Landregion mit Italien oder Tunesien.",
+      "type": "Inselküche und maritimer Verbindungsraum",
+      "sources": [
+        {
+          "title": "Malta Tourism Authority · sizilianische und nordafrikanische Einflüsse",
+          "url": "https://www.visitmalta.com/en/delicacies/"
+        },
+        {
+          "title": "UNEP/MAP · Kanal von Sizilien und tunesisches Plateau",
+          "url": "https://rac-spa.org/nfp12/documents/information/wg.408_inf22_eng.pdf"
+        }
+      ],
+      "reviewed": "2026-11-13"
+    },
+    {
+      "country": "MAR",
+      "summary": "Mit Algerien und weiteren Ländern wird der Maghreb als Großraum geteilt. Die Straße von Gibraltar verbindet zur spanischen Küste; diese maritime Lage macht regionale Rezepturen nicht identisch.",
+      "type": "Kulinarischer Großraum und maritime Nachbarschaft",
+      "sources": [
+        {
+          "title": "Hintergrund · Maghreb als gemeinsamer Großraum",
+          "url": "https://en.wikipedia.org/wiki/Maghreb"
+        },
+        {
+          "title": "Hintergrund · Mittelmeerraum und Teilbecken",
+          "url": "https://en.wikipedia.org/wiki/Mediterranean_Sea"
+        }
+      ],
+      "reviewed": "2026-11-13"
+    },
+    {
+      "country": "DZA",
+      "summary": "Algerien gehört zum Maghreb. Das Medjerda-Einzugsgebiet reicht von Algerien nach Tunesien. Der geografische Bezug ist getrennt von der konkreten Rezeptur zu behandeln.",
+      "type": "Großraum und grenzüberschreitendes Flussgebiet",
+      "sources": [
+        {
+          "title": "Hintergrund · Maghreb als gemeinsamer Großraum",
+          "url": "https://en.wikipedia.org/wiki/Maghreb"
+        },
+        {
+          "title": "Hintergrund · Medjerda zwischen Algerien und Tunesien",
+          "url": "https://en.wikipedia.org/wiki/Medjerda_River"
+        }
+      ],
+      "reviewed": "2026-11-13"
+    },
+    {
+      "country": "TUN",
+      "summary": "Mit Algerien: Medjerda-Gebiet; mit Libyen: Djeffara-Ebene. Der Kanal von Sizilien verbindet zur italienischen Küste. Die tunesische Harissa-Tradition bleibt ausdrücklich eine eigene Zuordnung.",
+      "type": "Flussgebiet, Küstenebene und maritimer Raum",
+      "sources": [
+        {
+          "title": "Hintergrund · Medjerda zwischen Algerien und Tunesien",
+          "url": "https://en.wikipedia.org/wiki/Medjerda_River"
+        },
+        {
+          "title": "Académie des sciences · Djeffara-Ebene in Tunesien und Libyen",
+          "url": "https://comptes-rendus.academie-sciences.fr/geoscience/articles/10.5802/crgeos.74/"
+        },
+        {
+          "title": "UNEP/MAP · Kanal von Sizilien und tunesisches Plateau",
+          "url": "https://rac-spa.org/nfp12/documents/information/wg.408_inf22_eng.pdf"
+        }
+      ],
+      "reviewed": "2026-11-13"
+    },
+    {
+      "country": "LBY",
+      "summary": "Die Djeffara-Ebene liegt in Libyen und Tunesien. Libyens östliche Nachbarschaft zu Ägypten wird hier nicht als Beleg für eine einzige gemeinsame kulinarische Regionalidentität verwendet.",
+      "type": "Belegter grenzüberschreitender Naturraum; weitere Küstennachbarschaft",
+      "sources": [
+        {
+          "title": "Académie des sciences · Djeffara-Ebene in Tunesien und Libyen",
+          "url": "https://comptes-rendus.academie-sciences.fr/geoscience/articles/10.5802/crgeos.74/"
+        },
+        {
+          "title": "Hintergrund · Mittelmeerraum und Teilbecken",
+          "url": "https://en.wikipedia.org/wiki/Mediterranean_Sea"
+        }
+      ],
+      "reviewed": "2026-11-13"
+    },
+    {
+      "country": "EGY",
+      "summary": "Ägyptens Mittelmeerküste verbindet zum südlichen und östlichen Mittelmeerraum. Küstennachbarschaft mit Libyen und Verbindungen in den Nahen Osten begründen keine automatische Gleichsetzung der jeweiligen Küchen.",
+      "type": "Küsten- und Kulturkontakte, kein pauschal einheitliches Grenzgebiet",
+      "sources": [
+        {
+          "title": "Hintergrund · Mittelmeerraum und Teilbecken",
+          "url": "https://en.wikipedia.org/wiki/Mediterranean_Sea"
+        }
+      ],
+      "reviewed": "2026-11-13"
+    },
+    {
+      "country": "LBN",
+      "summary": "Libanon gehört zu den hier erfassten levantinischen Küchen. Es bestehen geteilte Rezeptfamilien mit benachbarten Küchen; lokale Varianten bleiben getrennt.",
+      "type": "Gemeinsamer kulinarischer Großraum",
+      "sources": [
+        {
+          "title": "Hintergrund · levantinische Küchen",
+          "url": "https://en.wikipedia.org/wiki/Levantine_cuisine"
+        }
+      ],
+      "reviewed": "2026-11-13"
+    },
+    {
+      "country": "SYR",
+      "summary": "Syrien ist Teil der Levante. Aleppo und Gaziantep bieten konkret benennbare Bezüge über die syrisch-türkische Grenze; nicht jede syrische Spezialität ist dadurch automatisch in der gesamten Türkei üblich.",
+      "type": "Kulinarischer Großraum und konkrete regionale Bezüge",
+      "sources": [
+        {
+          "title": "Hintergrund · levantinische Küchen",
+          "url": "https://en.wikipedia.org/wiki/Levantine_cuisine"
+        }
+      ],
+      "reviewed": "2026-11-13"
+    },
+    {
+      "country": "ISR",
+      "summary": "Israel wird mit weiteren levantinischen Küchen in Verbindung gezeigt. Gemeinsame Spezialitäten sind nicht exklusiv einer Nationalküche zuzuschreiben; konkrete Varianten und Warenherkunft bleiben einzeln zu prüfen.",
+      "type": "Gemeinsamer kulinarischer Großraum",
+      "sources": [
+        {
+          "title": "Hintergrund · levantinische Küchen",
+          "url": "https://en.wikipedia.org/wiki/Levantine_cuisine"
+        }
+      ],
+      "reviewed": "2026-11-13"
+    },
+    {
+      "country": "PSE",
+      "summary": "Palästinensische Küchen stehen in einem levantinischen Zusammenhang mit benachbarten Küchen. Geteilte Zutaten oder Rezeptnamen sind kein Nachweis identischer Rezeptur oder einer bestimmten Lieferherkunft.",
+      "type": "Gemeinsamer kulinarischer Großraum",
+      "sources": [
+        {
+          "title": "Hintergrund · levantinische Küchen",
+          "url": "https://en.wikipedia.org/wiki/Levantine_cuisine"
+        }
+      ],
+      "reviewed": "2026-11-13"
+    },
+    {
+      "country": "JOR",
+      "summary": "Jordanien ist ein kulinarisches Hinterland der Levante und kein Mittelmeer-Küstenstaat. Seine Bezüge zu benachbarten Küchen werden als Kultur- und Rezeptverbindungen dargestellt.",
+      "type": "Kulinarischer Hinterlandraum",
+      "sources": [
+        {
+          "title": "Hintergrund · levantinische Küchen",
+          "url": "https://en.wikipedia.org/wiki/Levantine_cuisine"
+        }
+      ],
+      "reviewed": "2026-11-13"
+    }
+  ]
+};
