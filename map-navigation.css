@@ -9,8 +9,10 @@ body[data-navigation="map"] #country-border-review{display:none}.map-location:fo
 .geographic-mode~.legend.balkan-selection span:nth-child(2):before{background:#8298a4}
 
 body[data-navigation="map"] .map-wrap [data-region]:not(.subregion-shape){fill:#e8e6dd;stroke:#cecec5;stroke-width:.6}
-.room-color-guide{opacity:.23}.room-color-guide.preview{opacity:.34}.distribution-mode .room-color-guides{display:none}
+.room-color-guide{opacity:.62;transition:opacity .16s ease}.room-color-guides.has-preview .room-color-guide{opacity:.35}.room-color-guides.has-preview .room-color-guide.preview{opacity:.94}.distribution-mode .room-color-guides{display:none}
 .map-wrap .room-hit-surfaces path{fill:transparent;stroke:none;pointer-events:all;cursor:pointer}.room-hit-surfaces g:focus{outline:none}
 #map-hotspots,#map-label-lines,body[data-navigation="map"] .sea-label{display:none}
 .geographic-mode.influence-overview~.legend.room-overview-legend span:before,.geographic-mode~.legend.room-selection-legend span:nth-child(2):before{background:var(--room-color)}
 .room-overview-legend{gap:8px 18px}.room-overview-legend span{font-size:11px}
+
+@media(prefers-reduced-motion:reduce){.room-color-guide{transition:none}}

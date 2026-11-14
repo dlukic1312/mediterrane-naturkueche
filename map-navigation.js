@@ -23,11 +23,11 @@
     const hint=document.createElement('p');hint.id='map-room-hint';hint.className='map-help';hint.setAttribute('aria-live','polite');hint.textContent='Eine Farbfläche anklicken oder antippen, um den Raum zu entdecken.';wrap.before(hint);
     areas.forEach(area=>{const group=make('g',{'data-room-paint':area.id,'class':'room-color-guide',filter:'url(#room-navigation-soft)'});area.selectionFields.forEach(part=>part.polygons.forEach(polygon=>group.append(make('path',{d:'M'+polygon.map(p=>xy(...p).join(',')).join(' L')+' Z',style:'fill:'+area.color+';stroke:none'}))));paint.append(group)});
     [...geography.hitOrder].reverse().forEach(id=>{const area=areas.find(a=>a.id===id),group=make('g',{'data-map-room':id,role:'button',tabindex:0,'aria-label':area.name+' entdecken','aria-pressed':'false'});area.selectionFields.forEach(part=>part.polygons.forEach(polygon=>group.append(make('path',{d:'M'+polygon.map(p=>xy(...p).join(',')).join(' L')+' Z'}))));
-      const preview=on=>{paint.querySelector('[data-room-paint="'+id+'"]').classList.toggle('preview',on);hint.textContent=on?'Auswahl: '+area.name:'Eine Farbfläche anklicken oder antippen, um den Raum zu entdecken.'};
+      const preview=on=>{paint.querySelector('[data-room-paint="'+id+'"]').classList.toggle('preview',on);paint.classList.toggle('has-preview',!!paint.querySelector('.preview'));hint.textContent=on?'Auswahl: '+area.name:'Eine Farbfläche anklicken oder antippen, um den Raum zu entdecken.'};
       group.addEventListener('pointerenter',()=>preview(true));group.addEventListener('pointerleave',()=>preview(false));group.addEventListener('focus',()=>preview(true));group.addEventListener('blur',()=>preview(false));group.onclick=e=>{e.stopPropagation();showRegion(id)};group.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();showRegion(id)}};hits.append(group)
     });
     svg.querySelector('.culinary-influence').after(paint);svg.append(hits);
-    function layout(){labels.replaceChildren();lines.replaceChildren();guideBlur.setAttribute('stdDeviation',String(Math.max(.3,svg.viewBox.baseVal.width*.008)))}
+    function layout(){labels.replaceChildren();lines.replaceChildren();guideBlur.setAttribute('stdDeviation',String(Math.max(.3,svg.viewBox.baseVal.width*.004)))}
     function chooser(){
       panel.replaceChildren();const title=document.createElement('h2');title.textContent='Mit einer Spezialität beginnen';const note=document.createElement('p');note.textContent='Wähle ein Produkt und entdecke seine kulinarischen Bezüge auf der Karte.';
       const input=document.createElement('input');input.type='search';input.placeholder='Spezialität suchen …';input.setAttribute('aria-label','Produkte durchsuchen');input.className='map-product-search';
