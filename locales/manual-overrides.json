@@ -444,7 +444,15 @@
     "Keine passende Spezialität gefunden.": "No matching speciality found.",
     "Wähle ein Produkt und entdecke seine kulinarischen Bezüge auf der Karte.": "Choose a product to discover its culinary connections on the map.",
     "Das Mittelmeer entdecken": "Explore the Mediterranean",
-    "entdecken": "explore"
+    "entdecken": "explore",
+    "Tafeloliven in Salzlake": "Table olives in brine",
+    "Grüne Oliven in Salzlake für Antipasti, Salate und die Mezze-Tafel. Abtropfgewicht: 180 g.": "Green olives in brine for antipasti, salads and mezze. Drained weight: 180 g.",
+    "In Salzlake": "In brine",
+    "Abtropfgewicht": "drained weight",
+    "Herzhaft und salzig; je nach Sorte mild bis leicht bitter.": "Savoury and salty; mild to slightly bitter depending on the variety.",
+    "Abtropfen lassen und zu Brot, Gemüse oder als Teil einer Mezze-Auswahl servieren. Bei Bedarf kurz abspülen.": "Drain and serve with bread, vegetables or as part of a mezze selection. Rinse briefly if needed.",
+    "Rund ums Mittelmeer verbreitet, unter anderem an der kroatischen Adria, in Iberien, Südfrankreich, Italien, Griechenland, der Türkei, im Maghreb, im Libanon und in Ägypten. Sorten und Zubereitungen unterscheiden sich regional.": "Found around the Mediterranean, including the Croatian Adriatic, Iberia, southern France, Italy, Greece, Türkiye, the Maghreb, Lebanon and Egypt. Varieties and preparations differ by region.",
+    "Oliven in Salzlake gehören zu vielen Mittelmeerküchen. Aus Istrien und Dalmatien sind konkrete Zubereitungen dokumentiert; weitere Beispiele reichen von portugiesischen und spanischen Tafeloliven über südfranzösische, italienische und griechische Varianten bis zur Türkei, zum Maghreb, zum Libanon und zu Ägypten. Die Einordnung beschreibt die Produktfamilie und keine einheitliche regionale Rezeptur oder Lieferherkunft. In der Vorschau ist eine grüne, ungefüllte Variante vorgesehen; dunkle oder gewürzte Varianten sind eigenständige Rezepturen.": "Olives in brine are part of many Mediterranean cuisines, with documented examples in Istria and Dalmatia and across Iberia, southern France, Italy, Greece, Türkiye, the Maghreb, Lebanon and Egypt. These connections describe a product family, not one uniform recipe or the origin of our supplies. The preview features green, unstuffed olives; dark or seasoned variants are separate recipes."
   },
   "hr": {
     "Warenkorb": "Košarica",
@@ -891,7 +899,15 @@
     "Keine passende Spezialität gefunden.": "Nije pronađen odgovarajući specijalitet.",
     "Wähle ein Produkt und entdecke seine kulinarischen Bezüge auf der Karte.": "Odaberi proizvod i otkrij njegove kulinarske poveznice na karti.",
     "Das Mittelmeer entdecken": "Istraži Sredozemlje",
-    "entdecken": "istraži"
+    "entdecken": "istraži",
+    "Tafeloliven in Salzlake": "Stolne masline u salamuri",
+    "Grüne Oliven in Salzlake für Antipasti, Salate und die Mezze-Tafel. Abtropfgewicht: 180 g.": "Zelene masline u salamuri za predjela, salate i mezze. Ocijeđena masa: 180 g.",
+    "In Salzlake": "U salamuri",
+    "Abtropfgewicht": "ocijeđena masa",
+    "Herzhaft und salzig; je nach Sorte mild bis leicht bitter.": "Punog i slanog okusa; ovisno o sorti blage do blago gorke.",
+    "Abtropfen lassen und zu Brot, Gemüse oder als Teil einer Mezze-Auswahl servieren. Bei Bedarf kurz abspülen.": "Ocijedi i posluži uz kruh, povrće ili kao dio mezze izbora. Po potrebi kratko isperi.",
+    "Rund ums Mittelmeer verbreitet, unter anderem an der kroatischen Adria, in Iberien, Südfrankreich, Italien, Griechenland, der Türkei, im Maghreb, im Libanon und in Ägypten. Sorten und Zubereitungen unterscheiden sich regional.": "Rasprostranjene diljem Sredozemlja, među ostalim na hrvatskom Jadranu, u Iberiji, južnoj Francuskoj, Italiji, Grčkoj, Turskoj, Magrebu, Libanonu i Egiptu. Sorte i načini pripreme razlikuju se po regijama.",
+    "Oliven in Salzlake gehören zu vielen Mittelmeerküchen. Aus Istrien und Dalmatien sind konkrete Zubereitungen dokumentiert; weitere Beispiele reichen von portugiesischen und spanischen Tafeloliven über südfranzösische, italienische und griechische Varianten bis zur Türkei, zum Maghreb, zum Libanon und zu Ägypten. Die Einordnung beschreibt die Produktfamilie und keine einheitliche regionale Rezeptur oder Lieferherkunft. In der Vorschau ist eine grüne, ungefüllte Variante vorgesehen; dunkle oder gewürzte Varianten sind eigenständige Rezepturen.": "Masline u salamuri dio su mnogih sredozemnih kuhinja. Zabilježeni su primjeri u Istri i Dalmaciji te u Iberiji, južnoj Francuskoj, Italiji, Grčkoj, Turskoj, Magrebu, Libanonu i Egiptu. Te poveznice opisuju skupinu proizvoda, a ne jedinstvenu recepturu ili podrijetlo naše robe. U pregledu su predviđene zelene, nepunjene masline; tamne ili začinjene varijante zasebne su recepture."
   },
   "es": {
     "Warenkorb": "Carrito",
@@ -1338,7 +1354,15 @@
     "Keine passende Spezialität gefunden.": "No se ha encontrado ninguna especialidad.",
     "Wähle ein Produkt und entdecke seine kulinarischen Bezüge auf der Karte.": "Elige un producto y descubre sus vínculos culinarios en el mapa.",
     "Das Mittelmeer entdecken": "Explorar el Mediterráneo",
-    "entdecken": "explorar"
+    "entdecken": "explorar",
+    "Tafeloliven in Salzlake": "Aceitunas de mesa en salmuera",
+    "Grüne Oliven in Salzlake für Antipasti, Salate und die Mezze-Tafel. Abtropfgewicht: 180 g.": "Aceitunas verdes en salmuera para aperitivos, ensaladas y mezze. Peso escurrido: 180 g.",
+    "In Salzlake": "En salmuera",
+    "Abtropfgewicht": "peso escurrido",
+    "Herzhaft und salzig; je nach Sorte mild bis leicht bitter.": "Sabrosas y saladas; suaves o ligeramente amargas según la variedad.",
+    "Abtropfen lassen und zu Brot, Gemüse oder als Teil einer Mezze-Auswahl servieren. Bei Bedarf kurz abspülen.": "Escurre y sirve con pan, verduras o como parte de una selección de mezze. Enjuaga brevemente si lo deseas.",
+    "Rund ums Mittelmeer verbreitet, unter anderem an der kroatischen Adria, in Iberien, Südfrankreich, Italien, Griechenland, der Türkei, im Maghreb, im Libanon und in Ägypten. Sorten und Zubereitungen unterscheiden sich regional.": "Presentes en todo el Mediterráneo, por ejemplo en el Adriático croata, Iberia, sur de Francia, Italia, Grecia, Turquía, Magreb, Líbano y Egipto. Las variedades y preparaciones cambian según la región.",
+    "Oliven in Salzlake gehören zu vielen Mittelmeerküchen. Aus Istrien und Dalmatien sind konkrete Zubereitungen dokumentiert; weitere Beispiele reichen von portugiesischen und spanischen Tafeloliven über südfranzösische, italienische und griechische Varianten bis zur Türkei, zum Maghreb, zum Libanon und zu Ägypten. Die Einordnung beschreibt die Produktfamilie und keine einheitliche regionale Rezeptur oder Lieferherkunft. In der Vorschau ist eine grüne, ungefüllte Variante vorgesehen; dunkle oder gewürzte Varianten sind eigenständige Rezepturen.": "Las aceitunas en salmuera forman parte de muchas cocinas mediterráneas, con ejemplos documentados en Istria y Dalmacia, Iberia, sur de Francia, Italia, Grecia, Turquía, Magreb, Líbano y Egipto. Estos vínculos describen una familia de productos, no una receta única ni el origen de nuestro suministro. La vista previa presenta aceitunas verdes sin relleno; las variantes oscuras o condimentadas son recetas distintas."
   },
   "pt": {
     "Warenkorb": "Carrinho",
@@ -1785,7 +1809,15 @@
     "Keine passende Spezialität gefunden.": "Não foi encontrada nenhuma especialidade.",
     "Wähle ein Produkt und entdecke seine kulinarischen Bezüge auf der Karte.": "Escolhe um produto e descobre as suas ligações culinárias no mapa.",
     "Das Mittelmeer entdecken": "Explorar o Mediterrâneo",
-    "entdecken": "explorar"
+    "entdecken": "explorar",
+    "Tafeloliven in Salzlake": "Azeitonas de mesa em salmoura",
+    "Grüne Oliven in Salzlake für Antipasti, Salate und die Mezze-Tafel. Abtropfgewicht: 180 g.": "Azeitonas verdes em salmoura para aperitivos, saladas e mezze. Peso escorrido: 180 g.",
+    "In Salzlake": "Em salmoura",
+    "Abtropfgewicht": "peso escorrido",
+    "Herzhaft und salzig; je nach Sorte mild bis leicht bitter.": "Saborosas e salgadas; suaves a ligeiramente amargas, conforme a variedade.",
+    "Abtropfen lassen und zu Brot, Gemüse oder als Teil einer Mezze-Auswahl servieren. Bei Bedarf kurz abspülen.": "Escorre e serve com pão, legumes ou numa seleção de mezze. Passa brevemente por água, se necessário.",
+    "Rund ums Mittelmeer verbreitet, unter anderem an der kroatischen Adria, in Iberien, Südfrankreich, Italien, Griechenland, der Türkei, im Maghreb, im Libanon und in Ägypten. Sorten und Zubereitungen unterscheiden sich regional.": "Presentes em todo o Mediterrâneo, incluindo o Adriático croata, a Ibéria, o sul de França, Itália, Grécia, Turquia, Magrebe, Líbano e Egito. As variedades e preparações variam por região.",
+    "Oliven in Salzlake gehören zu vielen Mittelmeerküchen. Aus Istrien und Dalmatien sind konkrete Zubereitungen dokumentiert; weitere Beispiele reichen von portugiesischen und spanischen Tafeloliven über südfranzösische, italienische und griechische Varianten bis zur Türkei, zum Maghreb, zum Libanon und zu Ägypten. Die Einordnung beschreibt die Produktfamilie und keine einheitliche regionale Rezeptur oder Lieferherkunft. In der Vorschau ist eine grüne, ungefüllte Variante vorgesehen; dunkle oder gewürzte Varianten sind eigenständige Rezepturen.": "As azeitonas em salmoura fazem parte de muitas cozinhas mediterrânicas, com exemplos documentados na Ístria e Dalmácia, Ibéria, sul de França, Itália, Grécia, Turquia, Magrebe, Líbano e Egito. Estas ligações descrevem uma família de produtos, não uma receita uniforme nem a origem do nosso fornecimento. A pré-visualização apresenta azeitonas verdes sem recheio; as variantes escuras ou temperadas são receitas distintas."
   },
   "fr": {
     "Warenkorb": "Panier",
@@ -2232,7 +2264,15 @@
     "Keine passende Spezialität gefunden.": "Aucune spécialité correspondante.",
     "Wähle ein Produkt und entdecke seine kulinarischen Bezüge auf der Karte.": "Choisissez un produit pour découvrir ses liens culinaires sur la carte.",
     "Das Mittelmeer entdecken": "Explorer la Méditerranée",
-    "entdecken": "découvrir"
+    "entdecken": "découvrir",
+    "Tafeloliven in Salzlake": "Olives de table en saumure",
+    "Grüne Oliven in Salzlake für Antipasti, Salate und die Mezze-Tafel. Abtropfgewicht: 180 g.": "Olives vertes en saumure pour les antipasti, salades et mezzés. Poids net égoutté : 180 g.",
+    "In Salzlake": "En saumure",
+    "Abtropfgewicht": "poids net égoutté",
+    "Herzhaft und salzig; je nach Sorte mild bis leicht bitter.": "Savoureuses et salées ; douces à légèrement amères selon la variété.",
+    "Abtropfen lassen und zu Brot, Gemüse oder als Teil einer Mezze-Auswahl servieren. Bei Bedarf kurz abspülen.": "Égouttez et servez avec du pain, des légumes ou dans un assortiment de mezzés. Rincez brièvement si nécessaire.",
+    "Rund ums Mittelmeer verbreitet, unter anderem an der kroatischen Adria, in Iberien, Südfrankreich, Italien, Griechenland, der Türkei, im Maghreb, im Libanon und in Ägypten. Sorten und Zubereitungen unterscheiden sich regional.": "Présentes autour de la Méditerranée, notamment sur l’Adriatique croate, en Ibérie, dans le sud de la France, en Italie, en Grèce, en Turquie, au Maghreb, au Liban et en Égypte. Les variétés et préparations diffèrent selon les régions.",
+    "Oliven in Salzlake gehören zu vielen Mittelmeerküchen. Aus Istrien und Dalmatien sind konkrete Zubereitungen dokumentiert; weitere Beispiele reichen von portugiesischen und spanischen Tafeloliven über südfranzösische, italienische und griechische Varianten bis zur Türkei, zum Maghreb, zum Libanon und zu Ägypten. Die Einordnung beschreibt die Produktfamilie und keine einheitliche regionale Rezeptur oder Lieferherkunft. In der Vorschau ist eine grüne, ungefüllte Variante vorgesehen; dunkle oder gewürzte Varianten sind eigenständige Rezepturen.": "Les olives en saumure font partie de nombreuses cuisines méditerranéennes, avec des exemples documentés en Istrie et en Dalmatie, en Ibérie, dans le sud de la France, en Italie, en Grèce, en Turquie, au Maghreb, au Liban et en Égypte. Ces liens décrivent une famille de produits, pas une recette uniforme ni l’origine de notre approvisionnement. L’aperçu présente des olives vertes non farcies ; les variantes foncées ou assaisonnées sont des recettes distinctes."
   },
   "it": {
     "Warenkorb": "Carrello",
@@ -2679,6 +2719,14 @@
     "Keine passende Spezialität gefunden.": "Nessuna specialità corrispondente.",
     "Wähle ein Produkt und entdecke seine kulinarischen Bezüge auf der Karte.": "Scegli un prodotto e scopri i suoi legami culinari sulla mappa.",
     "Das Mittelmeer entdecken": "Esplora il Mediterraneo",
-    "entdecken": "esplora"
+    "entdecken": "esplora",
+    "Tafeloliven in Salzlake": "Olive da tavola in salamoia",
+    "Grüne Oliven in Salzlake für Antipasti, Salate und die Mezze-Tafel. Abtropfgewicht: 180 g.": "Olive verdi in salamoia per antipasti, insalate e mezze. Peso sgocciolato: 180 g.",
+    "In Salzlake": "In salamoia",
+    "Abtropfgewicht": "peso sgocciolato",
+    "Herzhaft und salzig; je nach Sorte mild bis leicht bitter.": "Saporite e salate; delicate o leggermente amare secondo la varietà.",
+    "Abtropfen lassen und zu Brot, Gemüse oder als Teil einer Mezze-Auswahl servieren. Bei Bedarf kurz abspülen.": "Scola e servi con pane, verdure o in un assortimento di mezze. Sciacqua brevemente se necessario.",
+    "Rund ums Mittelmeer verbreitet, unter anderem an der kroatischen Adria, in Iberien, Südfrankreich, Italien, Griechenland, der Türkei, im Maghreb, im Libanon und in Ägypten. Sorten und Zubereitungen unterscheiden sich regional.": "Diffuse nel Mediterraneo, tra cui l’Adriatico croato, l’Iberia, il sud della Francia, l’Italia, la Grecia, la Turchia, il Maghreb, il Libano e l’Egitto. Varietà e preparazioni cambiano secondo la regione.",
+    "Oliven in Salzlake gehören zu vielen Mittelmeerküchen. Aus Istrien und Dalmatien sind konkrete Zubereitungen dokumentiert; weitere Beispiele reichen von portugiesischen und spanischen Tafeloliven über südfranzösische, italienische und griechische Varianten bis zur Türkei, zum Maghreb, zum Libanon und zu Ägypten. Die Einordnung beschreibt die Produktfamilie und keine einheitliche regionale Rezeptur oder Lieferherkunft. In der Vorschau ist eine grüne, ungefüllte Variante vorgesehen; dunkle oder gewürzte Varianten sind eigenständige Rezepturen.": "Le olive in salamoia fanno parte di molte cucine mediterranee, con esempi documentati in Istria e Dalmazia, Iberia, sud della Francia, Italia, Grecia, Turchia, Maghreb, Libano ed Egitto. Questi legami descrivono una famiglia di prodotti, non una ricetta uniforme né l’origine delle nostre forniture. L’anteprima presenta olive verdi non farcite; le varianti scure o condite sono ricette diverse."
   }
 }

@@ -7447,6 +7447,101 @@ window.MEDITERRANEAN = {
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
       },
       "syrupUse": "drink"
+    },
+    "tableolives": {
+      "regions": [
+        "ESP",
+        "PRT",
+        "FRA",
+        "ITA",
+        "GRC",
+        "TUR",
+        "MAR",
+        "DZA",
+        "LBN",
+        "EGY",
+        "HR-IST",
+        "HR-DAL"
+      ],
+      "text": "Oliven in Salzlake gehören zu vielen Mittelmeerküchen. Aus Istrien und Dalmatien sind konkrete Zubereitungen dokumentiert; weitere Beispiele reichen von portugiesischen und spanischen Tafeloliven über südfranzösische, italienische und griechische Varianten bis zur Türkei, zum Maghreb, zum Libanon und zu Ägypten. Die Einordnung beschreibt die Produktfamilie und keine einheitliche regionale Rezeptur oder Lieferherkunft. In der Vorschau ist eine grüne, ungefüllte Variante vorgesehen; dunkle oder gewürzte Varianten sind eigenständige Rezepturen.",
+      "source": "https://www.internationaloliveoil.org/olive-world/table-olives/",
+      "kind": "Tradition & Verbreitung",
+      "relatedRegions": [],
+      "type": "shared",
+      "primaryLabel": "Als Zutat oder Spezialität verbreitet",
+      "sources": [
+        {
+          "title": "International Olive Council · Tafeloliven und Verarbeitung in Salzlake",
+          "url": "https://www.internationaloliveoil.org/olive-world/table-olives/"
+        },
+        {
+          "title": "OPG Darko Ferlin · Istrische Oliven in Salzlake",
+          "url": "https://www.oliven-ol-istrien.com/"
+        },
+        {
+          "title": "OPG Kapari Kaprije · Dalmatinische grüne Oliven in Salzlake",
+          "url": "https://ajmolokalno.hr/proizvodi/masline-zelene-u-salamuri"
+        },
+        {
+          "title": "DGADR Portugal · Azeitona Galega da Beira Baixa IGP",
+          "url": "https://tradicional.dgadr.gov.pt/pt/cat/azeites-e-azeitonas/1030-azeitona-galega-da-beira-baixa"
+        },
+        {
+          "title": "Madama Oliva · Italienische Cerignola-Oliven in Salzlake",
+          "url": "https://www.madamaoliva.it/en/product/green-cerignola-olives-in-brine/"
+        },
+        {
+          "title": "Mechaalany · Libanesische Oliven",
+          "url": "https://mechaalany.com/"
+        },
+        {
+          "title": "INDAGRO · Ägyptische Tafeloliven in Salzlake",
+          "url": "https://indagroegypt.com/table-olives/"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Geeignet haltbar verarbeitete und verschlossene Oliven in Salzlake",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "Ungeöffnete Haltbarkeit und Lagerung nach dem Öffnen müssen für das konkrete Lieferprodukt bestätigt werden."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Rund ums Mittelmeer verbreitet, unter anderem an der kroatischen Adria, in Iberien, Südfrankreich, Italien, Griechenland, der Türkei, im Maghreb, im Libanon und in Ägypten. Sorten und Zubereitungen unterscheiden sich regional.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "shopDescription": "Grüne Oliven in Salzlake für Antipasti, Salate und die Mezze-Tafel. Abtropfgewicht: 180 g.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation",
+        "drainedWeightG": 180,
+        "netWeightG": 300
+      },
+      "availability": "planned",
+      "culinaryRooms": [
+        "NAV-IBERIA",
+        "NAV-LIGURIAN",
+        "NAV-CENTRAL",
+        "NAV-ADRIA",
+        "NAV-AEGEAN",
+        "NAV-EAST",
+        "NAV-NORTH",
+        "NAV-EGYPT"
+      ]
     }
   },
   "newProducts": [
@@ -8089,6 +8184,16 @@ window.MEDITERRANEAN = {
       "syrup-12",
       "Getränkesirup",
       "Duftiger Sirup aus der Dattel-Trauben-Familie mit Rosenwasser. Mit Wasser und Eis servieren."
+    ],
+    [
+      "tableolives",
+      "Tafeloliven in Salzlake",
+      "Feinkost",
+      "300 g",
+      5.9,
+      "table-olives",
+      "In Salzlake",
+      "Grüne Oliven in Salzlake für Antipasti, Salate und die Mezze-Tafel. Abtropfgewicht: 180 g."
     ]
   ],
   "catalog": [
@@ -8981,6 +9086,16 @@ window.MEDITERRANEAN = {
       "syrup-12",
       "Getränkesirup",
       "Duftiger Sirup aus der Dattel-Trauben-Familie mit Rosenwasser. Mit Wasser und Eis servieren."
+    ],
+    [
+      "tableolives",
+      "Tafeloliven in Salzlake",
+      "Feinkost",
+      "300 g",
+      5.9,
+      "table-olives",
+      "In Salzlake",
+      "Grüne Oliven in Salzlake für Antipasti, Salate und die Mezze-Tafel. Abtropfgewicht: 180 g."
     ]
   ],
   "reviewed": "2026-11-13",
