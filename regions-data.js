@@ -157,7 +157,8 @@ window.MEDITERRANEAN = {
           "title": "Tarragona Turisme · Romesco",
           "url": "https://www.tarragonaturisme.cat/en/cuisine"
         }
-      ]
+      ],
+      "sharedRegion": "XB-CATALAN"
     },
     {
       "id": "ES-AN",
@@ -298,7 +299,7 @@ window.MEDITERRANEAN = {
       "id": "HR-IST",
       "name": "Istrien",
       "parent": "HRV",
-      "subtitle": "Hier: kroatischer Teil Istriens",
+      "subtitle": "Gemeinsame Region · Kroatien, Slowenien & Italien",
       "lon": 13.9,
       "lat": 45.1,
       "level": "subregion",
@@ -307,7 +308,8 @@ window.MEDITERRANEAN = {
           "title": "Tourismus Istrien · Olivenöl und Trüffel",
           "url": "https://www.istra.hr/en/gourmet/gourmet-spots"
         }
-      ]
+      ],
+      "sharedRegion": "XB-ISTRIA"
     },
     {
       "id": "GR-CRE",
@@ -326,9 +328,9 @@ window.MEDITERRANEAN = {
     },
     {
       "id": "TR-AEG",
-      "name": "Türkische Ägäis",
+      "name": "Ägäischer Küsten- und Inselraum",
       "parent": "TUR",
-      "subtitle": "Aydın, İzmir & Muğla",
+      "subtitle": "Griechenland & Türkei",
       "lon": 27.4,
       "lat": 38.0,
       "level": "subregion",
@@ -337,7 +339,8 @@ window.MEDITERRANEAN = {
           "title": "GoTürkiye · Ägäische Küche",
           "url": "https://goturkiye.com/branding/press-releases/turkish-cuisine-week-highlights-the-aegean-flavours-in-2024"
         }
-      ]
+      ],
+      "sharedRegion": "XB-AEGEAN"
     },
     {
       "id": "MT-GOZ",
@@ -382,7 +385,8 @@ window.MEDITERRANEAN = {
           "title": "Ligurien · Regionaler kulinarischer Hintergrund",
           "url": "https://lamialiguria.it/en/experiences/adopt-a-taggiasca-cultivar-olive-tree/"
         }
-      ]
+      ],
+      "sharedRegion": "XB-RIVIERA"
     },
     {
       "id": "IT-TOS",
@@ -461,9 +465,9 @@ window.MEDITERRANEAN = {
     },
     {
       "id": "SI-IST",
-      "name": "Slowenisches Istrien",
+      "name": "Istrien",
       "parent": "SVN",
-      "subtitle": "Koper, Izola, Piran & Hinterland",
+      "subtitle": "Gemeinsame Region · Kroatien, Slowenien & Italien",
       "lon": 13.75,
       "lat": 45.5,
       "level": "subregion",
@@ -472,13 +476,14 @@ window.MEDITERRANEAN = {
           "title": "Slovenian Tourist Board · Trüffel in slowenischem Istrien",
           "url": "https://www.slovenia.info/en/press-centre/news-of-the-tourism-press-agency/10387-top-3-foodie-experiences-in-the-hinterland-of-portoroz-and-piran"
         }
-      ]
+      ],
+      "sharedRegion": "XB-ISTRIA"
     },
     {
       "id": "IT-IST",
-      "name": "Muggia · italienisches Istrien",
+      "name": "Istrien",
       "parent": "ITA",
-      "subtitle": "Istrischer Teil des Golfs von Triest",
+      "subtitle": "Gemeinsame Region · Kroatien, Slowenien & Italien",
       "lon": 13.77,
       "lat": 45.59,
       "level": "subregion",
@@ -487,7 +492,8 @@ window.MEDITERRANEAN = {
           "title": "PromoTurismoFVG · Olivenöl aus Muggia",
           "url": "https://www.turismofvg.it/en/food-and-wine/lenardon-bruno?LangSetCMS=en"
         }
-      ]
+      ],
+      "sharedRegion": "XB-ISTRIA"
     },
     {
       "id": "BIH-BOS",
@@ -521,9 +527,9 @@ window.MEDITERRANEAN = {
     },
     {
       "id": "HR-NER",
-      "name": "Neretva-Tal · kroatischer Teil",
+      "name": "Neretva-Tal",
       "parent": "HRV",
-      "subtitle": "Untere Neretva · Metković & Opuzen",
+      "subtitle": "Kroatien & Bosnien und Herzegowina",
       "lon": 17.58,
       "lat": 43.02,
       "level": "subregion",
@@ -532,13 +538,14 @@ window.MEDITERRANEAN = {
           "title": "Kroatisches Landwirtschaftsministerium · Mandarinen-Anbaugebiete",
           "url": "https://poljoprivreda.gov.hr/UserDocsImages/dokumenti/poljoprivreda/vo%C4%87arstvo/Program%20potpore%20za%20proizvo%C4%91a%C4%8De%20mandarina%20za%202019.%20godinu.pdf"
         }
-      ]
+      ],
+      "sharedRegion": "XB-NERETVA"
     },
     {
       "id": "BIH-NER",
-      "name": "Neretva-Tal · herzegowinischer Teil",
+      "name": "Neretva-Tal",
       "parent": "BIH",
-      "subtitle": "Unter anderem Umgebung von Čapljina",
+      "subtitle": "Kroatien & Bosnien und Herzegowina",
       "lon": 17.72,
       "lat": 43.12,
       "level": "subregion",
@@ -547,7 +554,8 @@ window.MEDITERRANEAN = {
           "title": "Fachartikel · Mandarinenanbau in der südlichen Herzegowina",
           "url": "https://hrcak.srce.hr/en/clanak/406151"
         }
-      ]
+      ],
+      "sharedRegion": "XB-NERETVA"
     },
     {
       "id": "SY-ALE",
@@ -592,7 +600,8 @@ window.MEDITERRANEAN = {
           "title": "Tourisme Pyrénées-Orientales · Route zwischen französischem und spanischem katalanischem Raum",
           "url": "https://www.tourisme-pyreneesorientales.com/activites/circuit-vtt-haut-vallespir-raid-des-deux-catalognes-saint-laurent-de-cerdans-fr-5744061/"
         }
-      ]
+      ],
+      "sharedRegion": "XB-CATALAN"
     },
     {
       "id": "FR-RIV",
@@ -607,13 +616,14 @@ window.MEDITERRANEAN = {
           "title": "World Encyclopedia · Riviera in Frankreich und Italien",
           "url": "https://www.encyclopedia.com/places/spain-portugal-italy-greece-and-balkans/italian-political-geography/riviera"
         }
-      ]
+      ],
+      "sharedRegion": "XB-RIVIERA"
     },
     {
       "id": "PT-GUA",
-      "name": "Untere Guadiana · portugiesischer Teil",
+      "name": "Untere Guadiana",
       "parent": "PRT",
-      "subtitle": "Regionaler Referenzpunkt · keine exakte flächige Abgrenzung",
+      "subtitle": "Portugal & Spanien",
       "lon": -7.45,
       "lat": 37.25,
       "level": "subregion",
@@ -622,13 +632,14 @@ window.MEDITERRANEAN = {
           "title": "Europäische Kommission · gemeinsames Guadiana-Einzugsgebiet",
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52019SC0032"
         }
-      ]
+      ],
+      "sharedRegion": "XB-GUADIANA"
     },
     {
       "id": "ES-GUA",
-      "name": "Untere Guadiana · spanischer Teil",
+      "name": "Untere Guadiana",
       "parent": "ESP",
-      "subtitle": "Regionaler Referenzpunkt · keine exakte flächige Abgrenzung",
+      "subtitle": "Portugal & Spanien",
       "lon": -7.35,
       "lat": 37.3,
       "level": "subregion",
@@ -637,13 +648,14 @@ window.MEDITERRANEAN = {
           "title": "Europäische Kommission · gemeinsames Guadiana-Einzugsgebiet",
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52019SC0032"
         }
-      ]
+      ],
+      "sharedRegion": "XB-GUADIANA"
     },
     {
       "id": "GR-AEG",
-      "name": "Griechische Ägäis",
+      "name": "Ägäischer Küsten- und Inselraum",
       "parent": "GRC",
-      "subtitle": "Regionaler Referenzpunkt · keine exakte flächige Abgrenzung",
+      "subtitle": "Griechenland & Türkei",
       "lon": 25.0,
       "lat": 38.0,
       "level": "subregion",
@@ -652,7 +664,8 @@ window.MEDITERRANEAN = {
           "title": "EBSCO · Ägäis zwischen Griechenland und Türkei",
           "url": "https://www.ebsco.com/research-starters/geography-and-cartography/aegean-sea"
         }
-      ]
+      ],
+      "sharedRegion": "XB-AEGEAN"
     },
     {
       "id": "HR-NIN",
@@ -696,6 +709,40 @@ window.MEDITERRANEAN = {
         {
           "title": "Slovenian Tourist Board · Unraffiniertes Piran-Salz",
           "url": "https://www.slovenia.info/en/press-centre/news-of-the-tourism-press-agency/5554-best-from-slovenia"
+        }
+      ]
+    },
+    {
+      "id": "TN-MED",
+      "name": "Medjerda-Tal · Tebourba",
+      "parent": "TUN",
+      "lon": 9.85,
+      "lat": 36.83,
+      "level": "subregion",
+      "subtitle": "Belegtes Herstellungsbeispiel · Salzzitronen",
+      "sources": [
+        {
+          "title": "Rogers Collection · Tunesische Salzzitronen",
+          "url": "https://www.rogerscollection.us/wp-content/uploads/2016/01/Organic-Natural-Preserved-Lemon-Sell-Sheet.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ES-TAR",
+      "name": "Tarragona · El Serrallo",
+      "parent": "ESP",
+      "lon": 1.24,
+      "lat": 41.11,
+      "level": "subregion",
+      "subtitle": "Katalonien · Romesco-Tradition",
+      "sources": [
+        {
+          "title": "Tarragona Turisme · Romesco und El Serrallo",
+          "url": "https://www.tarragonaturisme.cat/en/tarragona-romesco"
+        },
+        {
+          "title": "Tarragona Turisme · Romesco-Sauce",
+          "url": "https://www.tarragonaturisme.cat/es/el-serrallo-el-barrio-marinero-de-tarragona"
         }
       ]
     }
@@ -2027,7 +2074,8 @@ window.MEDITERRANEAN = {
     "romesco": {
       "regions": [
         "ESP",
-        "ES-CT"
+        "ES-CT",
+        "ES-TAR"
       ],
       "text": "Romesco ist besonders mit Tarragona und seiner Umgebung in Katalonien verbunden. Katalonien ist die autonome Region, zu der auch Barcelona gehört. Die Zuordnung ist genauer als eine pauschale Übertragung auf alle spanischen Unterregionen.",
       "source": "https://en.wikipedia.org/wiki/Romesco",
@@ -2043,6 +2091,14 @@ window.MEDITERRANEAN = {
         {
           "title": "Hintergrund zur Spezialität",
           "url": "https://en.wikipedia.org/wiki/Romesco"
+        },
+        {
+          "title": "Tarragona Turisme · Romesco und El Serrallo",
+          "url": "https://www.tarragonaturisme.cat/en/tarragona-romesco"
+        },
+        {
+          "title": "Tarragona Turisme · Romesco-Sauce",
+          "url": "https://www.tarragonaturisme.cat/es/el-serrallo-el-barrio-marinero-de-tarragona"
         }
       ],
       "relatedLabel": "Verwandte regionale Varianten",
@@ -2068,26 +2124,26 @@ window.MEDITERRANEAN = {
       "regions": [
         "TUN"
       ],
-      "text": "Das Entwurfsprodukt ist nach tunesischer Art gedacht. Die UNESCO dokumentiert Harissa als Teil der tunesischen Alltags- und Vorratsküche. Harissa wird auch in anderen Maghrebländern gegessen; deren Varianten sind nicht automatisch dieselbe tunesische Rezeptur.",
+      "text": "Harissa ist eine Chilipaste mit regional unterschiedlichen Rezepturen. Die UNESCO dokumentiert ihre besondere Rolle in der tunesischen Alltags- und Vorratsküche; das ist kein Nachweis, dass Harissa nur dort vorkommt. Der aktuelle Rezepturentwurf orientiert sich an dieser Tradition. Weitere Maghreb-Varianten werden mit ihren Unterschieden gesondert erläutert.",
       "source": "https://en.wikipedia.org/wiki/Harissa",
       "kind": "Tunesische Rezeptidee",
       "relatedRegions": [
         {
           "id": "DZA",
           "title": "Harissa · weitere Maghreb-Varianten",
-          "note": "Hier gibt es verwandte Harissa-Zubereitungen. Unser Entwurf bleibt nach tunesischer Art benannt; Gewürze und Schärfe können abweichen.",
+          "note": "Verwandte Harissa-Zubereitungen mit regional unterschiedlichen Gewürzen und Schärfe. Eine identische Rezeptur mit dem tunesisch geprägten Entwurf wird damit nicht behauptet.",
           "sources": []
         },
         {
           "id": "MAR",
           "title": "Harissa · weitere Maghreb-Varianten",
-          "note": "Hier gibt es verwandte Harissa-Zubereitungen. Unser Entwurf bleibt nach tunesischer Art benannt; Gewürze und Schärfe können abweichen.",
+          "note": "Verwandte Harissa-Zubereitungen mit regional unterschiedlichen Gewürzen und Schärfe. Eine identische Rezeptur mit dem tunesisch geprägten Entwurf wird damit nicht behauptet.",
           "sources": []
         },
         {
           "id": "LBY",
           "title": "Harissa · weitere Maghreb-Varianten",
-          "note": "Hier gibt es verwandte Harissa-Zubereitungen. Unser Entwurf bleibt nach tunesischer Art benannt; Gewürze und Schärfe können abweichen.",
+          "note": "Verwandte Harissa-Zubereitungen mit regional unterschiedlichen Gewürzen und Schärfe. Eine identische Rezeptur mit dem tunesisch geprägten Entwurf wird damit nicht behauptet.",
           "sources": []
         }
       ],
@@ -2101,6 +2157,10 @@ window.MEDITERRANEAN = {
         {
           "title": "Hintergrund zur Spezialität",
           "url": "https://en.wikipedia.org/wiki/Harissa"
+        },
+        {
+          "title": "UNESCO · Entscheidung zur Harissa-Tradition",
+          "url": "https://ich.unesco.org/en/decisions/17.COM/7.B.30"
         }
       ],
       "relatedLabel": "Verwandte regionale Varianten",
@@ -2124,26 +2184,16 @@ window.MEDITERRANEAN = {
     },
     "saltlemons": {
       "regions": [
-        "MAR"
+        "MAR",
+        "TUN",
+        "TN-MED"
       ],
-      "text": "Das Entwurfsprodukt ist ausdrücklich nach marokkanischer Art gedacht. Salzzitronen gehören zur marokkanischen Küche. Eingelegte Zitronen sind auch anderswo belegt; diese verwandten Zubereitungen werden hier nicht als identische marokkanische Rezeptur geführt.",
+      "text": "Salzzitronen sind keine ausschließlich marokkanische Spezialität. Sie sind unter anderem in Marokko und Tunesien belegt. Eine marokkanische Zubereitung verwendet Zitronen und Salz; aus Tebourba im Medjerda-Tal ist eine tunesische Variante mit milder roter Paprika dokumentiert. Das Tal ist ein belegtes Herstellungsbeispiel, keine ausschließliche Heimat der Salzzitronen. Eine Beschränkung auf nur eine marokkanische Unterregion ist durch die hier verwendeten Quellen nicht belegt. Die endgültige Rezeptur und Lieferherkunft werden anhand des Lieferprodukts festgelegt.",
       "source": "https://en.wikipedia.org/wiki/Preserved_lemon",
-      "kind": "Marokkanische Rezeptidee",
-      "relatedRegions": [
-        {
-          "id": "TUN",
-          "title": "Eingelegte Zitronen · tunesische Varianten",
-          "note": "In Tunesien sind eigene eingelegte Zitronen dokumentiert. Das macht das marokkanisch benannte Entwurfsprodukt nicht zu einer tunesischen Rezeptur.",
-          "sources": [
-            {
-              "title": "Rogers Collection · Tunesische Salzzitronen",
-              "url": "https://www.rogerscollection.us/wp-content/uploads/2016/01/Organic-Natural-Preserved-Lemon-Sell-Sheet.pdf"
-            }
-          ]
-        }
-      ],
-      "type": "regional",
-      "primaryLabel": "Gezeigte regionale Rezeptur",
+      "kind": "Gemeinsame Tradition · regionale Varianten",
+      "relatedRegions": [],
+      "type": "shared",
+      "primaryLabel": "Belegte Verbreitung & regionale Beispiele",
       "sources": [
         {
           "title": "Taste of Maroc · Marokkanische Salzzitronen",
@@ -2152,6 +2202,10 @@ window.MEDITERRANEAN = {
         {
           "title": "Hintergrund zur Spezialität",
           "url": "https://en.wikipedia.org/wiki/Preserved_lemon"
+        },
+        {
+          "title": "Rogers Collection · Tunesische Salzzitronen",
+          "url": "https://www.rogerscollection.us/wp-content/uploads/2016/01/Organic-Natural-Preserved-Lemon-Sell-Sheet.pdf"
         }
       ],
       "relatedLabel": "Verwandte regionale Varianten",
@@ -2167,7 +2221,7 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
@@ -2387,13 +2441,13 @@ window.MEDITERRANEAN = {
     ],
     [
       "acuka",
-      "Türkische Acuka",
+      "Acuka",
       "Aufstriche",
       "180 g",
       5.9,
       "shared-1",
-      "Türkische Art",
-      "Würziger Paprika-Walnuss-Aufstrich."
+      "Paprika & Walnuss",
+      "Würziger Paprika-Walnuss-Aufstrich, unter anderem aus der türkischen Frühstücksküche bekannt."
     ],
     [
       "zaatar",
@@ -2628,23 +2682,23 @@ window.MEDITERRANEAN = {
     ],
     [
       "harissa",
-      "Tunesische Harissa",
+      "Harissa",
       "Feinkost",
       "100 g",
       4.9,
       "regional-2",
-      "Tunesien",
-      "Scharfe Chilipaste nach tunesischer Art mit Knoblauch und Gewürzen."
+      "Chilipaste",
+      "Scharfe Chilipaste mit Knoblauch und Gewürzen. Geplanter Rezepturbezug: tunesische Tradition."
     ],
     [
       "saltlemons",
-      "Marokkanische Salzzitronen",
+      "Salzzitronen",
       "Feinkost",
       "300 g",
       6.9,
       "regional-3",
-      "Marokko",
-      "In Salzlake eingelegte Zitronen nach marokkanischer Art. Aromatisch zu Gemüse und Couscous."
+      "Eingelegt",
+      "In Salz und Zitronensaft beziehungsweise Salzlake eingelegte Zitronen. Regionale Rezepturen können variieren."
     ],
     [
       "olivepaste",
@@ -2658,13 +2712,13 @@ window.MEDITERRANEAN = {
     ],
     [
       "acuka",
-      "Türkische Acuka",
+      "Acuka",
       "Aufstriche",
       "180 g",
       5.9,
       "shared-1",
-      "Türkische Art",
-      "Würziger Paprika-Walnuss-Aufstrich."
+      "Paprika & Walnuss",
+      "Würziger Paprika-Walnuss-Aufstrich, unter anderem aus der türkischen Frühstücksküche bekannt."
     ],
     [
       "zaatar",
@@ -2692,8 +2746,8 @@ window.MEDITERRANEAN = {
   "crossBorderAreas": [
     {
       "id": "XB-ISTRIA",
-      "name": "Istrien · länderübergreifend",
-      "subtitle": "Kroatien, Slowenien & italienischer Teil",
+      "name": "Istrien",
+      "subtitle": "Gemeinsame Region · Kroatien, Slowenien & Italien",
       "members": [
         "HR-IST",
         "SI-IST",
@@ -2704,17 +2758,18 @@ window.MEDITERRANEAN = {
         "SVN",
         "ITA"
       ],
-      "text": "Istrien ist ein gemeinsamer geografischer und kulinarischer Raum über Staatsgrenzen hinweg. Angezeigt werden nur die einzeln erfassten Bezüge der jeweiligen Teilgebiete; eine Spezialität wird nicht automatisch allen Teilen zugerechnet.",
+      "text": "Istrien verbindet Küsten und Hinterland über Staatsgrenzen hinweg. Entdecke die gemeinsam dargestellten Spezialitäten und Zutaten der Region. Konkrete Rezepturen und Lieferherkünfte bleiben einzeln belegt.",
       "sources": [
         {
           "title": "Slovenian Tourist Board · gemeinsamer Istrien-Genussführer für drei Länder",
           "url": "https://www.slovenia.info/en/press-centre/news-of-the-tourism-press-agency/6611-first-food-and-wine-guide-to-istria"
         }
-      ]
+      ],
+      "unified": true
     },
     {
       "id": "XB-NERETVA",
-      "name": "Neretva · länderübergreifend",
+      "name": "Neretva-Tal",
       "subtitle": "Kroatien & Bosnien und Herzegowina",
       "members": [
         "HR-NER",
@@ -2724,7 +2779,7 @@ window.MEDITERRANEAN = {
         "HRV",
         "BIH"
       ],
-      "text": "Das Neretva-Tal ist grenzüberschreitend. Kroatische und herzegowinische Anbauorte werden getrennt belegt; ein Bezug zum Tal allein bestätigt kein konkretes Herkunftsland einer späteren Lieferung.",
+      "text": "Das Neretva-Tal verbindet Landschaften und Anbauorte in Kroatien sowie Bosnien und Herzegowina. Die Region wird als gemeinsamer Raum mit allen erfassten Zutaten und Verarbeitungsideen gezeigt. Die Herkunft einer konkreten Lieferung wird separat angegeben.",
       "sources": [
         {
           "title": "Kroatisches Landwirtschaftsministerium · Mandarinen-Anbaugebiete",
@@ -2734,7 +2789,8 @@ window.MEDITERRANEAN = {
           "title": "Fachartikel · Mandarinenanbau in der südlichen Herzegowina",
           "url": "https://hrcak.srce.hr/en/clanak/406151"
         }
-      ]
+      ],
+      "unified": true
     },
     {
       "id": "XB-LEVANT",
@@ -2798,13 +2854,14 @@ window.MEDITERRANEAN = {
         "FRA",
         "ESP"
       ],
-      "text": "Katalonien als spanische autonome Region ist vom weiteren katalanischen Kulturraum zu unterscheiden. Die Ansicht zeigt den französisch-spanischen Ausschnitt; weitere katalanischsprachige Gebiete sind damit nicht ausgeschlossen. Romesco wird nur seinem belegten katalanischen Rezepturbezug zugeordnet, nicht automatisch dem französischen Teil.",
+      "text": "Ein gemeinsamer Kulturraum mit verbundenen Küchentraditionen. Die Ansicht verbindet Katalonien und Roussillon. Romesco bleibt eine ausdrücklich katalanische Rezeptur; die gemeinsame Ansicht setzt regionale Varianten nicht gleich.",
       "sources": [
         {
           "title": "Tourisme Pyrénées-Orientales · Route zwischen französischem und spanischem katalanischem Raum",
           "url": "https://www.tourisme-pyreneesorientales.com/activites/circuit-vtt-haut-vallespir-raid-des-deux-catalognes-saint-laurent-de-cerdans-fr-5744061/"
         }
-      ]
+      ],
+      "unified": true
     },
     {
       "id": "XB-RIVIERA",
@@ -2824,7 +2881,8 @@ window.MEDITERRANEAN = {
           "title": "World Encyclopedia · Riviera in Frankreich und Italien",
           "url": "https://www.encyclopedia.com/places/spain-portugal-italy-greece-and-balkans/italian-political-geography/riviera"
         }
-      ]
+      ],
+      "unified": true
     },
     {
       "id": "XB-GUADIANA",
@@ -2844,7 +2902,8 @@ window.MEDITERRANEAN = {
           "title": "Europäische Kommission · gemeinsames Guadiana-Einzugsgebiet",
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52019SC0032"
         }
-      ]
+      ],
+      "unified": true
     },
     {
       "id": "XB-AEGEAN",
@@ -2859,13 +2918,14 @@ window.MEDITERRANEAN = {
         "GRC",
         "TUR"
       ],
-      "text": "Ein gemeinsamer maritimer Raum mit eigenständigen griechischen und türkischen Küchen. Die aggregierten Produkte bleiben den jeweils belegten Teilräumen zugeordnet.",
+      "text": "Küsten und Inseln der Ägäis bilden einen gemeinsamen Entdeckungsraum. Eigenständige Rezepturen und lokale Traditionen bleiben in den Produktbeschreibungen erkennbar.",
       "sources": [
         {
           "title": "EBSCO · Ägäis zwischen Griechenland und Türkei",
           "url": "https://www.ebsco.com/research-starters/geography-and-cartography/aegean-sea"
         }
-      ]
+      ],
+      "unified": true
     }
   ],
   "rawMaterialIdeas": [
@@ -2877,7 +2937,7 @@ window.MEDITERRANEAN = {
         "BIH-NER",
         "HR-NER"
       ],
-      "text": "Mandarinenanbau ist sowohl im kroatischen Neretva-Gebiet als auch in der südlichen Herzegowina dokumentiert. Die Quellen belegen Anbau, keine bereits vereinbarte Beschaffung und keine exklusive Heimat.",
+      "text": "Mandarinenanbau ist im gemeinsamen Neretva-Tal und in der südlichen Herzegowina dokumentiert. Die Quellen belegen Anbau, keine bereits vereinbarte Beschaffung und keine exklusive Heimat.",
       "formats": [
         "Mandarinen-Fruchtaufstrich",
         "Mandarinen-Chutney"
