@@ -797,7 +797,7 @@ window.MEDITERRANEAN = {
         "FR-RIV",
         "GR-AEG"
       ],
-      "text": "Olivenöl ist in vielen mediterranen Küchen üblich und wird in zahlreichen Ländern und Regionen angebaut, hergestellt und verwendet. Dazu gehören ausdrücklich Portugal sowie Bosnien und Herzegowina mit der Herzegowina. Die Markierungen zeigen erfasste kulinarische beziehungsweise regionale Produktionsbezüge. Sie sind keine Herkunftsangabe für unser Entwurfsöl und keine genaue flächendeckende Anbaukarte.",
+      "text": "Olivenöl ist in vielen mediterranen Küchen üblich und wird in zahlreichen Ländern und Regionen angebaut, hergestellt und verwendet. Dazu gehören ausdrücklich Portugal sowie Bosnien und Herzegowina mit der Herzegowina. Die Markierungen zeigen erfasste kulinarische beziehungsweise regionale Produktionsbezüge. Sie sind keine Herkunftsangabe für unser Öl und keine genaue flächendeckende Anbaukarte.",
       "source": "https://en.wikipedia.org/wiki/Olive_oil",
       "kind": "Tradition & Verbreitung",
       "relatedRegions": [],
@@ -932,6 +932,12 @@ window.MEDITERRANEAN = {
         "summary": "Rund ums Mittelmeer verbreitet, ebenso in der portugiesischen Nachbarschaft – mit zahlreichen regionalen Olivenöltraditionen.",
         "basis": "shared",
         "exclusive": false
+      },
+      "shopDescription": "Fruchtiges Olivenöl für Salate, Gemüse und den letzten Schliff auf warmen Gerichten.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
       }
     },
     "truffle": {
@@ -941,7 +947,7 @@ window.MEDITERRANEAN = {
         "IT-UMB",
         "FR-PRO"
       ],
-      "text": "Haltbare Trüffelöle sind unter anderem im kroatischen Istrien, im Piemont, in Umbrien und in der Provence anhand konkreter regionaler Angebote dokumentiert. Istrien ist ein wichtiger kroatischer Trüffelschwerpunkt, besonders um Motovun, Buzet und Livade. Trüffel kommen auch in anderen Gebieten vor. Die Karte zeigt die regionale Produktfamilie, nicht die nachgewiesene Rohstoff- oder Herstellungsherkunft dieses Entwurfsprodukts.",
+      "text": "Haltbare Trüffelöle sind unter anderem im kroatischen Istrien, im Piemont, in Umbrien und in der Provence anhand konkreter regionaler Angebote dokumentiert. Istrien ist ein wichtiger kroatischer Trüffelschwerpunkt, besonders um Motovun, Buzet und Livade. Trüffel kommen auch in anderen Gebieten vor. Die Karte zeigt die regionale Produktfamilie, nicht die nachgewiesene Rohstoff- oder Herstellungsherkunft dieses Produkts.",
       "source": "https://en.wikipedia.org/wiki/Truffle",
       "kind": "Regional belegte Feinkost-Produktfamilie",
       "relatedRegions": [
@@ -959,7 +965,7 @@ window.MEDITERRANEAN = {
         {
           "id": "SI-IST",
           "title": "Trüffelgebiet slowenisches Istrien",
-          "note": "Trüffelkultur ist hier belegt; das allein bestätigt weder die genaue Rezeptur noch die Herkunft unseres Entwurfsprodukts.",
+          "note": "Trüffelkultur ist hier belegt; das allein bestätigt weder die genaue Rezeptur noch die Herkunft unseres Produkts.",
           "sources": [
             {
               "title": "Slovenian Tourist Board · Trüffel in slowenischem Istrien",
@@ -1026,13 +1032,19 @@ window.MEDITERRANEAN = {
         "summary": "Regionale Trüffelöl-Spezialitäten sind unter anderem in Istrien, im Piemont, in Umbrien und in der Provence belegt. Weitere Trüffelregionen ergänzen den kulinarischen Zusammenhang.",
         "basis": "regional-product-family",
         "exclusive": false
+      },
+      "shopDescription": "Feine Trüffelnote für Pasta, Risotto und Kartoffelgerichte. Sparsam zum Verfeinern verwenden.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
       }
     },
     "lemonoil": {
       "regions": [],
-      "text": "Zitrone, Basilikum und Olivenöl sind mediterrane Zutaten. Für ihre konkrete Kombination in diesem Entwurfsöl ist keine einzelne traditionelle Heimat belegt. Aromatisierte Öle gibt es heute in unterschiedlichen Regionen.",
+      "text": "Zitrone und Basilikum bringen frische Aromen an Salate, Gemüse und Pasta. Für diese Zusammenstellung ist keine einzelne traditionelle Heimat belegt.",
       "source": "https://en.wikipedia.org/wiki/Mediterranean_cuisine",
-      "kind": "Moderne Sortimentidee",
+      "kind": "Aromatische Komposition",
       "relatedRegions": [],
       "type": "modern",
       "primaryLabel": "Keine feste traditionelle Heimat",
@@ -1065,13 +1077,19 @@ window.MEDITERRANEAN = {
         "summary": "Mediterran inspirierte Kombination aus Zitrone, Basilikum und Olivenöl. Für genau diese Mischung ist keine einzelne traditionelle Heimat belegt.",
         "basis": "modern",
         "exclusive": false
+      },
+      "shopDescription": "Zitrone und Basilikum bringen frische Aromen an Salate, Gemüse und Pasta.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
       }
     },
     "chilioil": {
       "regions": [],
       "text": "Dieses Chili-Knoblauch-Olivenöl ist eine moderne Rezeptidee. Aus der Verwendung von Chili und Knoblauch lässt sich keine traditionelle Heimat genau dieser Ölmischung ableiten.",
       "source": "https://en.wikipedia.org/wiki/Chili_oil",
-      "kind": "Moderne Sortimentidee",
+      "kind": "Aromatische Komposition",
       "relatedRegions": [],
       "type": "modern",
       "primaryLabel": "Keine feste traditionelle Heimat",
@@ -1104,6 +1122,12 @@ window.MEDITERRANEAN = {
         "summary": "Mediterran inspirierte Ölmischung. Für die konkrete Chili-Knoblauch-Kombination ist keine einzelne traditionelle Heimat belegt.",
         "basis": "modern",
         "exclusive": false
+      },
+      "shopDescription": "Chili und Knoblauch geben Pizza, Pasta und gegrilltem Gemüse eine würzige Note.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
       }
     },
     "fleur": {
@@ -1163,6 +1187,12 @@ window.MEDITERRANEAN = {
         "summary": "Salzblumen aus Küstenlandschaften zwischen Atlantik und Mittelmeer, etwa Algarve, Balearen und Adria; auch in Frankreich belegt.",
         "basis": "shared",
         "exclusive": false
+      },
+      "shopDescription": "Zarte Salzflocken zum abschließenden Würzen und Verfeinern.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
       }
     },
     "sea": {
@@ -1277,6 +1307,12 @@ window.MEDITERRANEAN = {
         "summary": "An vielen Mittelmeerküsten und an Portugals Atlantikküste kulinarisch zuhause. Einzelne Salinenregionen zeigen Beispiele der Gewinnung.",
         "basis": "shared",
         "exclusive": false
+      },
+      "shopDescription": "Ein vielseitiges Meersalz für die tägliche Küche.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
       }
     },
     "trufflesalt": {
@@ -1284,7 +1320,7 @@ window.MEDITERRANEAN = {
         "HR-IST",
         "IT-PIE"
       ],
-      "text": "Haltbare Trüffelsalze sind anhand konkreter Herstellerangebote im kroatischen Istrien und im Piemont dokumentiert. Salzart, Trüffelart und Rezeptur unterscheiden sich; nicht jedes belegte Trüffelsalz ist Fleur de Sel. Istrien ist ein wichtiger kroatischer Trüffelschwerpunkt, besonders um Motovun, Buzet und Livade. Trüffel kommen auch in anderen Gebieten vor. Die Karte zeigt die regionale Produktfamilie, nicht die nachgewiesene Rohstoff- oder Herstellungsherkunft dieses Entwurfsprodukts.",
+      "text": "Haltbare Trüffelsalze sind anhand konkreter Herstellerangebote im kroatischen Istrien und im Piemont dokumentiert. Salzart, Trüffelart und Rezeptur unterscheiden sich; nicht jedes belegte Trüffelsalz ist Fleur de Sel. Istrien ist ein wichtiger kroatischer Trüffelschwerpunkt, besonders um Motovun, Buzet und Livade. Trüffel kommen auch in anderen Gebieten vor. Die Karte zeigt die regionale Produktfamilie, nicht die nachgewiesene Rohstoff- oder Herstellungsherkunft dieses Produkts.",
       "source": "https://en.wikipedia.org/wiki/Truffle",
       "kind": "Regional belegte Feinkost-Produktfamilie",
       "relatedRegions": [
@@ -1302,7 +1338,7 @@ window.MEDITERRANEAN = {
         {
           "id": "SI-IST",
           "title": "Trüffelgebiet slowenisches Istrien",
-          "note": "Trüffelkultur ist hier belegt; das allein bestätigt weder die genaue Rezeptur noch die Herkunft unseres Entwurfsprodukts.",
+          "note": "Trüffelkultur ist hier belegt; das allein bestätigt weder die genaue Rezeptur noch die Herkunft unseres Produkts.",
           "sources": [
             {
               "title": "Slovenian Tourist Board · Trüffel in slowenischem Istrien",
@@ -1361,6 +1397,12 @@ window.MEDITERRANEAN = {
         "summary": "Trüffelsalz-Spezialitäten sind unter anderem in Istrien und im Piemont belegt. Salzart und Trüffelrezeptur unterscheiden sich regional.",
         "basis": "regional-product-family",
         "exclusive": false
+      },
+      "shopDescription": "Salzblume und Trüffel für Pasta, Pilzgerichte und feine Kartoffelgerichte.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
       }
     },
     "herbsalt": {
@@ -1409,7 +1451,13 @@ window.MEDITERRANEAN = {
         "HR-DAL",
         "HR-NIN"
       ],
-      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben."
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Meersalz mit dalmatinischen Kräutern für Ofengemüse, Kartoffeln und Marinaden.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      }
     },
     "black": {
       "regions": [
@@ -1454,6 +1502,12 @@ window.MEDITERRANEAN = {
         "summary": "Mit ostasiatischen Verarbeitungstraditionen verbunden; heutige Herstellung ist auch in Spanien belegt. Die Karte zeigt dieses Produktionsbeispiel.",
         "basis": "contemporary",
         "exclusive": false
+      },
+      "shopDescription": "Weich und aromatisch, mit süßlich-würzigen Noten. Für Saucen, Dressings und Pasta.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
       }
     },
     "fig": {
@@ -1535,6 +1589,12 @@ window.MEDITERRANEAN = {
         "summary": "Getrocknete Feigen verbinden westliche und östliche Mittelmeerküchen und Portugal – von der Algarve über Dalmatien bis zur Ägäis und Zypern.",
         "basis": "shared",
         "exclusive": false
+      },
+      "shopDescription": "Sonnig-süße Trockenfeigen zum Naschen, Backen und für die Vorratsküche.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
       }
     },
     "ajvar": {
@@ -1585,6 +1645,12 @@ window.MEDITERRANEAN = {
         "summary": "In mehreren Balkanküchen zuhause. Die Karte zeigt die im Atlas erfassten kulinarischen Bezüge im westlichen und südlichen Balkan.",
         "basis": "shared",
         "exclusive": false
+      },
+      "shopDescription": "Geröstete Paprika als würziger Aufstrich, Dip und Begleiter zu Gemüse.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
       }
     },
     "capers": {
@@ -1669,6 +1735,12 @@ window.MEDITERRANEAN = {
         "summary": "Kapern gehören zu vielen Mittelmeerküchen, etwa auf Sizilien, Sardinien, Malta und Zypern sowie in der Ägäis. Die Konservierung variiert regional.",
         "basis": "shared",
         "exclusive": false
+      },
+      "shopDescription": "Würzige Kapern in Salzlake für Salate, Saucen und mediterrane Gemüsegerichte.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
       }
     },
     "sage": {
@@ -1723,6 +1795,12 @@ window.MEDITERRANEAN = {
         "summary": "Mit der adriatischen und dalmatinischen Küste verbunden und auch in weiteren Mittelmeerregionen verbreitet, etwa in Italien, Albanien, Griechenland und der Türkei.",
         "basis": "shared",
         "exclusive": false
+      },
+      "shopDescription": "Aromatische Salbeiblätter für Pasta, Bohnen und Ofengerichte.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
       }
     },
     "oregano": {
@@ -1739,7 +1817,7 @@ window.MEDITERRANEAN = {
         "GR-CRE",
         "GR-AEG"
       ],
-      "text": "Oregano wird unter anderem in Portugal, Griechenland, Zypern, Italien, der Türkei und an der Adria verwendet. In Portugal ist er beispielsweise für die Küche des Alentejo und der Algarve dokumentiert. Regionale Pflanzenarten und Mischungen unterscheiden sich; eine Wildsammlung unseres Entwurfsprodukts ist nicht nachgewiesen.",
+      "text": "Oregano wird unter anderem in Portugal, Griechenland, Zypern, Italien, der Türkei und an der Adria verwendet. In Portugal ist er beispielsweise für die Küche des Alentejo und der Algarve dokumentiert. Regionale Pflanzenarten und Mischungen unterscheiden sich; eine Wildsammlung unseres Produkts ist nicht nachgewiesen.",
       "source": "https://en.wikipedia.org/wiki/Oregano",
       "kind": "Tradition & Verbreitung",
       "relatedRegions": [],
@@ -1794,6 +1872,12 @@ window.MEDITERRANEAN = {
         "summary": "In mehreren Mittelmeerküchen und in Portugal verbreitet – unter anderem in Alentejo und Algarve, an der Adria, in der Ägäis und auf Zypern.",
         "basis": "shared",
         "exclusive": false
+      },
+      "shopDescription": "Kräftiger Oregano für Tomaten, Pizza, Salate und Grillgemüse.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
       }
     },
     "figjam": {
@@ -1860,6 +1944,12 @@ window.MEDITERRANEAN = {
         "summary": "In verschiedenen Mittelmeerküchen und in Portugal zuhause, mit belegten Beispielen auf Korsika und Zypern. Rezepturen unterscheiden sich regional.",
         "basis": "shared",
         "exclusive": false
+      },
+      "shopDescription": "Fruchtige Feigenkonfitüre für Brot, Gebäck und feine Saucen.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
       }
     },
     "plum": {
@@ -1870,7 +1960,7 @@ window.MEDITERRANEAN = {
         "SVN",
         "BIH-BOS"
       ],
-      "text": "Dick eingekochte Pflaumenaufstriche sind in mehreren Balkan- und südosteuropäischen Küchen verbreitet. Bosnien hat eine dokumentierte Pflaumenanbau- und Verarbeitungstradition, unter anderem in Podrinje, Majevica, Gradačac und Zentralbosnien. Bosnische Bezeichnungen wie Bestilj und verschiedene Pekmez-Zubereitungen sind zu unterscheiden; Pekmez kann auch aus anderen Früchten bestehen. Das Entwurfsprodukt ist Pflaumenmus. Die Herkunft der später verwendeten Pflaumen muss separat belegt werden.",
+      "text": "Dick eingekochte Pflaumenaufstriche sind in mehreren Balkan- und südosteuropäischen Küchen verbreitet. Bosnien hat eine dokumentierte Pflaumenanbau- und Verarbeitungstradition, unter anderem in Podrinje, Majevica, Gradačac und Zentralbosnien. Bosnische Bezeichnungen wie Bestilj und verschiedene Pekmez-Zubereitungen sind zu unterscheiden; Pekmez kann auch aus anderen Früchten bestehen. Das Produkt ist Pflaumenmus. Die Herkunft der später verwendeten Pflaumen muss separat belegt werden.",
       "source": "https://en.wikipedia.org/wiki/Powidl",
       "kind": "Tradition & Verbreitung",
       "relatedRegions": [],
@@ -1913,6 +2003,12 @@ window.MEDITERRANEAN = {
         "summary": "Im Balkan und weiteren südosteuropäischen Küchen verbreitet. Bosnien ist ein besonders gut dokumentierter Bezug für Pflaumenanbau und Verarbeitung.",
         "basis": "shared",
         "exclusive": false
+      },
+      "shopDescription": "Dick eingekochtes Pflaumenmus für Brot, Gebäck und süße Füllungen.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
       }
     },
     "figbread": {
@@ -1927,7 +2023,7 @@ window.MEDITERRANEAN = {
         {
           "id": "ESP",
           "title": "Pan de higo · verwandtes Feigenkonfekt",
-          "note": "Spanische Varianten verwenden häufig Mandeln. Nicht mit unserem Feigen-Walnuss-Entwurf gleichzusetzen.",
+          "note": "Spanische Varianten verwenden häufig Mandeln. Nicht mit unserem Feigen-Walnuss-Produkt gleichzusetzen.",
           "sources": []
         },
         {
@@ -1991,13 +2087,19 @@ window.MEDITERRANEAN = {
       },
       "mapRegions": [
         "HR-DAL"
-      ]
+      ],
+      "shopDescription": "Gepresstes Konfekt aus getrockneten Feigen und Walnüssen – in dünnen Scheiben genießen.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      }
     },
     "mustard": {
       "regions": [],
-      "text": "Dieser Feigensenf ist ein moderner Feinkostentwurf ohne belegte traditionelle regionale Rezeptur. Französische Senfspezialitäten oder italienische Mostarda sind nicht automatisch dasselbe Produkt.",
+      "text": "Fruchtig-würziger Feigensenf für Dressings, Brotzeit und Marinaden. Für diese Zusammenstellung ist keine einzelne traditionelle Heimat belegt.",
       "source": "https://en.wikipedia.org/wiki/Mostarda",
-      "kind": "Moderne Sortimentidee",
+      "kind": "Aromatische Komposition",
       "relatedRegions": [],
       "type": "modern",
       "primaryLabel": "Keine feste traditionelle Heimat",
@@ -2030,6 +2132,12 @@ window.MEDITERRANEAN = {
         "summary": "Moderner Feinkostentwurf ohne belegte traditionelle Heimat. Verwandte Senf- und Fruchtzubereitungen sind keine identische regionale Rezeptur.",
         "basis": "modern",
         "exclusive": false
+      },
+      "shopDescription": "Fruchtig-würziger Feigensenf für Dressings, Brotzeit und Marinaden.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
       }
     },
     "tapenade": {
@@ -2095,13 +2203,19 @@ window.MEDITERRANEAN = {
         "FR-COR",
         "FR-PRO",
         "FR-RIV"
-      ]
+      ],
+      "shopDescription": "Provenzalische Olivenzubereitung mit Kapern – zu Brot und zum Verfeinern.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      }
     },
     "gift1": {
       "regions": [],
       "text": "Diese Geschenkbox ist eine moderne Zusammenstellung. Sie hat keine eigene traditionelle Heimat. Die enthaltenen Zutaten und Spezialitäten haben jeweils eigene kulinarische Verbindungen.",
       "source": "https://en.wikipedia.org/wiki/Mediterranean_cuisine",
-      "kind": "Moderne Sortimentidee",
+      "kind": "Aromatische Komposition",
       "relatedRegions": [],
       "type": "modern",
       "primaryLabel": "Keine feste traditionelle Heimat",
@@ -2134,13 +2248,19 @@ window.MEDITERRANEAN = {
         "summary": "Eine Zusammenstellung mediterraner Spezialitäten. Die einzelnen Produkte haben ihre eigenen kulinarischen Räume; die Box besitzt keine eigene traditionelle Heimat.",
         "basis": "modern",
         "exclusive": false
+      },
+      "shopDescription": "Olivenöl 500 ml, Oregano 20 g, Oliven-Tapenade 140 g und Meersalz 250 g.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
       }
     },
     "gift2": {
       "regions": [],
       "text": "Diese Geschenkbox ist eine moderne Zusammenstellung. Sie hat keine eigene traditionelle Heimat. Eine Zuordnung zu allen Mittelmeerländern wäre irreführend.",
       "source": "https://en.wikipedia.org/wiki/Mediterranean_cuisine",
-      "kind": "Moderne Sortimentidee",
+      "kind": "Aromatische Komposition",
       "relatedRegions": [],
       "type": "modern",
       "primaryLabel": "Keine feste traditionelle Heimat",
@@ -2173,6 +2293,12 @@ window.MEDITERRANEAN = {
         "summary": "Eine moderne Geschenkzusammenstellung. Ihre kulinarischen Bezüge ergeben sich aus den enthaltenen Produkten.",
         "basis": "modern",
         "exclusive": false
+      },
+      "shopDescription": "Trüffelöl 100 ml, schwarzer Knoblauch 60 g und Feigensenf 140 g.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
       }
     },
     "caponata": {
@@ -2180,7 +2306,7 @@ window.MEDITERRANEAN = {
         "ITA",
         "IT-SIC"
       ],
-      "text": "Caponata ist besonders mit Sizilien verbunden. Unser Entwurf folgt dieser sizilianischen Rezeptidee. Das macht Caponata nicht automatisch zu einer traditionellen sardischen oder ligurischen Spezialität.",
+      "text": "Caponata ist besonders mit Sizilien verbunden. Unser Produkt folgt dieser sizilianischen Rezeptidee. Das macht Caponata nicht automatisch zu einer traditionellen sardischen oder ligurischen Spezialität.",
       "source": "https://en.wikipedia.org/wiki/Caponata",
       "kind": "Tradition & Verbreitung",
       "relatedRegions": [],
@@ -2222,7 +2348,13 @@ window.MEDITERRANEAN = {
       },
       "mapRegions": [
         "IT-SIC"
-      ]
+      ],
+      "shopDescription": "Sizilianische Auberginenzubereitung mit Tomaten, Oliven und Kapern.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      }
     },
     "romesco": {
       "regions": [
@@ -2281,32 +2413,38 @@ window.MEDITERRANEAN = {
       "mapRegions": [
         "ES-CT",
         "ES-TAR"
-      ]
+      ],
+      "shopDescription": "Katalanische Paprika-Tomaten-Sauce mit Mandeln. Zu Gemüse und geröstetem Brot.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      }
     },
     "harissa": {
       "regions": [
         "TUN"
       ],
-      "text": "Harissa ist eine Chilipaste mit regional unterschiedlichen Rezepturen. Die UNESCO dokumentiert ihre besondere Rolle in der tunesischen Alltags- und Vorratsküche; das ist kein Nachweis, dass Harissa nur dort vorkommt. Der aktuelle Rezepturentwurf orientiert sich an dieser Tradition. Weitere Maghreb-Varianten werden mit ihren Unterschieden gesondert erläutert.",
+      "text": "Harissa ist eine Chilipaste mit regional unterschiedlichen Rezepturen. Die UNESCO dokumentiert ihre besondere Rolle in der tunesischen Alltags- und Vorratsküche; das ist kein Nachweis, dass Harissa nur dort vorkommt. Der aktuelle Rezeptur orientiert sich an dieser Tradition. Weitere Maghreb-Varianten werden mit ihren Unterschieden gesondert erläutert.",
       "source": "https://en.wikipedia.org/wiki/Harissa",
       "kind": "Tunesische Rezeptidee",
       "relatedRegions": [
         {
           "id": "DZA",
           "title": "Harissa · weitere Maghreb-Varianten",
-          "note": "Verwandte Harissa-Zubereitungen mit regional unterschiedlichen Gewürzen und Schärfe. Eine identische Rezeptur mit dem tunesisch geprägten Entwurf wird damit nicht behauptet.",
+          "note": "Verwandte Harissa-Zubereitungen mit regional unterschiedlichen Gewürzen und Schärfe. Eine identische Rezeptur mit dem tunesisch geprägten Produkt wird damit nicht behauptet.",
           "sources": []
         },
         {
           "id": "MAR",
           "title": "Harissa · weitere Maghreb-Varianten",
-          "note": "Verwandte Harissa-Zubereitungen mit regional unterschiedlichen Gewürzen und Schärfe. Eine identische Rezeptur mit dem tunesisch geprägten Entwurf wird damit nicht behauptet.",
+          "note": "Verwandte Harissa-Zubereitungen mit regional unterschiedlichen Gewürzen und Schärfe. Eine identische Rezeptur mit dem tunesisch geprägten Produkt wird damit nicht behauptet.",
           "sources": []
         },
         {
           "id": "LBY",
           "title": "Harissa · weitere Maghreb-Varianten",
-          "note": "Verwandte Harissa-Zubereitungen mit regional unterschiedlichen Gewürzen und Schärfe. Eine identische Rezeptur mit dem tunesisch geprägten Entwurf wird damit nicht behauptet.",
+          "note": "Verwandte Harissa-Zubereitungen mit regional unterschiedlichen Gewürzen und Schärfe. Eine identische Rezeptur mit dem tunesisch geprägten Produkt wird damit nicht behauptet.",
           "sources": []
         }
       ],
@@ -2349,6 +2487,12 @@ window.MEDITERRANEAN = {
         "summary": "Mit den Küchen des Maghreb verbunden. Besonders gut dokumentiert ist die tunesische Tradition; verwandte Varianten in weiteren Maghreb-Küchen sind gesondert markiert.",
         "basis": "regional",
         "exclusive": false
+      },
+      "shopDescription": "Aromatische Chilipaste für Couscous, Eintöpfe und Ofengemüse.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
       }
     },
     "saltlemons": {
@@ -2357,7 +2501,7 @@ window.MEDITERRANEAN = {
         "TUN",
         "TN-MED"
       ],
-      "text": "In Salz und Zitronensaft beziehungsweise Salzlake eingelegte Zitronen würzen viele nordafrikanische Gerichte. Marokkanische Zubereitungen verwenden etwa Zitronen und Salz; aus Tebourba im Medjerda-Tal ist eine tunesische Variante mit milder roter Paprika dokumentiert. Die regionalen Beispiele belegen weder einen exklusiven Ursprung noch die Lieferherkunft unseres späteren Produkts.",
+      "text": "In Salz und Zitronensaft beziehungsweise Salzlake eingelegte Zitronen würzen viele nordafrikanische Gerichte. Marokkanische Zubereitungen verwenden etwa Zitronen und Salz; aus Tebourba im Medjerda-Tal ist eine tunesische Variante mit milder roter Paprika dokumentiert. Die regionalen Beispiele belegen weder einen exklusiven Ursprung noch die Lieferherkunft dieses Produkts.",
       "source": "https://en.wikipedia.org/wiki/Preserved_lemon",
       "kind": "Gemeinsame Tradition · regionale Varianten",
       "relatedRegions": [],
@@ -2404,6 +2548,12 @@ window.MEDITERRANEAN = {
         "summary": "In nordafrikanischen Mittelmeerküchen zuhause, unter anderem in Marokko und Tunesien. Salz und Zitronensaft prägen die Zubereitung; regionale Varianten setzen eigene Akzente.",
         "basis": "shared",
         "exclusive": false
+      },
+      "shopDescription": "In Salz eingelegte Zitronen für Tajines, Dressings und Gemüsegerichte.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
       }
     },
     "olivepaste": {
@@ -2489,6 +2639,12 @@ window.MEDITERRANEAN = {
         "summary": "Olivenpasten verbinden mehrere Mittelmeerküchen und Portugal, von provenzalischen und korsischen bis zu adriatischen und ägäischen Zubereitungen.",
         "basis": "shared",
         "exclusive": false
+      },
+      "shopDescription": "Würziger Olivenaufstrich für Brot, Antipasti und mediterrane Saucen.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
       }
     },
     "acuka": {
@@ -2534,6 +2690,12 @@ window.MEDITERRANEAN = {
         "summary": "In der türkischen Frühstücksküche belegt und mit der weiteren Paprika-Walnuss-Familie um Muhammara verwandt. Eine engere Heimat dieser Acuka-Rezeptur ist nicht belegt.",
         "basis": "regional",
         "exclusive": false
+      },
+      "shopDescription": "Würziger Paprika-Walnuss-Aufstrich für Brot und Mezze.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
       }
     },
     "zaatar": {
@@ -2579,6 +2741,12 @@ window.MEDITERRANEAN = {
         "summary": "In der Levante zuhause. Die Mischung verbindet unter anderem Libanon, Palästina, Israel, Syrien und Jordanien; Kräuter und Anteile variieren.",
         "basis": "shared",
         "exclusive": false
+      },
+      "shopDescription": "Kräuter, Sumach und Sesam für Fladenbrot, Dips und geröstetes Gemüse.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
       }
     },
     "muhammara": {
@@ -2628,6 +2796,12 @@ window.MEDITERRANEAN = {
         "summary": "Besonders mit Aleppo verbunden; verwandte Zubereitungen reichen nach Gaziantep und in weitere levantinische Küchen.",
         "basis": "shared",
         "exclusive": false
+      },
+      "shopDescription": "Paprika und Walnüsse als aromatischer Aufstrich für Brot und Mezze.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
       }
     },
     "dates": {
@@ -2642,7 +2816,7 @@ window.MEDITERRANEAN = {
         "PSE"
       ],
       "relatedRegions": [],
-      "text": "Datteln verbinden nordafrikanische Oasentraditionen mit den Küchen des Nahen Ostens. Belegte Beispiele sind Draa und Tafilalet in Marokko, Oued Rhir und Souf in Algerien, Djerid in Tunesien sowie das Jordantal. Auch Libyen und Ägypten haben Dattelanbautraditionen. Die Karte zeigt Beispiele und teilweise noch grobe Bezüge, keine flächendeckende Anbaukarte. Vorgesehen sind getrocknete oder geeignet haltbar verarbeitete Datteln; frische empfindliche Reifestadien gehören nicht zum Entwurf. Wildsammlung oder Bio-Qualität werden erst mit entsprechenden Lieferantennachweisen zugesagt.",
+      "text": "Datteln verbinden nordafrikanische Oasentraditionen mit den Küchen des Nahen Ostens. Belegte Beispiele sind Draa und Tafilalet, Oued Rhir und Souf, Djerid sowie das Jordantal. Auch Libyen und Ägypten haben Dattelanbautraditionen. Die Karte zeigt erfasste Beispiele, keine flächendeckende Anbaukarte.",
       "source": "https://www.fao.org/4/Y4360E/y4360e06.htm",
       "sources": [
         {
@@ -2785,7 +2959,13 @@ window.MEDITERRANEAN = {
           ]
         }
       ],
-      "availability": "planned"
+      "availability": "planned",
+      "shopDescription": "Getrocknete Datteln zum Naschen, Backen und Süßen.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      }
     },
     "pinchos": {
       "regions": [
@@ -2831,14 +3011,20 @@ window.MEDITERRANEAN = {
       "mapRegions": [
         "ES-AN"
       ],
-      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben."
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Andalusisch inspirierte Gewürzmischung für Marinaden, Gemüse und Grillgerichte.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      }
     },
     "provence": {
       "regions": [
         "FR-PRO"
       ],
       "relatedRegions": [],
-      "text": "Getrocknete Kräutermischung im provenzalischen Zusammenhang, mit Thymian, Rosmarin, Bohnenkraut und Oregano. Die konkrete Rezeptur folgt dem späteren Lieferprodukt. Keine pauschale Zuordnung zu Ligurien; Label Rouge wird ohne Zertifizierung nicht zugesagt.",
+      "text": "Getrocknete Kräutermischung im provenzalischen Zusammenhang mit Thymian, Rosmarin, Bohnenkraut und Oregano. Die Bezeichnung beschreibt die kulinarische Tradition; Kräutermischungen dieser Art werden auch in anderen Regionen verwendet.",
       "source": "https://www.herbes-de-provence.org/label-rouge-herbes-de-provence/",
       "sources": [
         {
@@ -2877,7 +3063,13 @@ window.MEDITERRANEAN = {
       "mapRegions": [
         "FR-PRO"
       ],
-      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben."
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Thymian, Rosmarin, Bohnenkraut und Oregano für die südfranzösische Küche.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      }
     },
     "aglio": {
       "regions": [
@@ -2896,7 +3088,7 @@ window.MEDITERRANEAN = {
           "url": "https://www.patpuglia.it/it/12/Spaghetti_aglio_e_olio/7_392_C"
         }
       ],
-      "kind": "Regionale Würzung · Trockenrezeptur",
+      "kind": "Regionale Würzung · Kräuter & Gewürze",
       "type": "shared",
       "primaryLabel": "Erfasster kulinarischer Bezug",
       "relatedLabel": "Verwandte regionale Varianten",
@@ -2959,7 +3151,13 @@ window.MEDITERRANEAN = {
       "culinaryRooms": [
         "NAV-CENTRAL",
         "NAV-ADRIA"
-      ]
+      ],
+      "shopDescription": "Knoblauch- und Chiliflocken für Pasta. Mit Olivenöl kurz erwärmen und genießen.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      }
     },
     "sharena": {
       "regions": [
@@ -3005,7 +3203,13 @@ window.MEDITERRANEAN = {
       "mapRegions": [
         "MKD"
       ],
-      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben."
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Würzsalz mit geröstetem Mais und Kräutern nach nordmazedonischem Vorbild.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      }
     },
     "aegeanherbs": {
       "regions": [
@@ -3014,7 +3218,7 @@ window.MEDITERRANEAN = {
         "GR-CRE"
       ],
       "relatedRegions": [],
-      "text": "Kräuterwürzung im griechisch-ägäischen Zusammenhang, für Grillgemüse und zum Würzen von Souvlaki. Oregano und Thymian prägen den Entwurf. Es gibt keine verbindliche ägäische Einheitsmischung; die fertige Trockenrezeptur wird als solche benannt.",
+      "text": "Oregano und Thymian sind charakteristische Kräuter der griechisch-ägäischen Küche. Diese Würzung passt zu Grillgemüse und Marinaden. Eine überall verbindliche ägäische Einheitsmischung gibt es nicht.",
       "source": "https://myrro.gr/en/product/blend-for-souvlaki-2/",
       "sources": [
         {
@@ -3022,7 +3226,7 @@ window.MEDITERRANEAN = {
           "url": "https://myrro.gr/en/product/blend-for-souvlaki-2/"
         }
       ],
-      "kind": "Regionale Würzung · Trockenrezeptur",
+      "kind": "Regionale Würzung · Kräuter & Gewürze",
       "type": "shared",
       "primaryLabel": "Erfasster kulinarischer Bezug",
       "relatedLabel": "Verwandte regionale Varianten",
@@ -3045,7 +3249,7 @@ window.MEDITERRANEAN = {
       },
       "culinaryRange": {
         "label": "Kulinarische Verbreitung",
-        "summary": "Griechisch-ägäische Kräuterküche · konkrete Mischung als Entwurf.",
+        "summary": "Griechisch-ägäische Kräuterküche.",
         "basis": "shared",
         "exclusive": false
       },
@@ -3055,7 +3259,13 @@ window.MEDITERRANEAN = {
         "GR-AEG",
         "GR-CRE"
       ],
-      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben."
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Oregano und Thymian für Grillgemüse, Marinaden und ägäische Aromen.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      }
     },
     "raselhanout": {
       "regions": [
@@ -3105,14 +3315,20 @@ window.MEDITERRANEAN = {
         "DZA",
         "TUN"
       ],
-      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben."
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Vielschichtige Gewürzmischung für Couscous, Tajines und Ofengemüse.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      }
     },
     "dukkah": {
       "regions": [
         "EGY"
       ],
       "relatedRegions": [],
-      "text": "Trockene ägyptische Mischung aus gerösteten Nüssen beziehungsweise Saaten und Gewürzen, etwa Sesam, Koriander und Kreuzkümmel. Zum Dippen mit Brot und Olivenöl oder für Gemüse. Rezepturen unterscheiden sich. Je nach Rezeptur sind Sesam, Schalenfrüchte oder Erdnüsse enthalten; die endgültige Zutaten- und Allergenangabe folgt dem Lieferprodukt. Nicht dem gesamten östlichen Nordafrika pauschal zugeordnet. Die Karte zeigt einen groben ägyptischen Bezug, keine vollständig erhobene Verbreitungsfläche.",
+      "text": "Dukkah ist eine trockene ägyptische Mischung aus gerösteten Nüssen beziehungsweise Saaten und Gewürzen. Sesam, Koriander und Kreuzkümmel prägen viele Varianten. Sie wird mit Brot und Olivenöl oder zu Gemüse gegessen. Rezepturen unterscheiden sich. Enthält je nach Rezeptur Sesam und Schalenfrüchte beziehungsweise Erdnüsse.",
       "source": "https://www.sbs.com.au/food/recipe/dukkah/0r415xt0p",
       "sources": [
         {
@@ -3151,7 +3367,13 @@ window.MEDITERRANEAN = {
       "mapRegions": [
         "EGY"
       ],
-      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben."
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Geröstete Nüsse, Sesam und Gewürze – zu Brot mit Olivenöl oder als knuspriges Topping.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      }
     }
   },
   "newProducts": [
@@ -3163,7 +3385,7 @@ window.MEDITERRANEAN = {
       5.9,
       "shared-0",
       "Gemeinsame Tradition",
-      "Olivenaufstrich, wie er in mehreren Mittelmeerküchen vorkommt."
+      "Würziger Olivenaufstrich für Brot, Antipasti und mediterrane Saucen."
     ],
     [
       "acuka",
@@ -3173,7 +3395,7 @@ window.MEDITERRANEAN = {
       5.9,
       "shared-1",
       "Paprika & Walnuss",
-      "Würziger Paprika-Walnuss-Aufstrich, unter anderem aus der türkischen Frühstücksküche bekannt."
+      "Würziger Paprika-Walnuss-Aufstrich für Brot und Mezze."
     ],
     [
       "zaatar",
@@ -3183,7 +3405,7 @@ window.MEDITERRANEAN = {
       5.9,
       "shared-2",
       "Levante",
-      "Kräutermischung mit Sumach und Sesam."
+      "Kräuter, Sumach und Sesam für Fladenbrot, Dips und geröstetes Gemüse."
     ],
     [
       "muhammara",
@@ -3193,87 +3415,87 @@ window.MEDITERRANEAN = {
       6.9,
       "shared-3",
       "Levante",
-      "Paprika-Walnuss-Aufstrich mit Granatapfelmelasse."
+      "Paprika und Walnüsse als aromatischer Aufstrich für Brot und Mezze."
     ],
     [
       "dates",
       "Datteln",
       "Früchte",
-      "Packung folgt",
-      null,
+      "250 g",
+      5.9,
       "dates",
-      "Neu im Sortiment",
-      "Getrocknete oder halbtrockene Datteln. Sorte, Packungsgröße und Preis werden mit dem Lieferprodukt festgelegt."
+      "",
+      "Getrocknete Datteln zum Naschen, Backen und Süßen."
     ],
     [
       "pinchos",
       "Pinchos-Gewürz",
       "Gewürzmischungen",
-      "Packung folgt",
-      null,
+      "50 g",
+      4.9,
       "spice-0",
-      "In Vorbereitung",
-      "Andalusien · regional unterschiedliche Pinchos-Würzungen."
+      "",
+      "Andalusisch inspirierte Gewürzmischung für Marinaden, Gemüse und Grillgerichte."
     ],
     [
       "provence",
       "Herbes de Provence",
       "Gewürzmischungen",
-      "Packung folgt",
-      null,
+      "25 g",
+      3.9,
       "spice-1",
-      "In Vorbereitung",
-      "Provenzalische Kräuterküche."
+      "",
+      "Thymian, Rosmarin, Bohnenkraut und Oregano für die südfranzösische Küche."
     ],
     [
       "aglio",
       "Aglio e peperoncino",
       "Gewürzmischungen",
-      "Packung folgt",
-      null,
+      "50 g",
+      4.9,
       "spice-2",
-      "In Vorbereitung",
-      "Italienische Pastaküche · Trockenmischung nach bekannter Würzung."
+      "",
+      "Knoblauch- und Chiliflocken für Pasta. Mit Olivenöl kurz erwärmen und genießen."
     ],
     [
       "sharena",
       "Šarena sol",
       "Gewürzmischungen",
-      "Packung folgt",
-      null,
+      "100 g",
+      4.9,
       "spice-3",
-      "In Vorbereitung",
-      "Nordmazedonische Würzsalztradition · verwandte Balkanvarianten."
+      "",
+      "Würzsalz mit geröstetem Mais und Kräutern nach nordmazedonischem Vorbild."
     ],
     [
       "aegeanherbs",
       "Oregano & Thymian",
       "Gewürzmischungen",
-      "Packung folgt",
-      null,
+      "25 g",
+      3.9,
       "spice-4",
-      "In Vorbereitung",
-      "Griechisch-ägäische Kräuterküche · konkrete Mischung als Entwurf."
+      "",
+      "Oregano und Thymian für Grillgemüse, Marinaden und ägäische Aromen."
     ],
     [
       "raselhanout",
       "Ras el Hanout",
       "Gewürzmischungen",
-      "Packung folgt",
-      null,
+      "50 g",
+      4.9,
       "spice-5",
-      "In Vorbereitung",
-      "Maghreb · unterschiedliche Familien- und Händlerrezepturen."
+      "",
+      "Vielschichtige Gewürzmischung für Couscous, Tajines und Ofengemüse."
     ],
     [
       "dukkah",
       "Dukkah",
       "Gewürzmischungen",
-      "Packung folgt",
-      null,
+      "100 g",
+      6.9,
       "spice-6",
-      "In Vorbereitung",
-      "Ägyptische Nuss-, Saaten- und Gewürztradition."
+      "",
+      "Geröstete Nüsse, Sesam und Gewürze – zu Brot mit Olivenöl oder als knuspriges Topping."
     ]
   ],
   "catalog": [
@@ -3282,145 +3504,160 @@ window.MEDITERRANEAN = {
       "Natives Olivenöl extra",
       "Olivenöl",
       "500 ml",
-      21.9,
+      19.9,
       "photo-1474979266404-7eaacbcd87c5",
-      "Favorit"
+      "Favorit",
+      "Fruchtiges Olivenöl für Salate, Gemüse und den letzten Schliff auf warmen Gerichten."
     ],
     [
       "truffle",
       "Olivenöl mit echtem Trüffel",
       "Olivenöl",
       "100 ml",
-      24.9,
+      19.9,
       "photo-1504545102780-26774c1bb073",
-      "Premium"
+      "Premium",
+      "Feine Trüffelnote für Pasta, Risotto und Kartoffelgerichte. Sparsam zum Verfeinern verwenden."
     ],
     [
       "lemonoil",
       "Zitrone & Basilikum Olivenöl",
       "Olivenöl",
       "250 ml",
-      14.9,
+      12.9,
       "photo-1474979266404-7eaacbcd87c5",
-      ""
+      "",
+      "Zitrone und Basilikum bringen frische Aromen an Salate, Gemüse und Pasta."
     ],
     [
       "chilioil",
       "Chili & Knoblauch Olivenöl",
       "Olivenöl",
       "250 ml",
-      14.9,
+      12.9,
       "photo-1474979266404-7eaacbcd87c5",
-      ""
+      "",
+      "Chili und Knoblauch geben Pizza, Pasta und gegrilltem Gemüse eine würzige Note."
     ],
     [
       "fleur",
       "Fleur de Sel",
       "Meersalz",
       "100 g",
-      7.9,
+      6.9,
       "photo-1518977676601-b53f82aba655",
-      "Neu"
+      "Neu",
+      "Zarte Salzflocken zum abschließenden Würzen und Verfeinern."
     ],
     [
       "sea",
       "Naturbelassenes Meersalz",
       "Meersalz",
       "250 g",
-      3.9,
+      3.5,
       "photo-1518977676601-b53f82aba655",
-      ""
+      "",
+      "Ein vielseitiges Meersalz für die tägliche Küche."
     ],
     [
       "trufflesalt",
       "Fleur de Sel mit echtem Trüffel",
       "Meersalz",
       "70 g",
-      12.9,
+      9.9,
       "photo-1518977676601-b53f82aba655",
-      "Premium"
+      "Premium",
+      "Salzblume und Trüffel für Pasta, Pilzgerichte und feine Kartoffelgerichte."
     ],
     [
       "herbsalt",
       "Meersalz mit dalmatinischen Kräutern",
       "Meersalz",
       "100 g",
-      6.9,
+      5.9,
       "spice-7",
       "Kräutersalz",
-      "Meersalz mit Kräutern nach dalmatinischem Vorbild. Wildsammlung nur mit Nachweis."
+      "Meersalz mit dalmatinischen Kräutern für Ofengemüse, Kartoffeln und Marinaden."
     ],
     [
       "black",
       "Schwarzer Knoblauch",
       "Feinkost",
       "60 g",
-      8.9,
+      7.9,
       "photo-1540148426945-6cf22a6b2383",
-      "Highlight"
+      "Highlight",
+      "Weich und aromatisch, mit süßlich-würzigen Noten. Für Saucen, Dressings und Pasta."
     ],
     [
       "fig",
       "Getrocknete Feigen",
       "Früchte",
       "250 g",
-      6.5,
+      5.9,
       "photo-1601493700631-2b16ec4b4716",
-      ""
+      "",
+      "Sonnig-süße Trockenfeigen zum Naschen, Backen und für die Vorratsküche."
     ],
     [
       "ajvar",
       "Gerösteter Ajvar",
       "Feinkost",
       "350 g",
-      4.9,
+      5.9,
       "photo-1604908176997-431ba0d9fd33",
-      ""
+      "",
+      "Geröstete Paprika als würziger Aufstrich, Dip und Begleiter zu Gemüse."
     ],
     [
       "capers",
       "Kapern in Meersalzlake",
       "Feinkost",
       "120 g",
-      5.9,
+      4.9,
       "photo-1604908176997-431ba0d9fd33",
-      "Neu"
+      "Neu",
+      "Würzige Kapern in Salzlake für Salate, Saucen und mediterrane Gemüsegerichte."
     ],
     [
       "sage",
       "Wild-Salbei",
       "Wildkräuter",
       "20 g",
-      5.9,
+      4.9,
       "photo-1466692476868-aef1dfb1e735",
-      "Wild"
+      "Wild",
+      "Aromatische Salbeiblätter für Pasta, Bohnen und Ofengerichte."
     ],
     [
       "oregano",
       "Wild-Oregano",
       "Wildkräuter",
       "20 g",
-      5.9,
+      4.9,
       "photo-1466692476868-aef1dfb1e735",
-      "Wild"
+      "Wild",
+      "Kräftiger Oregano für Tomaten, Pizza, Salate und Grillgemüse."
     ],
     [
       "figjam",
       "Feigenkonfitüre",
       "Aufstriche",
       "220 g",
-      4.9,
+      5.9,
       "photo-1601493700631-2b16ec4b4716",
-      ""
+      "",
+      "Fruchtige Feigenkonfitüre für Brot, Gebäck und feine Saucen."
     ],
     [
       "plum",
       "Pflaumenmus",
       "Aufstriche",
       "250 g",
-      4.5,
+      4.9,
       "photo-1606313564200-e75d5e30476c",
-      ""
+      "",
+      "Dick eingekochtes Pflaumenmus für Brot, Gebäck und süße Füllungen."
     ],
     [
       "figbread",
@@ -3429,7 +3666,8 @@ window.MEDITERRANEAN = {
       "150 g",
       6.9,
       "photo-1509440159596-0249088772ff",
-      ""
+      "",
+      "Gepresstes Konfekt aus getrockneten Feigen und Walnüssen – in dünnen Scheiben genießen."
     ],
     [
       "mustard",
@@ -3438,7 +3676,8 @@ window.MEDITERRANEAN = {
       "140 g",
       5.9,
       "photo-1601493700631-2b16ec4b4716",
-      ""
+      "",
+      "Fruchtig-würziger Feigensenf für Dressings, Brotzeit und Marinaden."
     ],
     [
       "tapenade",
@@ -3447,16 +3686,18 @@ window.MEDITERRANEAN = {
       "140 g",
       5.9,
       "photo-1474979266404-7eaacbcd87c5",
-      ""
+      "",
+      "Provenzalische Olivenzubereitung mit Kapern – zu Brot und zum Verfeinern."
     ],
     [
       "gift1",
       "Geschenkbox Mediterrane Küche",
       "Geschenke",
       "4 Produkte",
-      34.9,
+      37.9,
       "photo-1549465220-1a8b9238cd48",
-      ""
+      "",
+      "Olivenöl 500 ml, Oregano 20 g, Oliven-Tapenade 140 g und Meersalz 250 g."
     ],
     [
       "gift2",
@@ -3465,7 +3706,8 @@ window.MEDITERRANEAN = {
       "3 Produkte",
       39.9,
       "photo-1549465220-1a8b9238cd48",
-      ""
+      "",
+      "Trüffelöl 100 ml, schwarzer Knoblauch 60 g und Feigensenf 140 g."
     ],
     [
       "caponata",
@@ -3475,7 +3717,7 @@ window.MEDITERRANEAN = {
       6.9,
       "regional-0",
       "Sizilien",
-      "Auberginengemüse nach sizilianischer Art mit Tomaten, Oliven und Kapern."
+      "Sizilianische Auberginenzubereitung mit Tomaten, Oliven und Kapern."
     ],
     [
       "romesco",
@@ -3485,7 +3727,7 @@ window.MEDITERRANEAN = {
       5.9,
       "regional-1",
       "Katalonien",
-      "Paprika-Tomaten-Sauce nach katalanischer Art mit Mandeln. Zu Gemüse und Brot."
+      "Katalanische Paprika-Tomaten-Sauce mit Mandeln. Zu Gemüse und geröstetem Brot."
     ],
     [
       "harissa",
@@ -3495,7 +3737,7 @@ window.MEDITERRANEAN = {
       4.9,
       "regional-2",
       "Chilipaste",
-      "Scharfe Chilipaste mit Knoblauch und Gewürzen. Geplanter Rezepturbezug: tunesische Tradition."
+      "Aromatische Chilipaste für Couscous, Eintöpfe und Ofengemüse."
     ],
     [
       "saltlemons",
@@ -3505,7 +3747,7 @@ window.MEDITERRANEAN = {
       6.9,
       "regional-3",
       "Eingelegt",
-      "In Salz und Zitronensaft beziehungsweise Salzlake eingelegte Zitronen. Regionale Rezepturen können variieren."
+      "In Salz eingelegte Zitronen für Tajines, Dressings und Gemüsegerichte."
     ],
     [
       "olivepaste",
@@ -3515,7 +3757,7 @@ window.MEDITERRANEAN = {
       5.9,
       "shared-0",
       "Gemeinsame Tradition",
-      "Olivenaufstrich, wie er in mehreren Mittelmeerküchen vorkommt."
+      "Würziger Olivenaufstrich für Brot, Antipasti und mediterrane Saucen."
     ],
     [
       "acuka",
@@ -3525,7 +3767,7 @@ window.MEDITERRANEAN = {
       5.9,
       "shared-1",
       "Paprika & Walnuss",
-      "Würziger Paprika-Walnuss-Aufstrich, unter anderem aus der türkischen Frühstücksküche bekannt."
+      "Würziger Paprika-Walnuss-Aufstrich für Brot und Mezze."
     ],
     [
       "zaatar",
@@ -3535,7 +3777,7 @@ window.MEDITERRANEAN = {
       5.9,
       "shared-2",
       "Levante",
-      "Kräutermischung mit Sumach und Sesam."
+      "Kräuter, Sumach und Sesam für Fladenbrot, Dips und geröstetes Gemüse."
     ],
     [
       "muhammara",
@@ -3545,87 +3787,87 @@ window.MEDITERRANEAN = {
       6.9,
       "shared-3",
       "Levante",
-      "Paprika-Walnuss-Aufstrich mit Granatapfelmelasse."
+      "Paprika und Walnüsse als aromatischer Aufstrich für Brot und Mezze."
     ],
     [
       "dates",
       "Datteln",
       "Früchte",
-      "Packung folgt",
-      null,
+      "250 g",
+      5.9,
       "dates",
-      "Neu im Sortiment",
-      "Getrocknete oder halbtrockene Datteln. Sorte, Packungsgröße und Preis werden mit dem Lieferprodukt festgelegt."
+      "",
+      "Getrocknete Datteln zum Naschen, Backen und Süßen."
     ],
     [
       "pinchos",
       "Pinchos-Gewürz",
       "Gewürzmischungen",
-      "Packung folgt",
-      null,
+      "50 g",
+      4.9,
       "spice-0",
-      "In Vorbereitung",
-      "Andalusien · regional unterschiedliche Pinchos-Würzungen."
+      "",
+      "Andalusisch inspirierte Gewürzmischung für Marinaden, Gemüse und Grillgerichte."
     ],
     [
       "provence",
       "Herbes de Provence",
       "Gewürzmischungen",
-      "Packung folgt",
-      null,
+      "25 g",
+      3.9,
       "spice-1",
-      "In Vorbereitung",
-      "Provenzalische Kräuterküche."
+      "",
+      "Thymian, Rosmarin, Bohnenkraut und Oregano für die südfranzösische Küche."
     ],
     [
       "aglio",
       "Aglio e peperoncino",
       "Gewürzmischungen",
-      "Packung folgt",
-      null,
+      "50 g",
+      4.9,
       "spice-2",
-      "In Vorbereitung",
-      "Italienische Pastaküche · Trockenmischung nach bekannter Würzung."
+      "",
+      "Knoblauch- und Chiliflocken für Pasta. Mit Olivenöl kurz erwärmen und genießen."
     ],
     [
       "sharena",
       "Šarena sol",
       "Gewürzmischungen",
-      "Packung folgt",
-      null,
+      "100 g",
+      4.9,
       "spice-3",
-      "In Vorbereitung",
-      "Nordmazedonische Würzsalztradition · verwandte Balkanvarianten."
+      "",
+      "Würzsalz mit geröstetem Mais und Kräutern nach nordmazedonischem Vorbild."
     ],
     [
       "aegeanherbs",
       "Oregano & Thymian",
       "Gewürzmischungen",
-      "Packung folgt",
-      null,
+      "25 g",
+      3.9,
       "spice-4",
-      "In Vorbereitung",
-      "Griechisch-ägäische Kräuterküche · konkrete Mischung als Entwurf."
+      "",
+      "Oregano und Thymian für Grillgemüse, Marinaden und ägäische Aromen."
     ],
     [
       "raselhanout",
       "Ras el Hanout",
       "Gewürzmischungen",
-      "Packung folgt",
-      null,
+      "50 g",
+      4.9,
       "spice-5",
-      "In Vorbereitung",
-      "Maghreb · unterschiedliche Familien- und Händlerrezepturen."
+      "",
+      "Vielschichtige Gewürzmischung für Couscous, Tajines und Ofengemüse."
     ],
     [
       "dukkah",
       "Dukkah",
       "Gewürzmischungen",
-      "Packung folgt",
-      null,
+      "100 g",
+      6.9,
       "spice-6",
-      "In Vorbereitung",
-      "Ägyptische Nuss-, Saaten- und Gewürztradition."
+      "",
+      "Geröstete Nüsse, Sesam und Gewürze – zu Brot mit Olivenöl oder als knuspriges Topping."
     ]
   ],
   "reviewed": "2026-11-13",

@@ -33,6 +33,6 @@ assert.equal(data.catalog.find(p=>p[0]==='saltlemons')[1],'Salzzitronen','Avoid 
 assert.ok(!data.connections.figbread.sources.some(s=>s.url==='https://en.wikipedia.org/wiki/Fig_cake'),'Baked cake is not the compressed dried-fruit product');
 for(const r of data.countryBorderReview){assert.ok(r.summary&&r.sources.length,'Border review needs explanation and sources');r.sources.forEach(source)}
 for(const r of data.rawMaterialIdeas){assert.ok(r.formats.length&&r.sources.length,'Raw-material ideas require processed formats and sources');for(const id of r.regions)assert.ok(geoIds.has(id),'Unknown raw-material region');r.sources.forEach(source)}
-for(const name of ['mittelmeer.js','product-regions.js','soft-product-map.js','map-navigation.js','culinary-rooms.js'])new Function(readFileSync(root+name,'utf8'));
+for(const name of ['shop-checkout.js','mittelmeer.js','product-regions.js','soft-product-map.js','map-navigation.js','culinary-rooms.js'])new Function(readFileSync(root+name,'utf8'));
 for(const match of readFileSync(root+'index.html','utf8').matchAll(/<script>([\s\S]*?)<\/script>/g))new Function(match[1]);
 console.log(`Validated ${productIds.size} preserved-product drafts, ${geoIds.size} map targets, ${countryIds.size} country reviews, and ${data.crossBorderAreas.length} shared regions. Editorial sources still require human factual review.`);
