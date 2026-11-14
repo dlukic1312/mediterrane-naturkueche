@@ -8,3 +8,13 @@
 .culinary-influence{display:none}.influence-overview .culinary-influence{display:block}.map-wrap .culinary-influence path{fill:#719563;stroke:none;opacity:.52;filter:url(#influence-soft)}.influence-overview~.legend span:first-child:before{background:linear-gradient(90deg,#719563,#e8e6dd)}
 
 .influence-overview svg{aspect-ratio:860/455}
+
+.product-distribution{display:none}.distribution-mode .product-distribution{display:block}
+.map-wrap .product-distribution path,.map-wrap .product-distribution ellipse{fill:#719563;stroke:none}
+.product-range-primary{opacity:.52}.product-range-variants{opacity:.58}
+.map-wrap .product-range-variants path,.map-wrap .product-range-variants ellipse{fill:#c59c72}
+.map-wrap.distribution-mode [data-region].related,.map-wrap.distribution-mode [data-region].variant,.map-wrap.distribution-mode [data-region].coarse-range{fill:#e8e6dd;stroke:#cecec5;stroke-width:.6}
+.map-wrap.distribution-mode .subregion-shape.visible{fill:transparent;stroke:transparent}
+.map-wrap.distribution-mode .subregion-shape:focus{fill:transparent;stroke:#293c30;stroke-width:1}
+.distribution-mode~.legend span:first-child:before{background:linear-gradient(90deg,#719563,#e8e6dd)}
+.distribution-mode~.legend span:nth-child(2):before{background:linear-gradient(90deg,#c59c72,#e8e6dd)}
