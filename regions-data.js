@@ -7473,7 +7473,7 @@ window.MEDITERRANEAN = {
     [
       "zaatar",
       "Levantinisches Za’atar",
-      "Kräuter",
+      "Gewürzmischungen",
       "60 g",
       5.9,
       "shared-2",
@@ -8214,22 +8214,22 @@ window.MEDITERRANEAN = {
     ],
     [
       "sage",
-      "Wild-Salbei",
+      "Salbei",
       "Kräuter",
       "20 g",
       4.9,
       "photo-1466692476868-aef1dfb1e735",
-      "Wild",
+      "Getrocknet",
       "Aromatische Salbeiblätter für Pasta, Bohnen und Ofengerichte."
     ],
     [
       "oregano",
-      "Wild-Oregano",
+      "Oregano",
       "Kräuter",
       "20 g",
       4.9,
       "photo-1466692476868-aef1dfb1e735",
-      "Wild",
+      "Getrocknet",
       "Kräftiger Oregano für Tomaten, Pizza, Salate und Grillgemüse."
     ],
     [
@@ -8365,7 +8365,7 @@ window.MEDITERRANEAN = {
     [
       "zaatar",
       "Levantinisches Za’atar",
-      "Kräuter",
+      "Gewürzmischungen",
       "60 g",
       5.9,
       "shared-2",
