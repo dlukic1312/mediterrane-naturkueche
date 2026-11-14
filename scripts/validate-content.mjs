@@ -18,6 +18,9 @@ const approved=JSON.parse(readFileSync(root+'design-constraints.json','utf8')).a
 const css=readFileSync(root+'mittelmeer.css','utf8');
 const frozen={field:html.match(/<g class="culinary-influence"[\s\S]*?<\/g>/)?.[0],softness:html.match(/<filter id="influence-soft"[\s\S]*?<\/filter>/)?.[0],color:css.match(/\.map-wrap \.culinary-influence path\{[^}]*\}/)?.[0]};
 for(const [key,value] of Object.entries(frozen)){assert.ok(value,'Missing approved map '+key);assert.equal(createHash('sha256').update(value).digest('hex'),approved[key],'Approved map '+key+' requires explicit user instruction to change')}
+const trial=readFileSync(root+'mittelmeer-probe.html','utf8');
+assert.ok(!/<select\b/i.test(trial),'Map-only trial must not contain dropdowns');
+for(const [key,pattern] of [['field',/<g class="culinary-influence"[\s\S]*?<\/g>/],['softness',/<filter id="influence-soft"[\s\S]*?<\/filter>/]])assert.equal(createHash('sha256').update(trial.match(pattern)?.[0]||'').digest('hex'),approved[key],'Trial must preserve approved map '+key);
 for(const r of data.regions){assert.ok(html.includes('data-region="'+r.id+'"'),'Missing map target '+r.id);if(r.parent)assert.ok(countryIds.has(r.parent),'Unknown parent '+r.id)}
 for(const group of data.crossBorderAreas){assert.ok(group.members.length&&group.countries.length,'Empty shared space');for(const id of group.members)assert.ok(geoIds.has(id),'Unknown shared-region member '+id);for(const id of group.countries)assert.ok(countryIds.has(id),'Unknown shared-region country '+id);assert.ok(group.sources.length,'Shared-space source missing');group.sources.forEach(source)}
 for(const r of data.regions.filter(r=>r.sharedRegion)){const g=data.crossBorderAreas.find(g=>g.id===r.sharedRegion);assert.ok(g?.unified&&g.members.includes(r.id)&&g.countries.includes(r.parent),'Shared region must be reachable from its country: '+r.id)}
@@ -30,6 +33,6 @@ assert.equal(data.catalog.find(p=>p[0]==='saltlemons')[1],'Salzzitronen','Avoid 
 assert.ok(!data.connections.figbread.sources.some(s=>s.url==='https://en.wikipedia.org/wiki/Fig_cake'),'Baked cake is not the compressed dried-fruit product');
 for(const r of data.countryBorderReview){assert.ok(r.summary&&r.sources.length,'Border review needs explanation and sources');r.sources.forEach(source)}
 for(const r of data.rawMaterialIdeas){assert.ok(r.formats.length&&r.sources.length,'Raw-material ideas require processed formats and sources');for(const id of r.regions)assert.ok(geoIds.has(id),'Unknown raw-material region');r.sources.forEach(source)}
-for(const name of ['mittelmeer.js','product-regions.js','soft-product-map.js'])new Function(readFileSync(root+name,'utf8'));
+for(const name of ['mittelmeer.js','product-regions.js','soft-product-map.js','map-navigation.js'])new Function(readFileSync(root+name,'utf8'));
 for(const match of readFileSync(root+'index.html','utf8').matchAll(/<script>([\s\S]*?)<\/script>/g))new Function(match[1]);
 console.log(`Validated ${productIds.size} preserved-product drafts, ${geoIds.size} map targets, ${countryIds.size} country reviews, and ${data.crossBorderAreas.length} shared regions. Editorial sources still require human factual review.`);

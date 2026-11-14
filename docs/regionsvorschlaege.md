@@ -17,16 +17,16 @@ Drei bereits vorhandene große Räume weiterverwenden und drei weitere größere
 | **Levante und östliches Mittelmeer** | Östliche Küstenküchen und ihre Hinterländer; Zypern als möglicher zusätzlicher Inselbezug | Levante bereits vorhanden. Eine Erweiterung um Zypern ist ein Vorschlag und bedeutet keine automatische Übertragung aller levantinischen Rezepturen auf die Insel. |
 | **Nordafrikanischer Mittelmeerraum** | Küstenküchen des Maghreb und deren Verbindungen nach Osten bis zum ägyptischen Mittelmeerraum | Maghreb bereits vorhanden. Ein größerer nordafrikanischer Einstieg ist ein Vorschlag; Ägypten ist nicht Teil des Maghreb und behält eigene kulinarische Bezüge. |
 
-## Welche kleineren Regionen behalten?
+## Probeansicht ohne Unterregionen
 
-Markante Landschaften und Inseln wie Provence, Katalonien, Istrien, Dalmatien, Sardinien, Sizilien und Kreta bleiben sinnvolle Vertiefungen. Sie müssen nicht durch immer kleinere Orte ergänzt werden. Eine zusätzliche Region lohnt sich vor allem, wenn sie einen verständlichen kulinarischen Zusammenhang, einen eigenständigen Sortimentsbezug oder eine sinnvolle Inselwelt erschließt.
+Die aktuelle Probeansicht (`mittelmeer-probe.html`) führt ausschließlich über diese sechs größeren Räume und Produkte. Istrien, Neretva-Tal, Tarragona und andere Unterregionen sind darin keine eigenen Navigationsstufen. Belegte lokale Bezüge bleiben in den Produktbeschreibungen und im Datenbestand erhalten; sie werden nicht zu größeren Herkunftsbehauptungen verallgemeinert.
 
-Salinen, einzelne Täler oder Orte können als konkrete Produktbeispiele in den Beschreibungen erscheinen, ohne jeweils einen weiteren Haupteinstieg zu benötigen. Bestehende solche Einträge werden durch diesen Entwurf nicht automatisch entfernt.
+Die bisherige Ansicht bleibt zum direkten Vergleich erreichbar. Die Probe ergänzt in Nordafrika und der Levante eine unbepreiste Sortimentsidee für haltbare Dattelprodukte, ohne das kaufbare Sortiment oder die freigegebene Grünfläche zu verändern.
 
 ## Darstellung und Bedienung
 
 - Die freigegebene weiche Einfärbung der Gesamtkarte bleibt unverändert.
-- Länder dienen als Orientierung und zeigen weiterhin alle erfassten eigenen Produktbezüge. Unterregionen sind im Länder-Menü auswählbar.
+- Länder dienen als Orientierung und zeigen weiterhin alle erfassten eigenen Produktbezüge. In der bisherigen Ansicht sind Unterregionen im Länder-Menü auswählbar; in der Probeansicht entfällt diese Navigationsstufe.
 - Die großen kulinarischen Räume ergänzen diese Navigation. Sie sind weder Staatsgebiete noch exakte Klimazonen.
 - Gemeinsame Regionen öffnen von jedem zugehörigen Land aus dieselbe Ansicht.
 - Eine breite Raumansicht sammelt belegte Bezüge. Sie behauptet nicht, dass jedes angezeigte Produkt überall im Raum üblich ist.
