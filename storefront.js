@@ -1,6 +1,6 @@
 const products=window.MEDITERRANEAN.catalog;
 const regionalPhotos={caponata:0,romesco:1,harissa:2,saltlemons:3};
-function productPhotoStyle(p){const i=regionalPhotos[p[0]];if(i!==undefined)return "background-image:url('./assets/mediterranean-specialties.jpg');background-size:200% 200%;background-position:"+(i%2*100)+"% "+(Math.floor(i/2)*100)+"%";const j=Math.min(products.indexOf(p),19);return "background-position:"+(j%5*25)+"% "+(Math.floor(j/5)*100/3)+"%"}
+function productPhotoStyle(p){const i=regionalPhotos[p[0]];if(i!==undefined)return "background-image:url('./assets/mediterranean-specialties.jpg');background-size:200% 200%;background-position:"+(i%2*100)+"% "+(Math.floor(i/2)*100)+"%";const j=Math.min(products.indexOf(p),19);return "background-image:url('./assets/product-collection.png');background-size:500% 400%;background-repeat:no-repeat;background-position:"+(j%5*25)+"% "+(Math.floor(j/5)*100/3)+"%"}
 
 const sharedPhotos={olivepaste:0,acuka:1,zaatar:2,muhammara:3};
 const originalProductPhotoStyle=productPhotoStyle;
