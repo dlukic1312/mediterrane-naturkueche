@@ -922,10 +922,16 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarischer Raum",
+        "summary": "Rund ums Mittelmeer verbreitet, ebenso in der portugiesischen Nachbarschaft – mit zahlreichen regionalen Olivenöltraditionen.",
+        "basis": "shared",
+        "exclusive": false
       }
     },
     "truffle": {
@@ -1010,10 +1016,16 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarischer Raum",
+        "summary": "Regionale Trüffelöl-Spezialitäten sind unter anderem in Istrien, im Piemont, in Umbrien und in der Provence belegt. Weitere Trüffelregionen ergänzen den kulinarischen Zusammenhang.",
+        "basis": "regional-product-family",
+        "exclusive": false
       }
     },
     "lemonoil": {
@@ -1043,10 +1055,16 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Einordnung",
+        "summary": "Mediterran inspirierte Kombination aus Zitrone, Basilikum und Olivenöl. Für genau diese Mischung ist keine einzelne traditionelle Heimat belegt.",
+        "basis": "modern",
+        "exclusive": false
       }
     },
     "chilioil": {
@@ -1076,10 +1094,16 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Einordnung",
+        "summary": "Mediterran inspirierte Ölmischung. Für die konkrete Chili-Knoblauch-Kombination ist keine einzelne traditionelle Heimat belegt.",
+        "basis": "modern",
+        "exclusive": false
       }
     },
     "fleur": {
@@ -1129,10 +1153,16 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarischer Raum",
+        "summary": "Salzblumen aus Küstenlandschaften zwischen Atlantik und Mittelmeer, etwa Algarve, Balearen und Adria; auch in Frankreich belegt.",
+        "basis": "shared",
+        "exclusive": false
       }
     },
     "sea": {
@@ -1241,6 +1271,12 @@ window.MEDITERRANEAN = {
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarischer Raum",
+        "summary": "An vielen Mittelmeerküsten und an Portugals Atlantikküste kulinarisch zuhause. Einzelne Salinenregionen zeigen Beispiele der Gewinnung.",
+        "basis": "shared",
+        "exclusive": false
       }
     },
     "trufflesalt": {
@@ -1315,10 +1351,16 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarischer Raum",
+        "summary": "Trüffelsalz-Spezialitäten sind unter anderem in Istrien und im Piemont belegt. Salzart und Trüffelrezeptur unterscheiden sich regional.",
+        "basis": "regional-product-family",
+        "exclusive": false
       }
     },
     "herbsalt": {
@@ -1348,10 +1390,16 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Einordnung",
+        "summary": "Mediterran inspirierte Kräutermischung. Die Verbreitung ihrer Zutaten belegt keine gemeinsame traditionelle Heimat der fertigen Mischung.",
+        "basis": "modern",
+        "exclusive": false
       }
     },
     "black": {
@@ -1387,10 +1435,16 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Heutiger Produktionsbezug",
+        "summary": "Mit ostasiatischen Verarbeitungstraditionen verbunden; heutige Herstellung ist auch in Spanien belegt. Die Karte zeigt dieses Produktionsbeispiel.",
+        "basis": "contemporary",
+        "exclusive": false
       }
     },
     "fig": {
@@ -1462,10 +1516,16 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarischer Raum",
+        "summary": "Getrocknete Feigen verbinden westliche und östliche Mittelmeerküchen und Portugal – von der Algarve über Dalmatien bis zur Ägäis und Zypern.",
+        "basis": "shared",
+        "exclusive": false
       }
     },
     "ajvar": {
@@ -1506,10 +1566,16 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarischer Raum",
+        "summary": "In mehreren Balkanküchen zuhause. Die Karte zeigt die im Atlas erfassten kulinarischen Bezüge im westlichen und südlichen Balkan.",
+        "basis": "shared",
+        "exclusive": false
       }
     },
     "capers": {
@@ -1584,10 +1650,16 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarischer Raum",
+        "summary": "Kapern gehören zu vielen Mittelmeerküchen, etwa auf Sizilien, Sardinien, Malta und Zypern sowie in der Ägäis. Die Konservierung variiert regional.",
+        "basis": "shared",
+        "exclusive": false
       }
     },
     "sage": {
@@ -1632,10 +1704,16 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarischer Raum",
+        "summary": "Mit der adriatischen und dalmatinischen Küste verbunden und auch in weiteren Mittelmeerregionen verbreitet, etwa in Italien, Albanien, Griechenland und der Türkei.",
+        "basis": "shared",
+        "exclusive": false
       }
     },
     "oregano": {
@@ -1697,10 +1775,16 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarischer Raum",
+        "summary": "In mehreren Mittelmeerküchen und in Portugal verbreitet – unter anderem in Alentejo und Algarve, an der Adria, in der Ägäis und auf Zypern.",
+        "basis": "shared",
+        "exclusive": false
       }
     },
     "figjam": {
@@ -1757,10 +1841,16 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarischer Raum",
+        "summary": "In verschiedenen Mittelmeerküchen und in Portugal zuhause, mit belegten Beispielen auf Korsika und Zypern. Rezepturen unterscheiden sich regional.",
+        "basis": "shared",
+        "exclusive": false
       }
     },
     "plum": {
@@ -1804,15 +1894,22 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarischer Raum",
+        "summary": "Im Balkan und weiteren südosteuropäischen Küchen verbreitet. Bosnien ist ein besonders gut dokumentierter Bezug für Pflaumenanbau und Verarbeitung.",
+        "basis": "shared",
+        "exclusive": false
       }
     },
     "figbread": {
       "regions": [
-        "HRV"
+        "HRV",
+        "HR-DAL"
       ],
       "text": "Dieses Feigenbrot ist ein dichtes Konfekt aus getrockneten Feigen und Walnüssen, kein frischer Kuchen. Es steht in einer mediterranen Familie gepresster Feigenzubereitungen, zu der auch dalmatinischer Hib gehört. Die Varianten unterscheiden sich bei Nüssen, Gewürzen und gegebenenfalls Alkohol. Portugiesischer Queijo de Figo mit Mandeln oder spanischer Pan de higo sind verwandt, aber keine identischen Rezepturen.",
       "source": "https://en.wikipedia.org/wiki/Fig-cake_(fruit)",
@@ -1872,11 +1969,20 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
-      }
+      },
+      "culinaryRange": {
+        "label": "Kulinarischer Raum",
+        "summary": "Mit dalmatinischen Feigenkonfekten verbunden. Verwandte, unterschiedlich zubereitete Spezialitäten finden sich auch auf der Iberischen Halbinsel und auf Zypern.",
+        "basis": "regional",
+        "exclusive": false
+      },
+      "mapRegions": [
+        "HR-DAL"
+      ]
     },
     "mustard": {
       "regions": [],
@@ -1905,10 +2011,16 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Einordnung",
+        "summary": "Moderner Feinkostentwurf ohne belegte traditionelle Heimat. Verwandte Senf- und Fruchtzubereitungen sind keine identische regionale Rezeptur.",
+        "basis": "modern",
+        "exclusive": false
       }
     },
     "tapenade": {
@@ -1959,11 +2071,22 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
-      }
+      },
+      "culinaryRange": {
+        "label": "Kulinarischer Raum",
+        "summary": "Besonders mit der Provence verbunden; weitere belegte Bezüge liegen an der südfranzösischen Küste und auf Korsika.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "mapRegions": [
+        "FR-COR",
+        "FR-PRO",
+        "FR-RIV"
+      ]
     },
     "gift1": {
       "regions": [],
@@ -1992,10 +2115,16 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Einordnung",
+        "summary": "Eine Zusammenstellung mediterraner Spezialitäten. Die einzelnen Produkte haben ihre eigenen kulinarischen Räume; die Box besitzt keine eigene traditionelle Heimat.",
+        "basis": "modern",
+        "exclusive": false
       }
     },
     "gift2": {
@@ -2025,10 +2154,16 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Einordnung",
+        "summary": "Eine moderne Geschenkzusammenstellung. Ihre kulinarischen Bezüge ergeben sich aus den enthaltenen Produkten.",
+        "basis": "modern",
+        "exclusive": false
       }
     },
     "caponata": {
@@ -2065,11 +2200,20 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
-      }
+      },
+      "culinaryRange": {
+        "label": "Kulinarischer Raum",
+        "summary": "In der sizilianischen Küche zuhause, mit unterschiedlichen Varianten etwa aus Palermo, Agrigento, Catania, Messina und Trapani.",
+        "basis": "regional",
+        "exclusive": false
+      },
+      "mapRegions": [
+        "IT-SIC"
+      ]
     },
     "romesco": {
       "regions": [
@@ -2114,11 +2258,21 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
-      }
+      },
+      "culinaryRange": {
+        "label": "Kulinarischer Raum",
+        "summary": "Mit Tarragona und dem Hafenviertel El Serrallo in Katalonien verbunden. Die Karte zeigt diesen lokalen Bezug im weiteren katalanischen Zusammenhang.",
+        "basis": "regional",
+        "exclusive": false
+      },
+      "mapRegions": [
+        "ES-CT",
+        "ES-TAR"
+      ]
     },
     "harissa": {
       "regions": [
@@ -2176,10 +2330,16 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarischer Raum",
+        "summary": "Mit den Küchen des Maghreb verbunden. Besonders gut dokumentiert ist die tunesische Tradition; verwandte Varianten in weiteren Maghreb-Küchen sind gesondert markiert.",
+        "basis": "regional",
+        "exclusive": false
       }
     },
     "saltlemons": {
@@ -2188,7 +2348,7 @@ window.MEDITERRANEAN = {
         "TUN",
         "TN-MED"
       ],
-      "text": "Salzzitronen sind keine ausschließlich marokkanische Spezialität. Sie sind unter anderem in Marokko und Tunesien belegt. Eine marokkanische Zubereitung verwendet Zitronen und Salz; aus Tebourba im Medjerda-Tal ist eine tunesische Variante mit milder roter Paprika dokumentiert. Das Tal ist ein belegtes Herstellungsbeispiel, keine ausschließliche Heimat der Salzzitronen. Eine Beschränkung auf nur eine marokkanische Unterregion ist durch die hier verwendeten Quellen nicht belegt. Die endgültige Rezeptur und Lieferherkunft werden anhand des Lieferprodukts festgelegt.",
+      "text": "In Salz und Zitronensaft beziehungsweise Salzlake eingelegte Zitronen würzen viele nordafrikanische Gerichte. Marokkanische Zubereitungen verwenden etwa Zitronen und Salz; aus Tebourba im Medjerda-Tal ist eine tunesische Variante mit milder roter Paprika dokumentiert. Die regionalen Beispiele belegen weder einen exklusiven Ursprung noch die Lieferherkunft unseres späteren Produkts.",
       "source": "https://en.wikipedia.org/wiki/Preserved_lemon",
       "kind": "Gemeinsame Tradition · regionale Varianten",
       "relatedRegions": [],
@@ -2206,6 +2366,10 @@ window.MEDITERRANEAN = {
         {
           "title": "Rogers Collection · Tunesische Salzzitronen",
           "url": "https://www.rogerscollection.us/wp-content/uploads/2016/01/Organic-Natural-Preserved-Lemon-Sell-Sheet.pdf"
+        },
+        {
+          "title": "James Beard Foundation · Salzzitronen in nordafrikanischen Küchen",
+          "url": "https://archive.jamesbeard.org/recipes/preserved-lemons"
         }
       ],
       "relatedLabel": "Verwandte regionale Varianten",
@@ -2225,6 +2389,12 @@ window.MEDITERRANEAN = {
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarischer Raum",
+        "summary": "In nordafrikanischen Mittelmeerküchen zuhause, unter anderem in Marokko und Tunesien. Salz und Zitronensaft prägen die Zubereitung; regionale Varianten setzen eigene Akzente.",
+        "basis": "shared",
+        "exclusive": false
       }
     },
     "olivepaste": {
@@ -2300,10 +2470,16 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarischer Raum",
+        "summary": "Olivenpasten verbinden mehrere Mittelmeerküchen und Portugal, von provenzalischen und korsischen bis zu adriatischen und ägäischen Zubereitungen.",
+        "basis": "shared",
+        "exclusive": false
       }
     },
     "acuka": {
@@ -2339,10 +2515,16 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarischer Raum",
+        "summary": "In der türkischen Frühstücksküche belegt und mit der weiteren Paprika-Walnuss-Familie um Muhammara verwandt. Eine engere Heimat dieser Acuka-Rezeptur ist nicht belegt.",
+        "basis": "regional",
+        "exclusive": false
       }
     },
     "zaatar": {
@@ -2378,10 +2560,16 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarischer Raum",
+        "summary": "In der Levante zuhause. Die Mischung verbindet unter anderem Libanon, Palästina, Israel, Syrien und Jordanien; Kräuter und Anteile variieren.",
+        "basis": "shared",
+        "exclusive": false
       }
     },
     "muhammara": {
@@ -2421,10 +2609,16 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarischer Raum",
+        "summary": "Besonders mit Aleppo verbunden; verwandte Zubereitungen reichen nach Gaziantep und in weitere levantinische Küchen.",
+        "basis": "shared",
+        "exclusive": false
       }
     }
   },
