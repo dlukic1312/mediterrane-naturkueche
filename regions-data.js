@@ -3374,6 +3374,3229 @@ window.MEDITERRANEAN = {
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
       }
+    },
+    "savory": {
+      "regions": [
+        "HR-DAL",
+        "BIH-HER"
+      ],
+      "relatedRegions": [],
+      "text": "Adriatisch-dinarischer Raum, mit belegten Sammeltraditionen in der Herzegowina. Vorkommen und Nutzung reichen über diese Beispiele hinaus.",
+      "source": "https://link.springer.com/article/10.1186/s13002-019-0332-1",
+      "sources": [
+        {
+          "title": "Studie · Wildpflanzen und Anbau auf den kroatischen Inseln",
+          "url": "https://link.springer.com/article/10.1186/s13002-019-0332-1"
+        },
+        {
+          "title": "Genossenschaft Radobolja · Sammelsortiment",
+          "url": "https://zzradobolja.com/en/o-nama/"
+        }
+      ],
+      "kind": "Kräuter & Gewürze",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Adriatisch-dinarischer Raum, mit belegten Sammeltraditionen in der Herzegowina. Vorkommen und Nutzung reichen über diese Beispiele hinaus.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "HR-DAL",
+        "BIH-HER"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Würziges Bohnenkraut für Hülsenfrüchte, Pilze und Marinaden.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      }
+    },
+    "thyme": {
+      "regions": [
+        "HR-DAL",
+        "BIH-HER",
+        "GRC"
+      ],
+      "relatedRegions": [],
+      "text": "Erfasste Bezüge an der Adria, in der Herzegowina und in griechischen Kräuterküchen. Thymus-Arten unterscheiden sich; Quendel und gewöhnlicher Küchenthymian sind nicht identisch.",
+      "source": "https://link.springer.com/article/10.1186/s13002-019-0332-1",
+      "sources": [
+        {
+          "title": "Studie · Wildpflanzen und Anbau auf den kroatischen Inseln",
+          "url": "https://link.springer.com/article/10.1186/s13002-019-0332-1"
+        },
+        {
+          "title": "BfN · Wildsammlung und Anbau in Südosteuropa, 2003",
+          "url": "https://www.bfn.de/sites/default/files/BfN/service/Dokumente/skripten/skript91.pdf"
+        },
+        {
+          "title": "Griechisches Landwirtschaftsportal · Kräuter und Gewürze",
+          "url": "https://portal.greekfarms.gov.gr/en/herbs-and-spices-aromas-of-the-mediterranean/"
+        }
+      ],
+      "kind": "Kräuter & Gewürze",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Erfasste Bezüge an der Adria, in der Herzegowina und in griechischen Kräuterküchen. Thymus-Arten unterscheiden sich; Quendel und gewöhnlicher Küchenthymian sind nicht identisch.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "HR-DAL",
+        "BIH-HER",
+        "GRC"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Aromatischer Thymian für Gemüse, Eintöpfe und Marinaden.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      }
+    },
+    "rosemary": {
+      "regions": [
+        "HR-DAL",
+        "FR-PRO",
+        "GRC"
+      ],
+      "relatedRegions": [],
+      "text": "Mediterrane Kräuterküche; erfasste Beispiele an der Adria, in der Provence und in Griechenland. Wildvorkommen und Anbau sind zu unterscheiden.",
+      "source": "https://link.springer.com/article/10.1186/s13002-019-0332-1",
+      "sources": [
+        {
+          "title": "Studie · Wildpflanzen und Anbau auf den kroatischen Inseln",
+          "url": "https://link.springer.com/article/10.1186/s13002-019-0332-1"
+        },
+        {
+          "title": "Griechisches Landwirtschaftsportal · Kräuter und Gewürze",
+          "url": "https://portal.greekfarms.gov.gr/en/herbs-and-spices-aromas-of-the-mediterranean/"
+        }
+      ],
+      "kind": "Kräuter & Gewürze",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Mediterrane Kräuterküche; erfasste Beispiele an der Adria, in der Provence und in Griechenland. Wildvorkommen und Anbau sind zu unterscheiden.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "HR-DAL",
+        "FR-PRO",
+        "GRC"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Duftende Rosmarinnadeln für Ofenkartoffeln, Gemüse und Brot.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      }
+    },
+    "fennelseed": {
+      "regions": [
+        "HR-DAL",
+        "GRC",
+        "BIH-HER"
+      ],
+      "relatedRegions": [],
+      "text": "Fenchel ist in der dalmatinischen Wildpflanzenküche dokumentiert; Anbau etwa in der Herzegowina sowie Verwendung in griechischen Würztraditionen. Die Samenernte unseres Produkts ist damit nicht als Wildsammlung belegt.",
+      "source": "https://link.springer.com/article/10.1186/1746-4269-9-2",
+      "sources": [
+        {
+          "title": "Studie · Wildgemüse auf dalmatinischen Märkten",
+          "url": "https://link.springer.com/article/10.1186/1746-4269-9-2"
+        },
+        {
+          "title": "BfN · Wildsammlung und Anbau in Südosteuropa, 2003",
+          "url": "https://www.bfn.de/sites/default/files/BfN/service/Dokumente/skripten/skript91.pdf"
+        },
+        {
+          "title": "Visit Greece · Gewürze",
+          "url": "https://www.visitgreece.gr/en/experiences/gastronomy/beverages/spices"
+        }
+      ],
+      "kind": "Kräuter & Gewürze",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Fenchel ist in der dalmatinischen Wildpflanzenküche dokumentiert; Anbau etwa in der Herzegowina sowie Verwendung in griechischen Würztraditionen. Die Samenernte unseres Produkts ist damit nicht als Wildsammlung belegt.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "HR-DAL",
+        "GRC",
+        "BIH-HER"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Süßlich-aromatische Fenchelsamen für Brot, Gemüse und eingelegte Spezialitäten.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      }
+    },
+    "bay": {
+      "regions": [
+        "HR-DAL",
+        "BIH-HER"
+      ],
+      "relatedRegions": [],
+      "text": "Belegte Nutzung an der Adria; Lorbeer-Wildsammlung wird auch aus der südlichen Herzegowina berichtet. Er wird ebenso angebaut und in weiteren mediterranen Küchen verwendet.",
+      "source": "https://link.springer.com/article/10.1186/s13002-019-0332-1",
+      "sources": [
+        {
+          "title": "Studie · Wildpflanzen und Anbau auf den kroatischen Inseln",
+          "url": "https://link.springer.com/article/10.1186/s13002-019-0332-1"
+        },
+        {
+          "title": "Helichrysum Hercegovina · Wildsammlung und Verarbeitung",
+          "url": "https://www.helichrysum-herzegovina.com/helichrysum-hercegovina-d-o-o/"
+        }
+      ],
+      "kind": "Kräuter & Gewürze",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Belegte Nutzung an der Adria; Lorbeer-Wildsammlung wird auch aus der südlichen Herzegowina berichtet. Er wird ebenso angebaut und in weiteren mediterranen Küchen verwendet.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "HR-DAL",
+        "BIH-HER"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Ganze Lorbeerblätter für Eintöpfe, Hülsenfrüchte und eingelegtes Gemüse.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      }
+    },
+    "rosehipjam": {
+      "regions": [
+        "BIH-BOS",
+        "BIH-HER"
+      ],
+      "relatedRegions": [],
+      "text": "Hagebutten-Verarbeitung in Bosnien und Herzegowina; Wildfrüchte sind im regionalen Sammelhandel dokumentiert. Gemeint sind Rosenfrüchte, nicht Granatäpfel.",
+      "source": "https://shop.miloselo.ba/proizvod/dzem-od-sipka-370-ml/",
+      "sources": [
+        {
+          "title": "Milo Selo · Hagebuttenaufstrich",
+          "url": "https://shop.miloselo.ba/proizvod/dzem-od-sipka-370-ml/"
+        },
+        {
+          "title": "Genossenschaft Radobolja · Sammelsortiment",
+          "url": "https://zzradobolja.com/en/o-nama/"
+        }
+      ],
+      "kind": "Regionale Vorratsküche",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Hagebutten-Verarbeitung in Bosnien und Herzegowina; Wildfrüchte sind im regionalen Sammelhandel dokumentiert. Gemeint sind Rosenfrüchte, nicht Granatäpfel.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "BIH-BOS",
+        "BIH-HER"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Fruchtig-herber Aufstrich aus Hagebutten für Brot und Gebäck.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      }
+    },
+    "mint": {
+      "regions": [
+        "TUR",
+        "GRC",
+        "BIH-HER",
+        "HR-DAL"
+      ],
+      "relatedRegions": [],
+      "text": "Türkische und griechische Küche sowie dokumentierte Nutzung und Anbau an der Adria und in der Herzegowina. Regionalität ist kein Wildsammlungsnachweis.",
+      "source": "https://goturkiye.com/gastronomy/blog/10-most-popular-spices-in-turkish-cuisine",
+      "sources": [
+        {
+          "title": "GoTürkiye · Gewürze der türkischen Küche",
+          "url": "https://goturkiye.com/gastronomy/blog/10-most-popular-spices-in-turkish-cuisine"
+        },
+        {
+          "title": "Griechisches Landwirtschaftsportal · Kräuter und Gewürze",
+          "url": "https://portal.greekfarms.gov.gr/en/herbs-and-spices-aromas-of-the-mediterranean/"
+        },
+        {
+          "title": "Studie · Wildpflanzen und Anbau auf den kroatischen Inseln",
+          "url": "https://link.springer.com/article/10.1186/s13002-019-0332-1"
+        },
+        {
+          "title": "BfN · Wildsammlung und Anbau in Südosteuropa, 2003",
+          "url": "https://www.bfn.de/sites/default/files/BfN/service/Dokumente/skripten/skript91.pdf"
+        }
+      ],
+      "kind": "Kräuter & Gewürze",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Türkische und griechische Küche sowie dokumentierte Nutzung und Anbau an der Adria und in der Herzegowina. Regionalität ist kein Wildsammlungsnachweis.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "TUR",
+        "GRC",
+        "BIH-HER",
+        "HR-DAL"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Getrocknete Minzblätter für Dips, Salate, Hülsenfrüchte und Aufgüsse.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      }
+    },
+    "lemonbalm": {
+      "regions": [
+        "HR-DAL",
+        "BIH-HER",
+        "GRC"
+      ],
+      "relatedRegions": [],
+      "text": "Erfasste regionale Kräuternutzung an der Adria und in Griechenland; Melissenanbau ist auch für die Herzegowina dokumentiert.",
+      "source": "https://link.springer.com/article/10.1186/s13002-019-0332-1",
+      "sources": [
+        {
+          "title": "Studie · Wildpflanzen und Anbau auf den kroatischen Inseln",
+          "url": "https://link.springer.com/article/10.1186/s13002-019-0332-1"
+        },
+        {
+          "title": "BfN · Wildsammlung und Anbau in Südosteuropa, 2003",
+          "url": "https://www.bfn.de/sites/default/files/BfN/service/Dokumente/skripten/skript91.pdf"
+        },
+        {
+          "title": "Griechisches Landwirtschaftsportal · Kräuter und Gewürze",
+          "url": "https://portal.greekfarms.gov.gr/en/herbs-and-spices-aromas-of-the-mediterranean/"
+        }
+      ],
+      "kind": "Kräuter & Gewürze",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Erfasste regionale Kräuternutzung an der Adria und in Griechenland; Melissenanbau ist auch für die Herzegowina dokumentiert.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "HR-DAL",
+        "BIH-HER",
+        "GRC"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Zitronig duftende Melissenblätter für Kräuteraufgüsse und zum Aromatisieren.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      }
+    },
+    "paprikaflakesmild": {
+      "regions": [
+        "MKD"
+      ],
+      "relatedRegions": [],
+      "text": "Balkanbezug am Beispiel der Bukovska-Paprika aus der Gegend um Bukovo. Der Ortsname beschreibt hier die Tradition, keine bestätigte Lieferherkunft.",
+      "source": "https://www.fondazioneslowfood.com/en/ark-of-taste-slow-food/bukovska-pepper/",
+      "sources": [
+        {
+          "title": "Slow Food · Bukovska-Paprika",
+          "url": "https://www.fondazioneslowfood.com/en/ark-of-taste-slow-food/bukovska-pepper/"
+        },
+        {
+          "title": "Regionaler Produzentenbericht · milde und scharfe Bukovska-Paprika",
+          "url": "https://kajak.mk/post/macedonia-local-pepper-food-explore-en"
+        }
+      ],
+      "kind": "Kräuter & Gewürze",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Balkanbezug am Beispiel der Bukovska-Paprika aus der Gegend um Bukovo. Der Ortsname beschreibt hier die Tradition, keine bestätigte Lieferherkunft.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "MKD"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Fruchtig-milde Paprikaflocken für Gemüse, Dips und Eintöpfe.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      }
+    },
+    "paprikaflakeshot": {
+      "regions": [
+        "MKD",
+        "TUR"
+      ],
+      "relatedRegions": [],
+      "text": "Erfasste Beispiele sind Bukovec-Traditionen auf dem Balkan und türkische Pul-Biber-Zubereitungen. Sorte, Trocknung und gegebenenfalls Ölzugabe unterscheiden sich.",
+      "source": "https://kajak.mk/post/macedonia-local-pepper-food-explore-en",
+      "sources": [
+        {
+          "title": "Regionaler Produzentenbericht · milde und scharfe Bukovska-Paprika",
+          "url": "https://kajak.mk/post/macedonia-local-pepper-food-explore-en"
+        },
+        {
+          "title": "GoTürkiye · Gewürze der türkischen Küche",
+          "url": "https://goturkiye.com/gastronomy/blog/10-most-popular-spices-in-turkish-cuisine"
+        }
+      ],
+      "kind": "Kräuter & Gewürze",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Erfasste Beispiele sind Bukovec-Traditionen auf dem Balkan und türkische Pul-Biber-Zubereitungen. Sorte, Trocknung und gegebenenfalls Ölzugabe unterscheiden sich.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "MKD",
+        "TUR"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Scharfe Paprikaflocken für Pizza, Marinaden und würzige Gemüsegerichte.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      }
+    },
+    "paprikapowdermild": {
+      "regions": [
+        "HRV",
+        "ESP",
+        "MKD"
+      ],
+      "relatedRegions": [],
+      "text": "Belegte Beispiele liegen in Baranja, Murcia und bei Bukovska-Paprika. Diese regionalen Varianten sind keine identischen Sorten und keine exklusive Heimat des Gewürzes.",
+      "source": "https://stipino.com/proizvodi/domaca-slatka-mljevena-paprika",
+      "sources": [
+        {
+          "title": "OPG Stipino · getrocknete und gemahlene Paprika",
+          "url": "https://stipino.com/proizvodi/domaca-slatka-mljevena-paprika"
+        },
+        {
+          "title": "Region Murcia · Pimentón und Ñora",
+          "url": "https://www.turismoregiondemurcia.es/es/blog/bit.ly/2DVMsAA/?articulo=pimenton-de-murcia%3A-cuando-una-cucharadita-hace-mas-que-media-receta-594&seccion=post"
+        },
+        {
+          "title": "Slow Food · Bukovska-Paprika",
+          "url": "https://www.fondazioneslowfood.com/en/ark-of-taste-slow-food/bukovska-pepper/"
+        }
+      ],
+      "kind": "Kräuter & Gewürze",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Belegte Beispiele liegen in Baranja, Murcia und bei Bukovska-Paprika. Diese regionalen Varianten sind keine identischen Sorten und keine exklusive Heimat des Gewürzes.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "HRV",
+        "ESP",
+        "MKD"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Mildes Paprikapulver mit fruchtigem Aroma für Saucen, Gemüse und Eintöpfe.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "mapFields": [
+        {
+          "reference": "HRV",
+          "places": [
+            {
+              "name": "Baranja",
+              "lon": 18.7,
+              "lat": 45.8,
+              "rx": 0.6,
+              "ry": 0.4
+            }
+          ]
+        }
+      ],
+      "culinaryRooms": [
+        "NAV-BALKAN",
+        "NAV-IBERIA"
+      ]
+    },
+    "paprikapowderhot": {
+      "regions": [
+        "HRV",
+        "MKD",
+        "TUR"
+      ],
+      "relatedRegions": [],
+      "text": "Belegte scharfe Varianten aus Baranja und dem Balkan sowie türkischen Würztraditionen. Schärfe hängt von Sorte und Verarbeitung ab.",
+      "source": "https://fino.hr/trgovina/web-trgovina/paprika-baranjska-ljuta-matijevic-100g/",
+      "sources": [
+        {
+          "title": "Regionales Produktangebot · scharfe Baranja-Paprika",
+          "url": "https://fino.hr/trgovina/web-trgovina/paprika-baranjska-ljuta-matijevic-100g/"
+        },
+        {
+          "title": "Regionaler Produzentenbericht · milde und scharfe Bukovska-Paprika",
+          "url": "https://kajak.mk/post/macedonia-local-pepper-food-explore-en"
+        },
+        {
+          "title": "GoTürkiye · Gewürze der türkischen Küche",
+          "url": "https://goturkiye.com/gastronomy/blog/10-most-popular-spices-in-turkish-cuisine"
+        }
+      ],
+      "kind": "Kräuter & Gewürze",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Belegte scharfe Varianten aus Baranja und dem Balkan sowie türkischen Würztraditionen. Schärfe hängt von Sorte und Verarbeitung ab.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "HRV",
+        "MKD",
+        "TUR"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Scharfes Paprikapulver für kräftige Saucen, Eintöpfe und Marinaden.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "mapFields": [
+        {
+          "reference": "HRV",
+          "places": [
+            {
+              "name": "Baranja",
+              "lon": 18.7,
+              "lat": 45.8,
+              "rx": 0.6,
+              "ry": 0.4
+            }
+          ]
+        }
+      ],
+      "culinaryRooms": [
+        "NAV-BALKAN",
+        "NAV-EAST",
+        "NAV-AEGEAN"
+      ]
+    },
+    "smokedpaprika": {
+      "regions": [
+        "ESP"
+      ],
+      "relatedRegions": [],
+      "text": "Geräucherter Pimentón ist besonders mit La Vera verbunden. Er unterscheidet sich von den typischen süßen, nicht geräucherten Murcia-Zubereitungen.",
+      "source": "https://www.turismoregiondemurcia.es/es/blog/bit.ly/2DVMsAA/?articulo=pimenton-de-murcia%3A-cuando-una-cucharadita-hace-mas-que-media-receta-594&seccion=post",
+      "sources": [
+        {
+          "title": "Region Murcia · Pimentón und Ñora",
+          "url": "https://www.turismoregiondemurcia.es/es/blog/bit.ly/2DVMsAA/?articulo=pimenton-de-murcia%3A-cuando-una-cucharadita-hace-mas-que-media-receta-594&seccion=post"
+        }
+      ],
+      "kind": "Kräuter & Gewürze",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Geräucherter Pimentón ist besonders mit La Vera verbunden. Er unterscheidet sich von den typischen süßen, nicht geräucherten Murcia-Zubereitungen.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "ESP"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Rauchig-mildes Paprikapulver für Bohnen, Kartoffeln und Grillgemüse.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "mapFields": [
+        {
+          "reference": "ESP",
+          "places": [
+            {
+              "name": "La Vera",
+              "lon": -5.6,
+              "lat": 40.1,
+              "rx": 0.7,
+              "ry": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "driedpeppers": {
+      "regions": [
+        "TR-GAZ"
+      ],
+      "relatedRegions": [],
+      "text": "Belegt in der Vorratsküche von Gaziantep und im weiteren südöstlichen Mittelmeerzusammenhang. Die Karte zeigt das dokumentierte Beispiel.",
+      "source": "https://www.ktb.gov.tr/EN-98904/stuffed-dried-eggplant---red-pepper-with-sour-sauce.html",
+      "sources": [
+        {
+          "title": "Türkisches Kulturministerium · gefülltes Trockengemüse aus Gaziantep",
+          "url": "https://www.ktb.gov.tr/EN-98904/stuffed-dried-eggplant---red-pepper-with-sour-sauce.html"
+        }
+      ],
+      "kind": "Regionale Vorratsküche",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Belegt in der Vorratsküche von Gaziantep und im weiteren südöstlichen Mittelmeerzusammenhang. Die Karte zeigt das dokumentierte Beispiel.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "TR-GAZ"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Ganze ausgehöhlte Paprikaschoten. Einweichen, füllen und garen – zum Beispiel mit Reis und Kräutern.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      }
+    },
+    "driedaubergine": {
+      "regions": [
+        "TR-GAZ"
+      ],
+      "relatedRegions": [],
+      "text": "Gefüllte getrocknete Auberginen sind für Gaziantep dokumentiert; verwandte gefüllte Gemüsegerichte reichen über diese Gegend hinaus.",
+      "source": "https://www.ktb.gov.tr/EN-98904/stuffed-dried-eggplant---red-pepper-with-sour-sauce.html",
+      "sources": [
+        {
+          "title": "Türkisches Kulturministerium · gefülltes Trockengemüse aus Gaziantep",
+          "url": "https://www.ktb.gov.tr/EN-98904/stuffed-dried-eggplant---red-pepper-with-sour-sauce.html"
+        }
+      ],
+      "kind": "Regionale Vorratsküche",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Gefüllte getrocknete Auberginen sind für Gaziantep dokumentiert; verwandte gefüllte Gemüsegerichte reichen über diese Gegend hinaus.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "TR-GAZ"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Getrocknete Auberginenhüllen für Dolma. Vor dem Füllen nach Packungsanleitung vorbereiten.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      }
+    },
+    "driedtomatoes": {
+      "regions": [
+        "ITA"
+      ],
+      "relatedRegions": [],
+      "text": "Dokumentierte Vorratstraditionen etwa in Kampanien und Apulien. Die Karte zeigt diese Beispiele, keine exklusive Verbreitungsgrenze.",
+      "source": "https://agricoltura.regione.campania.it/tipici/tradizionali/pomodorisecchi.htm",
+      "sources": [
+        {
+          "title": "Region Kampanien · getrocknete Tomaten",
+          "url": "https://agricoltura.regione.campania.it/tipici/tradizionali/pomodorisecchi.htm"
+        },
+        {
+          "title": "Traditionelle Produkte Apuliens · sonnengetrocknete Tomaten",
+          "url": "https://www.patpuglia.it/it/12/Pomodori_secchi_al_sole/5_160_C"
+        }
+      ],
+      "kind": "Regionale Vorratsküche",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Dokumentierte Vorratstraditionen etwa in Kampanien und Apulien. Die Karte zeigt diese Beispiele, keine exklusive Verbreitungsgrenze.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "ITA"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Aromatisch getrocknete Tomaten für Pasta, Brot und Antipasti. Vor Verwendung bei Bedarf einweichen.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "mapFields": [
+        {
+          "reference": "ITA",
+          "places": [
+            {
+              "name": "Kampanien",
+              "lon": 14.8,
+              "lat": 40.6,
+              "rx": 0.9,
+              "ry": 0.6
+            },
+            {
+              "name": "Apulien",
+              "lon": 16.9,
+              "lat": 40.9,
+              "rx": 0.8,
+              "ry": 0.7
+            }
+          ]
+        }
+      ],
+      "culinaryRooms": [
+        "NAV-CENTRAL",
+        "NAV-ADRIA"
+      ]
+    },
+    "prunes": {
+      "regions": [
+        "BIH-BOS"
+      ],
+      "relatedRegions": [],
+      "text": "Bosnische Pflaumenverarbeitung mit belegten Trockenfruchtangeboten. Trockenpflaumen sind ebenso in weiteren Balkan- und Mittelmeerküchen bekannt.",
+      "source": "https://shop.miloselo.ba/proizvod/suha-sljiva-250-gr/",
+      "sources": [
+        {
+          "title": "Milo Selo · Trockenpflaumen",
+          "url": "https://shop.miloselo.ba/proizvod/suha-sljiva-250-gr/"
+        }
+      ],
+      "kind": "Regionale Vorratsküche",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Bosnische Pflaumenverarbeitung mit belegten Trockenfruchtangeboten. Trockenpflaumen sind ebenso in weiteren Balkan- und Mittelmeerküchen bekannt.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "BIH-BOS"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Fruchtige Trockenpflaumen zum Naschen, Backen und für herzhafte Schmorgerichte.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      }
+    },
+    "carob": {
+      "regions": [
+        "CYP"
+      ],
+      "relatedRegions": [],
+      "text": "Johannisbrot ist besonders mit zyprischen Anbau- und Verarbeitungstraditionen verbunden und kommt auch in weiteren Mittelmeerregionen vor.",
+      "source": "https://www.visitcyprus.com/discover-cyprus/food-drink/local-produce/",
+      "sources": [
+        {
+          "title": "Tourismus Zypern · Johannisbrot und regionale Produkte",
+          "url": "https://www.visitcyprus.com/discover-cyprus/food-drink/local-produce/"
+        },
+        {
+          "title": "Zypern · getrocknete Johannisbrotschoten und Pulver",
+          "url": "https://www.visitncy.com/discover/carob-trees/"
+        }
+      ],
+      "kind": "Regionale Vorratsküche",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Johannisbrot ist besonders mit zyprischen Anbau- und Verarbeitungstraditionen verbunden und kommt auch in weiteren Mittelmeerregionen vor.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "CYP"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Fein gemahlenes Johannisbrot mit mild-süßlichem Aroma für Gebäck, Desserts und warme Getränke.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      }
+    },
+    "cruschi": {
+      "regions": [
+        "ITA"
+      ],
+      "relatedRegions": [],
+      "text": "Basilikatische Zubereitung nach der Tradition der getrockneten Senise-Paprika. Der knusprige Snack ist vom noch zu garenden Trockenprodukt zu unterscheiden.",
+      "source": "https://www.italia.it/en/basilicata/things-to-do/pizza-franco-pepe-history-peperone-crusco",
+      "sources": [
+        {
+          "title": "Italia.it · getrocknete Paprika und Peperoni cruschi",
+          "url": "https://www.italia.it/en/basilicata/things-to-do/pizza-franco-pepe-history-peperone-crusco"
+        }
+      ],
+      "kind": "Regionale Vorratsküche",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Basilikatische Zubereitung nach der Tradition der getrockneten Senise-Paprika. Der knusprige Snack ist vom noch zu garenden Trockenprodukt zu unterscheiden.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "ITA"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Knusprig ausgebackene süße Paprika als Snack oder Topping für Pasta und Gemüse.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "mapFields": [
+        {
+          "reference": "ITA",
+          "places": [
+            {
+              "name": "Basilikata · Senise",
+              "lon": 16.3,
+              "lat": 40.15,
+              "rx": 0.5,
+              "ry": 0.5
+            }
+          ]
+        }
+      ],
+      "culinaryRooms": [
+        "NAV-CENTRAL"
+      ]
+    },
+    "nora": {
+      "regions": [
+        "ESP"
+      ],
+      "relatedRegions": [],
+      "text": "Die runde süße Paprika ist mit Murcia und südostspanischen Vorratstraditionen verbunden. Die kulinarische Nutzung reicht über das Anbaugebiet hinaus.",
+      "source": "https://www.turismoregiondemurcia.es/es/blog/bit.ly/2DVMsAA/?articulo=pimenton-de-murcia%3A-cuando-una-cucharadita-hace-mas-que-media-receta-594&seccion=post",
+      "sources": [
+        {
+          "title": "Region Murcia · Pimentón und Ñora",
+          "url": "https://www.turismoregiondemurcia.es/es/blog/bit.ly/2DVMsAA/?articulo=pimenton-de-murcia%3A-cuando-una-cucharadita-hace-mas-que-media-receta-594&seccion=post"
+        }
+      ],
+      "kind": "Regionale Vorratsküche",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Die runde süße Paprika ist mit Murcia und südostspanischen Vorratstraditionen verbunden. Die kulinarische Nutzung reicht über das Anbaugebiet hinaus.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "ESP"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Ganze milde Ñoras für Saucen und Reisgerichte. Einweichen und das Fruchtfleisch auslösen.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "mapFields": [
+        {
+          "reference": "ESP",
+          "places": [
+            {
+              "name": "Murcia",
+              "lon": -1.1,
+              "lat": 38,
+              "rx": 0.7,
+              "ry": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    "sumac": {
+      "regions": [
+        "TUR",
+        "LBN"
+      ],
+      "relatedRegions": [],
+      "text": "Türkische und levantinische Küchen; erfasste Beispiele in der Türkei und im Libanon. Verwendet werden die Früchte von Gewürzsumach, Rhus coriaria.",
+      "source": "https://goturkiye.com/gastronomy/blog/10-most-popular-spices-in-turkish-cuisine",
+      "sources": [
+        {
+          "title": "GoTürkiye · Gewürze der türkischen Küche",
+          "url": "https://goturkiye.com/gastronomy/blog/10-most-popular-spices-in-turkish-cuisine"
+        },
+        {
+          "title": "Gewürzbasar · Sumach in levantinischen und türkischen Küchen",
+          "url": "https://www.safran-gewuerzbasar.de/shop/sumach-50g/"
+        }
+      ],
+      "kind": "Kräuter & Gewürze",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Türkische und levantinische Küchen; erfasste Beispiele in der Türkei und im Libanon. Verwendet werden die Früchte von Gewürzsumach, Rhus coriaria.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "TUR",
+        "LBN"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Fruchtig-säuerlicher Sumach für Salate, Zwiebeln, Dips und Ofengemüse.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      }
+    },
+    "cumin": {
+      "regions": [
+        "TUR",
+        "GRC",
+        "EGY",
+        "MAR",
+        "DZA",
+        "TUN"
+      ],
+      "relatedRegions": [],
+      "text": "Verwendet in türkischen, griechischen, ägyptischen und Maghreb-Würztraditionen. Küchenverwendung ist keine Aussage über den Anbauort.",
+      "source": "https://goturkiye.com/gastronomy/blog/10-most-popular-spices-in-turkish-cuisine",
+      "sources": [
+        {
+          "title": "GoTürkiye · Gewürze der türkischen Küche",
+          "url": "https://goturkiye.com/gastronomy/blog/10-most-popular-spices-in-turkish-cuisine"
+        },
+        {
+          "title": "Visit Greece · Gewürze",
+          "url": "https://www.visitgreece.gr/en/experiences/gastronomy/beverages/spices"
+        },
+        {
+          "title": "SBS Food · ägyptische Dukkah-Rezeptur",
+          "url": "https://www.sbs.com.au/food/recipe/dukkah/0r415xt0p"
+        },
+        {
+          "title": "Ras el Hanout · unterschiedliche Maghreb-Rezepturen",
+          "url": "https://en.wikipedia.org/wiki/Ras_el_hanout"
+        }
+      ],
+      "kind": "Kräuter & Gewürze",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Verwendet in türkischen, griechischen, ägyptischen und Maghreb-Würztraditionen. Küchenverwendung ist keine Aussage über den Anbauort.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "TUR",
+        "GRC",
+        "EGY",
+        "MAR",
+        "DZA",
+        "TUN"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Warmer, kräftiger Kreuzkümmel für Hülsenfrüchte, Couscous und Gemüsegerichte.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      }
+    },
+    "coriander": {
+      "regions": [
+        "TUN",
+        "EGY",
+        "GRC"
+      ],
+      "relatedRegions": [],
+      "text": "Belegte Beispiele sind Tabil in Tunesien, Dukkah in Ägypten und griechische Gewürztraditionen. Nicht mit frischem Koriandergrün gleichzusetzen.",
+      "source": "https://www.epicurious.com/recipes/food/views/tabil-385956",
+      "sources": [
+        {
+          "title": "Tabil · Koriander-Kümmel-Mischung aus Tunesien",
+          "url": "https://www.epicurious.com/recipes/food/views/tabil-385956"
+        },
+        {
+          "title": "SBS Food · ägyptische Dukkah-Rezeptur",
+          "url": "https://www.sbs.com.au/food/recipe/dukkah/0r415xt0p"
+        },
+        {
+          "title": "Visit Greece · Gewürze",
+          "url": "https://www.visitgreece.gr/en/experiences/gastronomy/beverages/spices"
+        }
+      ],
+      "kind": "Kräuter & Gewürze",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Belegte Beispiele sind Tabil in Tunesien, Dukkah in Ägypten und griechische Gewürztraditionen. Nicht mit frischem Koriandergrün gleichzusetzen.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "TUN",
+        "EGY",
+        "GRC"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Ganze Koriandersamen mit warmem Zitrusaroma. Vor dem Mahlen leicht anrösten.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      }
+    },
+    "nigella": {
+      "regions": [
+        "TUR"
+      ],
+      "relatedRegions": [],
+      "text": "Als Brot- und Küchengewürz unter anderem in der Türkei dokumentiert. Gemeint ist Nigella sativa, nicht gewöhnlicher Kümmel oder Kreuzkümmel.",
+      "source": "https://www.tooistanbul.com/en/spices/",
+      "sources": [
+        {
+          "title": "Istanbul · Schwarzkümmel als Brotgewürz",
+          "url": "https://www.tooistanbul.com/en/spices/"
+        }
+      ],
+      "kind": "Kräuter & Gewürze",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Als Brot- und Küchengewürz unter anderem in der Türkei dokumentiert. Gemeint ist Nigella sativa, nicht gewöhnlicher Kümmel oder Kreuzkümmel.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "TUR"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Schwarzkümmelsamen für Fladenbrot, Gebäck, Salate und Gemüse.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      }
+    },
+    "saffron": {
+      "regions": [
+        "ESP",
+        "GRC"
+      ],
+      "relatedRegions": [],
+      "text": "Dokumentierte Anbautraditionen unter anderem in La Mancha und Kozani. Geschützte Herkunftsbezeichnungen werden für das Shopprodukt nicht ohne Nachweise verwendet.",
+      "source": "https://www.spain.info/en/discover-spain/black-truffle-saffron/",
+      "sources": [
+        {
+          "title": "Spanisches Tourismusportal · Safran",
+          "url": "https://www.spain.info/en/discover-spain/black-truffle-saffron/"
+        },
+        {
+          "title": "Griechisches Landwirtschaftsportal · Kräuter und Gewürze",
+          "url": "https://portal.greekfarms.gov.gr/en/herbs-and-spices-aromas-of-the-mediterranean/"
+        }
+      ],
+      "kind": "Kräuter & Gewürze",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Dokumentierte Anbautraditionen unter anderem in La Mancha und Kozani. Geschützte Herkunftsbezeichnungen werden für das Shopprodukt nicht ohne Nachweise verwendet.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "ESP",
+        "GRC"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Wenige Safranfäden aromatisieren Reis, Brühen und feine Desserts.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      }
+    },
+    "anise": {
+      "regions": [
+        "GRC"
+      ],
+      "relatedRegions": [],
+      "text": "In griechischen Würz- und Getränketraditionen dokumentiert; keine exklusive griechische Verbreitung. Gemeint ist Pimpinella anisum, nicht Sternanis.",
+      "source": "https://www.visitgreece.gr/en/experiences/gastronomy/beverages/spices",
+      "sources": [
+        {
+          "title": "Visit Greece · Gewürze",
+          "url": "https://www.visitgreece.gr/en/experiences/gastronomy/beverages/spices"
+        }
+      ],
+      "kind": "Kräuter & Gewürze",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "In griechischen Würz- und Getränketraditionen dokumentiert; keine exklusive griechische Verbreitung. Gemeint ist Pimpinella anisum, nicht Sternanis.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "GRC"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Süßlich-würzige Anissamen für Brot, Gebäck und zum Aromatisieren.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      }
+    },
+    "baharat": {
+      "regions": [
+        "LBN",
+        "SYR",
+        "ISR",
+        "JOR"
+      ],
+      "relatedRegions": [],
+      "text": "Levantinische und weitere nahöstliche Küchen. Mischungen unterscheiden sich zwischen Regionen, Familien und Gewürzhändlern.",
+      "source": "https://www.sbs.com.au/food/article/spice-merchant-diary-baharat/t6qshsine",
+      "sources": [
+        {
+          "title": "SBS Food · Baharat und regionale Rezepturen",
+          "url": "https://www.sbs.com.au/food/article/spice-merchant-diary-baharat/t6qshsine"
+        }
+      ],
+      "kind": "Regionale Vorratsküche",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Levantinische und weitere nahöstliche Küchen. Mischungen unterscheiden sich zwischen Regionen, Familien und Gewürzhändlern.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "LBN",
+        "SYR",
+        "ISR",
+        "JOR"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Warme Gewürzmischung für Gemüse, Hülsenfrüchte und Schmorgerichte.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      }
+    },
+    "tabil": {
+      "regions": [
+        "TUN",
+        "TN-MED"
+      ],
+      "relatedRegions": [],
+      "text": "Besonders mit tunesischer Küche verbunden; ein konkretes dokumentiertes Produktbeispiel stammt aus dem Medjerda-Tal. Rezepturen variieren.",
+      "source": "https://www.epicurious.com/recipes/food/views/tabil-385956",
+      "sources": [
+        {
+          "title": "Tabil · Koriander-Kümmel-Mischung aus Tunesien",
+          "url": "https://www.epicurious.com/recipes/food/views/tabil-385956"
+        },
+        {
+          "title": "Tabil aus dem Medjerda-Tal · Produktbeschreibung",
+          "url": "https://www.rogerscollection.us/wp-content/uploads/2023/05/Organic-Tunisian-Tabil-Spice-Blend-Sell-Sheet.pdf"
+        }
+      ],
+      "kind": "Regionale Vorratsküche",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Besonders mit tunesischer Küche verbunden; ein konkretes dokumentiertes Produktbeispiel stammt aus dem Medjerda-Tal. Rezepturen variieren.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "TUN",
+        "TN-MED"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Korianderbetonte Mischung mit Kümmel, Knoblauch und Chili für Couscous, Gemüse und Eintöpfe.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      }
+    },
+    "mastic": {
+      "regions": [
+        "GR-AEG"
+      ],
+      "relatedRegions": [],
+      "text": "Besonders mit der Insel Chios verbunden. Der Artikel beschreibt Mastix als Lebensmittelgewürz, kein ätherisches Öl und kein Heilmittel.",
+      "source": "https://chios.gr/en/drasthriothtes/ev-zin/gastronomia/topika-proionta",
+      "sources": [
+        {
+          "title": "Tourismus Chios · Mastix und Anis in regionalen Lebensmitteln",
+          "url": "https://chios.gr/en/drasthriothtes/ev-zin/gastronomia/topika-proionta"
+        }
+      ],
+      "kind": "Kräuter & Gewürze",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Besonders mit der Insel Chios verbunden. Der Artikel beschreibt Mastix als Lebensmittelgewürz, kein ätherisches Öl und kein Heilmittel.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "GR-AEG"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Aromatische Harztränen zum sparsamen Würzen von Gebäck und Desserts. Mit etwas Zucker fein vermahlen.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "mapFields": [
+        {
+          "reference": "GR-AEG",
+          "places": [
+            {
+              "name": "Chios",
+              "lon": 26.1,
+              "lat": 38.35,
+              "rx": 0.35,
+              "ry": 0.4
+            }
+          ]
+        }
+      ]
+    },
+    "caraway": {
+      "regions": [
+        "TUN"
+      ],
+      "relatedRegions": [],
+      "text": "Kümmel, Carum carvi, ist unter anderem Bestandteil tunesischer Tabil-Rezepturen. Nicht mit Kreuzkümmel verwechseln; keine ausschließliche Verbreitung in Tunesien.",
+      "source": "https://www.epicurious.com/recipes/food/views/tabil-385956",
+      "sources": [
+        {
+          "title": "Tabil · Koriander-Kümmel-Mischung aus Tunesien",
+          "url": "https://www.epicurious.com/recipes/food/views/tabil-385956"
+        },
+        {
+          "title": "Tabil aus dem Medjerda-Tal · Produktbeschreibung",
+          "url": "https://www.rogerscollection.us/wp-content/uploads/2023/05/Organic-Tunisian-Tabil-Spice-Blend-Sell-Sheet.pdf"
+        }
+      ],
+      "kind": "Kräuter & Gewürze",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Kümmel, Carum carvi, ist unter anderem Bestandteil tunesischer Tabil-Rezepturen. Nicht mit Kreuzkümmel verwechseln; keine ausschließliche Verbreitung in Tunesien.",
+        "basis": "shared",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "TUN"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Aromatischer Kümmel für Gemüse, Brot und Gewürzmischungen.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      }
+    },
+    "gift-iberia": {
+      "regions": [],
+      "text": "Kulinarische Geschenkzusammenstellung für diesen Entdeckungsraum. Die Box hat keine eigene traditionelle Verbreitung. Die einzelnen Zutaten und Rezepturen können auch in anderen Regionen üblich sein.",
+      "source": "https://en.wikipedia.org/wiki/Mediterranean_cuisine",
+      "kind": "Kulinarische Geschenkbox",
+      "relatedRegions": [],
+      "type": "modern",
+      "primaryLabel": "Keine feste traditionelle Heimat",
+      "sources": [
+        {
+          "title": "Tarragona Turisme · Romesco",
+          "url": "https://www.tarragonaturisme.cat/en/cuisine"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Romesco"
+        },
+        {
+          "title": "Tarragona Turisme · Romesco und El Serrallo",
+          "url": "https://www.tarragonaturisme.cat/en/tarragona-romesco"
+        },
+        {
+          "title": "Tarragona Turisme · Romesco-Sauce",
+          "url": "https://www.tarragonaturisme.cat/es/el-serrallo-el-barrio-marinero-de-tarragona"
+        },
+        {
+          "title": "Visit Portugal · Olivenölregionen",
+          "url": "https://www.visitportugal.com/en/content/olive-tourism"
+        },
+        {
+          "title": "Visit Cyprus · Lokale Zutaten",
+          "url": "https://www.visitcyprus.com/discover-cyprus/food-drink/local-produce/"
+        },
+        {
+          "title": "Malta Tourism Authority · Spezialitäten",
+          "url": "https://www.visitmalta.com/en/delicacies/"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Olive_oil"
+        },
+        {
+          "title": "Turismo Andalucía · Olivenöl",
+          "url": "https://en.andalucia.org/activities-and-attractions/food-and-drink/savor-andalusia/oils/"
+        },
+        {
+          "title": "Tourismus Balearen · Salz und Fleur de Sel",
+          "url": "https://www.illesbalears.travel/index.php/en/ibiza/the-mallorca-ibiza-and-formentera-salt-mines"
+        },
+        {
+          "title": "Tourismus Korsika · Olivenöl",
+          "url": "https://www.visit-corsica.com/en/content/view/full/38779"
+        },
+        {
+          "title": "Vaucluse Tourisme · Olivenöl und Tapenade",
+          "url": "https://www.provenceguide.com/decouvrir/saveurs/produits-terroir/olive-huile/"
+        },
+        {
+          "title": "Regione Sardegna · Gastronomie",
+          "url": "https://www.sardegnacultura.it/en/categories/tradizioni/gastronomia"
+        },
+        {
+          "title": "Visit Sicily · Caponata",
+          "url": "https://www.visitsicily.info/en/ricetta/caponata/"
+        },
+        {
+          "title": "Visit Portugal · Algarve-Küche",
+          "url": "https://www.visitportugal.com/en/destinos/algarve/73815"
+        },
+        {
+          "title": "Visit Portugal · Alentejo",
+          "url": "https://www.visitportugal.com/en/destinos/alentejo/73794"
+        },
+        {
+          "title": "Tourismus Istrien · Olivenöl und Trüffel",
+          "url": "https://www.istra.hr/en/gourmet/gourmet-spots"
+        },
+        {
+          "title": "Region Kreta · Zertifizierte Produkte",
+          "url": "https://www.incrediblecrete.gr/en/certified-companies/"
+        },
+        {
+          "title": "GoTürkiye · Ägäische Küche",
+          "url": "https://goturkiye.com/branding/press-releases/turkish-cuisine-week-highlights-the-aegean-flavours-in-2024"
+        },
+        {
+          "title": "Visit Gozo · Lokale Spezialitäten",
+          "url": "https://visitgozo.com/experience/local-delicacies/"
+        },
+        {
+          "title": "Ligurien · Regionaler kulinarischer Hintergrund",
+          "url": "https://lamialiguria.it/en/experiences/adopt-a-taggiasca-cultivar-olive-tree/"
+        },
+        {
+          "title": "Toskana · Regionaler kulinarischer Hintergrund",
+          "url": "https://www.visittuscany.com/en/ideas/2e7437ee-5119-11e7-87d1-c25849f3fc0c/"
+        },
+        {
+          "title": "Dalmatien · Regionaler kulinarischer Hintergrund",
+          "url": "https://croatia-hotspots.com/en/category/gastro-en/page/2/"
+        },
+        {
+          "title": "Lebensmittelsicherheitsbehörde BiH · Olivenöl der Herzegowina",
+          "url": "https://fsa.gov.ba/wp-content/uploads/2025/04/Product-specification-EXTRA-VIRGIN-OLIVE-OIL-OF-HERZEGOVINA.pdf"
+        },
+        {
+          "title": "Slovenian Tourist Board · Olivenöl aus slowenischem Istrien",
+          "url": "https://www.slovenia.info/en/stories/learn-about-the-story-of-slovenian-olive-oil"
+        },
+        {
+          "title": "PromoTurismoFVG · Olivenöl aus Muggia",
+          "url": "https://www.turismofvg.it/en/food-and-wine/lenardon-bruno?LangSetCMS=en"
+        },
+        {
+          "title": "Internationaler Olivenrat · Olivenölproduktion in mehreren Ländern",
+          "url": "https://www.internationaloliveoil.org/wp-content/uploads/2019/12/NEWSLETTER_NOVEMBER-2015_ENGLISH.pdf"
+        },
+        {
+          "title": "Office de Tourisme Nice · Olivenöl und regionale Verarbeitung",
+          "url": "https://www.explorenicecotedazur.com/en/producer/moulin-a-huile-nicolas-alziari/"
+        },
+        {
+          "title": "Visit Greece · ägäische Küche mit Olivenöl, Oregano und Kapern",
+          "url": "https://www.visitgreece.gr/en/experiences/gastronomy/traditional-cuisine/aegean-cuisine"
+        },
+        {
+          "title": "Andalusien · regional unterschiedliche Pinchos-Würzungen",
+          "url": "https://www.spain.info/es/receta/pinchos-morunos/"
+        },
+        {
+          "title": "Slovenian Tourist Board · Piran-Salinen",
+          "url": "https://www.slovenia.info/en/places-to-go/attractions/piran-and-salt-pans"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Fleur_de_sel"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Zusammenstellung",
+        "summary": "Ausgewählte Spezialitäten für eine gemeinsame Genussreise. Die Regionalbezeichnung beschreibt das Thema der Box, keine gemeinsame Lieferherkunft.",
+        "basis": "modern",
+        "exclusive": false
+      },
+      "shopDescription": "Katalanische Romesco 180 g · Natives Olivenöl extra 500 ml · Pinchos-Gewürz 50 g · Fleur de Sel 100 g.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "giftRooms": [
+        "NAV-IBERIA"
+      ],
+      "boxItems": [
+        {
+          "product": "romesco",
+          "quantity": 1
+        },
+        {
+          "product": "oil",
+          "quantity": 1
+        },
+        {
+          "product": "pinchos",
+          "quantity": 1
+        },
+        {
+          "product": "fleur",
+          "quantity": 1
+        }
+      ]
+    },
+    "gift-liguria": {
+      "regions": [],
+      "text": "Kulinarische Geschenkzusammenstellung für diesen Entdeckungsraum. Die Box hat keine eigene traditionelle Verbreitung. Die einzelnen Zutaten und Rezepturen können auch in anderen Regionen üblich sein.",
+      "source": "https://en.wikipedia.org/wiki/Mediterranean_cuisine",
+      "kind": "Kulinarische Geschenkbox",
+      "relatedRegions": [],
+      "type": "modern",
+      "primaryLabel": "Keine feste traditionelle Heimat",
+      "sources": [
+        {
+          "title": "Vaucluse Tourisme · Olivenöl und Tapenade",
+          "url": "https://www.provenceguide.com/decouvrir/saveurs/produits-terroir/olive-huile/"
+        },
+        {
+          "title": "Tourismus Korsika · Olivenpasten",
+          "url": "https://www.visit-corsica.com/en/Mon-sejour/Producteurs-et-degustation/Toutes-les-productions/MOULIN-DU-VALINCO"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Tapenade"
+        },
+        {
+          "title": "Tourismus Korsika · Olivenöl",
+          "url": "https://www.visit-corsica.com/en/content/view/full/38779"
+        },
+        {
+          "title": "Office de Tourisme Nice · Olivenpaste und Tapenade",
+          "url": "https://www.explorenicecotedazur.com/en/shop/boutique-alziari/"
+        },
+        {
+          "title": "Provenzalische Kräuterküche",
+          "url": "https://www.herbes-de-provence.org/label-rouge-herbes-de-provence/"
+        },
+        {
+          "title": "Visit Portugal · Olivenölregionen",
+          "url": "https://www.visitportugal.com/en/content/olive-tourism"
+        },
+        {
+          "title": "Visit Cyprus · Lokale Zutaten",
+          "url": "https://www.visitcyprus.com/discover-cyprus/food-drink/local-produce/"
+        },
+        {
+          "title": "Malta Tourism Authority · Spezialitäten",
+          "url": "https://www.visitmalta.com/en/delicacies/"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Olive_oil"
+        },
+        {
+          "title": "Tarragona Turisme · Romesco",
+          "url": "https://www.tarragonaturisme.cat/en/cuisine"
+        },
+        {
+          "title": "Turismo Andalucía · Olivenöl",
+          "url": "https://en.andalucia.org/activities-and-attractions/food-and-drink/savor-andalusia/oils/"
+        },
+        {
+          "title": "Tourismus Balearen · Salz und Fleur de Sel",
+          "url": "https://www.illesbalears.travel/index.php/en/ibiza/the-mallorca-ibiza-and-formentera-salt-mines"
+        },
+        {
+          "title": "Regione Sardegna · Gastronomie",
+          "url": "https://www.sardegnacultura.it/en/categories/tradizioni/gastronomia"
+        },
+        {
+          "title": "Visit Sicily · Caponata",
+          "url": "https://www.visitsicily.info/en/ricetta/caponata/"
+        },
+        {
+          "title": "Visit Portugal · Algarve-Küche",
+          "url": "https://www.visitportugal.com/en/destinos/algarve/73815"
+        },
+        {
+          "title": "Visit Portugal · Alentejo",
+          "url": "https://www.visitportugal.com/en/destinos/alentejo/73794"
+        },
+        {
+          "title": "Tourismus Istrien · Olivenöl und Trüffel",
+          "url": "https://www.istra.hr/en/gourmet/gourmet-spots"
+        },
+        {
+          "title": "Region Kreta · Zertifizierte Produkte",
+          "url": "https://www.incrediblecrete.gr/en/certified-companies/"
+        },
+        {
+          "title": "GoTürkiye · Ägäische Küche",
+          "url": "https://goturkiye.com/branding/press-releases/turkish-cuisine-week-highlights-the-aegean-flavours-in-2024"
+        },
+        {
+          "title": "Visit Gozo · Lokale Spezialitäten",
+          "url": "https://visitgozo.com/experience/local-delicacies/"
+        },
+        {
+          "title": "Ligurien · Regionaler kulinarischer Hintergrund",
+          "url": "https://lamialiguria.it/en/experiences/adopt-a-taggiasca-cultivar-olive-tree/"
+        },
+        {
+          "title": "Toskana · Regionaler kulinarischer Hintergrund",
+          "url": "https://www.visittuscany.com/en/ideas/2e7437ee-5119-11e7-87d1-c25849f3fc0c/"
+        },
+        {
+          "title": "Dalmatien · Regionaler kulinarischer Hintergrund",
+          "url": "https://croatia-hotspots.com/en/category/gastro-en/page/2/"
+        },
+        {
+          "title": "Lebensmittelsicherheitsbehörde BiH · Olivenöl der Herzegowina",
+          "url": "https://fsa.gov.ba/wp-content/uploads/2025/04/Product-specification-EXTRA-VIRGIN-OLIVE-OIL-OF-HERZEGOVINA.pdf"
+        },
+        {
+          "title": "Slovenian Tourist Board · Olivenöl aus slowenischem Istrien",
+          "url": "https://www.slovenia.info/en/stories/learn-about-the-story-of-slovenian-olive-oil"
+        },
+        {
+          "title": "PromoTurismoFVG · Olivenöl aus Muggia",
+          "url": "https://www.turismofvg.it/en/food-and-wine/lenardon-bruno?LangSetCMS=en"
+        },
+        {
+          "title": "Internationaler Olivenrat · Olivenölproduktion in mehreren Ländern",
+          "url": "https://www.internationaloliveoil.org/wp-content/uploads/2019/12/NEWSLETTER_NOVEMBER-2015_ENGLISH.pdf"
+        },
+        {
+          "title": "Office de Tourisme Nice · Olivenöl und regionale Verarbeitung",
+          "url": "https://www.explorenicecotedazur.com/en/producer/moulin-a-huile-nicolas-alziari/"
+        },
+        {
+          "title": "Visit Greece · ägäische Küche mit Olivenöl, Oregano und Kapern",
+          "url": "https://www.visitgreece.gr/en/experiences/gastronomy/traditional-cuisine/aegean-cuisine"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Zusammenstellung",
+        "summary": "Ausgewählte Spezialitäten für eine gemeinsame Genussreise. Die Regionalbezeichnung beschreibt das Thema der Box, keine gemeinsame Lieferherkunft.",
+        "basis": "modern",
+        "exclusive": false
+      },
+      "shopDescription": "Oliven-Tapenade 140 g · Herbes de Provence 25 g · Natives Olivenöl extra 500 ml.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "giftRooms": [
+        "NAV-LIGURIAN"
+      ],
+      "boxItems": [
+        {
+          "product": "tapenade",
+          "quantity": 1
+        },
+        {
+          "product": "provence",
+          "quantity": 1
+        },
+        {
+          "product": "oil",
+          "quantity": 1
+        }
+      ]
+    },
+    "gift-central": {
+      "regions": [],
+      "text": "Kulinarische Geschenkzusammenstellung für diesen Entdeckungsraum. Die Box hat keine eigene traditionelle Verbreitung. Die einzelnen Zutaten und Rezepturen können auch in anderen Regionen üblich sein.",
+      "source": "https://en.wikipedia.org/wiki/Mediterranean_cuisine",
+      "kind": "Kulinarische Geschenkbox",
+      "relatedRegions": [],
+      "type": "modern",
+      "primaryLabel": "Keine feste traditionelle Heimat",
+      "sources": [
+        {
+          "title": "Visit Sicily · Caponata",
+          "url": "https://www.visitsicily.info/en/ricetta/caponata/"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Caponata"
+        },
+        {
+          "title": "Visit Sicily · Olivenöl, Kapern und Salz",
+          "url": "https://www.visitsicily.info/en/localita/trapani/"
+        },
+        {
+          "title": "Regione Sardegna · Kapern von Selargius",
+          "url": "https://www.regione.sardegna.it/documenti/1_850_20190418164027.pdf"
+        },
+        {
+          "title": "Visit Gozo · Kapern und Konservierung",
+          "url": "https://visitgozo.com/2024/04/24/its-that-time-of-the-year-caper-time/"
+        },
+        {
+          "title": "Visit Cyprus · Kapern im Dorfsalat",
+          "url": "https://www.visitcyprus.com/discover-cyprus/food-drink/local-recipes/village-salad/"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Caper"
+        },
+        {
+          "title": "Regione Sardegna · Gastronomie",
+          "url": "https://www.sardegnacultura.it/en/categories/tradizioni/gastronomia"
+        },
+        {
+          "title": "Visit Gozo · Lokale Spezialitäten",
+          "url": "https://visitgozo.com/experience/local-delicacies/"
+        },
+        {
+          "title": "Visit Greece · ägäische Küche mit Olivenöl, Oregano und Kapern",
+          "url": "https://www.visitgreece.gr/en/experiences/gastronomy/traditional-cuisine/aegean-cuisine"
+        },
+        {
+          "title": "Italienische Pastaküche · Trockenmischung nach bekannter Würzung",
+          "url": "https://www.turismoroma.it/de/node/85420"
+        },
+        {
+          "title": "Traditionelle Produkte Apuliens · Spaghetti aglio e olio",
+          "url": "https://www.patpuglia.it/it/12/Spaghetti_aglio_e_olio/7_392_C"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Zusammenstellung",
+        "summary": "Ausgewählte Spezialitäten für eine gemeinsame Genussreise. Die Regionalbezeichnung beschreibt das Thema der Box, keine gemeinsame Lieferherkunft.",
+        "basis": "modern",
+        "exclusive": false
+      },
+      "shopDescription": "Sizilianische Caponata 200 g · Kapern in Meersalzlake 120 g · Aglio e peperoncino 50 g.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "giftRooms": [
+        "NAV-CENTRAL"
+      ],
+      "boxItems": [
+        {
+          "product": "caponata",
+          "quantity": 1
+        },
+        {
+          "product": "capers",
+          "quantity": 1
+        },
+        {
+          "product": "aglio",
+          "quantity": 1
+        }
+      ]
+    },
+    "gift-adria": {
+      "regions": [],
+      "text": "Kulinarische Geschenkzusammenstellung für diesen Entdeckungsraum. Die Box hat keine eigene traditionelle Verbreitung. Die einzelnen Zutaten und Rezepturen können auch in anderen Regionen üblich sein.",
+      "source": "https://en.wikipedia.org/wiki/Mediterranean_cuisine",
+      "kind": "Kulinarische Geschenkbox",
+      "relatedRegions": [],
+      "type": "modern",
+      "primaryLabel": "Keine feste traditionelle Heimat",
+      "sources": [
+        {
+          "title": "Saline Nin · Meersalz mit dalmatinischen Kräutern",
+          "url": "https://www.solananin.hr/en/webshop/salt-with-spices/sea-salt-with-dalmatian-spices-250-g/"
+        },
+        {
+          "title": "Hintergrund · Gepresste Trockenfeigen, kein Rührkuchen",
+          "url": "https://en.wikipedia.org/wiki/Fig-cake_(fruit)"
+        },
+        {
+          "title": "Regionaler Hintergrund · Dalmatinischer Hib",
+          "url": "https://www.frankaboutcroatia.com/fall-in-love-with-vis-croatia/"
+        },
+        {
+          "title": "DGADR · Portugiesische Olivenpaste",
+          "url": "https://tradicional.dgadr.gov.pt/en/categories/other-traditional-dishes/1551-pasta-ou-pastada-de-azeitonas-en"
+        },
+        {
+          "title": "Tourismus Korsika · Olivenpasten",
+          "url": "https://www.visit-corsica.com/en/Mon-sejour/Producteurs-et-degustation/Toutes-les-productions/MOULIN-DU-VALINCO"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Olive"
+        },
+        {
+          "title": "Tourismus Korsika · Olivenöl",
+          "url": "https://www.visit-corsica.com/en/content/view/full/38779"
+        },
+        {
+          "title": "Vaucluse Tourisme · Olivenöl und Tapenade",
+          "url": "https://www.provenceguide.com/decouvrir/saveurs/produits-terroir/olive-huile/"
+        },
+        {
+          "title": "Visit Portugal · Olivenölregionen",
+          "url": "https://www.visitportugal.com/en/content/olive-tourism"
+        },
+        {
+          "title": "Ligurien · Regionaler kulinarischer Hintergrund",
+          "url": "https://lamialiguria.it/en/experiences/adopt-a-taggiasca-cultivar-olive-tree/"
+        },
+        {
+          "title": "Dalmatien · Regionaler kulinarischer Hintergrund",
+          "url": "https://croatia-hotspots.com/en/category/gastro-en/page/2/"
+        },
+        {
+          "title": "Office de Tourisme Nice · Olivenpaste und Tapenade",
+          "url": "https://www.explorenicecotedazur.com/en/shop/boutique-alziari/"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Zusammenstellung",
+        "summary": "Ausgewählte Spezialitäten für eine gemeinsame Genussreise. Die Regionalbezeichnung beschreibt das Thema der Box, keine gemeinsame Lieferherkunft.",
+        "basis": "modern",
+        "exclusive": false
+      },
+      "shopDescription": "Meersalz mit dalmatinischen Kräutern 100 g · Feigenbrot mit Walnüssen 150 g · Mediterrane Olivenpaste 140 g.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "giftRooms": [
+        "NAV-ADRIA"
+      ],
+      "boxItems": [
+        {
+          "product": "herbsalt",
+          "quantity": 1
+        },
+        {
+          "product": "figbread",
+          "quantity": 1
+        },
+        {
+          "product": "olivepaste",
+          "quantity": 1
+        }
+      ]
+    },
+    "gift-balkan": {
+      "regions": [],
+      "text": "Kulinarische Geschenkzusammenstellung für diesen Entdeckungsraum. Die Box hat keine eigene traditionelle Verbreitung. Die einzelnen Zutaten und Rezepturen können auch in anderen Regionen üblich sein.",
+      "source": "https://en.wikipedia.org/wiki/Mediterranean_cuisine",
+      "kind": "Kulinarische Geschenkbox",
+      "relatedRegions": [],
+      "type": "modern",
+      "primaryLabel": "Keine feste traditionelle Heimat",
+      "sources": [
+        {
+          "title": "Tourismus Serbien · Ajvar",
+          "url": "https://www.serbia.travel/sr-lat/pijace/"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Ajvar"
+        },
+        {
+          "title": "Tourismus Serbien · Pflaumen-Pekmez",
+          "url": "https://www.serbia.travel/sr-lat/kraljevo/"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Powidl"
+        },
+        {
+          "title": "Regional Rural Development SWG · Pflaumenregionen und Verarbeitung in BiH",
+          "url": "https://seerural.org/wp-content/uploads/2023/01/State-of-the-art-of-the-fresh-fruit-and-vegetable-marketing-standards.pdf"
+        },
+        {
+          "title": "Nordmazedonische Würzsalztradition · verwandte Balkanvarianten",
+          "url": "https://www.rajskagradina.mk/zachini-sarena-sol-blaga/"
+        },
+        {
+          "title": "Slow Food · Bukovska-Paprika",
+          "url": "https://www.fondazioneslowfood.com/en/ark-of-taste-slow-food/bukovska-pepper/"
+        },
+        {
+          "title": "Regionaler Produzentenbericht · milde und scharfe Bukovska-Paprika",
+          "url": "https://kajak.mk/post/macedonia-local-pepper-food-explore-en"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Zusammenstellung",
+        "summary": "Ausgewählte Spezialitäten für eine gemeinsame Genussreise. Die Regionalbezeichnung beschreibt das Thema der Box, keine gemeinsame Lieferherkunft.",
+        "basis": "modern",
+        "exclusive": false
+      },
+      "shopDescription": "Gerösteter Ajvar 350 g · Pflaumenmus 250 g · Šarena sol 100 g · Paprikaflocken · mild 50 g.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "giftRooms": [
+        "NAV-BALKAN"
+      ],
+      "boxItems": [
+        {
+          "product": "ajvar",
+          "quantity": 1
+        },
+        {
+          "product": "plum",
+          "quantity": 1
+        },
+        {
+          "product": "sharena",
+          "quantity": 1
+        },
+        {
+          "product": "paprikaflakesmild",
+          "quantity": 1
+        }
+      ]
+    },
+    "gift-aegean": {
+      "regions": [],
+      "text": "Kulinarische Geschenkzusammenstellung für diesen Entdeckungsraum. Die Box hat keine eigene traditionelle Verbreitung. Die einzelnen Zutaten und Rezepturen können auch in anderen Regionen üblich sein.",
+      "source": "https://en.wikipedia.org/wiki/Mediterranean_cuisine",
+      "kind": "Kulinarische Geschenkbox",
+      "relatedRegions": [],
+      "type": "modern",
+      "primaryLabel": "Keine feste traditionelle Heimat",
+      "sources": [
+        {
+          "title": "DGADR · Portugiesische Olivenpaste",
+          "url": "https://tradicional.dgadr.gov.pt/en/categories/other-traditional-dishes/1551-pasta-ou-pastada-de-azeitonas-en"
+        },
+        {
+          "title": "Tourismus Korsika · Olivenpasten",
+          "url": "https://www.visit-corsica.com/en/Mon-sejour/Producteurs-et-degustation/Toutes-les-productions/MOULIN-DU-VALINCO"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Olive"
+        },
+        {
+          "title": "Tourismus Korsika · Olivenöl",
+          "url": "https://www.visit-corsica.com/en/content/view/full/38779"
+        },
+        {
+          "title": "Vaucluse Tourisme · Olivenöl und Tapenade",
+          "url": "https://www.provenceguide.com/decouvrir/saveurs/produits-terroir/olive-huile/"
+        },
+        {
+          "title": "Visit Portugal · Olivenölregionen",
+          "url": "https://www.visitportugal.com/en/content/olive-tourism"
+        },
+        {
+          "title": "Ligurien · Regionaler kulinarischer Hintergrund",
+          "url": "https://lamialiguria.it/en/experiences/adopt-a-taggiasca-cultivar-olive-tree/"
+        },
+        {
+          "title": "Dalmatien · Regionaler kulinarischer Hintergrund",
+          "url": "https://croatia-hotspots.com/en/category/gastro-en/page/2/"
+        },
+        {
+          "title": "Office de Tourisme Nice · Olivenpaste und Tapenade",
+          "url": "https://www.explorenicecotedazur.com/en/shop/boutique-alziari/"
+        },
+        {
+          "title": "Griechisch-ägäische Kräuterküche · konkrete Mischung als Entwurf",
+          "url": "https://myrro.gr/en/product/blend-for-souvlaki-2/"
+        },
+        {
+          "title": "DGADR · Getrocknete Feigen der Algarve",
+          "url": "https://tradicional.dgadr.gov.pt/en/categories/fresh-fruit/1240-figos-do-algarve-en"
+        },
+        {
+          "title": "Cyprus Food Museum · Feigen und Konfitüre",
+          "url": "https://www.cyprusfoodmuseum.com/en/sylloges/trofima/syko-fig"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Fig"
+        },
+        {
+          "title": "Visit Portugal · Algarve-Küche",
+          "url": "https://www.visitportugal.com/en/destinos/algarve/73815"
+        },
+        {
+          "title": "GoTürkiye · Ägäische Küche",
+          "url": "https://goturkiye.com/branding/press-releases/turkish-cuisine-week-highlights-the-aegean-flavours-in-2024"
+        },
+        {
+          "title": "Republik Zypern · Tylliria-Feigen",
+          "url": "https://publications.gov.cy/en/assets/user/publications/2022/2022_040/HTML/index.html"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Zusammenstellung",
+        "summary": "Ausgewählte Spezialitäten für eine gemeinsame Genussreise. Die Regionalbezeichnung beschreibt das Thema der Box, keine gemeinsame Lieferherkunft.",
+        "basis": "modern",
+        "exclusive": false
+      },
+      "shopDescription": "Mediterrane Olivenpaste 140 g · Oregano & Thymian 25 g · Getrocknete Feigen 250 g.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "giftRooms": [
+        "NAV-AEGEAN"
+      ],
+      "boxItems": [
+        {
+          "product": "olivepaste",
+          "quantity": 1
+        },
+        {
+          "product": "aegeanherbs",
+          "quantity": 1
+        },
+        {
+          "product": "fig",
+          "quantity": 1
+        }
+      ]
+    },
+    "gift-levant": {
+      "regions": [],
+      "text": "Kulinarische Geschenkzusammenstellung für diesen Entdeckungsraum. Die Box hat keine eigene traditionelle Verbreitung. Die einzelnen Zutaten und Rezepturen können auch in anderen Regionen üblich sein.",
+      "source": "https://en.wikipedia.org/wiki/Mediterranean_cuisine",
+      "kind": "Kulinarische Geschenkbox",
+      "relatedRegions": [],
+      "type": "modern",
+      "primaryLabel": "Keine feste traditionelle Heimat",
+      "sources": [
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Za%27atar"
+        },
+        {
+          "title": "GoTürkiye · Muhammara in Gaziantep",
+          "url": "https://goturkiye.com/branding/press-releases/traditional-turkish-breakfast-the-golden-meal-of-the-day"
+        },
+        {
+          "title": "Hintergrund · Muhammara und Aleppo",
+          "url": "https://en.wikipedia.org/wiki/Muhammara"
+        },
+        {
+          "title": "Visit Portugal · Olivenölregionen",
+          "url": "https://www.visitportugal.com/en/content/olive-tourism"
+        },
+        {
+          "title": "Visit Cyprus · Lokale Zutaten",
+          "url": "https://www.visitcyprus.com/discover-cyprus/food-drink/local-produce/"
+        },
+        {
+          "title": "Malta Tourism Authority · Spezialitäten",
+          "url": "https://www.visitmalta.com/en/delicacies/"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Olive_oil"
+        },
+        {
+          "title": "Tarragona Turisme · Romesco",
+          "url": "https://www.tarragonaturisme.cat/en/cuisine"
+        },
+        {
+          "title": "Turismo Andalucía · Olivenöl",
+          "url": "https://en.andalucia.org/activities-and-attractions/food-and-drink/savor-andalusia/oils/"
+        },
+        {
+          "title": "Tourismus Balearen · Salz und Fleur de Sel",
+          "url": "https://www.illesbalears.travel/index.php/en/ibiza/the-mallorca-ibiza-and-formentera-salt-mines"
+        },
+        {
+          "title": "Tourismus Korsika · Olivenöl",
+          "url": "https://www.visit-corsica.com/en/content/view/full/38779"
+        },
+        {
+          "title": "Vaucluse Tourisme · Olivenöl und Tapenade",
+          "url": "https://www.provenceguide.com/decouvrir/saveurs/produits-terroir/olive-huile/"
+        },
+        {
+          "title": "Regione Sardegna · Gastronomie",
+          "url": "https://www.sardegnacultura.it/en/categories/tradizioni/gastronomia"
+        },
+        {
+          "title": "Visit Sicily · Caponata",
+          "url": "https://www.visitsicily.info/en/ricetta/caponata/"
+        },
+        {
+          "title": "Visit Portugal · Algarve-Küche",
+          "url": "https://www.visitportugal.com/en/destinos/algarve/73815"
+        },
+        {
+          "title": "Visit Portugal · Alentejo",
+          "url": "https://www.visitportugal.com/en/destinos/alentejo/73794"
+        },
+        {
+          "title": "Tourismus Istrien · Olivenöl und Trüffel",
+          "url": "https://www.istra.hr/en/gourmet/gourmet-spots"
+        },
+        {
+          "title": "Region Kreta · Zertifizierte Produkte",
+          "url": "https://www.incrediblecrete.gr/en/certified-companies/"
+        },
+        {
+          "title": "GoTürkiye · Ägäische Küche",
+          "url": "https://goturkiye.com/branding/press-releases/turkish-cuisine-week-highlights-the-aegean-flavours-in-2024"
+        },
+        {
+          "title": "Visit Gozo · Lokale Spezialitäten",
+          "url": "https://visitgozo.com/experience/local-delicacies/"
+        },
+        {
+          "title": "Ligurien · Regionaler kulinarischer Hintergrund",
+          "url": "https://lamialiguria.it/en/experiences/adopt-a-taggiasca-cultivar-olive-tree/"
+        },
+        {
+          "title": "Toskana · Regionaler kulinarischer Hintergrund",
+          "url": "https://www.visittuscany.com/en/ideas/2e7437ee-5119-11e7-87d1-c25849f3fc0c/"
+        },
+        {
+          "title": "Dalmatien · Regionaler kulinarischer Hintergrund",
+          "url": "https://croatia-hotspots.com/en/category/gastro-en/page/2/"
+        },
+        {
+          "title": "Lebensmittelsicherheitsbehörde BiH · Olivenöl der Herzegowina",
+          "url": "https://fsa.gov.ba/wp-content/uploads/2025/04/Product-specification-EXTRA-VIRGIN-OLIVE-OIL-OF-HERZEGOVINA.pdf"
+        },
+        {
+          "title": "Slovenian Tourist Board · Olivenöl aus slowenischem Istrien",
+          "url": "https://www.slovenia.info/en/stories/learn-about-the-story-of-slovenian-olive-oil"
+        },
+        {
+          "title": "PromoTurismoFVG · Olivenöl aus Muggia",
+          "url": "https://www.turismofvg.it/en/food-and-wine/lenardon-bruno?LangSetCMS=en"
+        },
+        {
+          "title": "Internationaler Olivenrat · Olivenölproduktion in mehreren Ländern",
+          "url": "https://www.internationaloliveoil.org/wp-content/uploads/2019/12/NEWSLETTER_NOVEMBER-2015_ENGLISH.pdf"
+        },
+        {
+          "title": "Office de Tourisme Nice · Olivenöl und regionale Verarbeitung",
+          "url": "https://www.explorenicecotedazur.com/en/producer/moulin-a-huile-nicolas-alziari/"
+        },
+        {
+          "title": "Visit Greece · ägäische Küche mit Olivenöl, Oregano und Kapern",
+          "url": "https://www.visitgreece.gr/en/experiences/gastronomy/traditional-cuisine/aegean-cuisine"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Zusammenstellung",
+        "summary": "Ausgewählte Spezialitäten für eine gemeinsame Genussreise. Die Regionalbezeichnung beschreibt das Thema der Box, keine gemeinsame Lieferherkunft.",
+        "basis": "modern",
+        "exclusive": false
+      },
+      "shopDescription": "Levantinisches Za’atar 60 g · Levantinische Muhammara 180 g · Natives Olivenöl extra 500 ml.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "giftRooms": [
+        "NAV-EAST"
+      ],
+      "boxItems": [
+        {
+          "product": "zaatar",
+          "quantity": 1
+        },
+        {
+          "product": "muhammara",
+          "quantity": 1
+        },
+        {
+          "product": "oil",
+          "quantity": 1
+        }
+      ]
+    },
+    "gift-maghreb": {
+      "regions": [],
+      "text": "Kulinarische Geschenkzusammenstellung für diesen Entdeckungsraum. Die Box hat keine eigene traditionelle Verbreitung. Die einzelnen Zutaten und Rezepturen können auch in anderen Regionen üblich sein.",
+      "source": "https://en.wikipedia.org/wiki/Mediterranean_cuisine",
+      "kind": "Kulinarische Geschenkbox",
+      "relatedRegions": [],
+      "type": "modern",
+      "primaryLabel": "Keine feste traditionelle Heimat",
+      "sources": [
+        {
+          "title": "UNESCO · Tunesische Harissa-Tradition",
+          "url": "https://ich.unesco.org/en/RL/harissa-knowledge-skills-and-culinary-and-social-practices-01710"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Harissa"
+        },
+        {
+          "title": "UNESCO · Entscheidung zur Harissa-Tradition",
+          "url": "https://ich.unesco.org/en/decisions/17.COM/7.B.30"
+        },
+        {
+          "title": "Taste of Maroc · Marokkanische Salzzitronen",
+          "url": "https://tasteofmaroc.com/how-to-make-preserved-lemons/"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Preserved_lemon"
+        },
+        {
+          "title": "Rogers Collection · Tunesische Salzzitronen",
+          "url": "https://www.rogerscollection.us/wp-content/uploads/2016/01/Organic-Natural-Preserved-Lemon-Sell-Sheet.pdf"
+        },
+        {
+          "title": "James Beard Foundation · Salzzitronen in nordafrikanischen Küchen",
+          "url": "https://archive.jamesbeard.org/recipes/preserved-lemons"
+        },
+        {
+          "title": "Maghreb · unterschiedliche Familien- und Händlerrezepturen",
+          "url": "https://en.wikipedia.org/wiki/Ras_el_hanout"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Zusammenstellung",
+        "summary": "Ausgewählte Spezialitäten für eine gemeinsame Genussreise. Die Regionalbezeichnung beschreibt das Thema der Box, keine gemeinsame Lieferherkunft.",
+        "basis": "modern",
+        "exclusive": false
+      },
+      "shopDescription": "Harissa 100 g · Salzzitronen 300 g · Ras el Hanout 50 g.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "giftRooms": [
+        "NAV-NORTH"
+      ],
+      "boxItems": [
+        {
+          "product": "harissa",
+          "quantity": 1
+        },
+        {
+          "product": "saltlemons",
+          "quantity": 1
+        },
+        {
+          "product": "raselhanout",
+          "quantity": 1
+        }
+      ]
+    },
+    "gift-egypt": {
+      "regions": [],
+      "text": "Kulinarische Geschenkzusammenstellung für diesen Entdeckungsraum. Die Box hat keine eigene traditionelle Verbreitung. Die einzelnen Zutaten und Rezepturen können auch in anderen Regionen üblich sein.",
+      "source": "https://en.wikipedia.org/wiki/Mediterranean_cuisine",
+      "kind": "Kulinarische Geschenkbox",
+      "relatedRegions": [],
+      "type": "modern",
+      "primaryLabel": "Keine feste traditionelle Heimat",
+      "sources": [
+        {
+          "title": "Ägyptische Nuss-, Saaten- und Gewürztradition",
+          "url": "https://www.sbs.com.au/food/recipe/dukkah/0r415xt0p"
+        },
+        {
+          "title": "FAO · Dattelpalme: geografische Verbreitung und Anbauräume",
+          "url": "https://www.fao.org/4/Y4360E/y4360e06.htm"
+        },
+        {
+          "title": "FAO · Datteln: Trocknung, Verpackung und Verarbeitung",
+          "url": "https://www.fao.org/4/Y4360E/y4360e0d.htm"
+        },
+        {
+          "title": "FAO · Dattelanbau im Jordantal",
+          "url": "https://www.fao.org/jordan/news/detail/jordan-advances-the-sustainability-and-competitiveness-of-the-date-palm-sector-with-fao-support/en"
+        },
+        {
+          "title": "Visit Portugal · Olivenölregionen",
+          "url": "https://www.visitportugal.com/en/content/olive-tourism"
+        },
+        {
+          "title": "Visit Cyprus · Lokale Zutaten",
+          "url": "https://www.visitcyprus.com/discover-cyprus/food-drink/local-produce/"
+        },
+        {
+          "title": "Malta Tourism Authority · Spezialitäten",
+          "url": "https://www.visitmalta.com/en/delicacies/"
+        },
+        {
+          "title": "Hintergrund zur Spezialität",
+          "url": "https://en.wikipedia.org/wiki/Olive_oil"
+        },
+        {
+          "title": "Tarragona Turisme · Romesco",
+          "url": "https://www.tarragonaturisme.cat/en/cuisine"
+        },
+        {
+          "title": "Turismo Andalucía · Olivenöl",
+          "url": "https://en.andalucia.org/activities-and-attractions/food-and-drink/savor-andalusia/oils/"
+        },
+        {
+          "title": "Tourismus Balearen · Salz und Fleur de Sel",
+          "url": "https://www.illesbalears.travel/index.php/en/ibiza/the-mallorca-ibiza-and-formentera-salt-mines"
+        },
+        {
+          "title": "Tourismus Korsika · Olivenöl",
+          "url": "https://www.visit-corsica.com/en/content/view/full/38779"
+        },
+        {
+          "title": "Vaucluse Tourisme · Olivenöl und Tapenade",
+          "url": "https://www.provenceguide.com/decouvrir/saveurs/produits-terroir/olive-huile/"
+        },
+        {
+          "title": "Regione Sardegna · Gastronomie",
+          "url": "https://www.sardegnacultura.it/en/categories/tradizioni/gastronomia"
+        },
+        {
+          "title": "Visit Sicily · Caponata",
+          "url": "https://www.visitsicily.info/en/ricetta/caponata/"
+        },
+        {
+          "title": "Visit Portugal · Algarve-Küche",
+          "url": "https://www.visitportugal.com/en/destinos/algarve/73815"
+        },
+        {
+          "title": "Visit Portugal · Alentejo",
+          "url": "https://www.visitportugal.com/en/destinos/alentejo/73794"
+        },
+        {
+          "title": "Tourismus Istrien · Olivenöl und Trüffel",
+          "url": "https://www.istra.hr/en/gourmet/gourmet-spots"
+        },
+        {
+          "title": "Region Kreta · Zertifizierte Produkte",
+          "url": "https://www.incrediblecrete.gr/en/certified-companies/"
+        },
+        {
+          "title": "GoTürkiye · Ägäische Küche",
+          "url": "https://goturkiye.com/branding/press-releases/turkish-cuisine-week-highlights-the-aegean-flavours-in-2024"
+        },
+        {
+          "title": "Visit Gozo · Lokale Spezialitäten",
+          "url": "https://visitgozo.com/experience/local-delicacies/"
+        },
+        {
+          "title": "Ligurien · Regionaler kulinarischer Hintergrund",
+          "url": "https://lamialiguria.it/en/experiences/adopt-a-taggiasca-cultivar-olive-tree/"
+        },
+        {
+          "title": "Toskana · Regionaler kulinarischer Hintergrund",
+          "url": "https://www.visittuscany.com/en/ideas/2e7437ee-5119-11e7-87d1-c25849f3fc0c/"
+        },
+        {
+          "title": "Dalmatien · Regionaler kulinarischer Hintergrund",
+          "url": "https://croatia-hotspots.com/en/category/gastro-en/page/2/"
+        },
+        {
+          "title": "Lebensmittelsicherheitsbehörde BiH · Olivenöl der Herzegowina",
+          "url": "https://fsa.gov.ba/wp-content/uploads/2025/04/Product-specification-EXTRA-VIRGIN-OLIVE-OIL-OF-HERZEGOVINA.pdf"
+        },
+        {
+          "title": "Slovenian Tourist Board · Olivenöl aus slowenischem Istrien",
+          "url": "https://www.slovenia.info/en/stories/learn-about-the-story-of-slovenian-olive-oil"
+        },
+        {
+          "title": "PromoTurismoFVG · Olivenöl aus Muggia",
+          "url": "https://www.turismofvg.it/en/food-and-wine/lenardon-bruno?LangSetCMS=en"
+        },
+        {
+          "title": "Internationaler Olivenrat · Olivenölproduktion in mehreren Ländern",
+          "url": "https://www.internationaloliveoil.org/wp-content/uploads/2019/12/NEWSLETTER_NOVEMBER-2015_ENGLISH.pdf"
+        },
+        {
+          "title": "Office de Tourisme Nice · Olivenöl und regionale Verarbeitung",
+          "url": "https://www.explorenicecotedazur.com/en/producer/moulin-a-huile-nicolas-alziari/"
+        },
+        {
+          "title": "Visit Greece · ägäische Küche mit Olivenöl, Oregano und Kapern",
+          "url": "https://www.visitgreece.gr/en/experiences/gastronomy/traditional-cuisine/aegean-cuisine"
+        }
+      ],
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Noch nicht durch Lieferantennachweise festgelegt"
+      },
+      "preservation": {
+        "format": "Ungeöffnet haltbare, geeignet verpackte Variante vorgesehen",
+        "freshProduct": false,
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
+      },
+      "review": {
+        "date": "2026-11-14",
+        "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Zusammenstellung",
+        "summary": "Ausgewählte Spezialitäten für eine gemeinsame Genussreise. Die Regionalbezeichnung beschreibt das Thema der Box, keine gemeinsame Lieferherkunft.",
+        "basis": "modern",
+        "exclusive": false
+      },
+      "shopDescription": "Dukkah 100 g · Datteln 250 g · Natives Olivenöl extra 500 ml.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "giftRooms": [
+        "NAV-EGYPT"
+      ],
+      "boxItems": [
+        {
+          "product": "dukkah",
+          "quantity": 1
+        },
+        {
+          "product": "dates",
+          "quantity": 1
+        },
+        {
+          "product": "oil",
+          "quantity": 1
+        }
+      ]
     }
   },
   "newProducts": [
@@ -3400,7 +6623,7 @@ window.MEDITERRANEAN = {
     [
       "zaatar",
       "Levantinisches Za’atar",
-      "Wildkräuter",
+      "Kräuter",
       "60 g",
       5.9,
       "shared-2",
@@ -3496,6 +6719,396 @@ window.MEDITERRANEAN = {
       "spice-6",
       "",
       "Geröstete Nüsse, Sesam und Gewürze – zu Brot mit Olivenöl oder als knuspriges Topping."
+    ],
+    [
+      "savory",
+      "Bergbohnenkraut · Vrisak",
+      "Kräuter",
+      "25 g",
+      4.9,
+      "pantry-a0",
+      "",
+      "Würziges Bohnenkraut für Hülsenfrüchte, Pilze und Marinaden."
+    ],
+    [
+      "thyme",
+      "Thymian",
+      "Kräuter",
+      "25 g",
+      4.5,
+      "pantry-a1",
+      "",
+      "Aromatischer Thymian für Gemüse, Eintöpfe und Marinaden."
+    ],
+    [
+      "rosemary",
+      "Rosmarin",
+      "Kräuter",
+      "30 g",
+      3.9,
+      "pantry-a2",
+      "",
+      "Duftende Rosmarinnadeln für Ofenkartoffeln, Gemüse und Brot."
+    ],
+    [
+      "fennelseed",
+      "Fenchelsamen",
+      "Gewürze",
+      "50 g",
+      4.5,
+      "pantry-a3",
+      "",
+      "Süßlich-aromatische Fenchelsamen für Brot, Gemüse und eingelegte Spezialitäten."
+    ],
+    [
+      "bay",
+      "Lorbeerblätter",
+      "Kräuter",
+      "15 g",
+      3.9,
+      "pantry-a4",
+      "",
+      "Ganze Lorbeerblätter für Eintöpfe, Hülsenfrüchte und eingelegtes Gemüse."
+    ],
+    [
+      "rosehipjam",
+      "Hagebuttenaufstrich",
+      "Aufstriche",
+      "220 g",
+      6.5,
+      "pantry-a5",
+      "",
+      "Fruchtig-herber Aufstrich aus Hagebutten für Brot und Gebäck."
+    ],
+    [
+      "mint",
+      "Minze, getrocknet",
+      "Kräuter",
+      "25 g",
+      3.9,
+      "pantry-a6",
+      "",
+      "Getrocknete Minzblätter für Dips, Salate, Hülsenfrüchte und Aufgüsse."
+    ],
+    [
+      "lemonbalm",
+      "Zitronenmelisse",
+      "Kräuter",
+      "30 g",
+      4.5,
+      "pantry-a7",
+      "",
+      "Zitronig duftende Melissenblätter für Kräuteraufgüsse und zum Aromatisieren."
+    ],
+    [
+      "paprikaflakesmild",
+      "Paprikaflocken · mild",
+      "Gewürze",
+      "50 g",
+      4.5,
+      "pantry-a8",
+      "",
+      "Fruchtig-milde Paprikaflocken für Gemüse, Dips und Eintöpfe."
+    ],
+    [
+      "paprikaflakeshot",
+      "Paprikaflocken · scharf",
+      "Gewürze",
+      "50 g",
+      4.5,
+      "pantry-a9",
+      "",
+      "Scharfe Paprikaflocken für Pizza, Marinaden und würzige Gemüsegerichte."
+    ],
+    [
+      "paprikapowdermild",
+      "Paprikapulver · edelsüß",
+      "Gewürze",
+      "75 g",
+      4.5,
+      "pantry-a10",
+      "",
+      "Mildes Paprikapulver mit fruchtigem Aroma für Saucen, Gemüse und Eintöpfe."
+    ],
+    [
+      "paprikapowderhot",
+      "Paprikapulver · scharf",
+      "Gewürze",
+      "75 g",
+      4.5,
+      "pantry-a11",
+      "",
+      "Scharfes Paprikapulver für kräftige Saucen, Eintöpfe und Marinaden."
+    ],
+    [
+      "smokedpaprika",
+      "Paprika · mild geräuchert",
+      "Gewürze",
+      "70 g",
+      5.5,
+      "pantry-a12",
+      "",
+      "Rauchig-mildes Paprikapulver für Bohnen, Kartoffeln und Grillgemüse."
+    ],
+    [
+      "driedpeppers",
+      "Getrocknete Paprika zum Füllen",
+      "Trockengemüse",
+      "50 g",
+      4.9,
+      "pantry-a13",
+      "",
+      "Ganze ausgehöhlte Paprikaschoten. Einweichen, füllen und garen – zum Beispiel mit Reis und Kräutern."
+    ],
+    [
+      "driedaubergine",
+      "Getrocknete Auberginen zum Füllen",
+      "Trockengemüse",
+      "50 g",
+      4.9,
+      "pantry-a14",
+      "",
+      "Getrocknete Auberginenhüllen für Dolma. Vor dem Füllen nach Packungsanleitung vorbereiten."
+    ],
+    [
+      "driedtomatoes",
+      "Getrocknete Tomaten",
+      "Trockengemüse",
+      "100 g",
+      4.9,
+      "pantry-a15",
+      "",
+      "Aromatisch getrocknete Tomaten für Pasta, Brot und Antipasti. Vor Verwendung bei Bedarf einweichen."
+    ],
+    [
+      "prunes",
+      "Trockenpflaumen",
+      "Früchte",
+      "250 g",
+      5.5,
+      "pantry-b0",
+      "",
+      "Fruchtige Trockenpflaumen zum Naschen, Backen und für herzhafte Schmorgerichte."
+    ],
+    [
+      "carob",
+      "Johannisbrotpulver",
+      "Früchte",
+      "150 g",
+      5.9,
+      "pantry-b1",
+      "",
+      "Fein gemahlenes Johannisbrot mit mild-süßlichem Aroma für Gebäck, Desserts und warme Getränke."
+    ],
+    [
+      "cruschi",
+      "Knusprige Paprika · Cruschi",
+      "Feinkost",
+      "30 g",
+      5.9,
+      "pantry-b2",
+      "",
+      "Knusprig ausgebackene süße Paprika als Snack oder Topping für Pasta und Gemüse."
+    ],
+    [
+      "nora",
+      "Ñora-Paprika, getrocknet",
+      "Trockengemüse",
+      "40 g",
+      4.9,
+      "pantry-b3",
+      "",
+      "Ganze milde Ñoras für Saucen und Reisgerichte. Einweichen und das Fruchtfleisch auslösen."
+    ],
+    [
+      "sumac",
+      "Sumach",
+      "Gewürze",
+      "50 g",
+      4.9,
+      "pantry-b4",
+      "",
+      "Fruchtig-säuerlicher Sumach für Salate, Zwiebeln, Dips und Ofengemüse."
+    ],
+    [
+      "cumin",
+      "Kreuzkümmel",
+      "Gewürze",
+      "50 g",
+      3.9,
+      "pantry-b5",
+      "",
+      "Warmer, kräftiger Kreuzkümmel für Hülsenfrüchte, Couscous und Gemüsegerichte."
+    ],
+    [
+      "coriander",
+      "Koriandersaat",
+      "Gewürze",
+      "50 g",
+      3.9,
+      "pantry-b6",
+      "",
+      "Ganze Koriandersamen mit warmem Zitrusaroma. Vor dem Mahlen leicht anrösten."
+    ],
+    [
+      "nigella",
+      "Schwarzkümmel",
+      "Gewürze",
+      "50 g",
+      4.5,
+      "pantry-b7",
+      "",
+      "Schwarzkümmelsamen für Fladenbrot, Gebäck, Salate und Gemüse."
+    ],
+    [
+      "saffron",
+      "Safranfäden",
+      "Gewürze",
+      "0.5 g",
+      5.9,
+      "pantry-b8",
+      "",
+      "Wenige Safranfäden aromatisieren Reis, Brühen und feine Desserts."
+    ],
+    [
+      "anise",
+      "Anissamen",
+      "Gewürze",
+      "50 g",
+      3.9,
+      "pantry-b9",
+      "",
+      "Süßlich-würzige Anissamen für Brot, Gebäck und zum Aromatisieren."
+    ],
+    [
+      "baharat",
+      "Baharat",
+      "Gewürzmischungen",
+      "50 g",
+      5.5,
+      "pantry-b10",
+      "",
+      "Warme Gewürzmischung für Gemüse, Hülsenfrüchte und Schmorgerichte."
+    ],
+    [
+      "tabil",
+      "Tabil",
+      "Gewürzmischungen",
+      "50 g",
+      4.9,
+      "pantry-b11",
+      "",
+      "Korianderbetonte Mischung mit Kümmel, Knoblauch und Chili für Couscous, Gemüse und Eintöpfe."
+    ],
+    [
+      "mastic",
+      "Mastix · Gewürzharz",
+      "Gewürze",
+      "5 g",
+      7.9,
+      "pantry-b12",
+      "",
+      "Aromatische Harztränen zum sparsamen Würzen von Gebäck und Desserts. Mit etwas Zucker fein vermahlen."
+    ],
+    [
+      "caraway",
+      "Kümmelsamen",
+      "Gewürze",
+      "50 g",
+      3.9,
+      "pantry-b13",
+      "",
+      "Aromatischer Kümmel für Gemüse, Brot und Gewürzmischungen."
+    ],
+    [
+      "gift-iberia",
+      "Geschenkbox Iberien & Balearen",
+      "Geschenke",
+      "4 Produkte",
+      40.9,
+      "giftroom-0",
+      "Geschenkbox",
+      "Katalanische Romesco 180 g · Natives Olivenöl extra 500 ml · Pinchos-Gewürz 50 g · Fleur de Sel 100 g."
+    ],
+    [
+      "gift-liguria",
+      "Geschenkbox Südfrankreich & Ligurien",
+      "Geschenke",
+      "3 Produkte",
+      32.9,
+      "giftroom-1",
+      "Geschenkbox",
+      "Oliven-Tapenade 140 g · Herbes de Provence 25 g · Natives Olivenöl extra 500 ml."
+    ],
+    [
+      "gift-central",
+      "Geschenkbox Küsten & Inselwelt",
+      "Geschenke",
+      "3 Produkte",
+      19.9,
+      "giftroom-2",
+      "Geschenkbox",
+      "Sizilianische Caponata 200 g · Kapern in Meersalzlake 120 g · Aglio e peperoncino 50 g."
+    ],
+    [
+      "gift-adria",
+      "Geschenkbox Adria",
+      "Geschenke",
+      "3 Produkte",
+      21.9,
+      "giftroom-3",
+      "Geschenkbox",
+      "Meersalz mit dalmatinischen Kräutern 100 g · Feigenbrot mit Walnüssen 150 g · Mediterrane Olivenpaste 140 g."
+    ],
+    [
+      "gift-balkan",
+      "Geschenkbox Balkan",
+      "Geschenke",
+      "4 Produkte",
+      23.9,
+      "giftroom-4",
+      "Geschenkbox",
+      "Gerösteter Ajvar 350 g · Pflaumenmus 250 g · Šarena sol 100 g · Paprikaflocken · mild 50 g."
+    ],
+    [
+      "gift-aegean",
+      "Geschenkbox Ägäis",
+      "Geschenke",
+      "3 Produkte",
+      18.9,
+      "giftroom-5",
+      "Geschenkbox",
+      "Mediterrane Olivenpaste 140 g · Oregano & Thymian 25 g · Getrocknete Feigen 250 g."
+    ],
+    [
+      "gift-levant",
+      "Geschenkbox Levante",
+      "Geschenke",
+      "3 Produkte",
+      35.9,
+      "giftroom-6",
+      "Geschenkbox",
+      "Levantinisches Za’atar 60 g · Levantinische Muhammara 180 g · Natives Olivenöl extra 500 ml."
+    ],
+    [
+      "gift-maghreb",
+      "Geschenkbox Maghreb",
+      "Geschenke",
+      "3 Produkte",
+      19.9,
+      "giftroom-7",
+      "Geschenkbox",
+      "Harissa 100 g · Salzzitronen 300 g · Ras el Hanout 50 g."
+    ],
+    [
+      "gift-egypt",
+      "Geschenkbox Ägypten & östliches Nordafrika",
+      "Geschenke",
+      "3 Produkte",
+      35.9,
+      "giftroom-8",
+      "Geschenkbox",
+      "Dukkah 100 g · Datteln 250 g · Natives Olivenöl extra 500 ml."
     ]
   ],
   "catalog": [
@@ -3622,7 +7235,7 @@ window.MEDITERRANEAN = {
     [
       "sage",
       "Wild-Salbei",
-      "Wildkräuter",
+      "Kräuter",
       "20 g",
       4.9,
       "photo-1466692476868-aef1dfb1e735",
@@ -3632,7 +7245,7 @@ window.MEDITERRANEAN = {
     [
       "oregano",
       "Wild-Oregano",
-      "Wildkräuter",
+      "Kräuter",
       "20 g",
       4.9,
       "photo-1466692476868-aef1dfb1e735",
@@ -3772,7 +7385,7 @@ window.MEDITERRANEAN = {
     [
       "zaatar",
       "Levantinisches Za’atar",
-      "Wildkräuter",
+      "Kräuter",
       "60 g",
       5.9,
       "shared-2",
@@ -3868,6 +7481,396 @@ window.MEDITERRANEAN = {
       "spice-6",
       "",
       "Geröstete Nüsse, Sesam und Gewürze – zu Brot mit Olivenöl oder als knuspriges Topping."
+    ],
+    [
+      "savory",
+      "Bergbohnenkraut · Vrisak",
+      "Kräuter",
+      "25 g",
+      4.9,
+      "pantry-a0",
+      "",
+      "Würziges Bohnenkraut für Hülsenfrüchte, Pilze und Marinaden."
+    ],
+    [
+      "thyme",
+      "Thymian",
+      "Kräuter",
+      "25 g",
+      4.5,
+      "pantry-a1",
+      "",
+      "Aromatischer Thymian für Gemüse, Eintöpfe und Marinaden."
+    ],
+    [
+      "rosemary",
+      "Rosmarin",
+      "Kräuter",
+      "30 g",
+      3.9,
+      "pantry-a2",
+      "",
+      "Duftende Rosmarinnadeln für Ofenkartoffeln, Gemüse und Brot."
+    ],
+    [
+      "fennelseed",
+      "Fenchelsamen",
+      "Gewürze",
+      "50 g",
+      4.5,
+      "pantry-a3",
+      "",
+      "Süßlich-aromatische Fenchelsamen für Brot, Gemüse und eingelegte Spezialitäten."
+    ],
+    [
+      "bay",
+      "Lorbeerblätter",
+      "Kräuter",
+      "15 g",
+      3.9,
+      "pantry-a4",
+      "",
+      "Ganze Lorbeerblätter für Eintöpfe, Hülsenfrüchte und eingelegtes Gemüse."
+    ],
+    [
+      "rosehipjam",
+      "Hagebuttenaufstrich",
+      "Aufstriche",
+      "220 g",
+      6.5,
+      "pantry-a5",
+      "",
+      "Fruchtig-herber Aufstrich aus Hagebutten für Brot und Gebäck."
+    ],
+    [
+      "mint",
+      "Minze, getrocknet",
+      "Kräuter",
+      "25 g",
+      3.9,
+      "pantry-a6",
+      "",
+      "Getrocknete Minzblätter für Dips, Salate, Hülsenfrüchte und Aufgüsse."
+    ],
+    [
+      "lemonbalm",
+      "Zitronenmelisse",
+      "Kräuter",
+      "30 g",
+      4.5,
+      "pantry-a7",
+      "",
+      "Zitronig duftende Melissenblätter für Kräuteraufgüsse und zum Aromatisieren."
+    ],
+    [
+      "paprikaflakesmild",
+      "Paprikaflocken · mild",
+      "Gewürze",
+      "50 g",
+      4.5,
+      "pantry-a8",
+      "",
+      "Fruchtig-milde Paprikaflocken für Gemüse, Dips und Eintöpfe."
+    ],
+    [
+      "paprikaflakeshot",
+      "Paprikaflocken · scharf",
+      "Gewürze",
+      "50 g",
+      4.5,
+      "pantry-a9",
+      "",
+      "Scharfe Paprikaflocken für Pizza, Marinaden und würzige Gemüsegerichte."
+    ],
+    [
+      "paprikapowdermild",
+      "Paprikapulver · edelsüß",
+      "Gewürze",
+      "75 g",
+      4.5,
+      "pantry-a10",
+      "",
+      "Mildes Paprikapulver mit fruchtigem Aroma für Saucen, Gemüse und Eintöpfe."
+    ],
+    [
+      "paprikapowderhot",
+      "Paprikapulver · scharf",
+      "Gewürze",
+      "75 g",
+      4.5,
+      "pantry-a11",
+      "",
+      "Scharfes Paprikapulver für kräftige Saucen, Eintöpfe und Marinaden."
+    ],
+    [
+      "smokedpaprika",
+      "Paprika · mild geräuchert",
+      "Gewürze",
+      "70 g",
+      5.5,
+      "pantry-a12",
+      "",
+      "Rauchig-mildes Paprikapulver für Bohnen, Kartoffeln und Grillgemüse."
+    ],
+    [
+      "driedpeppers",
+      "Getrocknete Paprika zum Füllen",
+      "Trockengemüse",
+      "50 g",
+      4.9,
+      "pantry-a13",
+      "",
+      "Ganze ausgehöhlte Paprikaschoten. Einweichen, füllen und garen – zum Beispiel mit Reis und Kräutern."
+    ],
+    [
+      "driedaubergine",
+      "Getrocknete Auberginen zum Füllen",
+      "Trockengemüse",
+      "50 g",
+      4.9,
+      "pantry-a14",
+      "",
+      "Getrocknete Auberginenhüllen für Dolma. Vor dem Füllen nach Packungsanleitung vorbereiten."
+    ],
+    [
+      "driedtomatoes",
+      "Getrocknete Tomaten",
+      "Trockengemüse",
+      "100 g",
+      4.9,
+      "pantry-a15",
+      "",
+      "Aromatisch getrocknete Tomaten für Pasta, Brot und Antipasti. Vor Verwendung bei Bedarf einweichen."
+    ],
+    [
+      "prunes",
+      "Trockenpflaumen",
+      "Früchte",
+      "250 g",
+      5.5,
+      "pantry-b0",
+      "",
+      "Fruchtige Trockenpflaumen zum Naschen, Backen und für herzhafte Schmorgerichte."
+    ],
+    [
+      "carob",
+      "Johannisbrotpulver",
+      "Früchte",
+      "150 g",
+      5.9,
+      "pantry-b1",
+      "",
+      "Fein gemahlenes Johannisbrot mit mild-süßlichem Aroma für Gebäck, Desserts und warme Getränke."
+    ],
+    [
+      "cruschi",
+      "Knusprige Paprika · Cruschi",
+      "Feinkost",
+      "30 g",
+      5.9,
+      "pantry-b2",
+      "",
+      "Knusprig ausgebackene süße Paprika als Snack oder Topping für Pasta und Gemüse."
+    ],
+    [
+      "nora",
+      "Ñora-Paprika, getrocknet",
+      "Trockengemüse",
+      "40 g",
+      4.9,
+      "pantry-b3",
+      "",
+      "Ganze milde Ñoras für Saucen und Reisgerichte. Einweichen und das Fruchtfleisch auslösen."
+    ],
+    [
+      "sumac",
+      "Sumach",
+      "Gewürze",
+      "50 g",
+      4.9,
+      "pantry-b4",
+      "",
+      "Fruchtig-säuerlicher Sumach für Salate, Zwiebeln, Dips und Ofengemüse."
+    ],
+    [
+      "cumin",
+      "Kreuzkümmel",
+      "Gewürze",
+      "50 g",
+      3.9,
+      "pantry-b5",
+      "",
+      "Warmer, kräftiger Kreuzkümmel für Hülsenfrüchte, Couscous und Gemüsegerichte."
+    ],
+    [
+      "coriander",
+      "Koriandersaat",
+      "Gewürze",
+      "50 g",
+      3.9,
+      "pantry-b6",
+      "",
+      "Ganze Koriandersamen mit warmem Zitrusaroma. Vor dem Mahlen leicht anrösten."
+    ],
+    [
+      "nigella",
+      "Schwarzkümmel",
+      "Gewürze",
+      "50 g",
+      4.5,
+      "pantry-b7",
+      "",
+      "Schwarzkümmelsamen für Fladenbrot, Gebäck, Salate und Gemüse."
+    ],
+    [
+      "saffron",
+      "Safranfäden",
+      "Gewürze",
+      "0.5 g",
+      5.9,
+      "pantry-b8",
+      "",
+      "Wenige Safranfäden aromatisieren Reis, Brühen und feine Desserts."
+    ],
+    [
+      "anise",
+      "Anissamen",
+      "Gewürze",
+      "50 g",
+      3.9,
+      "pantry-b9",
+      "",
+      "Süßlich-würzige Anissamen für Brot, Gebäck und zum Aromatisieren."
+    ],
+    [
+      "baharat",
+      "Baharat",
+      "Gewürzmischungen",
+      "50 g",
+      5.5,
+      "pantry-b10",
+      "",
+      "Warme Gewürzmischung für Gemüse, Hülsenfrüchte und Schmorgerichte."
+    ],
+    [
+      "tabil",
+      "Tabil",
+      "Gewürzmischungen",
+      "50 g",
+      4.9,
+      "pantry-b11",
+      "",
+      "Korianderbetonte Mischung mit Kümmel, Knoblauch und Chili für Couscous, Gemüse und Eintöpfe."
+    ],
+    [
+      "mastic",
+      "Mastix · Gewürzharz",
+      "Gewürze",
+      "5 g",
+      7.9,
+      "pantry-b12",
+      "",
+      "Aromatische Harztränen zum sparsamen Würzen von Gebäck und Desserts. Mit etwas Zucker fein vermahlen."
+    ],
+    [
+      "caraway",
+      "Kümmelsamen",
+      "Gewürze",
+      "50 g",
+      3.9,
+      "pantry-b13",
+      "",
+      "Aromatischer Kümmel für Gemüse, Brot und Gewürzmischungen."
+    ],
+    [
+      "gift-iberia",
+      "Geschenkbox Iberien & Balearen",
+      "Geschenke",
+      "4 Produkte",
+      40.9,
+      "giftroom-0",
+      "Geschenkbox",
+      "Katalanische Romesco 180 g · Natives Olivenöl extra 500 ml · Pinchos-Gewürz 50 g · Fleur de Sel 100 g."
+    ],
+    [
+      "gift-liguria",
+      "Geschenkbox Südfrankreich & Ligurien",
+      "Geschenke",
+      "3 Produkte",
+      32.9,
+      "giftroom-1",
+      "Geschenkbox",
+      "Oliven-Tapenade 140 g · Herbes de Provence 25 g · Natives Olivenöl extra 500 ml."
+    ],
+    [
+      "gift-central",
+      "Geschenkbox Küsten & Inselwelt",
+      "Geschenke",
+      "3 Produkte",
+      19.9,
+      "giftroom-2",
+      "Geschenkbox",
+      "Sizilianische Caponata 200 g · Kapern in Meersalzlake 120 g · Aglio e peperoncino 50 g."
+    ],
+    [
+      "gift-adria",
+      "Geschenkbox Adria",
+      "Geschenke",
+      "3 Produkte",
+      21.9,
+      "giftroom-3",
+      "Geschenkbox",
+      "Meersalz mit dalmatinischen Kräutern 100 g · Feigenbrot mit Walnüssen 150 g · Mediterrane Olivenpaste 140 g."
+    ],
+    [
+      "gift-balkan",
+      "Geschenkbox Balkan",
+      "Geschenke",
+      "4 Produkte",
+      23.9,
+      "giftroom-4",
+      "Geschenkbox",
+      "Gerösteter Ajvar 350 g · Pflaumenmus 250 g · Šarena sol 100 g · Paprikaflocken · mild 50 g."
+    ],
+    [
+      "gift-aegean",
+      "Geschenkbox Ägäis",
+      "Geschenke",
+      "3 Produkte",
+      18.9,
+      "giftroom-5",
+      "Geschenkbox",
+      "Mediterrane Olivenpaste 140 g · Oregano & Thymian 25 g · Getrocknete Feigen 250 g."
+    ],
+    [
+      "gift-levant",
+      "Geschenkbox Levante",
+      "Geschenke",
+      "3 Produkte",
+      35.9,
+      "giftroom-6",
+      "Geschenkbox",
+      "Levantinisches Za’atar 60 g · Levantinische Muhammara 180 g · Natives Olivenöl extra 500 ml."
+    ],
+    [
+      "gift-maghreb",
+      "Geschenkbox Maghreb",
+      "Geschenke",
+      "3 Produkte",
+      19.9,
+      "giftroom-7",
+      "Geschenkbox",
+      "Harissa 100 g · Salzzitronen 300 g · Ras el Hanout 50 g."
+    ],
+    [
+      "gift-egypt",
+      "Geschenkbox Ägypten & östliches Nordafrika",
+      "Geschenke",
+      "3 Produkte",
+      35.9,
+      "giftroom-8",
+      "Geschenkbox",
+      "Dukkah 100 g · Datteln 250 g · Natives Olivenöl extra 500 ml."
     ]
   ],
   "reviewed": "2026-11-13",

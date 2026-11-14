@@ -33,6 +33,9 @@ assert.equal(data.catalog.find(p=>p[0]==='saltlemons')[1],'Salzzitronen','Avoid 
 assert.ok(!data.connections.figbread.sources.some(s=>s.url==='https://en.wikipedia.org/wiki/Fig_cake'),'Baked cake is not the compressed dried-fruit product');
 for(const r of data.countryBorderReview){assert.ok(r.summary&&r.sources.length,'Border review needs explanation and sources');r.sources.forEach(source)}
 for(const r of data.rawMaterialIdeas){assert.ok(r.formats.length&&r.sources.length,'Raw-material ideas require processed formats and sources');for(const id of r.regions)assert.ok(geoIds.has(id),'Unknown raw-material region');r.sources.forEach(source)}
-for(const name of ['shop-checkout.js','mittelmeer.js','product-regions.js','soft-product-map.js','map-navigation.js','culinary-rooms.js'])new Function(readFileSync(root+name,'utf8'));
+for(const name of ['product-photos.js','shop-checkout.js','mittelmeer.js','product-regions.js','soft-product-map.js','map-navigation.js','culinary-rooms.js'])new Function(readFileSync(root+name,'utf8'));
 for(const match of readFileSync(root+'index.html','utf8').matchAll(/<script>([\s\S]*?)<\/script>/g))new Function(match[1]);
 console.log(`Validated ${productIds.size} preserved-product drafts, ${geoIds.size} map targets, ${countryIds.size} country reviews, and ${data.crossBorderAreas.length} shared regions. Editorial sources still require human factual review.`);
+
+// Every regional box must reference existing, priced, shelf-stable contents.
+for(const p of data.catalog){assert.ok(Number.isFinite(p[4])&&p[4]>0,'Missing retail scenario price: '+p[0]);assert.ok(!/folgt|Vorbereitung/.test(p[3]),'Missing scenario pack size');const c=data.connections[p[0]];if(c.giftRooms){assert.equal(c.regions.length,0,'Gift themes must not invent a traditional distribution');assert.ok(c.boxItems.length>=3,'Gift box needs contents');for(const item of c.boxItems){assert.ok(productIds.has(item.product),'Unknown gift content');assert.ok(item.quantity>0&&Number.isInteger(item.quantity),'Invalid gift quantity')}}}
