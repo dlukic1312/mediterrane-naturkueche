@@ -5,4 +5,4 @@
 
 .map-wrap [data-region].country-selected{fill:#293c30}.map-wrap .subregion-shape.regional-reference{fill:#c89b6d;stroke:#fff}.map-wrap .subregion-shape.selected-subregion{fill:#a95724;stroke:#fff;stroke-width:2}
 
-.culinary-influence{display:none}.influence-overview .culinary-influence{display:block}.map-wrap .culinary-influence path{fill:none;stroke:#719563;stroke-linecap:round;stroke-linejoin:round;stroke-width:38;opacity:.65;filter:url(#influence-soft)}.map-wrap .culinary-influence path.influence-hinterland{stroke-width:38;opacity:.36;filter:url(#influence-soft-hinterland)}.influence-overview~.legend span:first-child:before{background:linear-gradient(90deg,#719563,#e8e6dd)}
+.culinary-influence{display:none}.influence-overview .culinary-influence{display:block}.map-wrap .culinary-influence path{fill:#719563;stroke:none;opacity:.52;filter:url(#influence-soft)}.influence-overview~.legend span:first-child:before{background:linear-gradient(90deg,#719563,#e8e6dd)}
