@@ -22,7 +22,7 @@ for(const entry of rows){
      text:'Vorgeschlagene regionale Produktfamilie; keine verifizierte Lieferherkunft.',
      kind:isGift?'Kuratiertes Geschenkset':'Sortimentskandidat',
      type:isGift?'modern':'shared',
-     relatedRegions:[],
+     relatedRegions:[], sources:[], relatedLabel:'Weitere Hinweise',
      commercialOrigin:{ingredients:null,processing:null,status:'Noch kein Lieferant geprüft'},
      preservation:{format:'Ungekühlte Variante nur nach Produktspezifikation',freshProduct:false,verifiedShelfLife:null,note:'Lager- und Versandbedingungen sind noch nicht bestätigt.'},
      review:{date:'2026-11-15',scope:'Design- und Sortimentsplanung',exclusiveOriginClaim:false,supplierOriginVerified:false},
