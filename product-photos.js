@@ -12,9 +12,15 @@
     }
     if(key.startsWith('giftroom-')){
       const i=Number(key.split('-')[1]);
-      if(i===9)return 'background-image:url(./assets/spice-blends.jpg);background-size:300% 300%;background-position:0% 0%';
-      if(i===10)return 'background-image:url(./assets/shared-specialties.jpg);background-size:200% 200%;background-position:100% 0%';
-      return 'background-image:url(./assets/regional-gifts.jpg);background-size:300% 300%;background-position:'+(i%3*50)+'% '+(Math.floor(i/3)*50)+'%';
+      const slugs=['slavonija','istra','dalmacija','medimurje','pag','kvarner','bosna','hercegovina','montenegro','vojvodina','kosovo'];
+      if(!Number.isInteger(i)||i<0||i>=slugs.length)return null;
+      /* First image: individual, illustrative artwork. Second image: existing fallback
+         until the WebP asset has been uploaded to the repository. */
+      const image="url('./assets/regional-boxes/box-"+slugs[i]+".webp')";
+      const fallback=i===9?"url('./assets/spice-blends.jpg')":i===10?"url('./assets/shared-specialties.jpg')":"url('./assets/regional-gifts.jpg')";
+      const fallbackSize=i>=9?(i===9?'300% 300%':'200% 200%'):'300% 300%';
+      const fallbackPosition=i===9?'0% 0%':i===10?'100% 0%':(i%3*50)+'% '+(Math.floor(i/3)*50)+'%';
+      return 'background-image:'+image+','+fallback+';background-size:cover,'+fallbackSize+';background-position:center,'+fallbackPosition+';background-repeat:no-repeat';
     }
     return null;
   };
