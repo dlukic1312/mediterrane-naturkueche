@@ -167,11 +167,375 @@ const hypotheses={
     "allgemein"
   ]
 };
+/* Ergänzende Planherkünfte für alle weiteren regulären Einzelartikel. */
+const additionalPrototypes={
+  "lemonoil": [
+    "Dalmatien",
+    "allgemein"
+  ],
+  "chilioil": [
+    "Dalmatien",
+    "allgemein"
+  ],
+  "fleur": [
+    "Pag",
+    "allgemein"
+  ],
+  "herbsalt": [
+    "Dalmatien",
+    "regional-exklusiv"
+  ],
+  "black": [
+    "Dalmatien",
+    "allgemein"
+  ],
+  "mustard": [
+    "Dalmatien",
+    "allgemein"
+  ],
+  "tapenade": [
+    "Griechenland",
+    "allgemein"
+  ],
+  "caponata": [
+    "Sizilien",
+    "allgemein"
+  ],
+  "romesco": [
+    "Katalonien",
+    "allgemein"
+  ],
+  "harissa": [
+    "Tunesien",
+    "allgemein"
+  ],
+  "saltlemons": [
+    "Marokko",
+    "allgemein"
+  ],
+  "olivepaste": [
+    "Griechenland",
+    "allgemein"
+  ],
+  "acuka": [
+    "Türkei",
+    "allgemein"
+  ],
+  "zaatar": [
+    "Libanon",
+    "allgemein"
+  ],
+  "muhammara": [
+    "Syrien",
+    "allgemein"
+  ],
+  "dates": [
+    "Tunesien",
+    "allgemein"
+  ],
+  "pinchos": [
+    "Spanien",
+    "allgemein"
+  ],
+  "provence": [
+    "Provence",
+    "allgemein"
+  ],
+  "aglio": [
+    "Süditalien",
+    "allgemein"
+  ],
+  "sharena": [
+    "Nordmazedonien",
+    "allgemein"
+  ],
+  "aegeanherbs": [
+    "Griechenland",
+    "allgemein"
+  ],
+  "raselhanout": [
+    "Marokko",
+    "allgemein"
+  ],
+  "dukkah": [
+    "Ägypten",
+    "allgemein"
+  ],
+  "fennelseed": [
+    "Sizilien",
+    "allgemein"
+  ],
+  "bay": [
+    "Dalmatien",
+    "allgemein"
+  ],
+  "rosehipjam": [
+    "Bosnien",
+    "allgemein"
+  ],
+  "mint": [
+    "Marokko",
+    "allgemein"
+  ],
+  "lemonbalm": [
+    "Bosnien",
+    "allgemein"
+  ],
+  "paprikaflakesmild": [
+    "Vojvodina",
+    "allgemein"
+  ],
+  "paprikaflakeshot": [
+    "Vojvodina",
+    "allgemein"
+  ],
+  "smokedpaprika": [
+    "Spanien",
+    "allgemein"
+  ],
+  "driedpeppers": [
+    "Vojvodina",
+    "allgemein"
+  ],
+  "driedaubergine": [
+    "Türkei",
+    "allgemein"
+  ],
+  "driedtomatoes": [
+    "Süditalien",
+    "allgemein"
+  ],
+  "carob": [
+    "Zypern",
+    "allgemein"
+  ],
+  "cruschi": [
+    "Süditalien",
+    "allgemein"
+  ],
+  "nora": [
+    "Spanien",
+    "allgemein"
+  ],
+  "sumac": [
+    "Türkei",
+    "allgemein"
+  ],
+  "cumin": [
+    "Marokko",
+    "allgemein"
+  ],
+  "coriander": [
+    "Marokko",
+    "allgemein"
+  ],
+  "nigella": [
+    "Türkei",
+    "allgemein"
+  ],
+  "saffron": [
+    "Spanien",
+    "allgemein"
+  ],
+  "anise": [
+    "Griechenland",
+    "allgemein"
+  ],
+  "baharat": [
+    "Libanon",
+    "allgemein"
+  ],
+  "tabil": [
+    "Tunesien",
+    "allgemein"
+  ],
+  "mastic": [
+    "Griechenland",
+    "allgemein"
+  ],
+  "caraway": [
+    "Vojvodina",
+    "allgemein"
+  ],
+  "elderflowersyrup": [
+    "Bosnien",
+    "allgemein"
+  ],
+  "elderberrysyrup": [
+    "Bosnien",
+    "allgemein"
+  ],
+  "rosesyrup": [
+    "Libanon",
+    "allgemein"
+  ],
+  "lemonsyrup": [
+    "Sizilien",
+    "allgemein"
+  ],
+  "cherrysyrup": [
+    "Vojvodina",
+    "allgemein"
+  ],
+  "mintsyrup": [
+    "Marokko",
+    "allgemein"
+  ],
+  "almondsyrup": [
+    "Griechenland",
+    "allgemein"
+  ],
+  "carobsyrup": [
+    "Zypern",
+    "allgemein"
+  ],
+  "datesyrup": [
+    "Tunesien",
+    "allgemein"
+  ],
+  "grapesyrup": [
+    "Dalmatien",
+    "allgemein"
+  ],
+  "mulberrymolasses": [
+    "Türkei",
+    "allgemein"
+  ],
+  "jallab": [
+    "Libanon",
+    "allgemein"
+  ],
+  "walnutoil": [
+    "Vojvodina",
+    "allgemein"
+  ],
+  "arganoil": [
+    "Marokko",
+    "allgemein"
+  ],
+  "mandarinsyrup": [
+    "Dalmatien",
+    "allgemein"
+  ],
+  "candiedmandarinpeel": [
+    "Dalmatien",
+    "allgemein"
+  ],
+  "quinceslatko": [
+    "Bosnien",
+    "allgemein"
+  ],
+  "kontonjata": [
+    "Dalmatien",
+    "allgemein"
+  ],
+  "walnutslatko": [
+    "Bosnien",
+    "allgemein"
+  ],
+  "herb-olives": [
+    "Dalmatien",
+    "allgemein"
+  ],
+  "green-olives": [
+    "Griechenland",
+    "allgemein"
+  ],
+  "black-olives": [
+    "Griechenland",
+    "allgemein"
+  ],
+  "cvarci": [
+    "Slawonien",
+    "allgemein"
+  ],
+  "dalmatinski-prsut": [
+    "Dalmatien",
+    "regional-exklusiv"
+  ],
+  "istarski-prsut": [
+    "Istrien",
+    "regional-exklusiv"
+  ],
+  "panceta": [
+    "Dalmatien",
+    "regional-exklusiv"
+  ],
+  "sheep-cheese": [
+    "Pag",
+    "allgemein"
+  ],
+  "truffle-cheese": [
+    "Istrien",
+    "allgemein"
+  ],
+  "srdele": [
+    "Dalmatien",
+    "allgemein"
+  ],
+  "sardine-lemon": [
+    "Dalmatien",
+    "allgemein"
+  ],
+  "tuna-filets": [
+    "Dalmatien",
+    "allgemein"
+  ],
+  "anchovy-paste": [
+    "Dalmatien",
+    "allgemein"
+  ],
+  "ajvar-hot": [
+    "Kosovo",
+    "allgemein"
+  ],
+  "pindjur": [
+    "Nordmazedonien",
+    "allgemein"
+  ],
+  "ljutenica": [
+    "Bulgarien",
+    "allgemein"
+  ],
+  "motar": [
+    "Dalmatien",
+    "allgemein"
+  ],
+  "arancini": [
+    "Dalmatien",
+    "allgemein"
+  ],
+  "limuncini": [
+    "Dalmatien",
+    "allgemein"
+  ],
+  "candied-almonds": [
+    "Dalmatien",
+    "allgemein"
+  ],
+  "black-garlic-cream": [
+    "Istrien",
+    "allgemein"
+  ],
+  "varenik": [
+    "Dalmatien",
+    "regional-exklusiv"
+  ]
+};
+for(const [id,plan] of Object.entries(additionalPrototypes)){
+ if(hypotheses[id])throw Error('Doppelte Herkunftsplanung: '+id);
+ hypotheses[id]=plan;
+}
 const regionalKeys={
  'Slawonien':'slavonija','Istrien':'istra','Dalmatien':'dalmacija',
  'Međimurje':'medimurje','Pag':'pag','Kvarner':'kvarner',
  'Bosnien':'bosna','Herzegowina':'hercegovina','Montenegro':'montenegro',
- 'Vojvodina':'vojvodina','Kosovo':'kosovo'
+ 'Vojvodina':'vojvodina','Kosovo':'kosovo',
+ 'Griechenland':'griechenland','Sizilien':'sizilien','Katalonien':'katalonien',
+ 'Tunesien':'tunesien','Marokko':'marokko','Türkei':'tuerkei','Libanon':'libanon',
+ 'Syrien':'syrien','Spanien':'spanien','Provence':'provence',
+ 'Nordmazedonien':'nordmazedonien','Süditalien':'sueditalien',
+ 'Ägypten':'aegypten','Zypern':'zypern','Bulgarien':'bulgarien'
 };
 const data=window.MEDITERRANEAN;
 const sizes=window.PANTRY_SIZES;
