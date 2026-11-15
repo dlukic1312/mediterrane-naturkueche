@@ -43,38 +43,39 @@ window.CULINARIA_START60_BY_CATEGORY=byCategory;
 /* Elf regionale Geschenkboxen mit je zwei Varianten; reine Shopvorschau. */
 const regionalBoxes=[
  ['slavonija','Slavonija · Herzhaft & würzig','Kulenova seka, Slavonska kobasica, Ajvar','Kulen, Kulenova seka, Slavonska kobasica, Ajvar, Pflaumenmus',34.90,59.90,0,'NAV-BALKAN'],
- ['istra','Istra · Olivenöl & Trüffel','Istrisches Olivenöl, Fuži, Trüffelsalz','Istrisches Olivenöl, Fuži, Trüffelcreme mit echtem Trüffel, getrocknete Steinpilze, Kräutersalz',39.90,69.90,1,'NAV-ADRIA'],
- ['dalmacija','Dalmacija · Sonne & Meer','Olivenöl, Kapern, dalmatinische Kräuter','Dalmatinisches Olivenöl, Inćuni (raumtemperaturstabile Konserve), Kapern, Feigen, Kräuter',34.90,59.90,2,'NAV-ADRIA'],
- ['medimurje','Međimurje · Gold des Nordens','Kürbiskernöl, geröstete Kürbiskerne, Fruchtaufstrich','Kürbiskernöl, Kürbiskerne, Honig, regionaltypischer Fruchtaufstrich, haltbares Gebäck',29.90,49.90,3,'NAV-BALKAN'],
- ['pag','Pag · Salz & Salbei','Paška sol, Salbeihonig, Kräuter','Paška sol, Salbeihonig, Kräuter, Paški sir (nur nach Versandfreigabe), weitere Insel-Spezialität',34.90,59.90,4,'NAV-ADRIA'],
- ['kvarner','Kvarner · Inseln & Berge','Kastanienhonig, Feigenkonfekt, Kräuter','Kastanienhonig, Feigenkonfekt, Olivenöl, regionale Kräuter, Fruchtaufstrich',29.90,49.90,5,'NAV-ADRIA'],
- ['bosna','Bosna · Pflaumen & Vorratsküche','Bosnischer Apfelpekmez, getrocknete Pflaumen, Bergkräuter','Apfelpekmez, Pflaumenbestilj, getrocknete Pflaumen, Bergkräuter, traditionelles haltbares Gebäck',29.90,49.90,6,'NAV-BALKAN'],
- ['hercegovina','Hercegovina · Feigen & Granatapfel','Getrocknete Feigen, Granatapfelzubereitung, Kräuter','Herzegowinische Trockenfeigen, Granatapfelzubereitung, Feigenkonfitüre, Honig, mediterrane Kräuter',34.90,54.90,7,'NAV-ADRIA'],
- ['montenegro','Crna Gora · Küste & Berge','Olivenöl aus der Region Bar, Oliven, getrocknete Feigen','Olivenöl aus der Region Bar, Tafeloliven, getrocknete Feigen, Honig, Bergkräuter',34.90,59.90,8,'NAV-ADRIA'],
- ['vojvodina','Vojvodina · Paprika & Obstgarten','Paprikagewürz, traditionelle Trockennudeln, Pflaumenaufstrich','Paprikagewürz, traditionelle Trockennudeln, Pflaumenaufstrich, eingelegtes Gemüse, Sauerkirschkonfitüre',29.90,49.90,9,'NAV-BALKAN'],
+ ['istra','Istra · Olivenöl & Trüffel','Olivenöl, Fuži, Trüffelsalz','Olivenöl, Fuži, Trüffelcreme mit echtem Trüffel, getrocknete Steinpilze, Kräutersalz',39.90,69.90,1,'NAV-ADRIA'],
+ ['dalmacija','Dalmacija · Sonne & Meer','Olivenöl, Kapern, Kräuter','Olivenöl, Inćuni (raumtemperaturstabile Konserve), Kapern, Feigen, Kräuter',34.90,59.90,2,'NAV-ADRIA'],
+ ['medimurje','Međimurje · Gold des Nordens','Kürbiskernöl, geröstete Kürbiskerne, Fruchtaufstrich','Kürbiskernöl, Kürbiskerne, Honig, Fruchtaufstrich, haltbares Gebäck',29.90,49.90,3,'NAV-BALKAN'],
+ ['pag','Pag · Salz & Salbei','Meersalz, Salbeihonig, Kräuter','Meersalz, Salbeihonig, Kräuter, gereifter Hartkäse (nur nach Produkt- und Versandfreigabe), weitere passende Spezialität',34.90,59.90,4,'NAV-ADRIA'],
+ ['kvarner','Kvarner · Inseln & Berge','Kastanienhonig, Feigenkonfekt, Kräuter','Kastanienhonig, Feigenkonfekt, Olivenöl, Kräuter, Fruchtaufstrich',29.90,49.90,5,'NAV-ADRIA'],
+ ['bosna','Bosna · Pflaumen & Vorratsküche','Apfelpekmez, getrocknete Pflaumen, Bergkräuter','Apfelpekmez, Pflaumenbestilj, getrocknete Pflaumen, Bergkräuter, traditionelles haltbares Gebäck',29.90,49.90,6,'NAV-BALKAN'],
+ ['hercegovina','Hercegovina · Feigen & Granatapfel','Getrocknete Feigen, Granatapfelzubereitung, Kräuter','Trockenfeigen, Granatapfelzubereitung, Feigenkonfitüre, Honig, mediterrane Kräuter',34.90,54.90,7,'NAV-ADRIA'],
+ ['montenegro','Crna Gora · Küste & Berge','Olivenöl, Oliven, getrocknete Feigen','Olivenöl, Tafeloliven, getrocknete Feigen, Honig, Bergkräuter',34.90,59.90,8,'NAV-ADRIA'],
+ ['vojvodina','Vojvodina · Paprika & Obstgarten','Paprikagewürz, Trockennudeln, Pflaumenaufstrich','Paprikagewürz, Trockennudeln, Pflaumenaufstrich, eingelegtes Gemüse, Sauerkirschkonfitüre',29.90,49.90,9,'NAV-BALKAN'],
  ['kosovo','Kosovo · Paprika & Bergkräuter','Ajvar, eingelegte Paprika, Bergkräuter','Ajvar, eingelegte Paprika, Gewürzpaprika, Bergkräuter, Beerenkonfitüre',29.90,49.90,10,'NAV-BALKAN']
 ];
 for(const [slug,title,small,large,smallPrice,largePrice,picture,room] of regionalBoxes){
  const id='regionalbox-'+slug;
  if(root.catalog.some(p=>p[0]===id))continue;
- root.catalog.push([id,'Genussbox '+title,'Geschenke','Entdeckerbox / Genussbox',smallPrice,(picture>8?'demo-'+id:'giftroom-'+picture),'Regionale Geschenkidee','Entdeckerbox: '+small+'. Genussbox: '+large+'. Unverbindliche Zusammenstellung; Bestandteile, Herkunft und ungekühlte Versandfähigkeit sind noch nicht geprüft.']);
+ root.catalog.push([id,'Genussbox · inspiriert von '+title,'Geschenke','Entdeckerbox / Genussbox',smallPrice,(picture>8?'demo-'+id:'giftroom-'+picture),'Regionale Geschenkidee','Entdeckerbox: '+small+'. Genussbox: '+large+'. Unverbindliche Zusammenstellung; Bestandteile, Herkunft und ungekühlte Versandfähigkeit sind noch nicht geprüft.']);
  sizes.defaults[id]='entdecker';
  sizes.products[id]=[
   {id:'entdecker',pack:'Entdeckerbox · 3 Produkte',amount:null,unit:null,priceCents:Math.round(smallPrice*100),label:'Entdeckerbox · 3 Produkte',includedDescription:small},
   {id:'genuss',pack:'Genussbox · 5 Produkte',amount:null,unit:null,priceCents:Math.round(largePrice*100),label:'Genussbox · 5 Produkte',includedDescription:large}
  ];
  root.connections[id]={
-  regions:[],text:'Regionale Geschenkidee. Keine bestätigte Herkunft oder tatsächliche Zusammenstellung.',
+  regions:[],text:'Kulinarische Themenbox: Der Regionsname bezeichnet die geschmackliche Inspiration, nicht die Herkunft der Produkte. Derselbe Artikel kann in mehreren Boxen enthalten sein.',
   kind:'Kuratiertes Geschenkset',type:'modern',giftRooms:[room],relatedRegions:[],sources:[],
   boxItems:[small,large],
-  shopDescription:'Entdeckerbox: '+small+'. Genussbox: '+large+'. Beispielkonzept; die konkrete Zusammensetzung wird vor einem Verkauf festgelegt.',
+  shopDescription:'Kulinarisch inspiriert von '+title.split(' · ')[0]+'. Entdeckerbox: '+small+'. Genussbox: '+large+'. Die Region ist keine Herkunftsangabe. Tatsächliche Produktherkunft wird ausschließlich beim einzelnen Artikel nach Prüfung ausgewiesen.',
   commercialOrigin:{ingredients:null,processing:null,status:'Noch keine Lieferanten- und Herkunftsfreigabe'},
   preservation:{format:'Nur ungekühlt versandfähige Artikel',freshProduct:false,verifiedShelfLife:null,note:'Alle Bestandteile müssen vor Verkauf einzeln freigegeben werden.'},
   pricePresentation:{currency:'EUR',taxIncluded:true,basis:'Unverbindlicher Entwurfspreis'},
   review:{date:'2026-11-15',scope:'Gestaltungsentwurf',exclusiveOriginClaim:false,supplierOriginVerified:false},
-  culinaryRange:{label:'Regionale Inspiration',summary:'Kulinarisch inspirierte Kollektion; keine verifizierte Lieferherkunft.',basis:'provisional',exclusive:false},
+  culinaryRange:{label:'Kulinarische Inspiration – keine Herkunftsangabe',summary:'Produkte werden wegen ihres Geschmacks und ihrer Verwendung zusammengestellt. Ein und derselbe Artikel kann in verschiedenen Regionsboxen vorkommen. Die tatsächliche Herkunft wird unabhängig vom Boxnamen pro Produkt geprüft.',basis:'provisional',exclusive:false},
   launchSelection:{included:true,focus:['NAV-ADRIA','NAV-BALKAN'],reason:'Regionale Geschenkbox in zwei Größen',reviewed:'2026-11-15'}
  };
 }
+window.CULINARIA_BOX_ORIGIN_RULE='Box-Region ist ausschließlich kulinarische Inspiration; Herkunft je Artikel unabhängig und nur nach Nachweis.';
 window.CULINARIA_REGIONAL_BOXES=Object.freeze(regionalBoxes.map(r=>'regionalbox-'+r[0]));
 })();
