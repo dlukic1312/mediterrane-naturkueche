@@ -14,13 +14,9 @@
       const i=Number(key.split('-')[1]);
       const slugs=['slavonija','istra','dalmacija','medimurje','pag','kvarner','bosna','hercegovina','montenegro','vojvodina','kosovo'];
       if(!Number.isInteger(i)||i<0||i>=slugs.length)return null;
-      /* First image: individual, illustrative artwork. Second image: existing fallback
-         until the WebP asset has been uploaded to the repository. */
-      const image="url('./assets/regional-boxes/box-"+slugs[i]+".webp?v=editorial-hq-8')";
-      const fallback=i===9?"url('./assets/spice-blends.jpg')":i===10?"url('./assets/shared-specialties.jpg')":"url('./assets/regional-gifts.jpg')";
-      const fallbackSize=i>=9?(i===9?'300% 300%':'200% 200%'):'300% 300%';
-      const fallbackPosition=i===9?'0% 0%':i===10?'100% 0%':(i%3*50)+'% '+(Math.floor(i/3)*50)+'%';
-      return 'background-image:'+image+','+fallback+';background-size:cover,'+fallbackSize+';background-position:center,'+fallbackPosition+';background-repeat:no-repeat';
+      /* Each regional box has one opaque, individually uploaded WebP image.
+         No layered fallback: multiple image layers caused visible duplicate motifs. */
+      return "background-image:url('./assets/regional-boxes/box-"+slugs[i]+".webp?v=single-image-9');background-size:cover;background-position:center;background-repeat:no-repeat";
     }
     return null;
   };
