@@ -12,6 +12,8 @@
     }
     if(key.startsWith('giftroom-')){
       const i=Number(key.split('-')[1]);
+      if(i===9)return 'background-image:url(./assets/spice-blends.jpg);background-size:300% 300%;background-position:0% 0%';
+      if(i===10)return 'background-image:url(./assets/shared-specialties.jpg);background-size:200% 200%;background-position:100% 0%';
       return 'background-image:url(./assets/regional-gifts.jpg);background-size:300% 300%;background-position:'+(i%3*50)+'% '+(Math.floor(i/3)*50)+'%';
     }
     return null;
