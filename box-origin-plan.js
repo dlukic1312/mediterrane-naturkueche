@@ -1,4 +1,4 @@
-/* Sourcing-Hypothesen für Geschenkboxen; keine Lieferanten-/Herkunftsnachweise.
+/* Fiktiver Shop-Prototyp mit festen Muster-Herkünften, keine Lieferanten-/Herkunftsnachweise.
  * Regionsspezifische Leitprodukte: Rohstoffe UND Verarbeitung müssen aus genau
  * der genannten Region kommen. Ohne Beleg keine Herkunftsbehauptung/Verkaufsfreigabe.
  * Allgemeine Artikel: genau eine wahrscheinliche Herkunft als Ausgangspunkt der Suche;
@@ -191,17 +191,17 @@ for(const [id,[region,kind]] of Object.entries(hypotheses)){
  if(!allProducts.has(id))throw Error('Herkunftsplanung verweist auf fehlenden Artikel: '+id);
  const exclusive=kind==='regional-exklusiv';
  entries[id]=Object.freeze({
-   likelyRegion:region,regionalExclusive:exclusive,originStatus:'unverified',
-   rawMaterials:exclusive?'ausschließlich '+region:'wahrscheinlich '+region,
-   processing:exclusive?'ausschließlich '+region:'noch nicht bestimmt',
+   likelyRegion:region,displayRegion:region,regionalExclusive:exclusive,originStatus:'prototype',
+   rawMaterials:exclusive?'ausschließlich '+region:'in der Musterwelt '+region,
+   processing:exclusive?'ausschließlich '+region:'noch nicht festgelegt',
    sourcingRequirement:exclusive?
     'Nur Rohstoffe aus '+region+' und Verarbeitung in '+region+' zulässig.': 
     'Allgemeines Produkt; mehrfach verwendbar. '+region+' ist derzeit nur vermutete Bezugsregion.',
-   evidence:'Beschaffungsannahme, kein geprüfter Lieferanten- oder Ursprungsnachweis'
+   evidence:'Feste Herkunft der Musterwelt; vor Verkaufsstart mittels Lieferanten- und Herkunftsdokumenten zu ersetzen'
  });
  const connection=data.connections[id];
  if(connection)connection.originPlan=entries[id];
 }
 window.CULINARIA_ORIGIN_PLAN=Object.freeze(entries);
-window.CULINARIA_ORIGIN_RULE=Object.freeze({verifiedOnlyForFactualClaims:true,regionalSpecificExclusive:true,sharedProductsAllowed:true});
+window.CULINARIA_ORIGIN_RULE=Object.freeze({mode:'prototype',productionRequiresVerification:true,regionalSpecificExclusive:true,sharedProductsAllowed:true});
 })();
