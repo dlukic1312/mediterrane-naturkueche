@@ -1,0 +1,17 @@
+(()=>{
+'use strict';
+const data=window.MEDITERRANEAN,sizes=window.PANTRY_SIZES;
+const money=cents=>(cents/100).toLocaleString(window.MEDITERRANEAN_I18N?.locale||'de-DE',{style:'currency',currency:'EUR'});
+const options=id=>sizes.products[id]||[];
+const get=(id,variant=sizes.defaults[id])=>options(id).find(v=>v.id===variant)||options(id).find(v=>v.id===sizes.defaults[id]);
+const sku=(id,v=get(id))=>id+':'+v.id;
+function resolve(key){const [id,variant,...rest]=String(key).split(':');const product=data.catalog.find(p=>p[0]===id);if(!product||rest.length)return null;const v=variant?options(id).find(v=>v.id===variant):get(id);return v?{key:sku(id,v),product,variant:v}:null}
+function unit(v){if(v.drainedWeightG)return money(v.priceCents*1000/v.drainedWeightG)+' / kg (Abtropfgewicht)';return v.amount?money(v.priceCents*1000/v.amount)+' / '+(v.unit==='ml'?'l':'kg'):''}
+function pack(v){return v.pack+(v.drainedWeightG?' · '+v.drainedWeightG+' g Abtropfgewicht':'')}
+function minimum(id){return options(id).reduce((a,b)=>a.priceCents<=b.priceCents?a:b)}
+function range(id){const vs=options(id);if(vs[0].amount)return vs[0].pack+' – '+vs.at(-1).pack;return vs.map(v=>v.label).join(' / ')}
+function mount(host,p){const vs=options(p[0]);let selected=get(p[0]);const field=document.createElement('fieldset');field.className='size-picker';const legend=document.createElement('legend');legend.textContent=p[2]==='Geschenke'?'Boxgröße wählen':'Größe wählen';const choices=document.createElement('div');choices.className='size-options';const price=document.createElement('p');price.className='variant-price';price.setAttribute('aria-live','polite');price.setAttribute('aria-atomic','true');const contents=document.createElement('div');contents.className='variant-contents';field.append(legend,choices);host.append(field,price,contents);
+ function paint(){for(const b of choices.children)b.setAttribute('aria-pressed',String(b.dataset.variant===selected.id));price.replaceChildren();const amount=document.createElement('strong');amount.textContent=money(selected.priceCents);const detail=document.createElement('span');detail.textContent=pack(selected);const base=document.createElement('small');base.className='unit-price';base.textContent=unit(selected);price.append(amount,detail,base);contents.replaceChildren();if(selected.boxItems){const heading=document.createElement('h3');heading.textContent='In deiner Box';const list=document.createElement('ul');list.className='box-items';for(const item of selected.boxItems){const q=data.catalog.find(p=>p[0]===item.product),v=get(item.product,item.variant),li=document.createElement('li'),button=document.createElement('button');button.type='button';button.dataset.home=q[0];button.textContent=item.quantity+' × '+q[1]+' · '+v.pack;li.append(button);list.append(li)}const note=document.createElement('p');note.className='dialog-note';note.textContent='Inklusive Geschenkverpackung und Zusammenstellung.';contents.append(heading,list,note)}}
+ for(const v of vs){const button=document.createElement('button');button.type='button';button.dataset.variant=v.id;button.className='size-option';button.textContent=(v.label||v.pack)+' · '+money(v.priceCents);button.addEventListener('click',()=>{selected=v;paint()});choices.append(button)}paint();return {sku:()=>sku(p[0],selected),selected:()=>selected};}
+window.pantrySizes={options,get,sku,resolve,unit,pack,minimum,range,money,mount};
+})();

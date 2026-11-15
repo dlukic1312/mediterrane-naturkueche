@@ -938,6 +938,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "truffle": {
@@ -1038,6 +1048,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "lemonoil": {
@@ -1083,6 +1103,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Moderne Zusammenstellung aus zur Auswahl passenden Zutaten; kein behaupteter traditioneller Ursprung.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "chilioil": {
@@ -1128,6 +1158,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Moderne Zusammenstellung aus zur Auswahl passenden Zutaten; kein behaupteter traditioneller Ursprung.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "fleur": {
@@ -1193,6 +1233,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "sea": {
@@ -1313,6 +1363,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "trufflesalt": {
@@ -1403,6 +1463,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "herbsalt": {
@@ -1457,13 +1527,24 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "black": {
       "regions": [
-        "ESP"
+        "ESP",
+        "HRV"
       ],
-      "text": "Schwarzer Knoblauch ist keine ursprünglich mediterrane Spezialität. Er wird mit ostasiatischen Verarbeitungstraditionen verbunden; heute ist seine Herstellung beispielsweise in Spanien dokumentiert. Das ist ein heutiger Produktionsbezug, keine traditionelle spanische Herkunft.",
+      "text": "Schwarzer Knoblauch wird auch in Kroatien hergestellt. Diese moderne Verarbeitung ist nicht ausschließlich spanisch und wird hier als zeitgenössische Feinkost geführt, nicht als alte regionale Tradition.",
       "source": "https://en.wikipedia.org/wiki/Black_garlic",
       "kind": "Heutige Verarbeitung",
       "relatedRegions": [],
@@ -1477,6 +1558,10 @@ window.MEDITERRANEAN = {
         {
           "title": "Hintergrund zur Spezialität",
           "url": "https://en.wikipedia.org/wiki/Black_garlic"
+        },
+        {
+          "title": "OPG Kralj · Herstellung von schwarzem Knoblauch in Kroatien",
+          "url": "https://delikro.at/hr/produzent-detail/opg-kralj"
         }
       ],
       "relatedLabel": "Verwandte regionale Varianten",
@@ -1492,14 +1577,14 @@ window.MEDITERRANEAN = {
         "note": "MHD und Lagerbedingungen werden erst mit der endgültigen Produktspezifikation bestätigt."
       },
       "review": {
-        "date": "2026-11-14",
+        "date": "2026-11-15",
         "scope": "Kulinarische Verbreitung, regionale Produktfamilie oder ausdrücklich benannter Zutatenbezug",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
       },
       "culinaryRange": {
         "label": "Heutiger Produktionsbezug",
-        "summary": "Mit ostasiatischen Verarbeitungstraditionen verbunden; heutige Herstellung ist auch in Spanien belegt. Die Karte zeigt dieses Produktionsbeispiel.",
+        "summary": "Schwarzer Knoblauch wird auch in Kroatien hergestellt. Diese moderne Verarbeitung ist nicht ausschließlich spanisch und wird hier als zeitgenössische Feinkost geführt, nicht als alte regionale Tradition.",
         "basis": "contemporary",
         "exclusive": false
       },
@@ -1508,6 +1593,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "fig": {
@@ -1595,6 +1690,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "ajvar": {
@@ -1651,6 +1756,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "capers": {
@@ -1741,6 +1856,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "sage": {
@@ -1801,6 +1926,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "oregano": {
@@ -1878,6 +2013,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "figjam": {
@@ -1950,6 +2095,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "plum": {
@@ -2009,6 +2164,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "figbread": {
@@ -2093,6 +2258,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "mustard": {
@@ -2138,6 +2313,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Moderne Zusammenstellung aus zur Auswahl passenden Zutaten; kein behaupteter traditioneller Ursprung.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "tapenade": {
@@ -2209,6 +2394,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "gift1": {
@@ -2249,11 +2444,39 @@ window.MEDITERRANEAN = {
         "basis": "modern",
         "exclusive": false
       },
-      "shopDescription": "Olivenöl 500 ml, Oregano 20 g, Oliven-Tapenade 140 g und Meersalz 250 g.",
+      "shopDescription": "Eine abgestimmte Auswahl haltbarer Spezialitäten. Wähle die passende Boxgröße und entdecke den genauen Inhalt.",
       "pricePresentation": {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "boxItems": [
+        {
+          "product": "oil",
+          "quantity": 1
+        },
+        {
+          "product": "oregano",
+          "quantity": 1
+        },
+        {
+          "product": "olivepaste",
+          "quantity": 1
+        },
+        {
+          "product": "sea",
+          "quantity": 1
+        }
+      ],
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Moderne Zusammenstellung aus zur Auswahl passenden Zutaten; kein behaupteter traditioneller Ursprung.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "gift2": {
@@ -2294,11 +2517,35 @@ window.MEDITERRANEAN = {
         "basis": "modern",
         "exclusive": false
       },
-      "shopDescription": "Trüffelöl 100 ml, schwarzer Knoblauch 60 g und Feigensenf 140 g.",
+      "shopDescription": "Eine abgestimmte Auswahl haltbarer Spezialitäten. Wähle die passende Boxgröße und entdecke den genauen Inhalt.",
       "pricePresentation": {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "boxItems": [
+        {
+          "product": "truffle",
+          "quantity": 1
+        },
+        {
+          "product": "black",
+          "quantity": 1
+        },
+        {
+          "product": "mustard",
+          "quantity": 1
+        }
+      ],
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Moderne Zusammenstellung aus zur Auswahl passenden Zutaten; kein behaupteter traditioneller Ursprung.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "caponata": {
@@ -2354,6 +2601,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "romesco": {
@@ -2419,6 +2676,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "harissa": {
@@ -2493,6 +2760,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "saltlemons": {
@@ -2554,6 +2831,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "olivepaste": {
@@ -2645,6 +2932,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "acuka": {
@@ -2696,6 +2993,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "zaatar": {
@@ -2747,6 +3054,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "muhammara": {
@@ -2802,6 +3119,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "dates": {
@@ -2965,6 +3292,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "pinchos": {
@@ -3017,6 +3354,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "provence": {
@@ -3069,6 +3416,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "aglio": {
@@ -3157,6 +3514,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Italienische Gewürzkomposition ohne bisher belegte passende Liefer- oder Rezepturvariante an der östlichen Adria; für die erste Auswahl zurückgestellt.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "sharena": {
@@ -3209,6 +3576,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "aegeanherbs": {
@@ -3265,6 +3642,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Oregano und Thymian sind auch an der östlichen Adria dokumentierte Kräuter; die allgemein benannte Mischung bleibt als heutige Kräuterkomposition, ohne behauptete ausschließlich ägäische Herkunft.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "raselhanout": {
@@ -3321,6 +3708,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "dukkah": {
@@ -3373,6 +3770,16 @@ window.MEDITERRANEAN = {
         "currency": "EUR",
         "taxIncluded": true,
         "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "savory": {
@@ -3435,6 +3842,16 @@ window.MEDITERRANEAN = {
       "wildCollection": {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "thyme": {
@@ -3503,6 +3920,16 @@ window.MEDITERRANEAN = {
       "wildCollection": {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "rosemary": {
@@ -3567,6 +3994,16 @@ window.MEDITERRANEAN = {
       "wildCollection": {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "fennelseed": {
@@ -3635,6 +4072,16 @@ window.MEDITERRANEAN = {
       "wildCollection": {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "bay": {
@@ -3697,6 +4144,16 @@ window.MEDITERRANEAN = {
       "wildCollection": {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "rosehipjam": {
@@ -3759,6 +4216,16 @@ window.MEDITERRANEAN = {
       "wildCollection": {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "mint": {
@@ -3833,6 +4300,16 @@ window.MEDITERRANEAN = {
       "wildCollection": {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "lemonbalm": {
@@ -3901,6 +4378,16 @@ window.MEDITERRANEAN = {
       "wildCollection": {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "paprikaflakesmild": {
@@ -3961,6 +4448,16 @@ window.MEDITERRANEAN = {
       "wildCollection": {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "paprikaflakeshot": {
@@ -4023,6 +4520,16 @@ window.MEDITERRANEAN = {
       "wildCollection": {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "paprikapowdermild": {
@@ -4109,7 +4616,17 @@ window.MEDITERRANEAN = {
       "culinaryRooms": [
         "NAV-BALKAN",
         "NAV-IBERIA"
-      ]
+      ],
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "paprikapowderhot": {
       "regions": [
@@ -4196,7 +4713,17 @@ window.MEDITERRANEAN = {
         "NAV-BALKAN",
         "NAV-EAST",
         "NAV-AEGEAN"
-      ]
+      ],
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "smokedpaprika": {
       "regions": [
@@ -4266,19 +4793,33 @@ window.MEDITERRANEAN = {
             }
           ]
         }
-      ]
+      ],
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "driedpeppers": {
       "regions": [
         "TR-GAZ"
       ],
       "relatedRegions": [],
-      "text": "Belegt in der Vorratsküche von Gaziantep und im weiteren südöstlichen Mittelmeerzusammenhang. Die Karte zeigt das dokumentierte Beispiel.",
+      "text": "Getrocknete Paprika zum Füllen sind auch auf dem Balkan üblich. Die Produktfamilie ist daher nicht auf Gaziantep begrenzt. Regionale Füllungen und Sorten können abweichen.",
       "source": "https://www.ktb.gov.tr/EN-98904/stuffed-dried-eggplant---red-pepper-with-sour-sauce.html",
       "sources": [
         {
           "title": "Türkisches Kulturministerium · gefülltes Trockengemüse aus Gaziantep",
           "url": "https://www.ktb.gov.tr/EN-98904/stuffed-dried-eggplant---red-pepper-with-sour-sauce.html"
+        },
+        {
+          "title": "Gastronomische Karte Serbiens · Getrocknete Paprika",
+          "url": "https://www.publicart-publicspace.org/files/files/gastronomska_mapa_%20Srbije.pdf"
         }
       ],
       "kind": "Regionale Vorratsküche",
@@ -4297,14 +4838,14 @@ window.MEDITERRANEAN = {
         "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
       },
       "review": {
-        "date": "2026-11-14",
+        "date": "2026-11-15",
         "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
       },
       "culinaryRange": {
         "label": "Kulinarische Verbreitung",
-        "summary": "Belegt in der Vorratsküche von Gaziantep und im weiteren südöstlichen Mittelmeerzusammenhang. Die Karte zeigt das dokumentierte Beispiel.",
+        "summary": "Getrocknete Paprika zum Füllen sind auch auf dem Balkan üblich. Die Produktfamilie ist daher nicht auf Gaziantep begrenzt. Regionale Füllungen und Sorten können abweichen.",
         "basis": "shared",
         "exclusive": false
       },
@@ -4322,7 +4863,21 @@ window.MEDITERRANEAN = {
       "wildCollection": {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
-      }
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      },
+      "distributionRooms": [
+        "NAV-BALKAN",
+        "NAV-EAST"
+      ]
     },
     "driedaubergine": {
       "regions": [
@@ -4378,6 +4933,16 @@ window.MEDITERRANEAN = {
       "wildCollection": {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "driedtomatoes": {
@@ -4463,7 +5028,17 @@ window.MEDITERRANEAN = {
       "culinaryRooms": [
         "NAV-CENTRAL",
         "NAV-ADRIA"
-      ]
+      ],
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "prunes": {
       "regions": [
@@ -4519,14 +5094,25 @@ window.MEDITERRANEAN = {
       "wildCollection": {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "carob": {
       "regions": [
-        "CYP"
+        "CYP",
+        "HR-DAL"
       ],
       "relatedRegions": [],
-      "text": "Johannisbrot ist besonders mit zyprischen Anbau- und Verarbeitungstraditionen verbunden und kommt auch in weiteren Mittelmeerregionen vor.",
+      "text": "Johannisbrotpulver gehört auch zur dalmatinischen Vorratsküche und wird bei kroatischen Anbietern als Rogač mljeveni geführt. Der bisher alleinige Zypern-Bezug war zu eng.",
       "source": "https://www.visitcyprus.com/discover-cyprus/food-drink/local-produce/",
       "sources": [
         {
@@ -4536,6 +5122,10 @@ window.MEDITERRANEAN = {
         {
           "title": "Zypern · getrocknete Johannisbrotschoten und Pulver",
           "url": "https://www.visitncy.com/discover/carob-trees/"
+        },
+        {
+          "title": "Nadalina · Rogač mljeveni",
+          "url": "https://www.nadalina.hr/zacini/?product=rogac-mljeveni-200g"
         }
       ],
       "kind": "Regionale Vorratsküche",
@@ -4554,20 +5144,21 @@ window.MEDITERRANEAN = {
         "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
       },
       "review": {
-        "date": "2026-11-14",
+        "date": "2026-11-15",
         "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
       },
       "culinaryRange": {
         "label": "Kulinarische Verbreitung",
-        "summary": "Johannisbrot ist besonders mit zyprischen Anbau- und Verarbeitungstraditionen verbunden und kommt auch in weiteren Mittelmeerregionen vor.",
+        "summary": "Johannisbrotpulver gehört auch zur dalmatinischen Vorratsküche und wird bei kroatischen Anbietern als Rogač mljeveni geführt. Der bisher alleinige Zypern-Bezug war zu eng.",
         "basis": "shared",
         "exclusive": false
       },
       "availability": "planned",
       "mapRegions": [
-        "CYP"
+        "CYP",
+        "HR-DAL"
       ],
       "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
       "shopDescription": "Fein gemahlenes Johannisbrot mit mild-süßlichem Aroma für Gebäck, Desserts und warme Getränke.",
@@ -4579,6 +5170,16 @@ window.MEDITERRANEAN = {
       "wildCollection": {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "cruschi": {
@@ -4652,7 +5253,17 @@ window.MEDITERRANEAN = {
       ],
       "culinaryRooms": [
         "NAV-CENTRAL"
-      ]
+      ],
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "nora": {
       "regions": [
@@ -4722,7 +5333,17 @@ window.MEDITERRANEAN = {
             }
           ]
         }
-      ]
+      ],
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "sumac": {
       "regions": [
@@ -4784,6 +5405,16 @@ window.MEDITERRANEAN = {
       "wildCollection": {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "cumin": {
@@ -4862,6 +5493,16 @@ window.MEDITERRANEAN = {
       "wildCollection": {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "coriander": {
@@ -4930,19 +5571,34 @@ window.MEDITERRANEAN = {
       "wildCollection": {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "nigella": {
       "regions": [
-        "TUR"
+        "TUR",
+        "BIH-BOS"
       ],
       "relatedRegions": [],
-      "text": "Als Brot- und Küchengewürz unter anderem in der Türkei dokumentiert. Gemeint ist Nigella sativa, nicht gewöhnlicher Kümmel oder Kreuzkümmel.",
+      "text": "Schwarzkümmel (Nigella sativa), regional Čurekot genannt, wird auch in der Balkanküche auf Gebäck verwendet. Er ist weder Kümmel noch Kreuzkümmel.",
       "source": "https://www.tooistanbul.com/en/spices/",
       "sources": [
         {
           "title": "Istanbul · Schwarzkümmel als Brotgewürz",
           "url": "https://www.tooistanbul.com/en/spices/"
+        },
+        {
+          "title": "TRT Balkan · Čurekot auf regionalem Gebäck",
+          "url": "https://www.trtbalkan.com/bhsc/article/12556632"
         }
       ],
       "kind": "Kräuter & Gewürze",
@@ -4961,20 +5617,21 @@ window.MEDITERRANEAN = {
         "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
       },
       "review": {
-        "date": "2026-11-14",
+        "date": "2026-11-15",
         "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
       },
       "culinaryRange": {
         "label": "Kulinarische Verbreitung",
-        "summary": "Als Brot- und Küchengewürz unter anderem in der Türkei dokumentiert. Gemeint ist Nigella sativa, nicht gewöhnlicher Kümmel oder Kreuzkümmel.",
+        "summary": "Schwarzkümmel (Nigella sativa), regional Čurekot genannt, wird auch in der Balkanküche auf Gebäck verwendet. Er ist weder Kümmel noch Kreuzkümmel.",
         "basis": "shared",
         "exclusive": false
       },
       "availability": "planned",
       "mapRegions": [
-        "TUR"
+        "TUR",
+        "BIH-BOS"
       ],
       "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
       "shopDescription": "Schwarzkümmelsamen für Fladenbrot, Gebäck, Salate und Gemüse.",
@@ -4986,15 +5643,26 @@ window.MEDITERRANEAN = {
       "wildCollection": {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "saffron": {
       "regions": [
         "ESP",
-        "GRC"
+        "GRC",
+        "ITA"
       ],
       "relatedRegions": [],
-      "text": "Dokumentierte Anbautraditionen unter anderem in La Mancha und Kozani. Geschützte Herkunftsbezeichnungen werden für das Shopprodukt nicht ohne Nachweise verwendet.",
+      "text": "Safran ist unter anderem in Spanien, Griechenland und in den Marken an der italienischen Adriaseite dokumentiert. Der Erzeuger in Recanati belegt den Adria-Bezug; das ist kein Nachweis der Lieferherkunft unseres Artikels.",
       "source": "https://www.spain.info/en/discover-spain/black-truffle-saffron/",
       "sources": [
         {
@@ -5004,6 +5672,10 @@ window.MEDITERRANEAN = {
         {
           "title": "Griechisches Landwirtschaftsportal · Kräuter und Gewürze",
           "url": "https://portal.greekfarms.gov.gr/en/herbs-and-spices-aromas-of-the-mediterranean/"
+        },
+        {
+          "title": "Zafferano Volpini · Safranerzeuger in Recanati, Marken",
+          "url": "https://www.zafferanovolpini.it/chi-siamo/"
         }
       ],
       "kind": "Kräuter & Gewürze",
@@ -5022,21 +5694,22 @@ window.MEDITERRANEAN = {
         "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
       },
       "review": {
-        "date": "2026-11-14",
+        "date": "2026-11-15",
         "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
       },
       "culinaryRange": {
         "label": "Kulinarische Verbreitung",
-        "summary": "Dokumentierte Anbautraditionen unter anderem in La Mancha und Kozani. Geschützte Herkunftsbezeichnungen werden für das Shopprodukt nicht ohne Nachweise verwendet.",
+        "summary": "Safran ist unter anderem in Spanien, Griechenland und in den Marken an der italienischen Adriaseite dokumentiert. Der Erzeuger in Recanati belegt den Adria-Bezug; das ist kein Nachweis der Lieferherkunft unseres Artikels.",
         "basis": "shared",
         "exclusive": false
       },
       "availability": "planned",
       "mapRegions": [
         "ESP",
-        "GRC"
+        "GRC",
+        "ITA"
       ],
       "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
       "shopDescription": "Wenige Safranfäden aromatisieren Reis, Brühen und feine Desserts.",
@@ -5048,6 +5721,16 @@ window.MEDITERRANEAN = {
       "wildCollection": {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Bleibt aufgrund des belegten Anbaus in Kozani auf dem griechischen Festland im Balkan-Sortiment; italienische Belege sind ergänzend, kein Beleg für östliche Adria.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "anise": {
@@ -5104,6 +5787,16 @@ window.MEDITERRANEAN = {
       "wildCollection": {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "baharat": {
@@ -5166,6 +5859,16 @@ window.MEDITERRANEAN = {
       "wildCollection": {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "tabil": {
@@ -5228,6 +5931,16 @@ window.MEDITERRANEAN = {
       "wildCollection": {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "mastic": {
@@ -5298,14 +6011,25 @@ window.MEDITERRANEAN = {
             }
           ]
         }
-      ]
+      ],
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "caraway": {
       "regions": [
-        "TUN"
+        "TUN",
+        "HRV"
       ],
       "relatedRegions": [],
-      "text": "Kümmel, Carum carvi, ist unter anderem Bestandteil tunesischer Tabil-Rezepturen. Nicht mit Kreuzkümmel verwechseln; keine ausschließliche Verbreitung in Tunesien.",
+      "text": "Kümmel (Carum carvi) wird auch im mitteleuropäisch geprägten Balkanraum verwendet, etwa für Brot und Kohlgerichte. Er ist von Kreuzkümmel (Cuminum cyminum) und Schwarzkümmel (Nigella sativa) zu unterscheiden.",
       "source": "https://www.epicurious.com/recipes/food/views/tabil-385956",
       "sources": [
         {
@@ -5315,6 +6039,14 @@ window.MEDITERRANEAN = {
         {
           "title": "Tabil aus dem Medjerda-Tal · Produktbeschreibung",
           "url": "https://www.rogerscollection.us/wp-content/uploads/2023/05/Organic-Tunisian-Tabil-Spice-Blend-Sell-Sheet.pdf"
+        },
+        {
+          "title": "Hrvatska enciklopedija · Kim / Carum carvi",
+          "url": "https://www.enciklopedija.hr/clanak/kim"
+        },
+        {
+          "title": "Šafram · Kim im kroatischen Gewürzsortiment",
+          "url": "https://webshop.pert.hr/brands/safram/"
         }
       ],
       "kind": "Kräuter & Gewürze",
@@ -5333,20 +6065,21 @@ window.MEDITERRANEAN = {
         "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
       },
       "review": {
-        "date": "2026-11-14",
+        "date": "2026-11-15",
         "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
       },
       "culinaryRange": {
         "label": "Kulinarische Verbreitung",
-        "summary": "Kümmel, Carum carvi, ist unter anderem Bestandteil tunesischer Tabil-Rezepturen. Nicht mit Kreuzkümmel verwechseln; keine ausschließliche Verbreitung in Tunesien.",
+        "summary": "Kümmel (Carum carvi) wird auch im mitteleuropäisch geprägten Balkanraum verwendet, etwa für Brot und Kohlgerichte. Er ist von Kreuzkümmel (Cuminum cyminum) und Schwarzkümmel (Nigella sativa) zu unterscheiden.",
         "basis": "shared",
         "exclusive": false
       },
       "availability": "planned",
       "mapRegions": [
-        "TUN"
+        "TUN",
+        "HRV"
       ],
       "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
       "shopDescription": "Aromatischer Kümmel für Gemüse, Brot und Gewürzmischungen.",
@@ -5358,6 +6091,16 @@ window.MEDITERRANEAN = {
       "wildCollection": {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
       }
     },
     "gift-iberia": {
@@ -5522,7 +6265,7 @@ window.MEDITERRANEAN = {
         "basis": "modern",
         "exclusive": false
       },
-      "shopDescription": "Katalanische Romesco 180 g · Natives Olivenöl extra 500 ml · Pinchos-Gewürz 50 g · Fleur de Sel 100 g.",
+      "shopDescription": "Eine abgestimmte Auswahl haltbarer Spezialitäten. Wähle die passende Boxgröße und entdecke den genauen Inhalt.",
       "pricePresentation": {
         "currency": "EUR",
         "taxIncluded": true,
@@ -5548,7 +6291,17 @@ window.MEDITERRANEAN = {
           "product": "fleur",
           "quantity": 1
         }
-      ]
+      ],
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "gift-liguria": {
       "regions": [],
@@ -5704,7 +6457,7 @@ window.MEDITERRANEAN = {
         "basis": "modern",
         "exclusive": false
       },
-      "shopDescription": "Oliven-Tapenade 140 g · Herbes de Provence 25 g · Natives Olivenöl extra 500 ml.",
+      "shopDescription": "Eine abgestimmte Auswahl haltbarer Spezialitäten. Wähle die passende Boxgröße und entdecke den genauen Inhalt.",
       "pricePresentation": {
         "currency": "EUR",
         "taxIncluded": true,
@@ -5726,7 +6479,17 @@ window.MEDITERRANEAN = {
           "product": "oil",
           "quantity": 1
         }
-      ]
+      ],
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "gift-central": {
       "regions": [],
@@ -5810,7 +6573,7 @@ window.MEDITERRANEAN = {
         "basis": "modern",
         "exclusive": false
       },
-      "shopDescription": "Sizilianische Caponata 200 g · Kapern in Meersalzlake 120 g · Aglio e peperoncino 50 g.",
+      "shopDescription": "Eine abgestimmte Auswahl haltbarer Spezialitäten. Wähle die passende Boxgröße und entdecke den genauen Inhalt.",
       "pricePresentation": {
         "currency": "EUR",
         "taxIncluded": true,
@@ -5832,7 +6595,17 @@ window.MEDITERRANEAN = {
           "product": "aglio",
           "quantity": 1
         }
-      ]
+      ],
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "gift-adria": {
       "regions": [],
@@ -5916,7 +6689,7 @@ window.MEDITERRANEAN = {
         "basis": "modern",
         "exclusive": false
       },
-      "shopDescription": "Meersalz mit dalmatinischen Kräutern 100 g · Feigenbrot mit Walnüssen 150 g · Mediterrane Olivenpaste 140 g.",
+      "shopDescription": "Eine abgestimmte Auswahl haltbarer Spezialitäten. Wähle die passende Boxgröße und entdecke den genauen Inhalt.",
       "pricePresentation": {
         "currency": "EUR",
         "taxIncluded": true,
@@ -5938,7 +6711,17 @@ window.MEDITERRANEAN = {
           "product": "olivepaste",
           "quantity": 1
         }
-      ]
+      ],
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "gift-balkan": {
       "regions": [],
@@ -6006,7 +6789,7 @@ window.MEDITERRANEAN = {
         "basis": "modern",
         "exclusive": false
       },
-      "shopDescription": "Gerösteter Ajvar 350 g · Pflaumenmus 250 g · Šarena sol 100 g · Paprikaflocken · mild 50 g.",
+      "shopDescription": "Eine abgestimmte Auswahl haltbarer Spezialitäten. Wähle die passende Boxgröße und entdecke den genauen Inhalt.",
       "pricePresentation": {
         "currency": "EUR",
         "taxIncluded": true,
@@ -6032,7 +6815,17 @@ window.MEDITERRANEAN = {
           "product": "paprikaflakesmild",
           "quantity": 1
         }
-      ]
+      ],
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "gift-aegean": {
       "regions": [],
@@ -6132,7 +6925,7 @@ window.MEDITERRANEAN = {
         "basis": "modern",
         "exclusive": false
       },
-      "shopDescription": "Mediterrane Olivenpaste 140 g · Oregano & Thymian 25 g · Getrocknete Feigen 250 g.",
+      "shopDescription": "Eine abgestimmte Auswahl haltbarer Spezialitäten. Wähle die passende Boxgröße und entdecke den genauen Inhalt.",
       "pricePresentation": {
         "currency": "EUR",
         "taxIncluded": true,
@@ -6154,7 +6947,17 @@ window.MEDITERRANEAN = {
           "product": "fig",
           "quantity": 1
         }
-      ]
+      ],
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "gift-levant": {
       "regions": [],
@@ -6306,7 +7109,7 @@ window.MEDITERRANEAN = {
         "basis": "modern",
         "exclusive": false
       },
-      "shopDescription": "Levantinisches Za’atar 60 g · Levantinische Muhammara 180 g · Natives Olivenöl extra 500 ml.",
+      "shopDescription": "Eine abgestimmte Auswahl haltbarer Spezialitäten. Wähle die passende Boxgröße und entdecke den genauen Inhalt.",
       "pricePresentation": {
         "currency": "EUR",
         "taxIncluded": true,
@@ -6328,7 +7131,17 @@ window.MEDITERRANEAN = {
           "product": "oil",
           "quantity": 1
         }
-      ]
+      ],
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "gift-maghreb": {
       "regions": [],
@@ -6396,7 +7209,7 @@ window.MEDITERRANEAN = {
         "basis": "modern",
         "exclusive": false
       },
-      "shopDescription": "Harissa 100 g · Salzzitronen 300 g · Ras el Hanout 50 g.",
+      "shopDescription": "Eine abgestimmte Auswahl haltbarer Spezialitäten. Wähle die passende Boxgröße und entdecke den genauen Inhalt.",
       "pricePresentation": {
         "currency": "EUR",
         "taxIncluded": true,
@@ -6418,7 +7231,17 @@ window.MEDITERRANEAN = {
           "product": "raselhanout",
           "quantity": 1
         }
-      ]
+      ],
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "gift-egypt": {
       "regions": [],
@@ -6574,7 +7397,7 @@ window.MEDITERRANEAN = {
         "basis": "modern",
         "exclusive": false
       },
-      "shopDescription": "Dukkah 100 g · Datteln 250 g · Natives Olivenöl extra 500 ml.",
+      "shopDescription": "Eine abgestimmte Auswahl haltbarer Spezialitäten. Wähle die passende Boxgröße und entdecke den genauen Inhalt.",
       "pricePresentation": {
         "currency": "EUR",
         "taxIncluded": true,
@@ -6596,7 +7419,17 @@ window.MEDITERRANEAN = {
           "product": "oil",
           "quantity": 1
         }
-      ]
+      ],
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "elderflowersyrup": {
       "regions": [
@@ -6653,7 +7486,17 @@ window.MEDITERRANEAN = {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
       },
-      "syrupUse": "drink"
+      "syrupUse": "drink",
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "elderberrysyrup": {
       "regions": [
@@ -6727,7 +7570,17 @@ window.MEDITERRANEAN = {
       ],
       "culinaryRooms": [
         "NAV-BALKAN"
-      ]
+      ],
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "rosesyrup": {
       "regions": [
@@ -6796,14 +7649,25 @@ window.MEDITERRANEAN = {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
       },
-      "syrupUse": "drink"
+      "syrupUse": "drink",
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "lemonsyrup": {
       "regions": [
-        "TUN"
+        "TUN",
+        "HR-DAL"
       ],
       "relatedRegions": [],
-      "text": "Zitronensirup ist unter anderem durch die Sfaxer Siruptradition und tunesische Produktangebote dokumentiert. Das ist ein Beispiel seiner mediterranen Verbreitung, keine exklusive tunesische Heimat.",
+      "text": "Zitronensirup ist auch in Kroatien dokumentiert, unter anderem bei Agropošta mit einem Bezug zu Zitronen von Adriainseln. Der Artikel ist nicht auf Nordafrika begrenzt.",
       "source": "https://www.sirotella.tn/la-maison/",
       "sources": [
         {
@@ -6813,6 +7677,10 @@ window.MEDITERRANEAN = {
         {
           "title": "Masmoudi · Zitronensirup",
           "url": "https://masmoudi.tn/products/sirop-citron-25-cl"
+        },
+        {
+          "title": "Agropošta · Zitronen von Adriainseln für Sirup",
+          "url": "https://delikro.at/hr/produzent-detail/agroposta"
         }
       ],
       "kind": "Getränkesirup",
@@ -6831,20 +7699,21 @@ window.MEDITERRANEAN = {
         "note": "Verarbeitung, MHD und Lagerung hängen vom konkreten Lieferprodukt ab; nach dem Öffnen gelten die Angaben auf der Flasche."
       },
       "review": {
-        "date": "2026-11-14",
+        "date": "2026-11-15",
         "scope": "Dokumentierte Sirup- und Fruchtreduktionstraditionen; keine Gesundheitsversprechen, keine vollständige Verbreitungskartierung",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
       },
       "culinaryRange": {
         "label": "Kulinarische Verbreitung",
-        "summary": "Zitronensirup ist unter anderem durch die Sfaxer Siruptradition und tunesische Produktangebote dokumentiert. Das ist ein Beispiel seiner mediterranen Verbreitung, keine exklusive tunesische Heimat.",
+        "summary": "Zitronensirup ist auch in Kroatien dokumentiert, unter anderem bei Agropošta mit einem Bezug zu Zitronen von Adriainseln. Der Artikel ist nicht auf Nordafrika begrenzt.",
         "basis": "shared",
         "exclusive": false
       },
       "availability": "planned",
       "mapRegions": [
-        "TUN"
+        "TUN",
+        "HR-DAL"
       ],
       "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
       "shopDescription": "Fruchtig-säuerlicher Sirup für Limonaden, Schorlen und Desserts.",
@@ -6857,7 +7726,17 @@ window.MEDITERRANEAN = {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
       },
-      "syrupUse": "drink"
+      "syrupUse": "drink",
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "cherrysyrup": {
       "regions": [
@@ -6939,7 +7818,17 @@ window.MEDITERRANEAN = {
         "NAV-ADRIA",
         "NAV-AEGEAN",
         "NAV-BALKAN"
-      ]
+      ],
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "mintsyrup": {
       "regions": [
@@ -7021,7 +7910,17 @@ window.MEDITERRANEAN = {
         "NAV-ADRIA",
         "NAV-AEGEAN",
         "NAV-BALKAN"
-      ]
+      ],
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "almondsyrup": {
       "regions": [
@@ -7082,15 +7981,26 @@ window.MEDITERRANEAN = {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
       },
-      "syrupUse": "drink"
+      "syrupUse": "drink",
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "carobsyrup": {
       "regions": [
         "CYP",
-        "MT-GOZ"
+        "MT-GOZ",
+        "HR-DAL"
       ],
       "relatedRegions": [],
-      "text": "Johannisbrotsirup ist unter anderem auf Zypern und Malta/Gozo dokumentiert. Bezeichnungen wie Haroupomelo oder Ġulepp tal-Ħarrub stehen für lokale Varianten. Nicht mit Bienenhonig gleichsetzen.",
+      "text": "Johannisbrotsirup ist auch unter kroatischen Inselprodukten dokumentiert. Der bisherige Bezug nur auf Zypern und Gozo war zu eng. Gemeint ist die haltbare Fruchtzubereitung, keine bestätigte Lieferherkunft.",
       "source": "https://www.visitcyprus.com/discover-cyprus/food-drink/local-produce/carob-syrup/",
       "sources": [
         {
@@ -7100,6 +8010,10 @@ window.MEDITERRANEAN = {
         {
           "title": "Savina · Johannisbrotsirup aus Gozo",
           "url": "https://www.savina.com.mt/honey/savina-pure-carob-syrup/"
+        },
+        {
+          "title": "Kroatisches Inselprodukt · Sirup od rogača",
+          "url": "https://razvoj.gov.hr/UserDocsImages/Vijesti%20-%20dokumenti/Odluka%20o%20dodjeli%20prava%20uporabe%20oznake%20HOP%202017.pdf"
         }
       ],
       "kind": "Fruchtsüße",
@@ -7118,21 +8032,22 @@ window.MEDITERRANEAN = {
         "note": "Verarbeitung, MHD und Lagerung hängen vom konkreten Lieferprodukt ab; nach dem Öffnen gelten die Angaben auf der Flasche."
       },
       "review": {
-        "date": "2026-11-14",
+        "date": "2026-11-15",
         "scope": "Dokumentierte Sirup- und Fruchtreduktionstraditionen; keine Gesundheitsversprechen, keine vollständige Verbreitungskartierung",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
       },
       "culinaryRange": {
         "label": "Kulinarische Verbreitung",
-        "summary": "Johannisbrotsirup ist unter anderem auf Zypern und Malta/Gozo dokumentiert. Bezeichnungen wie Haroupomelo oder Ġulepp tal-Ħarrub stehen für lokale Varianten. Nicht mit Bienenhonig gleichsetzen.",
+        "summary": "Johannisbrotsirup ist auch unter kroatischen Inselprodukten dokumentiert. Der bisherige Bezug nur auf Zypern und Gozo war zu eng. Gemeint ist die haltbare Fruchtzubereitung, keine bestätigte Lieferherkunft.",
         "basis": "shared",
         "exclusive": false
       },
       "availability": "planned",
       "mapRegions": [
         "CYP",
-        "MT-GOZ"
+        "MT-GOZ",
+        "HR-DAL"
       ],
       "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
       "shopDescription": "Dunkler, süßer Johannisbrotsirup für Gebäck, Desserts und zum Verfeinern.",
@@ -7145,7 +8060,17 @@ window.MEDITERRANEAN = {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
       },
-      "syrupUse": "sweeten"
+      "syrupUse": "sweeten",
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Nach kritischer Nachprüfung mit einem zusätzlichen dokumentierten Bezug zur östlichen Adria beziehungsweise zum Balkan beibehalten.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "datesyrup": {
       "regions": [
@@ -7208,15 +8133,26 @@ window.MEDITERRANEAN = {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
       },
-      "syrupUse": "sweeten"
+      "syrupUse": "sweeten",
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "grapesyrup": {
       "regions": [
         "GR-CRE",
-        "TUR"
+        "TUR",
+        "HR-DAL"
       ],
       "relatedRegions": [],
-      "text": "Erfasste Beispiele sind kretisches Petimezi und türkischer Trauben-Pekmez. Andere mediterrane Mostreduktionen können verwandt sein, ohne dieselbe Rezeptur zu haben.",
+      "text": "Eingekochter Traubenmost gehört auch zur adriatischen Vorratsküche. Brački varenik ist ein geschütztes Beispiel von Brač. Unser allgemeiner Traubenmostsirup trägt diesen geschützten Namen nicht ohne entsprechende Nachweise.",
       "source": "https://www.melissakis.gr/product/grape-syrup-petimezi/",
       "sources": [
         {
@@ -7226,6 +8162,10 @@ window.MEDITERRANEAN = {
         {
           "title": "Türkische Küchentraditionen · Trauben-Pekmez",
           "url": "https://www.turkish-cuisine.org/ingredients-7/ingredients-used-in-turkish-cuisine-66/drinks-6/regional-cuisine-4/eastern-anatolian-region-126/ingredients-7/ingredients-unique-to-turkish-cuisine-68/grape-molasses-87.html"
+        },
+        {
+          "title": "Brački varenik · EU-Produktspezifikation",
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2020/1340/oj/eng"
         }
       ],
       "kind": "Fruchtsüße",
@@ -7244,21 +8184,22 @@ window.MEDITERRANEAN = {
         "note": "Verarbeitung, MHD und Lagerung hängen vom konkreten Lieferprodukt ab; nach dem Öffnen gelten die Angaben auf der Flasche."
       },
       "review": {
-        "date": "2026-11-14",
+        "date": "2026-11-15",
         "scope": "Dokumentierte Sirup- und Fruchtreduktionstraditionen; keine Gesundheitsversprechen, keine vollständige Verbreitungskartierung",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
       },
       "culinaryRange": {
         "label": "Kulinarische Verbreitung",
-        "summary": "Erfasste Beispiele sind kretisches Petimezi und türkischer Trauben-Pekmez. Andere mediterrane Mostreduktionen können verwandt sein, ohne dieselbe Rezeptur zu haben.",
+        "summary": "Eingekochter Traubenmost gehört auch zur adriatischen Vorratsküche. Brački varenik ist ein geschütztes Beispiel von Brač. Unser allgemeiner Traubenmostsirup trägt diesen geschützten Namen nicht ohne entsprechende Nachweise.",
         "basis": "shared",
         "exclusive": false
       },
       "availability": "planned",
       "mapRegions": [
         "GR-CRE",
-        "TUR"
+        "TUR",
+        "HR-DAL"
       ],
       "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
       "shopDescription": "Eingedickter Traubenmost für Gebäck, Saucen und Desserts.",
@@ -7271,7 +8212,17 @@ window.MEDITERRANEAN = {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
       },
-      "syrupUse": "sweeten"
+      "syrupUse": "sweeten",
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Nach kritischer Nachprüfung mit einem zusätzlichen dokumentierten Bezug zur östlichen Adria beziehungsweise zum Balkan beibehalten.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "pomegranatemolasses": {
       "regions": [
@@ -7332,19 +8283,34 @@ window.MEDITERRANEAN = {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
       },
-      "syrupUse": "season"
+      "syrupUse": "season",
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "mulberrymolasses": {
       "regions": [
-        "TUR"
+        "TUR",
+        "BIH-BOS"
       ],
       "relatedRegions": [],
-      "text": "Maulbeer-Pekmez gehört zu den dokumentierten türkischen Fruchtreduktionen. Die Quellen belegen die Produktfamilie, keine flächendeckende Verbreitung an jeder Küste oder eine konkrete Lieferherkunft.",
+      "text": "Maulbeer-Pekmez aus eingekochtem Fruchtsaft ist auch im bosnischen Sortiment dokumentiert. Pekmez bezeichnet hier eine Fruchtreduktion, nicht automatisch einen gelierten Aufstrich; Rezepturen und Konsistenzen können abweichen.",
       "source": "https://onlinelibrary.wiley.com/doi/full/10.1002/fsn3.70662",
       "sources": [
         {
           "title": "Fachstudie · Traditionelle Pekmez-Arten, darunter Maulbeere",
           "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/fsn3.70662"
+        },
+        {
+          "title": "Maksuz · Pekmez od duda aus eingekochtem Fruchtsaft",
+          "url": "https://maksuz.ba/proizvod/pekmez-od-duda/163"
         }
       ],
       "kind": "Fruchtsüße",
@@ -7363,20 +8329,21 @@ window.MEDITERRANEAN = {
         "note": "Verarbeitung, MHD und Lagerung hängen vom konkreten Lieferprodukt ab; nach dem Öffnen gelten die Angaben auf der Flasche."
       },
       "review": {
-        "date": "2026-11-14",
+        "date": "2026-11-15",
         "scope": "Dokumentierte Sirup- und Fruchtreduktionstraditionen; keine Gesundheitsversprechen, keine vollständige Verbreitungskartierung",
         "exclusiveOriginClaim": false,
         "supplierOriginVerified": false
       },
       "culinaryRange": {
         "label": "Kulinarische Verbreitung",
-        "summary": "Maulbeer-Pekmez gehört zu den dokumentierten türkischen Fruchtreduktionen. Die Quellen belegen die Produktfamilie, keine flächendeckende Verbreitung an jeder Küste oder eine konkrete Lieferherkunft.",
+        "summary": "Maulbeer-Pekmez aus eingekochtem Fruchtsaft ist auch im bosnischen Sortiment dokumentiert. Pekmez bezeichnet hier eine Fruchtreduktion, nicht automatisch einen gelierten Aufstrich; Rezepturen und Konsistenzen können abweichen.",
         "basis": "shared",
         "exclusive": false
       },
       "availability": "planned",
       "mapRegions": [
-        "TUR"
+        "TUR",
+        "BIH-BOS"
       ],
       "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
       "shopDescription": "Aromatische Maulbeerreduktion für Desserts, Gebäck und zum Süßen.",
@@ -7389,7 +8356,17 @@ window.MEDITERRANEAN = {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
       },
-      "syrupUse": "sweeten"
+      "syrupUse": "sweeten",
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Nach kritischer Nachprüfung mit einem zusätzlichen dokumentierten Bezug zur östlichen Adria beziehungsweise zum Balkan beibehalten.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "jallab": {
       "regions": [
@@ -7446,7 +8423,17 @@ window.MEDITERRANEAN = {
         "productVerified": false,
         "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
       },
-      "syrupUse": "drink"
+      "syrupUse": "drink",
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "tableolives": {
       "regions": [
@@ -7541,7 +8528,17 @@ window.MEDITERRANEAN = {
         "NAV-EAST",
         "NAV-NORTH",
         "NAV-EGYPT"
-      ]
+      ],
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "pumpkinoil": {
       "regions": [
@@ -7608,7 +8605,17 @@ window.MEDITERRANEAN = {
       "kitchenProfile": [
         "Kräftig nussig und dunkel; die Intensität hängt von Röstung und Herstellung ab.",
         "Über fertige Suppen, Bohnen oder Salat geben. Zum Verfeinern verwenden, nicht zum scharfen Anbraten."
-      ]
+      ],
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "walnutoil": {
       "regions": [
@@ -7678,7 +8685,17 @@ window.MEDITERRANEAN = {
         "Fein nussig; der Geschmack hängt von Rohware und Pressung ab.",
         "Für Dressings oder zum Abschluss über gegartes Gemüse geben. Enthält Walnüsse; nicht als allergenfrei einordnen."
       ],
-      "allergenNote": "Enthält Walnüsse. Weitere Zutaten- und Kreuzkontaktangaben hängen vom konkreten Lieferprodukt ab."
+      "allergenNote": "Enthält Walnüsse. Weitere Zutaten- und Kreuzkontaktangaben hängen vom konkreten Lieferprodukt ab.",
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     },
     "arganoil": {
       "regions": [
@@ -7740,7 +8757,494 @@ window.MEDITERRANEAN = {
       "kitchenProfile": [
         "Röstig und nussig; zum sparsamen Verfeinern.",
         "Wenige Tropfen über fertiges Gemüse oder in ein Dressing geben. Ausschließlich Speisequalität verwenden."
-      ]
+      ],
+      "launchSelection": {
+        "included": false,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Für die erste Auswahl zurückgestellt: bisheriger Belegschwerpunkt liegt außerhalb von Adria und Balkan. Im mediterranen Entdeckersortiment erhalten, nicht gelöscht.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
+    },
+    "mandarinspread": {
+      "regions": [
+        "HR-DAL",
+        "ITA",
+        "ESP",
+        "GRC"
+      ],
+      "relatedRegions": [],
+      "text": "Mandarinenaufstriche sind im Neretva-Tal, auf Sizilien, in Valencia und in Griechenland dokumentiert. Die Karte zeigt diese kulinarischen Bezüge, keine bestätigte Lieferherkunft.",
+      "source": "https://www.okusineretve.com/trgovina/",
+      "sources": [
+        {
+          "title": "OPG Okusi Neretve · Mandarinenaufstrich im Neretva-Tal",
+          "url": "https://www.okusineretve.com/trgovina/"
+        },
+        {
+          "title": "Valenciaorangen · Mandarinenmarmelade aus Valencia",
+          "url": "https://www.valenciaorangen.com/tangerine-marmalade.php"
+        },
+        {
+          "title": "Ölkännchen · Mandarinenmarmelade aus Sizilien",
+          "url": "https://auwaldbio.de/collections/neu-im-sortiment/products/olkannchen-mandarinen-marmelade-74-frucht-sizilien-it-bio-220-g"
+        },
+        {
+          "title": "Deligreece · Mandarinenmarmelade",
+          "url": "https://deligreece.de/products/mandarinen-marmelade-85"
+        }
+      ],
+      "kind": "Mediterrane Vorratsküche",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden anhand des konkreten Lieferprodukts bestätigt."
+      },
+      "review": {
+        "date": "2026-11-15",
+        "scope": "Dokumentierte regionale Beispiele, keine vollständige Verbreitungskarte und keine bestätigte Lieferherkunft.",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Mandarinenaufstriche sind im Neretva-Tal, auf Sizilien, in Valencia und in Griechenland dokumentiert. Die Karte zeigt diese kulinarischen Bezüge, keine bestätigte Lieferherkunft.",
+        "basis": "documented examples",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "HR-DAL",
+        "ITA",
+        "ESP",
+        "GRC"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Fruchtiger Mandarinenaufstrich für Brot, Joghurt und feines Gebäck.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "distributionRooms": [
+        "NAV-ADRIA",
+        "NAV-CENTRAL",
+        "NAV-IBERIA",
+        "NAV-AEGEAN"
+      ],
+      "kitchenProfile": [
+        "Fruchtig, zitrusbetont und feinherb.",
+        "Auf Brot genießen oder einen Löffel in Naturjoghurt rühren."
+      ],
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
+    },
+    "mandarinsyrup": {
+      "regions": [
+        "HR-DAL",
+        "ITA"
+      ],
+      "relatedRegions": [],
+      "text": "Mandarinen-Getränkesirup ist in Italien kommerziell und in kroatischer Fachliteratur zur Fruchtverarbeitung dokumentiert. Er wird nicht als überall verbreitete oder ausschließlich regionale Tradition dargestellt.",
+      "source": "https://en.cocktail.fabbri1905.com/products-for-beverage/mandarine-mixybar.kl",
+      "sources": [
+        {
+          "title": "Fabbri 1905 · Mandarinen-Getränkesirup",
+          "url": "https://en.cocktail.fabbri1905.com/products-for-beverage/mandarine-mixybar.kl"
+        },
+        {
+          "title": "Fachzeitschrift Glasnik zaštite bilja · Verarbeitung von Mandarinen, einschließlich Fruchtsirup",
+          "url": "https://hrcak.srce.hr/file/238799"
+        }
+      ],
+      "kind": "Mediterrane Vorratsküche",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden anhand des konkreten Lieferprodukts bestätigt."
+      },
+      "review": {
+        "date": "2026-11-15",
+        "scope": "Dokumentierte regionale Beispiele, keine vollständige Verbreitungskarte und keine bestätigte Lieferherkunft.",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Mandarinen-Getränkesirup ist in Italien kommerziell und in kroatischer Fachliteratur zur Fruchtverarbeitung dokumentiert. Er wird nicht als überall verbreitete oder ausschließlich regionale Tradition dargestellt.",
+        "basis": "documented examples",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "HR-DAL",
+        "ITA"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Mandarinensirup für Schorlen, alkoholfreie Aperitifs und Desserts.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "distributionRooms": [
+        "NAV-ADRIA",
+        "NAV-CENTRAL"
+      ],
+      "kitchenProfile": [
+        "Süß und aromatisch nach Mandarine.",
+        "Mit Wasser verdünnen und nach Geschmack dosieren."
+      ],
+      "syrupUse": "drink",
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
+    },
+    "candiedmandarinpeel": {
+      "regions": [
+        "ITA",
+        "HR-DAL"
+      ],
+      "relatedRegions": [],
+      "text": "Kandierte Zitrusschalen gehören auch zur adriatischen Vorratsküche. Im Neretva-Tal ist die Verarbeitung neben Orangen auch für Mandarinen beschrieben; kalabrische Erzeuger dokumentieren verwandte Varianten.",
+      "source": "https://www.ilgiardinodelbergamotto.it/negozio/Bucce-candite-bio-di-mandarino-in-sciroppo-di-bergamotto-p390846595",
+      "sources": [
+        {
+          "title": "Il Giardino del Bergamotto · Kandierte Mandarinenschalen in Kalabrien",
+          "url": "https://www.ilgiardinodelbergamotto.it/negozio/Bucce-candite-bio-di-mandarino-in-sciroppo-di-bergamotto-p390846595"
+        },
+        {
+          "title": "La Degusteria del Bergamotto · Kandierte Mandarinen",
+          "url": "https://www.ladegusteriadelbergamotto.com/shop/"
+        },
+        {
+          "title": "Neretvansko zlato · Arancini auch aus Mandarinenschalen",
+          "url": "https://neretvansko-zlato.org/shop/arancini/"
+        }
+      ],
+      "kind": "Mediterrane Vorratsküche",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "MHD und Lagerbedingungen werden anhand des konkreten Lieferprodukts bestätigt."
+      },
+      "review": {
+        "date": "2026-11-15",
+        "scope": "Dokumentierte regionale Beispiele, keine vollständige Verbreitungskarte und keine bestätigte Lieferherkunft.",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Kandierte Zitrusschalen gehören auch zur adriatischen Vorratsküche. Im Neretva-Tal ist die Verarbeitung neben Orangen auch für Mandarinen beschrieben; kalabrische Erzeuger dokumentieren verwandte Varianten.",
+        "basis": "documented examples",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "ITA",
+        "HR-DAL"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Feine kandierte Mandarinenschalen für Gebäck, Desserts und kleine Genussmomente.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "distributionRooms": [
+        "NAV-ADRIA",
+        "NAV-CENTRAL"
+      ],
+      "kitchenProfile": [
+        "Süß, zitrusbetont und leicht herb.",
+        "Fein hacken und über Desserts streuen oder in Gebäck geben."
+      ],
+      "sourcingNote": "Nur für Schalenverzehr geeignete Früchte einsetzen; Eignung und Rückstandsanforderungen mit dem Lieferanten prüfen.",
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
+    },
+    "quinceslatko": {
+      "regions": [],
+      "relatedRegions": [],
+      "text": "Quitten-Slatko gehört zur südosteuropäischen Tradition, Fruchtstücke in dickem Zuckersirup zu bewahren. Belegte Angebote aus Serbien; verwandte Slatko-Traditionen verbinden den Balkan. Kein exklusiver Landesanspruch.",
+      "source": "https://demetra.co.rs/proizvod/slatko-od-dunja/",
+      "sources": [
+        {
+          "title": "Demetra · Slatko od dunja",
+          "url": "https://demetra.co.rs/proizvod/slatko-od-dunja/"
+        },
+        {
+          "title": "OURS / Ethno Food · Quittenstücke in Sirup, 240 g",
+          "url": "https://ours.rs/pokloni/ethno-food/namaz/poklon-pakovanja/slatko-i-slano/ethno-food-slatko-od-dunja-240gr/"
+        }
+      ],
+      "kind": "Regionale Vorratsküche",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-15",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Quitten-Slatko gehört zur südosteuropäischen Tradition, Fruchtstücke in dickem Zuckersirup zu bewahren. Belegte Angebote aus Serbien; verwandte Slatko-Traditionen verbinden den Balkan. Kein exklusiver Landesanspruch.",
+        "basis": "documented examples",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Quittenstücke in dickem Sirup, löffelweise zu Kaffee, Joghurt oder Desserts.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "distributionRooms": [
+        "NAV-BALKAN"
+      ],
+      "kitchenProfile": [
+        "Süß, duftig und mit weichen Quittenstücken.",
+        "Einen kleinen Löffel pur zu Kaffee oder als Dessertbegleitung servieren."
+      ],
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
+    },
+    "kontonjata": {
+      "regions": [
+        "HR-DAL"
+      ],
+      "relatedRegions": [],
+      "text": "Kontonjata ist als feste Quittenpaste besonders im Raum Dubrovnik und Konavle dokumentiert. Sie ist keine Konfitüre und kein Slatko mit Fruchtstücken in Sirup. Verwandte Quittenpasten gibt es auch in weiteren Mittelmeerküchen.",
+      "source": "https://visitdubrovnik.hr/hr/gastronomija/",
+      "sources": [
+        {
+          "title": "Visit Dubrovnik · Kontonjata, Mantala und Arancini",
+          "url": "https://visitdubrovnik.hr/hr/gastronomija/"
+        },
+        {
+          "title": "Tourismusverband Dubrovnik · Kontonjata als lokale Spezialität",
+          "url": "https://tzdubrovnik.hr/lang/en/get/suveniri/1361/mediji.html"
+        }
+      ],
+      "kind": "Regionale Vorratsküche",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-15",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Kontonjata ist als feste Quittenpaste besonders im Raum Dubrovnik und Konavle dokumentiert. Sie ist keine Konfitüre und kein Slatko mit Fruchtstücken in Sirup. Verwandte Quittenpasten gibt es auch in weiteren Mittelmeerküchen.",
+        "basis": "documented examples",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "mapRegions": [
+        "HR-DAL"
+      ],
+      "allergenNote": "Endgültige Zutaten, Allergene und mögliche Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Feste, schnittfähige Quittenpaste zum Naschen oder für kleine Dessertteller.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "distributionRooms": [
+        "NAV-ADRIA"
+      ],
+      "kitchenProfile": [
+        "Konzentrierte Quittenaromen, süß und schnittfest.",
+        "In kleine Würfel schneiden und mit Walnüssen auf einem Dessertteller anrichten."
+      ],
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
+    },
+    "walnutslatko": {
+      "regions": [],
+      "relatedRegions": [],
+      "text": "Slatko aus grünen Walnüssen ist als haltbare Fruchtspezialität auf dem Balkan dokumentiert. Verwendet werden junge ganze Walnüsse, nicht nur ausgereifte Kerne. Verwandte Walnusskonserven kommen auch außerhalb des Balkans vor.",
+      "source": "https://bioline.rs/p/slatko-orah-zeleni-300ml-yan/",
+      "sources": [
+        {
+          "title": "Bioline / Yan · Slatko od zelenog oraha",
+          "url": "https://bioline.rs/p/slatko-orah-zeleni-300ml-yan/"
+        }
+      ],
+      "kind": "Regionale Vorratsküche",
+      "type": "shared",
+      "primaryLabel": "Erfasste kulinarische Bezüge",
+      "relatedLabel": "Verwandte regionale Varianten",
+      "commercialOrigin": {
+        "ingredients": null,
+        "processing": null,
+        "status": "Keine bestätigte Lieferherkunft"
+      },
+      "preservation": {
+        "freshProduct": false,
+        "format": "Getrocknet beziehungsweise haltbar verarbeitet und geeignet verpackt",
+        "verifiedShelfLife": null,
+        "note": "Verbindliches MHD und Lagerbedingungen sind lieferproduktabhängig."
+      },
+      "review": {
+        "date": "2026-11-15",
+        "scope": "Quellenbelegte regionale Beispiele; keine vollständige Verbreitungskartierung, keine bestätigte Wildsammlung des Lieferprodukts",
+        "exclusiveOriginClaim": false,
+        "supplierOriginVerified": false
+      },
+      "culinaryRange": {
+        "label": "Kulinarische Verbreitung",
+        "summary": "Slatko aus grünen Walnüssen ist als haltbare Fruchtspezialität auf dem Balkan dokumentiert. Verwendet werden junge ganze Walnüsse, nicht nur ausgereifte Kerne. Verwandte Walnusskonserven kommen auch außerhalb des Balkans vor.",
+        "basis": "documented examples",
+        "exclusive": false
+      },
+      "availability": "planned",
+      "allergenNote": "Enthält Walnüsse. Endgültige Zutaten und Kreuzkontakte werden anhand des Lieferprodukts angegeben.",
+      "shopDescription": "Ganze junge Walnüsse in Sirup mit würzigem, leicht herbem Charakter.",
+      "pricePresentation": {
+        "currency": "EUR",
+        "taxIncluded": true,
+        "basis": "Deutscher Feinkost-Einzelhandel; Szenariopreis, keine Lieferantenkalkulation"
+      },
+      "wildCollection": {
+        "productVerified": false,
+        "note": "Wildvorkommen oder Sammeltradition sind kein chargenbezogener Nachweis. Beschaffung und Pflanzenteil separat prüfen."
+      },
+      "distributionRooms": [
+        "NAV-BALKAN"
+      ],
+      "kitchenProfile": [
+        "Süß, würzig und leicht herb. Enthält Walnüsse.",
+        "Eine kleine Portion zu Kaffee oder als Begleitung eines Desserts reichen."
+      ],
+      "launchSelection": {
+        "included": true,
+        "focus": [
+          "NAV-ADRIA",
+          "NAV-BALKAN"
+        ],
+        "reason": "Dokumentierter kulinarischer Bezug zur Adria oder zum Balkan; nicht zwingend exklusive Heimat.",
+        "reviewed": "2026-11-15",
+        "focusDescription": "Östliche Adria und Balkan, ohne die italienische Adriaseite als Beschaffungsschwerpunkt."
+      }
     }
   },
   "newProducts": [
@@ -7749,7 +9253,7 @@ window.MEDITERRANEAN = {
       "Mediterrane Olivenpaste",
       "Aufstriche",
       "140 g",
-      5.9,
+      5.8,
       "shared-0",
       "Gemeinsame Tradition",
       "Würziger Olivenaufstrich für Brot, Antipasti und mediterrane Saucen."
@@ -7759,7 +9263,7 @@ window.MEDITERRANEAN = {
       "Acuka",
       "Aufstriche",
       "180 g",
-      5.9,
+      6.2,
       "shared-1",
       "Paprika & Walnuss",
       "Würziger Paprika-Walnuss-Aufstrich für Brot und Mezze."
@@ -7769,7 +9273,7 @@ window.MEDITERRANEAN = {
       "Levantinisches Za’atar",
       "Gewürzmischungen",
       "60 g",
-      5.9,
+      5.8,
       "shared-2",
       "Levante",
       "Kräuter, Sumach und Sesam für Fladenbrot, Dips und geröstetes Gemüse."
@@ -7789,7 +9293,7 @@ window.MEDITERRANEAN = {
       "Datteln",
       "Früchte",
       "250 g",
-      5.9,
+      5.2,
       "dates",
       "",
       "Getrocknete Datteln zum Naschen, Backen und Süßen."
@@ -7799,7 +9303,7 @@ window.MEDITERRANEAN = {
       "Pinchos-Gewürz",
       "Gewürzmischungen",
       "50 g",
-      4.9,
+      4.8,
       "spice-0",
       "",
       "Andalusisch inspirierte Gewürzmischung für Marinaden, Gemüse und Grillgerichte."
@@ -7809,7 +9313,7 @@ window.MEDITERRANEAN = {
       "Herbes de Provence",
       "Gewürzmischungen",
       "25 g",
-      3.9,
+      3.5,
       "spice-1",
       "",
       "Thymian, Rosmarin, Bohnenkraut und Oregano für die südfranzösische Küche."
@@ -7819,7 +9323,7 @@ window.MEDITERRANEAN = {
       "Aglio e peperoncino",
       "Gewürzmischungen",
       "50 g",
-      4.9,
+      4.8,
       "spice-2",
       "",
       "Knoblauch- und Chiliflocken für Pasta. Mit Olivenöl kurz erwärmen und genießen."
@@ -7829,7 +9333,7 @@ window.MEDITERRANEAN = {
       "Šarena sol",
       "Gewürzmischungen",
       "100 g",
-      4.9,
+      4.8,
       "spice-3",
       "",
       "Würzsalz mit geröstetem Mais und Kräutern nach nordmazedonischem Vorbild."
@@ -7839,7 +9343,7 @@ window.MEDITERRANEAN = {
       "Oregano & Thymian",
       "Gewürzmischungen",
       "25 g",
-      3.9,
+      3.5,
       "spice-4",
       "",
       "Oregano und Thymian für Grillgemüse, Marinaden und ägäische Aromen."
@@ -7849,7 +9353,7 @@ window.MEDITERRANEAN = {
       "Ras el Hanout",
       "Gewürzmischungen",
       "50 g",
-      4.9,
+      4.8,
       "spice-5",
       "",
       "Vielschichtige Gewürzmischung für Couscous, Tajines und Ofengemüse."
@@ -7869,7 +9373,7 @@ window.MEDITERRANEAN = {
       "Bergbohnenkraut · Vrisak",
       "Kräuter",
       "25 g",
-      4.9,
+      3.9,
       "pantry-a0",
       "",
       "Würziges Bohnenkraut für Hülsenfrüchte, Pilze und Marinaden."
@@ -7879,7 +9383,7 @@ window.MEDITERRANEAN = {
       "Thymian",
       "Kräuter",
       "25 g",
-      4.5,
+      3.5,
       "pantry-a1",
       "",
       "Aromatischer Thymian für Gemüse, Eintöpfe und Marinaden."
@@ -7889,7 +9393,7 @@ window.MEDITERRANEAN = {
       "Rosmarin",
       "Kräuter",
       "30 g",
-      3.9,
+      3.5,
       "pantry-a2",
       "",
       "Duftende Rosmarinnadeln für Ofenkartoffeln, Gemüse und Brot."
@@ -7899,7 +9403,7 @@ window.MEDITERRANEAN = {
       "Fenchelsamen",
       "Gewürze",
       "50 g",
-      4.5,
+      3.5,
       "pantry-a3",
       "",
       "Süßlich-aromatische Fenchelsamen für Brot, Gemüse und eingelegte Spezialitäten."
@@ -7909,7 +9413,7 @@ window.MEDITERRANEAN = {
       "Lorbeerblätter",
       "Kräuter",
       "15 g",
-      3.9,
+      3.5,
       "pantry-a4",
       "",
       "Ganze Lorbeerblätter für Eintöpfe, Hülsenfrüchte und eingelegtes Gemüse."
@@ -7919,7 +9423,7 @@ window.MEDITERRANEAN = {
       "Hagebuttenaufstrich",
       "Aufstriche",
       "220 g",
-      6.5,
+      6.2,
       "pantry-a5",
       "",
       "Fruchtig-herber Aufstrich aus Hagebutten für Brot und Gebäck."
@@ -7929,7 +9433,7 @@ window.MEDITERRANEAN = {
       "Minze, getrocknet",
       "Kräuter",
       "25 g",
-      3.9,
+      3.5,
       "pantry-a6",
       "",
       "Getrocknete Minzblätter für Dips, Salate, Hülsenfrüchte und Aufgüsse."
@@ -7939,7 +9443,7 @@ window.MEDITERRANEAN = {
       "Zitronenmelisse",
       "Kräuter",
       "30 g",
-      4.5,
+      3.9,
       "pantry-a7",
       "",
       "Zitronig duftende Melissenblätter für Kräuteraufgüsse und zum Aromatisieren."
@@ -7949,7 +9453,7 @@ window.MEDITERRANEAN = {
       "Paprikaflocken · mild",
       "Gewürze",
       "50 g",
-      4.5,
+      3.9,
       "pantry-a8",
       "",
       "Fruchtig-milde Paprikaflocken für Gemüse, Dips und Eintöpfe."
@@ -7959,7 +9463,7 @@ window.MEDITERRANEAN = {
       "Paprikaflocken · scharf",
       "Gewürze",
       "50 g",
-      4.5,
+      3.9,
       "pantry-a9",
       "",
       "Scharfe Paprikaflocken für Pizza, Marinaden und würzige Gemüsegerichte."
@@ -7969,7 +9473,7 @@ window.MEDITERRANEAN = {
       "Paprikapulver · edelsüß",
       "Gewürze",
       "75 g",
-      4.5,
+      3.5,
       "pantry-a10",
       "",
       "Mildes Paprikapulver mit fruchtigem Aroma für Saucen, Gemüse und Eintöpfe."
@@ -7979,7 +9483,7 @@ window.MEDITERRANEAN = {
       "Paprikapulver · scharf",
       "Gewürze",
       "75 g",
-      4.5,
+      3.5,
       "pantry-a11",
       "",
       "Scharfes Paprikapulver für kräftige Saucen, Eintöpfe und Marinaden."
@@ -7989,7 +9493,7 @@ window.MEDITERRANEAN = {
       "Paprika · mild geräuchert",
       "Gewürze",
       "70 g",
-      5.5,
+      4.8,
       "pantry-a12",
       "",
       "Rauchig-mildes Paprikapulver für Bohnen, Kartoffeln und Grillgemüse."
@@ -7999,7 +9503,7 @@ window.MEDITERRANEAN = {
       "Getrocknete Paprika zum Füllen",
       "Trockengemüse",
       "50 g",
-      4.9,
+      5.2,
       "pantry-a13",
       "",
       "Ganze ausgehöhlte Paprikaschoten. Einweichen, füllen und garen – zum Beispiel mit Reis und Kräutern."
@@ -8009,7 +9513,7 @@ window.MEDITERRANEAN = {
       "Getrocknete Auberginen zum Füllen",
       "Trockengemüse",
       "50 g",
-      4.9,
+      5.2,
       "pantry-a14",
       "",
       "Getrocknete Auberginenhüllen für Dolma. Vor dem Füllen nach Packungsanleitung vorbereiten."
@@ -8019,7 +9523,7 @@ window.MEDITERRANEAN = {
       "Getrocknete Tomaten",
       "Trockengemüse",
       "100 g",
-      4.9,
+      5.2,
       "pantry-a15",
       "",
       "Aromatisch getrocknete Tomaten für Pasta, Brot und Antipasti. Vor Verwendung bei Bedarf einweichen."
@@ -8029,7 +9533,7 @@ window.MEDITERRANEAN = {
       "Trockenpflaumen",
       "Früchte",
       "250 g",
-      5.5,
+      5.2,
       "pantry-b0",
       "",
       "Fruchtige Trockenpflaumen zum Naschen, Backen und für herzhafte Schmorgerichte."
@@ -8039,7 +9543,7 @@ window.MEDITERRANEAN = {
       "Johannisbrotpulver",
       "Früchte",
       "150 g",
-      5.9,
+      3.1,
       "pantry-b1",
       "",
       "Fein gemahlenes Johannisbrot mit mild-süßlichem Aroma für Gebäck, Desserts und warme Getränke."
@@ -8059,7 +9563,7 @@ window.MEDITERRANEAN = {
       "Ñora-Paprika, getrocknet",
       "Trockengemüse",
       "40 g",
-      4.9,
+      5.2,
       "pantry-b3",
       "",
       "Ganze milde Ñoras für Saucen und Reisgerichte. Einweichen und das Fruchtfleisch auslösen."
@@ -8069,7 +9573,7 @@ window.MEDITERRANEAN = {
       "Sumach",
       "Gewürze",
       "50 g",
-      4.9,
+      4.8,
       "pantry-b4",
       "",
       "Fruchtig-säuerlicher Sumach für Salate, Zwiebeln, Dips und Ofengemüse."
@@ -8079,7 +9583,7 @@ window.MEDITERRANEAN = {
       "Kreuzkümmel",
       "Gewürze",
       "50 g",
-      3.9,
+      3.5,
       "pantry-b5",
       "",
       "Warmer, kräftiger Kreuzkümmel für Hülsenfrüchte, Couscous und Gemüsegerichte."
@@ -8089,7 +9593,7 @@ window.MEDITERRANEAN = {
       "Koriandersaat",
       "Gewürze",
       "50 g",
-      3.9,
+      2.9,
       "pantry-b6",
       "",
       "Ganze Koriandersamen mit warmem Zitrusaroma. Vor dem Mahlen leicht anrösten."
@@ -8099,7 +9603,7 @@ window.MEDITERRANEAN = {
       "Schwarzkümmel",
       "Gewürze",
       "50 g",
-      4.5,
+      3.5,
       "pantry-b7",
       "",
       "Schwarzkümmelsamen für Fladenbrot, Gebäck, Salate und Gemüse."
@@ -8119,7 +9623,7 @@ window.MEDITERRANEAN = {
       "Anissamen",
       "Gewürze",
       "50 g",
-      3.9,
+      2.9,
       "pantry-b9",
       "",
       "Süßlich-würzige Anissamen für Brot, Gebäck und zum Aromatisieren."
@@ -8129,7 +9633,7 @@ window.MEDITERRANEAN = {
       "Baharat",
       "Gewürzmischungen",
       "50 g",
-      5.5,
+      5.2,
       "pantry-b10",
       "",
       "Warme Gewürzmischung für Gemüse, Hülsenfrüchte und Schmorgerichte."
@@ -8139,7 +9643,7 @@ window.MEDITERRANEAN = {
       "Tabil",
       "Gewürzmischungen",
       "50 g",
-      4.9,
+      4.8,
       "pantry-b11",
       "",
       "Korianderbetonte Mischung mit Kümmel, Knoblauch und Chili für Couscous, Gemüse und Eintöpfe."
@@ -8149,7 +9653,7 @@ window.MEDITERRANEAN = {
       "Mastix · Gewürzharz",
       "Gewürze",
       "5 g",
-      7.9,
+      5.9,
       "pantry-b12",
       "",
       "Aromatische Harztränen zum sparsamen Würzen von Gebäck und Desserts. Mit etwas Zucker fein vermahlen."
@@ -8159,7 +9663,7 @@ window.MEDITERRANEAN = {
       "Kümmelsamen",
       "Gewürze",
       "50 g",
-      3.9,
+      2.9,
       "pantry-b13",
       "",
       "Aromatischer Kümmel für Gemüse, Brot und Gewürzmischungen."
@@ -8169,7 +9673,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Iberien & Balearen",
       "Geschenke",
       "4 Produkte",
-      40.9,
+      40.4,
       "giftroom-0",
       "Geschenkbox",
       "Katalanische Romesco 180 g · Natives Olivenöl extra 500 ml · Pinchos-Gewürz 50 g · Fleur de Sel 100 g."
@@ -8179,7 +9683,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Südfrankreich & Ligurien",
       "Geschenke",
       "3 Produkte",
-      32.9,
+      32.1,
       "giftroom-1",
       "Geschenkbox",
       "Oliven-Tapenade 140 g · Herbes de Provence 25 g · Natives Olivenöl extra 500 ml."
@@ -8189,7 +9693,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Küsten & Inselwelt",
       "Geschenke",
       "3 Produkte",
-      19.9,
+      20.9,
       "giftroom-2",
       "Geschenkbox",
       "Sizilianische Caponata 200 g · Kapern in Meersalzlake 120 g · Aglio e peperoncino 50 g."
@@ -8209,7 +9713,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Balkan",
       "Geschenke",
       "4 Produkte",
-      23.9,
+      24.8,
       "giftroom-4",
       "Geschenkbox",
       "Gerösteter Ajvar 350 g · Pflaumenmus 250 g · Šarena sol 100 g · Paprikaflocken · mild 50 g."
@@ -8219,7 +9723,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Ägäis",
       "Geschenke",
       "3 Produkte",
-      18.9,
+      19.5,
       "giftroom-5",
       "Geschenkbox",
       "Mediterrane Olivenpaste 140 g · Oregano & Thymian 25 g · Getrocknete Feigen 250 g."
@@ -8229,7 +9733,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Levante",
       "Geschenke",
       "3 Produkte",
-      35.9,
+      35.5,
       "giftroom-6",
       "Geschenkbox",
       "Levantinisches Za’atar 60 g · Levantinische Muhammara 180 g · Natives Olivenöl extra 500 ml."
@@ -8239,7 +9743,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Maghreb",
       "Geschenke",
       "3 Produkte",
-      19.9,
+      20.9,
       "giftroom-7",
       "Geschenkbox",
       "Harissa 100 g · Salzzitronen 300 g · Ras el Hanout 50 g."
@@ -8249,7 +9753,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Ägypten & östliches Nordafrika",
       "Geschenke",
       "3 Produkte",
-      35.9,
+      34.5,
       "giftroom-8",
       "Geschenkbox",
       "Dukkah 100 g · Datteln 250 g · Natives Olivenöl extra 500 ml."
@@ -8269,7 +9773,7 @@ window.MEDITERRANEAN = {
       "Holunderbeerensirup",
       "Sirup & Fruchtsüße",
       "500 ml",
-      8.9,
+      8.5,
       "syrup-1",
       "Getränkesirup",
       "Dunkelfruchtiger Sirup aus verarbeiteten Holunderbeeren für Getränke und Desserts."
@@ -8279,7 +9783,7 @@ window.MEDITERRANEAN = {
       "Rosensirup",
       "Sirup & Fruchtsüße",
       "250 ml",
-      7.9,
+      6.9,
       "syrup-2",
       "Getränkesirup",
       "Duftiger Rosensirup für kalte Getränke, Desserts und feines Gebäck."
@@ -8299,7 +9803,7 @@ window.MEDITERRANEAN = {
       "Sauerkirschsirup",
       "Sirup & Fruchtsüße",
       "500 ml",
-      8.9,
+      8.5,
       "syrup-4",
       "Getränkesirup",
       "Aromatischer Sauerkirschsirup für kalte Getränke, Sorbets und Desserts."
@@ -8309,7 +9813,7 @@ window.MEDITERRANEAN = {
       "Minzsirup",
       "Sirup & Fruchtsüße",
       "500 ml",
-      7.9,
+      7.5,
       "syrup-5",
       "Getränkesirup",
       "Frischer Minzgeschmack für Wasser, Eistee und alkoholfreie Mischgetränke."
@@ -8319,7 +9823,7 @@ window.MEDITERRANEAN = {
       "Mandelsirup · Soumada",
       "Sirup & Fruchtsüße",
       "250 ml",
-      8.9,
+      7.9,
       "syrup-6",
       "Getränkesirup",
       "Mandelsirup zum Verdünnen und für Desserts. Enthält Mandeln."
@@ -8329,7 +9833,7 @@ window.MEDITERRANEAN = {
       "Johannisbrotsirup",
       "Sirup & Fruchtsüße",
       "250 g",
-      6.9,
+      5.5,
       "syrup-7",
       "Fruchtsüße",
       "Dunkler, süßer Johannisbrotsirup für Gebäck, Desserts und zum Verfeinern."
@@ -8339,7 +9843,7 @@ window.MEDITERRANEAN = {
       "Dattelsirup",
       "Sirup & Fruchtsüße",
       "250 g",
-      6.9,
+      4.9,
       "syrup-8",
       "Fruchtsüße",
       "Kräftige Dattelsüße für Gebäck, Dressings und Desserts."
@@ -8349,7 +9853,7 @@ window.MEDITERRANEAN = {
       "Traubenmostsirup",
       "Sirup & Fruchtsüße",
       "250 g",
-      6.9,
+      5.5,
       "syrup-9",
       "Fruchtsüße",
       "Eingedickter Traubenmost für Gebäck, Saucen und Desserts."
@@ -8359,7 +9863,7 @@ window.MEDITERRANEAN = {
       "Granatapfelmelasse",
       "Sirup & Fruchtsüße",
       "250 g",
-      7.9,
+      6.9,
       "syrup-10",
       "Zum Würzen",
       "Säuerlich-fruchtige Granatapfelreduktion für Dressings, Marinaden und Gemüse."
@@ -8369,7 +9873,7 @@ window.MEDITERRANEAN = {
       "Maulbeersirup · Pekmez",
       "Sirup & Fruchtsüße",
       "250 g",
-      7.9,
+      6.5,
       "syrup-11",
       "Fruchtsüße",
       "Aromatische Maulbeerreduktion für Desserts, Gebäck und zum Süßen."
@@ -8379,7 +9883,7 @@ window.MEDITERRANEAN = {
       "Jallab · Dattel-Trauben-Sirup",
       "Sirup & Fruchtsüße",
       "250 ml",
-      7.9,
+      6.5,
       "syrup-12",
       "Getränkesirup",
       "Duftiger Sirup aus der Dattel-Trauben-Familie mit Rosenwasser. Mit Wasser und Eis servieren."
@@ -8389,7 +9893,7 @@ window.MEDITERRANEAN = {
       "Tafeloliven in Salzlake",
       "Feinkost",
       "300 g",
-      5.9,
+      6.2,
       "table-olives",
       "In Salzlake",
       "Grüne Oliven in Salzlake für Antipasti, Salate und die Mezze-Tafel. Abtropfgewicht: 180 g."
@@ -8399,7 +9903,7 @@ window.MEDITERRANEAN = {
       "Kürbiskernöl",
       "Weitere Speiseöle",
       "250 ml",
-      11.9,
+      12.5,
       "seedoil-0",
       "Zum Verfeinern",
       "Nussig-aromatisches Kürbiskernöl für Salate, Bohnen und als Abschluss auf Suppen."
@@ -8423,6 +9927,66 @@ window.MEDITERRANEAN = {
       "seedoil-2",
       "Zum Verfeinern",
       "Speisearganöl aus gerösteten Kernen für Salate, Gemüse und zum Dippen."
+    ],
+    [
+      "mandarinspread",
+      "Mandarinen-Fruchtaufstrich",
+      "Aufstriche",
+      "220 g",
+      5.8,
+      "mandarin-0",
+      "Fruchtige Zitrusnote",
+      "Fruchtiger Mandarinenaufstrich für Brot, Joghurt und feines Gebäck."
+    ],
+    [
+      "mandarinsyrup",
+      "Mandarinensirup",
+      "Sirup & Fruchtsüße",
+      "250 ml",
+      5.9,
+      "mandarin-1",
+      "Zum Verdünnen",
+      "Mandarinensirup für Schorlen, alkoholfreie Aperitifs und Desserts."
+    ],
+    [
+      "candiedmandarinpeel",
+      "Kandierte Mandarinenschalen",
+      "Früchte",
+      "70 g",
+      4.9,
+      "mandarin-2",
+      "Süße Zitrusspezialität",
+      "Feine kandierte Mandarinenschalen für Gebäck, Desserts und kleine Genussmomente."
+    ],
+    [
+      "quinceslatko",
+      "Quitten-Slatko · Slatko od dunja",
+      "Fruchtspezialitäten",
+      "240 g",
+      6.5,
+      "balkanfruit-0",
+      "Fruchtstücke in Sirup",
+      "Quittenstücke in dickem Sirup, löffelweise zu Kaffee, Joghurt oder Desserts."
+    ],
+    [
+      "kontonjata",
+      "Kontonjata · feste Quittenpaste",
+      "Fruchtspezialitäten",
+      "150 g",
+      5.9,
+      "balkanfruit-1",
+      "Adriatische Fruchtspezialität",
+      "Feste, schnittfähige Quittenpaste zum Naschen oder für kleine Dessertteller."
+    ],
+    [
+      "walnutslatko",
+      "Slatko aus grünen Walnüssen",
+      "Fruchtspezialitäten",
+      "240 g",
+      7.5,
+      "balkanfruit-2",
+      "Ganze Früchte in Sirup",
+      "Ganze junge Walnüsse in Sirup mit würzigem, leicht herbem Charakter."
     ]
   ],
   "catalog": [
@@ -8431,7 +9995,7 @@ window.MEDITERRANEAN = {
       "Natives Olivenöl extra",
       "Olivenöl",
       "500 ml",
-      19.9,
+      18.8,
       "photo-1474979266404-7eaacbcd87c5",
       "Favorit",
       "Fruchtiges Olivenöl für Salate, Gemüse und den letzten Schliff auf warmen Gerichten."
@@ -8451,7 +10015,7 @@ window.MEDITERRANEAN = {
       "Zitrone & Basilikum Olivenöl",
       "Olivenöl",
       "250 ml",
-      12.9,
+      13.6,
       "photo-1474979266404-7eaacbcd87c5",
       "",
       "Zitrone und Basilikum bringen frische Aromen an Salate, Gemüse und Pasta."
@@ -8461,7 +10025,7 @@ window.MEDITERRANEAN = {
       "Chili & Knoblauch Olivenöl",
       "Olivenöl",
       "250 ml",
-      12.9,
+      13.6,
       "photo-1474979266404-7eaacbcd87c5",
       "",
       "Chili und Knoblauch geben Pizza, Pasta und gegrilltem Gemüse eine würzige Note."
@@ -8471,7 +10035,7 @@ window.MEDITERRANEAN = {
       "Fleur de Sel",
       "Meersalz",
       "100 g",
-      6.9,
+      5.9,
       "photo-1518977676601-b53f82aba655",
       "Neu",
       "Zarte Salzflocken zum abschließenden Würzen und Verfeinern."
@@ -8501,7 +10065,7 @@ window.MEDITERRANEAN = {
       "Meersalz mit dalmatinischen Kräutern",
       "Meersalz",
       "100 g",
-      5.9,
+      5.2,
       "spice-7",
       "Kräutersalz",
       "Meersalz mit dalmatinischen Kräutern für Ofengemüse, Kartoffeln und Marinaden."
@@ -8511,7 +10075,7 @@ window.MEDITERRANEAN = {
       "Schwarzer Knoblauch",
       "Feinkost",
       "60 g",
-      7.9,
+      8.3,
       "photo-1540148426945-6cf22a6b2383",
       "Highlight",
       "Weich und aromatisch, mit süßlich-würzigen Noten. Für Saucen, Dressings und Pasta."
@@ -8521,7 +10085,7 @@ window.MEDITERRANEAN = {
       "Getrocknete Feigen",
       "Früchte",
       "250 g",
-      5.9,
+      6.2,
       "photo-1601493700631-2b16ec4b4716",
       "",
       "Sonnig-süße Trockenfeigen zum Naschen, Backen und für die Vorratsküche."
@@ -8531,7 +10095,7 @@ window.MEDITERRANEAN = {
       "Gerösteter Ajvar",
       "Feinkost",
       "350 g",
-      5.9,
+      6.2,
       "photo-1604908176997-431ba0d9fd33",
       "",
       "Geröstete Paprika als würziger Aufstrich, Dip und Begleiter zu Gemüse."
@@ -8541,7 +10105,7 @@ window.MEDITERRANEAN = {
       "Kapern in Meersalzlake",
       "Feinkost",
       "120 g",
-      4.9,
+      5.2,
       "photo-1604908176997-431ba0d9fd33",
       "Neu",
       "Würzige Kapern in Salzlake für Salate, Saucen und mediterrane Gemüsegerichte."
@@ -8551,7 +10115,7 @@ window.MEDITERRANEAN = {
       "Salbei",
       "Kräuter",
       "20 g",
-      4.9,
+      3.9,
       "photo-1466692476868-aef1dfb1e735",
       "Getrocknet",
       "Aromatische Salbeiblätter für Pasta, Bohnen und Ofengerichte."
@@ -8561,7 +10125,7 @@ window.MEDITERRANEAN = {
       "Oregano",
       "Kräuter",
       "20 g",
-      4.9,
+      3.9,
       "photo-1466692476868-aef1dfb1e735",
       "Getrocknet",
       "Kräftiger Oregano für Tomaten, Pizza, Salate und Grillgemüse."
@@ -8571,7 +10135,7 @@ window.MEDITERRANEAN = {
       "Feigenkonfitüre",
       "Aufstriche",
       "220 g",
-      5.9,
+      5.8,
       "photo-1601493700631-2b16ec4b4716",
       "",
       "Fruchtige Feigenkonfitüre für Brot, Gebäck und feine Saucen."
@@ -8581,7 +10145,7 @@ window.MEDITERRANEAN = {
       "Pflaumenmus",
       "Aufstriche",
       "250 g",
-      4.9,
+      5.2,
       "photo-1606313564200-e75d5e30476c",
       "",
       "Dick eingekochtes Pflaumenmus für Brot, Gebäck und süße Füllungen."
@@ -8591,7 +10155,7 @@ window.MEDITERRANEAN = {
       "Feigenbrot mit Walnüssen",
       "Früchte",
       "150 g",
-      6.9,
+      7.3,
       "photo-1509440159596-0249088772ff",
       "",
       "Gepresstes Konfekt aus getrockneten Feigen und Walnüssen – in dünnen Scheiben genießen."
@@ -8601,7 +10165,7 @@ window.MEDITERRANEAN = {
       "Feigensenf",
       "Aufstriche",
       "140 g",
-      5.9,
+      5.2,
       "photo-1601493700631-2b16ec4b4716",
       "",
       "Fruchtig-würziger Feigensenf für Dressings, Brotzeit und Marinaden."
@@ -8611,7 +10175,7 @@ window.MEDITERRANEAN = {
       "Oliven-Tapenade",
       "Feinkost",
       "140 g",
-      5.9,
+      5.8,
       "photo-1474979266404-7eaacbcd87c5",
       "",
       "Provenzalische Olivenzubereitung mit Kapern – zu Brot und zum Verfeinern."
@@ -8621,7 +10185,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Mediterrane Küche",
       "Geschenke",
       "4 Produkte",
-      37.9,
+      37.1,
       "photo-1549465220-1a8b9238cd48",
       "",
       "Olivenöl 500 ml, Oregano 20 g, Oliven-Tapenade 140 g und Meersalz 250 g."
@@ -8631,7 +10195,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Kleiner Luxus",
       "Geschenke",
       "3 Produkte",
-      39.9,
+      37.6,
       "photo-1549465220-1a8b9238cd48",
       "",
       "Trüffelöl 100 ml, schwarzer Knoblauch 60 g und Feigensenf 140 g."
@@ -8651,7 +10215,7 @@ window.MEDITERRANEAN = {
       "Katalanische Romesco",
       "Feinkost",
       "180 g",
-      5.9,
+      6.2,
       "regional-1",
       "Katalonien",
       "Katalanische Paprika-Tomaten-Sauce mit Mandeln. Zu Gemüse und geröstetem Brot."
@@ -8661,7 +10225,7 @@ window.MEDITERRANEAN = {
       "Harissa",
       "Feinkost",
       "100 g",
-      4.9,
+      4.8,
       "regional-2",
       "Chilipaste",
       "Aromatische Chilipaste für Couscous, Eintöpfe und Ofengemüse."
@@ -8671,7 +10235,7 @@ window.MEDITERRANEAN = {
       "Salzzitronen",
       "Feinkost",
       "300 g",
-      6.9,
+      7.3,
       "regional-3",
       "Eingelegt",
       "In Salz eingelegte Zitronen für Tajines, Dressings und Gemüsegerichte."
@@ -8681,7 +10245,7 @@ window.MEDITERRANEAN = {
       "Mediterrane Olivenpaste",
       "Aufstriche",
       "140 g",
-      5.9,
+      5.8,
       "shared-0",
       "Gemeinsame Tradition",
       "Würziger Olivenaufstrich für Brot, Antipasti und mediterrane Saucen."
@@ -8691,7 +10255,7 @@ window.MEDITERRANEAN = {
       "Acuka",
       "Aufstriche",
       "180 g",
-      5.9,
+      6.2,
       "shared-1",
       "Paprika & Walnuss",
       "Würziger Paprika-Walnuss-Aufstrich für Brot und Mezze."
@@ -8701,7 +10265,7 @@ window.MEDITERRANEAN = {
       "Levantinisches Za’atar",
       "Gewürzmischungen",
       "60 g",
-      5.9,
+      5.8,
       "shared-2",
       "Levante",
       "Kräuter, Sumach und Sesam für Fladenbrot, Dips und geröstetes Gemüse."
@@ -8721,7 +10285,7 @@ window.MEDITERRANEAN = {
       "Datteln",
       "Früchte",
       "250 g",
-      5.9,
+      5.2,
       "dates",
       "",
       "Getrocknete Datteln zum Naschen, Backen und Süßen."
@@ -8731,7 +10295,7 @@ window.MEDITERRANEAN = {
       "Pinchos-Gewürz",
       "Gewürzmischungen",
       "50 g",
-      4.9,
+      4.8,
       "spice-0",
       "",
       "Andalusisch inspirierte Gewürzmischung für Marinaden, Gemüse und Grillgerichte."
@@ -8741,7 +10305,7 @@ window.MEDITERRANEAN = {
       "Herbes de Provence",
       "Gewürzmischungen",
       "25 g",
-      3.9,
+      3.5,
       "spice-1",
       "",
       "Thymian, Rosmarin, Bohnenkraut und Oregano für die südfranzösische Küche."
@@ -8751,7 +10315,7 @@ window.MEDITERRANEAN = {
       "Aglio e peperoncino",
       "Gewürzmischungen",
       "50 g",
-      4.9,
+      4.8,
       "spice-2",
       "",
       "Knoblauch- und Chiliflocken für Pasta. Mit Olivenöl kurz erwärmen und genießen."
@@ -8761,7 +10325,7 @@ window.MEDITERRANEAN = {
       "Šarena sol",
       "Gewürzmischungen",
       "100 g",
-      4.9,
+      4.8,
       "spice-3",
       "",
       "Würzsalz mit geröstetem Mais und Kräutern nach nordmazedonischem Vorbild."
@@ -8771,7 +10335,7 @@ window.MEDITERRANEAN = {
       "Oregano & Thymian",
       "Gewürzmischungen",
       "25 g",
-      3.9,
+      3.5,
       "spice-4",
       "",
       "Oregano und Thymian für Grillgemüse, Marinaden und ägäische Aromen."
@@ -8781,7 +10345,7 @@ window.MEDITERRANEAN = {
       "Ras el Hanout",
       "Gewürzmischungen",
       "50 g",
-      4.9,
+      4.8,
       "spice-5",
       "",
       "Vielschichtige Gewürzmischung für Couscous, Tajines und Ofengemüse."
@@ -8801,7 +10365,7 @@ window.MEDITERRANEAN = {
       "Bergbohnenkraut · Vrisak",
       "Kräuter",
       "25 g",
-      4.9,
+      3.9,
       "pantry-a0",
       "",
       "Würziges Bohnenkraut für Hülsenfrüchte, Pilze und Marinaden."
@@ -8811,7 +10375,7 @@ window.MEDITERRANEAN = {
       "Thymian",
       "Kräuter",
       "25 g",
-      4.5,
+      3.5,
       "pantry-a1",
       "",
       "Aromatischer Thymian für Gemüse, Eintöpfe und Marinaden."
@@ -8821,7 +10385,7 @@ window.MEDITERRANEAN = {
       "Rosmarin",
       "Kräuter",
       "30 g",
-      3.9,
+      3.5,
       "pantry-a2",
       "",
       "Duftende Rosmarinnadeln für Ofenkartoffeln, Gemüse und Brot."
@@ -8831,7 +10395,7 @@ window.MEDITERRANEAN = {
       "Fenchelsamen",
       "Gewürze",
       "50 g",
-      4.5,
+      3.5,
       "pantry-a3",
       "",
       "Süßlich-aromatische Fenchelsamen für Brot, Gemüse und eingelegte Spezialitäten."
@@ -8841,7 +10405,7 @@ window.MEDITERRANEAN = {
       "Lorbeerblätter",
       "Kräuter",
       "15 g",
-      3.9,
+      3.5,
       "pantry-a4",
       "",
       "Ganze Lorbeerblätter für Eintöpfe, Hülsenfrüchte und eingelegtes Gemüse."
@@ -8851,7 +10415,7 @@ window.MEDITERRANEAN = {
       "Hagebuttenaufstrich",
       "Aufstriche",
       "220 g",
-      6.5,
+      6.2,
       "pantry-a5",
       "",
       "Fruchtig-herber Aufstrich aus Hagebutten für Brot und Gebäck."
@@ -8861,7 +10425,7 @@ window.MEDITERRANEAN = {
       "Minze, getrocknet",
       "Kräuter",
       "25 g",
-      3.9,
+      3.5,
       "pantry-a6",
       "",
       "Getrocknete Minzblätter für Dips, Salate, Hülsenfrüchte und Aufgüsse."
@@ -8871,7 +10435,7 @@ window.MEDITERRANEAN = {
       "Zitronenmelisse",
       "Kräuter",
       "30 g",
-      4.5,
+      3.9,
       "pantry-a7",
       "",
       "Zitronig duftende Melissenblätter für Kräuteraufgüsse und zum Aromatisieren."
@@ -8881,7 +10445,7 @@ window.MEDITERRANEAN = {
       "Paprikaflocken · mild",
       "Gewürze",
       "50 g",
-      4.5,
+      3.9,
       "pantry-a8",
       "",
       "Fruchtig-milde Paprikaflocken für Gemüse, Dips und Eintöpfe."
@@ -8891,7 +10455,7 @@ window.MEDITERRANEAN = {
       "Paprikaflocken · scharf",
       "Gewürze",
       "50 g",
-      4.5,
+      3.9,
       "pantry-a9",
       "",
       "Scharfe Paprikaflocken für Pizza, Marinaden und würzige Gemüsegerichte."
@@ -8901,7 +10465,7 @@ window.MEDITERRANEAN = {
       "Paprikapulver · edelsüß",
       "Gewürze",
       "75 g",
-      4.5,
+      3.5,
       "pantry-a10",
       "",
       "Mildes Paprikapulver mit fruchtigem Aroma für Saucen, Gemüse und Eintöpfe."
@@ -8911,7 +10475,7 @@ window.MEDITERRANEAN = {
       "Paprikapulver · scharf",
       "Gewürze",
       "75 g",
-      4.5,
+      3.5,
       "pantry-a11",
       "",
       "Scharfes Paprikapulver für kräftige Saucen, Eintöpfe und Marinaden."
@@ -8921,7 +10485,7 @@ window.MEDITERRANEAN = {
       "Paprika · mild geräuchert",
       "Gewürze",
       "70 g",
-      5.5,
+      4.8,
       "pantry-a12",
       "",
       "Rauchig-mildes Paprikapulver für Bohnen, Kartoffeln und Grillgemüse."
@@ -8931,7 +10495,7 @@ window.MEDITERRANEAN = {
       "Getrocknete Paprika zum Füllen",
       "Trockengemüse",
       "50 g",
-      4.9,
+      5.2,
       "pantry-a13",
       "",
       "Ganze ausgehöhlte Paprikaschoten. Einweichen, füllen und garen – zum Beispiel mit Reis und Kräutern."
@@ -8941,7 +10505,7 @@ window.MEDITERRANEAN = {
       "Getrocknete Auberginen zum Füllen",
       "Trockengemüse",
       "50 g",
-      4.9,
+      5.2,
       "pantry-a14",
       "",
       "Getrocknete Auberginenhüllen für Dolma. Vor dem Füllen nach Packungsanleitung vorbereiten."
@@ -8951,7 +10515,7 @@ window.MEDITERRANEAN = {
       "Getrocknete Tomaten",
       "Trockengemüse",
       "100 g",
-      4.9,
+      5.2,
       "pantry-a15",
       "",
       "Aromatisch getrocknete Tomaten für Pasta, Brot und Antipasti. Vor Verwendung bei Bedarf einweichen."
@@ -8961,7 +10525,7 @@ window.MEDITERRANEAN = {
       "Trockenpflaumen",
       "Früchte",
       "250 g",
-      5.5,
+      5.2,
       "pantry-b0",
       "",
       "Fruchtige Trockenpflaumen zum Naschen, Backen und für herzhafte Schmorgerichte."
@@ -8971,7 +10535,7 @@ window.MEDITERRANEAN = {
       "Johannisbrotpulver",
       "Früchte",
       "150 g",
-      5.9,
+      3.1,
       "pantry-b1",
       "",
       "Fein gemahlenes Johannisbrot mit mild-süßlichem Aroma für Gebäck, Desserts und warme Getränke."
@@ -8991,7 +10555,7 @@ window.MEDITERRANEAN = {
       "Ñora-Paprika, getrocknet",
       "Trockengemüse",
       "40 g",
-      4.9,
+      5.2,
       "pantry-b3",
       "",
       "Ganze milde Ñoras für Saucen und Reisgerichte. Einweichen und das Fruchtfleisch auslösen."
@@ -9001,7 +10565,7 @@ window.MEDITERRANEAN = {
       "Sumach",
       "Gewürze",
       "50 g",
-      4.9,
+      4.8,
       "pantry-b4",
       "",
       "Fruchtig-säuerlicher Sumach für Salate, Zwiebeln, Dips und Ofengemüse."
@@ -9011,7 +10575,7 @@ window.MEDITERRANEAN = {
       "Kreuzkümmel",
       "Gewürze",
       "50 g",
-      3.9,
+      3.5,
       "pantry-b5",
       "",
       "Warmer, kräftiger Kreuzkümmel für Hülsenfrüchte, Couscous und Gemüsegerichte."
@@ -9021,7 +10585,7 @@ window.MEDITERRANEAN = {
       "Koriandersaat",
       "Gewürze",
       "50 g",
-      3.9,
+      2.9,
       "pantry-b6",
       "",
       "Ganze Koriandersamen mit warmem Zitrusaroma. Vor dem Mahlen leicht anrösten."
@@ -9031,7 +10595,7 @@ window.MEDITERRANEAN = {
       "Schwarzkümmel",
       "Gewürze",
       "50 g",
-      4.5,
+      3.5,
       "pantry-b7",
       "",
       "Schwarzkümmelsamen für Fladenbrot, Gebäck, Salate und Gemüse."
@@ -9051,7 +10615,7 @@ window.MEDITERRANEAN = {
       "Anissamen",
       "Gewürze",
       "50 g",
-      3.9,
+      2.9,
       "pantry-b9",
       "",
       "Süßlich-würzige Anissamen für Brot, Gebäck und zum Aromatisieren."
@@ -9061,7 +10625,7 @@ window.MEDITERRANEAN = {
       "Baharat",
       "Gewürzmischungen",
       "50 g",
-      5.5,
+      5.2,
       "pantry-b10",
       "",
       "Warme Gewürzmischung für Gemüse, Hülsenfrüchte und Schmorgerichte."
@@ -9071,7 +10635,7 @@ window.MEDITERRANEAN = {
       "Tabil",
       "Gewürzmischungen",
       "50 g",
-      4.9,
+      4.8,
       "pantry-b11",
       "",
       "Korianderbetonte Mischung mit Kümmel, Knoblauch und Chili für Couscous, Gemüse und Eintöpfe."
@@ -9081,7 +10645,7 @@ window.MEDITERRANEAN = {
       "Mastix · Gewürzharz",
       "Gewürze",
       "5 g",
-      7.9,
+      5.9,
       "pantry-b12",
       "",
       "Aromatische Harztränen zum sparsamen Würzen von Gebäck und Desserts. Mit etwas Zucker fein vermahlen."
@@ -9091,7 +10655,7 @@ window.MEDITERRANEAN = {
       "Kümmelsamen",
       "Gewürze",
       "50 g",
-      3.9,
+      2.9,
       "pantry-b13",
       "",
       "Aromatischer Kümmel für Gemüse, Brot und Gewürzmischungen."
@@ -9101,7 +10665,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Iberien & Balearen",
       "Geschenke",
       "4 Produkte",
-      40.9,
+      40.4,
       "giftroom-0",
       "Geschenkbox",
       "Katalanische Romesco 180 g · Natives Olivenöl extra 500 ml · Pinchos-Gewürz 50 g · Fleur de Sel 100 g."
@@ -9111,7 +10675,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Südfrankreich & Ligurien",
       "Geschenke",
       "3 Produkte",
-      32.9,
+      32.1,
       "giftroom-1",
       "Geschenkbox",
       "Oliven-Tapenade 140 g · Herbes de Provence 25 g · Natives Olivenöl extra 500 ml."
@@ -9121,7 +10685,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Küsten & Inselwelt",
       "Geschenke",
       "3 Produkte",
-      19.9,
+      20.9,
       "giftroom-2",
       "Geschenkbox",
       "Sizilianische Caponata 200 g · Kapern in Meersalzlake 120 g · Aglio e peperoncino 50 g."
@@ -9141,7 +10705,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Balkan",
       "Geschenke",
       "4 Produkte",
-      23.9,
+      24.8,
       "giftroom-4",
       "Geschenkbox",
       "Gerösteter Ajvar 350 g · Pflaumenmus 250 g · Šarena sol 100 g · Paprikaflocken · mild 50 g."
@@ -9151,7 +10715,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Ägäis",
       "Geschenke",
       "3 Produkte",
-      18.9,
+      19.5,
       "giftroom-5",
       "Geschenkbox",
       "Mediterrane Olivenpaste 140 g · Oregano & Thymian 25 g · Getrocknete Feigen 250 g."
@@ -9161,7 +10725,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Levante",
       "Geschenke",
       "3 Produkte",
-      35.9,
+      35.5,
       "giftroom-6",
       "Geschenkbox",
       "Levantinisches Za’atar 60 g · Levantinische Muhammara 180 g · Natives Olivenöl extra 500 ml."
@@ -9171,7 +10735,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Maghreb",
       "Geschenke",
       "3 Produkte",
-      19.9,
+      20.9,
       "giftroom-7",
       "Geschenkbox",
       "Harissa 100 g · Salzzitronen 300 g · Ras el Hanout 50 g."
@@ -9181,7 +10745,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Ägypten & östliches Nordafrika",
       "Geschenke",
       "3 Produkte",
-      35.9,
+      34.5,
       "giftroom-8",
       "Geschenkbox",
       "Dukkah 100 g · Datteln 250 g · Natives Olivenöl extra 500 ml."
@@ -9201,7 +10765,7 @@ window.MEDITERRANEAN = {
       "Holunderbeerensirup",
       "Sirup & Fruchtsüße",
       "500 ml",
-      8.9,
+      8.5,
       "syrup-1",
       "Getränkesirup",
       "Dunkelfruchtiger Sirup aus verarbeiteten Holunderbeeren für Getränke und Desserts."
@@ -9211,7 +10775,7 @@ window.MEDITERRANEAN = {
       "Rosensirup",
       "Sirup & Fruchtsüße",
       "250 ml",
-      7.9,
+      6.9,
       "syrup-2",
       "Getränkesirup",
       "Duftiger Rosensirup für kalte Getränke, Desserts und feines Gebäck."
@@ -9231,7 +10795,7 @@ window.MEDITERRANEAN = {
       "Sauerkirschsirup",
       "Sirup & Fruchtsüße",
       "500 ml",
-      8.9,
+      8.5,
       "syrup-4",
       "Getränkesirup",
       "Aromatischer Sauerkirschsirup für kalte Getränke, Sorbets und Desserts."
@@ -9241,7 +10805,7 @@ window.MEDITERRANEAN = {
       "Minzsirup",
       "Sirup & Fruchtsüße",
       "500 ml",
-      7.9,
+      7.5,
       "syrup-5",
       "Getränkesirup",
       "Frischer Minzgeschmack für Wasser, Eistee und alkoholfreie Mischgetränke."
@@ -9251,7 +10815,7 @@ window.MEDITERRANEAN = {
       "Mandelsirup · Soumada",
       "Sirup & Fruchtsüße",
       "250 ml",
-      8.9,
+      7.9,
       "syrup-6",
       "Getränkesirup",
       "Mandelsirup zum Verdünnen und für Desserts. Enthält Mandeln."
@@ -9261,7 +10825,7 @@ window.MEDITERRANEAN = {
       "Johannisbrotsirup",
       "Sirup & Fruchtsüße",
       "250 g",
-      6.9,
+      5.5,
       "syrup-7",
       "Fruchtsüße",
       "Dunkler, süßer Johannisbrotsirup für Gebäck, Desserts und zum Verfeinern."
@@ -9271,7 +10835,7 @@ window.MEDITERRANEAN = {
       "Dattelsirup",
       "Sirup & Fruchtsüße",
       "250 g",
-      6.9,
+      4.9,
       "syrup-8",
       "Fruchtsüße",
       "Kräftige Dattelsüße für Gebäck, Dressings und Desserts."
@@ -9281,7 +10845,7 @@ window.MEDITERRANEAN = {
       "Traubenmostsirup",
       "Sirup & Fruchtsüße",
       "250 g",
-      6.9,
+      5.5,
       "syrup-9",
       "Fruchtsüße",
       "Eingedickter Traubenmost für Gebäck, Saucen und Desserts."
@@ -9291,7 +10855,7 @@ window.MEDITERRANEAN = {
       "Granatapfelmelasse",
       "Sirup & Fruchtsüße",
       "250 g",
-      7.9,
+      6.9,
       "syrup-10",
       "Zum Würzen",
       "Säuerlich-fruchtige Granatapfelreduktion für Dressings, Marinaden und Gemüse."
@@ -9301,7 +10865,7 @@ window.MEDITERRANEAN = {
       "Maulbeersirup · Pekmez",
       "Sirup & Fruchtsüße",
       "250 g",
-      7.9,
+      6.5,
       "syrup-11",
       "Fruchtsüße",
       "Aromatische Maulbeerreduktion für Desserts, Gebäck und zum Süßen."
@@ -9311,7 +10875,7 @@ window.MEDITERRANEAN = {
       "Jallab · Dattel-Trauben-Sirup",
       "Sirup & Fruchtsüße",
       "250 ml",
-      7.9,
+      6.5,
       "syrup-12",
       "Getränkesirup",
       "Duftiger Sirup aus der Dattel-Trauben-Familie mit Rosenwasser. Mit Wasser und Eis servieren."
@@ -9321,7 +10885,7 @@ window.MEDITERRANEAN = {
       "Tafeloliven in Salzlake",
       "Feinkost",
       "300 g",
-      5.9,
+      6.2,
       "table-olives",
       "In Salzlake",
       "Grüne Oliven in Salzlake für Antipasti, Salate und die Mezze-Tafel. Abtropfgewicht: 180 g."
@@ -9331,7 +10895,7 @@ window.MEDITERRANEAN = {
       "Kürbiskernöl",
       "Weitere Speiseöle",
       "250 ml",
-      11.9,
+      12.5,
       "seedoil-0",
       "Zum Verfeinern",
       "Nussig-aromatisches Kürbiskernöl für Salate, Bohnen und als Abschluss auf Suppen."
@@ -9355,6 +10919,66 @@ window.MEDITERRANEAN = {
       "seedoil-2",
       "Zum Verfeinern",
       "Speisearganöl aus gerösteten Kernen für Salate, Gemüse und zum Dippen."
+    ],
+    [
+      "mandarinspread",
+      "Mandarinen-Fruchtaufstrich",
+      "Aufstriche",
+      "220 g",
+      5.8,
+      "mandarin-0",
+      "Fruchtige Zitrusnote",
+      "Fruchtiger Mandarinenaufstrich für Brot, Joghurt und feines Gebäck."
+    ],
+    [
+      "mandarinsyrup",
+      "Mandarinensirup",
+      "Sirup & Fruchtsüße",
+      "250 ml",
+      5.9,
+      "mandarin-1",
+      "Zum Verdünnen",
+      "Mandarinensirup für Schorlen, alkoholfreie Aperitifs und Desserts."
+    ],
+    [
+      "candiedmandarinpeel",
+      "Kandierte Mandarinenschalen",
+      "Früchte",
+      "70 g",
+      4.9,
+      "mandarin-2",
+      "Süße Zitrusspezialität",
+      "Feine kandierte Mandarinenschalen für Gebäck, Desserts und kleine Genussmomente."
+    ],
+    [
+      "quinceslatko",
+      "Quitten-Slatko · Slatko od dunja",
+      "Fruchtspezialitäten",
+      "240 g",
+      6.5,
+      "balkanfruit-0",
+      "Fruchtstücke in Sirup",
+      "Quittenstücke in dickem Sirup, löffelweise zu Kaffee, Joghurt oder Desserts."
+    ],
+    [
+      "kontonjata",
+      "Kontonjata · feste Quittenpaste",
+      "Fruchtspezialitäten",
+      "150 g",
+      5.9,
+      "balkanfruit-1",
+      "Adriatische Fruchtspezialität",
+      "Feste, schnittfähige Quittenpaste zum Naschen oder für kleine Dessertteller."
+    ],
+    [
+      "walnutslatko",
+      "Slatko aus grünen Walnüssen",
+      "Fruchtspezialitäten",
+      "240 g",
+      7.5,
+      "balkanfruit-2",
+      "Ganze Früchte in Sirup",
+      "Ganze junge Walnüsse in Sirup mit würzigem, leicht herbem Charakter."
     ]
   ],
   "reviewed": "2026-11-13",
