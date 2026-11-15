@@ -11,3 +11,7 @@ Die interaktive Karte wird nicht gelöscht oder umgefärbt. Der Nutzer hat ihre 
 Neue Fruchtfamilie: Quitten-Slatko sind Stücke in Sirup; Kontonjata ist feste schnittfähige Paste; Walnuss-Slatko enthält ganze junge Walnüsse und ist allergenpflichtig. Keines ist eine frische Frucht. Keine behauptete Bio- oder Wildsammlungsqualität, kein erfundenes MHD oder Lieferant.
 
 Weitere kritische Nachprüfung: Traubenmostsirup bleibt wegen des belegten adriatischen Varenik-Bezugs; der geschützte Name Brački varenik wird nicht als Produktname verwendet. Johannisbrotsirup ist als kroatisches Inselprodukt belegt. Maulbeer-Pekmez ist im bosnischen Sortiment als eingekochter Fruchtsaft belegt. Oregano/Thymian bleibt als allgemeine heutige Kräuterkomposition.
+
+## Verbindliche Sortimentsabgrenzung
+
+Adria und Balkan sind das Sortiment, kein bloßer Start- oder Beschaffungsschwerpunkt. Der Mittelmeerraum bleibt der breite kulturelle Zusammenhang. Die bisherigen 34 weiteren Entwürfe bleiben als interne Daten erhalten, erscheinen aber nicht im angebotenen Sortiment oder einer umschaltbaren zweiten Auswahl. Die Seite Unsere Genussregionen führt redaktionell zu Adria und Balkan; der historische Mittelmeertext und die unveränderte weiche Übersicht bleiben als nicht interaktiver Kontext erhalten.
