@@ -60,7 +60,17 @@
     "Enthält Walnüsse. Endgültige Zutaten und Kreuzkontakte werden anhand des Lieferprodukts angegeben.": "Contains walnuts. Final ingredients and cross-contact information depend on the supplied product.",
     "Eingekochter Traubenmost gehört auch zur adriatischen Vorratsküche. Brački varenik ist ein geschütztes Beispiel von Brač. Unser allgemeiner Traubenmostsirup trägt diesen geschützten Namen nicht ohne entsprechende Nachweise.": "Reduced grape must also belongs to Adriatic pantry traditions. Brački varenik is a protected example from Brač; our generic grape syrup does not use that protected name without the required evidence.",
     "Johannisbrotsirup ist auch unter kroatischen Inselprodukten dokumentiert. Der bisherige Bezug nur auf Zypern und Gozo war zu eng. Gemeint ist die haltbare Fruchtzubereitung, keine bestätigte Lieferherkunft.": "Carob syrup is also documented among Croatian island products. The former link only to Cyprus and Gozo was too narrow. This describes the preserved product family, not verified supply origin.",
-    "Maulbeer-Pekmez aus eingekochtem Fruchtsaft ist auch im bosnischen Sortiment dokumentiert. Pekmez bezeichnet hier eine Fruchtreduktion, nicht automatisch einen gelierten Aufstrich; Rezepturen und Konsistenzen können abweichen.": "Mulberry pekmez made from reduced fruit juice is also documented in Bosnian retail. Here pekmez means a fruit reduction, not necessarily a gelled spread; recipes and consistency can vary."
+    "Maulbeer-Pekmez aus eingekochtem Fruchtsaft ist auch im bosnischen Sortiment dokumentiert. Pekmez bezeichnet hier eine Fruchtreduktion, nicht automatisch einen gelierten Aufstrich; Rezepturen und Konsistenzen können abweichen.": "Mulberry pekmez made from reduced fruit juice is also documented in Bosnian retail. Here pekmez means a fruit reduction, not necessarily a gelled spread; recipes and consistency can vary.",
+    "Günstigerer Grundpreis als die kleinste Größe": "Lower unit price than the smallest size",
+    "Einzelwarenwert": "Individual product value",
+    "Geschenkverpackung & Zusammenstellung": "Gift packaging & assembly",
+    "Geschenkbudget": "Gift budget",
+    "Alle Budgets": "All budgets",
+    "Bis 25 €": "Up to €25",
+    "Bis 40 €": "Up to €40",
+    "Bis 60 €": "Up to €60",
+    "Warenwert für kostenlosen Versand": "Order value towards free shipping",
+    "Deine Bestellung ist versandkostenfrei.": "Your order qualifies for free shipping."
   },
   "hr": {
     "Größe wählen": "Odaberi veličinu",
@@ -123,7 +133,17 @@
     "Enthält Walnüsse. Endgültige Zutaten und Kreuzkontakte werden anhand des Lieferprodukts angegeben.": "Sadrži orahe. Konačni sastojci i mogući unakrsni kontakt ovise o isporučenom proizvodu.",
     "Eingekochter Traubenmost gehört auch zur adriatischen Vorratsküche. Brački varenik ist ein geschütztes Beispiel von Brač. Unser allgemeiner Traubenmostsirup trägt diesen geschützten Namen nicht ohne entsprechende Nachweise.": "Ukuhani mošt pripada i jadranskoj zimnici. Brački varenik je zaštićen primjer s Brača; naš opći sirup od grožđa ne koristi taj zaštićeni naziv bez odgovarajućih dokaza.",
     "Johannisbrotsirup ist auch unter kroatischen Inselprodukten dokumentiert. Der bisherige Bezug nur auf Zypern und Gozo war zu eng. Gemeint ist die haltbare Fruchtzubereitung, keine bestätigte Lieferherkunft.": "Sirup od rogača dokumentiran je i među hrvatskim otočnim proizvodima. Dosadašnja poveznica samo s Ciprom i Gozom bila je preuska. Riječ je o skupini trajnih proizvoda, ne o potvrđenom podrijetlu robe.",
-    "Maulbeer-Pekmez aus eingekochtem Fruchtsaft ist auch im bosnischen Sortiment dokumentiert. Pekmez bezeichnet hier eine Fruchtreduktion, nicht automatisch einen gelierten Aufstrich; Rezepturen und Konsistenzen können abweichen.": "Pekmez od ukuhanog soka duda dokumentiran je i u bosanskoj ponudi. Ovdje pekmez označava voćnu redukciju, ne nužno želirani namaz; recepture i gustoća mogu se razlikovati."
+    "Maulbeer-Pekmez aus eingekochtem Fruchtsaft ist auch im bosnischen Sortiment dokumentiert. Pekmez bezeichnet hier eine Fruchtreduktion, nicht automatisch einen gelierten Aufstrich; Rezepturen und Konsistenzen können abweichen.": "Pekmez od ukuhanog soka duda dokumentiran je i u bosanskoj ponudi. Ovdje pekmez označava voćnu redukciju, ne nužno želirani namaz; recepture i gustoća mogu se razlikovati.",
+    "Günstigerer Grundpreis als die kleinste Größe": "Niža jedinična cijena nego kod najmanjeg pakiranja",
+    "Einzelwarenwert": "Vrijednost pojedinačnih proizvoda",
+    "Geschenkverpackung & Zusammenstellung": "Poklon-pakiranje i slaganje",
+    "Geschenkbudget": "Budžet za poklon",
+    "Alle Budgets": "Svi budžeti",
+    "Bis 25 €": "Do 25 €",
+    "Bis 40 €": "Do 40 €",
+    "Bis 60 €": "Do 60 €",
+    "Warenwert für kostenlosen Versand": "Vrijednost narudžbe za besplatnu dostavu",
+    "Deine Bestellung ist versandkostenfrei.": "Tvoja narudžba ima besplatnu dostavu."
   },
   "es": {
     "Größe wählen": "Elegir tamaño",
@@ -186,7 +206,17 @@
     "Enthält Walnüsse. Endgültige Zutaten und Kreuzkontakte werden anhand des Lieferprodukts angegeben.": "Contiene nueces. Los ingredientes definitivos y los posibles contactos cruzados dependen del producto suministrado.",
     "Eingekochter Traubenmost gehört auch zur adriatischen Vorratsküche. Brački varenik ist ein geschütztes Beispiel von Brač. Unser allgemeiner Traubenmostsirup trägt diesen geschützten Namen nicht ohne entsprechende Nachweise.": "El mosto de uva reducido también pertenece a la despensa adriática. Brački varenik es un ejemplo protegido de Brač; nuestro sirope genérico no utiliza ese nombre protegido sin los justificantes necesarios.",
     "Johannisbrotsirup ist auch unter kroatischen Inselprodukten dokumentiert. Der bisherige Bezug nur auf Zypern und Gozo war zu eng. Gemeint ist die haltbare Fruchtzubereitung, keine bestätigte Lieferherkunft.": "El sirope de algarroba también está documentado entre los productos de las islas croatas. La relación anterior solo con Chipre y Gozo era demasiado limitada. Se describe la familia de conservas, no un origen de suministro verificado.",
-    "Maulbeer-Pekmez aus eingekochtem Fruchtsaft ist auch im bosnischen Sortiment dokumentiert. Pekmez bezeichnet hier eine Fruchtreduktion, nicht automatisch einen gelierten Aufstrich; Rezepturen und Konsistenzen können abweichen.": "El pekmez de morera elaborado con zumo de fruta reducido también está documentado en la oferta bosnia. Aquí pekmez significa una reducción de fruta, no necesariamente un untable gelificado; las recetas y la consistencia pueden variar."
+    "Maulbeer-Pekmez aus eingekochtem Fruchtsaft ist auch im bosnischen Sortiment dokumentiert. Pekmez bezeichnet hier eine Fruchtreduktion, nicht automatisch einen gelierten Aufstrich; Rezepturen und Konsistenzen können abweichen.": "El pekmez de morera elaborado con zumo de fruta reducido también está documentado en la oferta bosnia. Aquí pekmez significa una reducción de fruta, no necesariamente un untable gelificado; las recetas y la consistencia pueden variar.",
+    "Günstigerer Grundpreis als die kleinste Größe": "Precio por unidad inferior al del tamaño más pequeño",
+    "Einzelwarenwert": "Valor de los productos por separado",
+    "Geschenkverpackung & Zusammenstellung": "Embalaje de regalo y preparación",
+    "Geschenkbudget": "Presupuesto para regalos",
+    "Alle Budgets": "Todos los presupuestos",
+    "Bis 25 €": "Hasta 25 €",
+    "Bis 40 €": "Hasta 40 €",
+    "Bis 60 €": "Hasta 60 €",
+    "Warenwert für kostenlosen Versand": "Importe del pedido para envío gratuito",
+    "Deine Bestellung ist versandkostenfrei.": "Tu pedido tiene envío gratuito."
   },
   "pt": {
     "Größe wählen": "Escolher tamanho",
@@ -249,7 +279,17 @@
     "Enthält Walnüsse. Endgültige Zutaten und Kreuzkontakte werden anhand des Lieferprodukts angegeben.": "Contém nozes. Os ingredientes finais e possíveis contactos cruzados dependem do produto fornecido.",
     "Eingekochter Traubenmost gehört auch zur adriatischen Vorratsküche. Brački varenik ist ein geschütztes Beispiel von Brač. Unser allgemeiner Traubenmostsirup trägt diesen geschützten Namen nicht ohne entsprechende Nachweise.": "O mosto de uva reduzido também pertence à despensa adriática. Brački varenik é um exemplo protegido de Brač; o nosso xarope genérico não usa esse nome protegido sem os comprovativos necessários.",
     "Johannisbrotsirup ist auch unter kroatischen Inselprodukten dokumentiert. Der bisherige Bezug nur auf Zypern und Gozo war zu eng. Gemeint ist die haltbare Fruchtzubereitung, keine bestätigte Lieferherkunft.": "O xarope de alfarroba também está documentado entre os produtos das ilhas croatas. A ligação anterior apenas a Chipre e Gozo era demasiado limitada. Descreve-se a família de conservas, não uma origem de fornecimento verificada.",
-    "Maulbeer-Pekmez aus eingekochtem Fruchtsaft ist auch im bosnischen Sortiment dokumentiert. Pekmez bezeichnet hier eine Fruchtreduktion, nicht automatisch einen gelierten Aufstrich; Rezepturen und Konsistenzen können abweichen.": "O pekmez de amoreira feito com sumo de fruta reduzido também está documentado na oferta bósnia. Aqui pekmez significa uma redução de fruta, não necessariamente um doce gelificado; as receitas e a consistência podem variar."
+    "Maulbeer-Pekmez aus eingekochtem Fruchtsaft ist auch im bosnischen Sortiment dokumentiert. Pekmez bezeichnet hier eine Fruchtreduktion, nicht automatisch einen gelierten Aufstrich; Rezepturen und Konsistenzen können abweichen.": "O pekmez de amoreira feito com sumo de fruta reduzido também está documentado na oferta bósnia. Aqui pekmez significa uma redução de fruta, não necessariamente um doce gelificado; as receitas e a consistência podem variar.",
+    "Günstigerer Grundpreis als die kleinste Größe": "Preço por unidade inferior ao da embalagem mais pequena",
+    "Einzelwarenwert": "Valor dos produtos em separado",
+    "Geschenkverpackung & Zusammenstellung": "Embalagem de presente e preparação",
+    "Geschenkbudget": "Orçamento para presentes",
+    "Alle Budgets": "Todos os orçamentos",
+    "Bis 25 €": "Até 25 €",
+    "Bis 40 €": "Até 40 €",
+    "Bis 60 €": "Até 60 €",
+    "Warenwert für kostenlosen Versand": "Valor da encomenda para portes gratuitos",
+    "Deine Bestellung ist versandkostenfrei.": "A tua encomenda tem portes gratuitos."
   },
   "fr": {
     "Größe wählen": "Choisir le format",
@@ -312,7 +352,17 @@
     "Enthält Walnüsse. Endgültige Zutaten und Kreuzkontakte werden anhand des Lieferprodukts angegeben.": "Contient des noix. Les ingrédients définitifs et les éventuels contacts croisés dépendent du produit fourni.",
     "Eingekochter Traubenmost gehört auch zur adriatischen Vorratsküche. Brački varenik ist ein geschütztes Beispiel von Brač. Unser allgemeiner Traubenmostsirup trägt diesen geschützten Namen nicht ohne entsprechende Nachweise.": "Le moût de raisin réduit fait aussi partie des traditions adriatiques. Brački varenik est un exemple protégé de Brač ; notre sirop générique ne porte pas ce nom protégé sans les justificatifs nécessaires.",
     "Johannisbrotsirup ist auch unter kroatischen Inselprodukten dokumentiert. Der bisherige Bezug nur auf Zypern und Gozo war zu eng. Gemeint ist die haltbare Fruchtzubereitung, keine bestätigte Lieferherkunft.": "Le sirop de caroube est aussi documenté parmi les produits des îles croates. Le lien précédent limité à Chypre et Gozo était trop étroit. Il décrit une famille de conserves, pas une origine d’approvisionnement vérifiée.",
-    "Maulbeer-Pekmez aus eingekochtem Fruchtsaft ist auch im bosnischen Sortiment dokumentiert. Pekmez bezeichnet hier eine Fruchtreduktion, nicht automatisch einen gelierten Aufstrich; Rezepturen und Konsistenzen können abweichen.": "Le pekmez de mûres de mûrier obtenu par réduction du jus est aussi documenté dans l’offre bosnienne. Ici, pekmez désigne une réduction de fruit, pas nécessairement une préparation gélifiée ; les recettes et textures varient."
+    "Maulbeer-Pekmez aus eingekochtem Fruchtsaft ist auch im bosnischen Sortiment dokumentiert. Pekmez bezeichnet hier eine Fruchtreduktion, nicht automatisch einen gelierten Aufstrich; Rezepturen und Konsistenzen können abweichen.": "Le pekmez de mûres de mûrier obtenu par réduction du jus est aussi documenté dans l’offre bosnienne. Ici, pekmez désigne une réduction de fruit, pas nécessairement une préparation gélifiée ; les recettes et textures varient.",
+    "Günstigerer Grundpreis als die kleinste Größe": "Prix unitaire inférieur à celui du plus petit format",
+    "Einzelwarenwert": "Valeur des produits séparés",
+    "Geschenkverpackung & Zusammenstellung": "Emballage cadeau et préparation",
+    "Geschenkbudget": "Budget cadeau",
+    "Alle Budgets": "Tous les budgets",
+    "Bis 25 €": "Jusqu’à 25 €",
+    "Bis 40 €": "Jusqu’à 40 €",
+    "Bis 60 €": "Jusqu’à 60 €",
+    "Warenwert für kostenlosen Versand": "Montant de commande pour la livraison offerte",
+    "Deine Bestellung ist versandkostenfrei.": "La livraison de ta commande est offerte."
   },
   "it": {
     "Größe wählen": "Scegli il formato",
@@ -375,6 +425,16 @@
     "Enthält Walnüsse. Endgültige Zutaten und Kreuzkontakte werden anhand des Lieferprodukts angegeben.": "Contiene noci. Gli ingredienti definitivi e gli eventuali contatti crociati dipendono dal prodotto fornito.",
     "Eingekochter Traubenmost gehört auch zur adriatischen Vorratsküche. Brački varenik ist ein geschütztes Beispiel von Brač. Unser allgemeiner Traubenmostsirup trägt diesen geschützten Namen nicht ohne entsprechende Nachweise.": "Il mosto d’uva cotto appartiene anche alle tradizioni adriatiche. Brački varenik è un esempio protetto di Brač; il nostro sciroppo generico non usa quel nome protetto senza i necessari riscontri.",
     "Johannisbrotsirup ist auch unter kroatischen Inselprodukten dokumentiert. Der bisherige Bezug nur auf Zypern und Gozo war zu eng. Gemeint ist die haltbare Fruchtzubereitung, keine bestätigte Lieferherkunft.": "Lo sciroppo di carrube è documentato anche tra i prodotti delle isole croate. Il precedente legame solo con Cipro e Gozo era troppo limitato. Si descrive la famiglia di conserve, non un’origine di fornitura verificata.",
-    "Maulbeer-Pekmez aus eingekochtem Fruchtsaft ist auch im bosnischen Sortiment dokumentiert. Pekmez bezeichnet hier eine Fruchtreduktion, nicht automatisch einen gelierten Aufstrich; Rezepturen und Konsistenzen können abweichen.": "Il pekmez di gelsi ottenuto riducendo il succo è documentato anche nell’offerta bosniaca. Qui pekmez indica una riduzione di frutta, non necessariamente una composta gelificata; ricette e consistenza possono variare."
+    "Maulbeer-Pekmez aus eingekochtem Fruchtsaft ist auch im bosnischen Sortiment dokumentiert. Pekmez bezeichnet hier eine Fruchtreduktion, nicht automatisch einen gelierten Aufstrich; Rezepturen und Konsistenzen können abweichen.": "Il pekmez di gelsi ottenuto riducendo il succo è documentato anche nell’offerta bosniaca. Qui pekmez indica una riduzione di frutta, non necessariamente una composta gelificata; ricette e consistenza possono variare.",
+    "Günstigerer Grundpreis als die kleinste Größe": "Prezzo unitario inferiore rispetto al formato più piccolo",
+    "Einzelwarenwert": "Valore dei singoli prodotti",
+    "Geschenkverpackung & Zusammenstellung": "Confezione regalo e preparazione",
+    "Geschenkbudget": "Budget regalo",
+    "Alle Budgets": "Tutti i budget",
+    "Bis 25 €": "Fino a 25 €",
+    "Bis 40 €": "Fino a 40 €",
+    "Bis 60 €": "Fino a 60 €",
+    "Warenwert für kostenlosen Versand": "Valore dell’ordine per la spedizione gratuita",
+    "Deine Bestellung ist versandkostenfrei.": "Il tuo ordine ha la spedizione gratuita."
   }
 }

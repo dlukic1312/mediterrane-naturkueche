@@ -9253,7 +9253,7 @@ window.MEDITERRANEAN = {
       "Mediterrane Olivenpaste",
       "Aufstriche",
       "140 g",
-      5.8,
+      5.9,
       "shared-0",
       "Gemeinsame Tradition",
       "Würziger Olivenaufstrich für Brot, Antipasti und mediterrane Saucen."
@@ -9273,7 +9273,7 @@ window.MEDITERRANEAN = {
       "Levantinisches Za’atar",
       "Gewürzmischungen",
       "60 g",
-      5.8,
+      5.9,
       "shared-2",
       "Levante",
       "Kräuter, Sumach und Sesam für Fladenbrot, Dips und geröstetes Gemüse."
@@ -9303,7 +9303,7 @@ window.MEDITERRANEAN = {
       "Pinchos-Gewürz",
       "Gewürzmischungen",
       "50 g",
-      4.8,
+      4.9,
       "spice-0",
       "",
       "Andalusisch inspirierte Gewürzmischung für Marinaden, Gemüse und Grillgerichte."
@@ -9323,7 +9323,7 @@ window.MEDITERRANEAN = {
       "Aglio e peperoncino",
       "Gewürzmischungen",
       "50 g",
-      4.8,
+      4.9,
       "spice-2",
       "",
       "Knoblauch- und Chiliflocken für Pasta. Mit Olivenöl kurz erwärmen und genießen."
@@ -9333,7 +9333,7 @@ window.MEDITERRANEAN = {
       "Šarena sol",
       "Gewürzmischungen",
       "100 g",
-      4.8,
+      4.9,
       "spice-3",
       "",
       "Würzsalz mit geröstetem Mais und Kräutern nach nordmazedonischem Vorbild."
@@ -9353,7 +9353,7 @@ window.MEDITERRANEAN = {
       "Ras el Hanout",
       "Gewürzmischungen",
       "50 g",
-      4.8,
+      4.9,
       "spice-5",
       "",
       "Vielschichtige Gewürzmischung für Couscous, Tajines und Ofengemüse."
@@ -9493,7 +9493,7 @@ window.MEDITERRANEAN = {
       "Paprika · mild geräuchert",
       "Gewürze",
       "70 g",
-      4.8,
+      4.9,
       "pantry-a12",
       "",
       "Rauchig-mildes Paprikapulver für Bohnen, Kartoffeln und Grillgemüse."
@@ -9573,7 +9573,7 @@ window.MEDITERRANEAN = {
       "Sumach",
       "Gewürze",
       "50 g",
-      4.8,
+      4.9,
       "pantry-b4",
       "",
       "Fruchtig-säuerlicher Sumach für Salate, Zwiebeln, Dips und Ofengemüse."
@@ -9643,7 +9643,7 @@ window.MEDITERRANEAN = {
       "Tabil",
       "Gewürzmischungen",
       "50 g",
-      4.8,
+      4.9,
       "pantry-b11",
       "",
       "Korianderbetonte Mischung mit Kümmel, Knoblauch und Chili für Couscous, Gemüse und Eintöpfe."
@@ -9673,7 +9673,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Iberien & Balearen",
       "Geschenke",
       "4 Produkte",
-      40.4,
+      40.9,
       "giftroom-0",
       "Geschenkbox",
       "Katalanische Romesco 180 g · Natives Olivenöl extra 500 ml · Pinchos-Gewürz 50 g · Fleur de Sel 100 g."
@@ -9683,7 +9683,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Südfrankreich & Ligurien",
       "Geschenke",
       "3 Produkte",
-      32.1,
+      32.9,
       "giftroom-1",
       "Geschenkbox",
       "Oliven-Tapenade 140 g · Herbes de Provence 25 g · Natives Olivenöl extra 500 ml."
@@ -9693,7 +9693,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Küsten & Inselwelt",
       "Geschenke",
       "3 Produkte",
-      20.9,
+      21.9,
       "giftroom-2",
       "Geschenkbox",
       "Sizilianische Caponata 200 g · Kapern in Meersalzlake 120 g · Aglio e peperoncino 50 g."
@@ -9703,7 +9703,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Adria",
       "Geschenke",
       "3 Produkte",
-      21.9,
+      22.9,
       "giftroom-3",
       "Geschenkbox",
       "Meersalz mit dalmatinischen Kräutern 100 g · Feigenbrot mit Walnüssen 150 g · Mediterrane Olivenpaste 140 g."
@@ -9713,7 +9713,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Balkan",
       "Geschenke",
       "4 Produkte",
-      24.8,
+      24.9,
       "giftroom-4",
       "Geschenkbox",
       "Gerösteter Ajvar 350 g · Pflaumenmus 250 g · Šarena sol 100 g · Paprikaflocken · mild 50 g."
@@ -9723,7 +9723,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Ägäis",
       "Geschenke",
       "3 Produkte",
-      19.5,
+      19.9,
       "giftroom-5",
       "Geschenkbox",
       "Mediterrane Olivenpaste 140 g · Oregano & Thymian 25 g · Getrocknete Feigen 250 g."
@@ -9733,7 +9733,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Levante",
       "Geschenke",
       "3 Produkte",
-      35.5,
+      35.9,
       "giftroom-6",
       "Geschenkbox",
       "Levantinisches Za’atar 60 g · Levantinische Muhammara 180 g · Natives Olivenöl extra 500 ml."
@@ -9743,7 +9743,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Maghreb",
       "Geschenke",
       "3 Produkte",
-      20.9,
+      21.9,
       "giftroom-7",
       "Geschenkbox",
       "Harissa 100 g · Salzzitronen 300 g · Ras el Hanout 50 g."
@@ -9753,7 +9753,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Ägypten & östliches Nordafrika",
       "Geschenke",
       "3 Produkte",
-      34.5,
+      34.9,
       "giftroom-8",
       "Geschenkbox",
       "Dukkah 100 g · Datteln 250 g · Natives Olivenöl extra 500 ml."
@@ -9933,7 +9933,7 @@ window.MEDITERRANEAN = {
       "Mandarinen-Fruchtaufstrich",
       "Aufstriche",
       "220 g",
-      5.8,
+      5.9,
       "mandarin-0",
       "Fruchtige Zitrusnote",
       "Fruchtiger Mandarinenaufstrich für Brot, Joghurt und feines Gebäck."
@@ -9995,7 +9995,7 @@ window.MEDITERRANEAN = {
       "Natives Olivenöl extra",
       "Olivenöl",
       "500 ml",
-      18.8,
+      18.9,
       "photo-1474979266404-7eaacbcd87c5",
       "Favorit",
       "Fruchtiges Olivenöl für Salate, Gemüse und den letzten Schliff auf warmen Gerichten."
@@ -10135,7 +10135,7 @@ window.MEDITERRANEAN = {
       "Feigenkonfitüre",
       "Aufstriche",
       "220 g",
-      5.8,
+      5.9,
       "photo-1601493700631-2b16ec4b4716",
       "",
       "Fruchtige Feigenkonfitüre für Brot, Gebäck und feine Saucen."
@@ -10175,7 +10175,7 @@ window.MEDITERRANEAN = {
       "Oliven-Tapenade",
       "Feinkost",
       "140 g",
-      5.8,
+      5.9,
       "photo-1474979266404-7eaacbcd87c5",
       "",
       "Provenzalische Olivenzubereitung mit Kapern – zu Brot und zum Verfeinern."
@@ -10185,7 +10185,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Mediterrane Küche",
       "Geschenke",
       "4 Produkte",
-      37.1,
+      37.9,
       "photo-1549465220-1a8b9238cd48",
       "",
       "Olivenöl 500 ml, Oregano 20 g, Oliven-Tapenade 140 g und Meersalz 250 g."
@@ -10195,7 +10195,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Kleiner Luxus",
       "Geschenke",
       "3 Produkte",
-      37.6,
+      37.9,
       "photo-1549465220-1a8b9238cd48",
       "",
       "Trüffelöl 100 ml, schwarzer Knoblauch 60 g und Feigensenf 140 g."
@@ -10225,7 +10225,7 @@ window.MEDITERRANEAN = {
       "Harissa",
       "Feinkost",
       "100 g",
-      4.8,
+      4.9,
       "regional-2",
       "Chilipaste",
       "Aromatische Chilipaste für Couscous, Eintöpfe und Ofengemüse."
@@ -10245,7 +10245,7 @@ window.MEDITERRANEAN = {
       "Mediterrane Olivenpaste",
       "Aufstriche",
       "140 g",
-      5.8,
+      5.9,
       "shared-0",
       "Gemeinsame Tradition",
       "Würziger Olivenaufstrich für Brot, Antipasti und mediterrane Saucen."
@@ -10265,7 +10265,7 @@ window.MEDITERRANEAN = {
       "Levantinisches Za’atar",
       "Gewürzmischungen",
       "60 g",
-      5.8,
+      5.9,
       "shared-2",
       "Levante",
       "Kräuter, Sumach und Sesam für Fladenbrot, Dips und geröstetes Gemüse."
@@ -10295,7 +10295,7 @@ window.MEDITERRANEAN = {
       "Pinchos-Gewürz",
       "Gewürzmischungen",
       "50 g",
-      4.8,
+      4.9,
       "spice-0",
       "",
       "Andalusisch inspirierte Gewürzmischung für Marinaden, Gemüse und Grillgerichte."
@@ -10315,7 +10315,7 @@ window.MEDITERRANEAN = {
       "Aglio e peperoncino",
       "Gewürzmischungen",
       "50 g",
-      4.8,
+      4.9,
       "spice-2",
       "",
       "Knoblauch- und Chiliflocken für Pasta. Mit Olivenöl kurz erwärmen und genießen."
@@ -10325,7 +10325,7 @@ window.MEDITERRANEAN = {
       "Šarena sol",
       "Gewürzmischungen",
       "100 g",
-      4.8,
+      4.9,
       "spice-3",
       "",
       "Würzsalz mit geröstetem Mais und Kräutern nach nordmazedonischem Vorbild."
@@ -10345,7 +10345,7 @@ window.MEDITERRANEAN = {
       "Ras el Hanout",
       "Gewürzmischungen",
       "50 g",
-      4.8,
+      4.9,
       "spice-5",
       "",
       "Vielschichtige Gewürzmischung für Couscous, Tajines und Ofengemüse."
@@ -10485,7 +10485,7 @@ window.MEDITERRANEAN = {
       "Paprika · mild geräuchert",
       "Gewürze",
       "70 g",
-      4.8,
+      4.9,
       "pantry-a12",
       "",
       "Rauchig-mildes Paprikapulver für Bohnen, Kartoffeln und Grillgemüse."
@@ -10565,7 +10565,7 @@ window.MEDITERRANEAN = {
       "Sumach",
       "Gewürze",
       "50 g",
-      4.8,
+      4.9,
       "pantry-b4",
       "",
       "Fruchtig-säuerlicher Sumach für Salate, Zwiebeln, Dips und Ofengemüse."
@@ -10635,7 +10635,7 @@ window.MEDITERRANEAN = {
       "Tabil",
       "Gewürzmischungen",
       "50 g",
-      4.8,
+      4.9,
       "pantry-b11",
       "",
       "Korianderbetonte Mischung mit Kümmel, Knoblauch und Chili für Couscous, Gemüse und Eintöpfe."
@@ -10665,7 +10665,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Iberien & Balearen",
       "Geschenke",
       "4 Produkte",
-      40.4,
+      40.9,
       "giftroom-0",
       "Geschenkbox",
       "Katalanische Romesco 180 g · Natives Olivenöl extra 500 ml · Pinchos-Gewürz 50 g · Fleur de Sel 100 g."
@@ -10675,7 +10675,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Südfrankreich & Ligurien",
       "Geschenke",
       "3 Produkte",
-      32.1,
+      32.9,
       "giftroom-1",
       "Geschenkbox",
       "Oliven-Tapenade 140 g · Herbes de Provence 25 g · Natives Olivenöl extra 500 ml."
@@ -10685,7 +10685,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Küsten & Inselwelt",
       "Geschenke",
       "3 Produkte",
-      20.9,
+      21.9,
       "giftroom-2",
       "Geschenkbox",
       "Sizilianische Caponata 200 g · Kapern in Meersalzlake 120 g · Aglio e peperoncino 50 g."
@@ -10695,7 +10695,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Adria",
       "Geschenke",
       "3 Produkte",
-      21.9,
+      22.9,
       "giftroom-3",
       "Geschenkbox",
       "Meersalz mit dalmatinischen Kräutern 100 g · Feigenbrot mit Walnüssen 150 g · Mediterrane Olivenpaste 140 g."
@@ -10705,7 +10705,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Balkan",
       "Geschenke",
       "4 Produkte",
-      24.8,
+      24.9,
       "giftroom-4",
       "Geschenkbox",
       "Gerösteter Ajvar 350 g · Pflaumenmus 250 g · Šarena sol 100 g · Paprikaflocken · mild 50 g."
@@ -10715,7 +10715,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Ägäis",
       "Geschenke",
       "3 Produkte",
-      19.5,
+      19.9,
       "giftroom-5",
       "Geschenkbox",
       "Mediterrane Olivenpaste 140 g · Oregano & Thymian 25 g · Getrocknete Feigen 250 g."
@@ -10725,7 +10725,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Levante",
       "Geschenke",
       "3 Produkte",
-      35.5,
+      35.9,
       "giftroom-6",
       "Geschenkbox",
       "Levantinisches Za’atar 60 g · Levantinische Muhammara 180 g · Natives Olivenöl extra 500 ml."
@@ -10735,7 +10735,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Maghreb",
       "Geschenke",
       "3 Produkte",
-      20.9,
+      21.9,
       "giftroom-7",
       "Geschenkbox",
       "Harissa 100 g · Salzzitronen 300 g · Ras el Hanout 50 g."
@@ -10745,7 +10745,7 @@ window.MEDITERRANEAN = {
       "Geschenkbox Ägypten & östliches Nordafrika",
       "Geschenke",
       "3 Produkte",
-      34.5,
+      34.9,
       "giftroom-8",
       "Geschenkbox",
       "Dukkah 100 g · Datteln 250 g · Natives Olivenöl extra 500 ml."
@@ -10925,7 +10925,7 @@ window.MEDITERRANEAN = {
       "Mandarinen-Fruchtaufstrich",
       "Aufstriche",
       "220 g",
-      5.8,
+      5.9,
       "mandarin-0",
       "Fruchtige Zitrusnote",
       "Fruchtiger Mandarinenaufstrich für Brot, Joghurt und feines Gebäck."

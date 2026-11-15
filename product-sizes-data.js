@@ -116,7 +116,7 @@ window.PANTRY_SIZES = {
         "pack": "500 ml",
         "amount": 500.0,
         "unit": "ml",
-        "priceCents": 1880
+        "priceCents": 1890
       },
       {
         "id": "1000ml",
@@ -403,7 +403,7 @@ window.PANTRY_SIZES = {
         "pack": "220 g",
         "amount": 220.0,
         "unit": "g",
-        "priceCents": 580
+        "priceCents": 590
       },
       {
         "id": "440g",
@@ -495,7 +495,7 @@ window.PANTRY_SIZES = {
         "pack": "140 g",
         "amount": 140.0,
         "unit": "g",
-        "priceCents": 580
+        "priceCents": 590
       },
       {
         "id": "280g",
@@ -564,7 +564,7 @@ window.PANTRY_SIZES = {
         "pack": "100 g",
         "amount": 100.0,
         "unit": "g",
-        "priceCents": 480
+        "priceCents": 490
       },
       {
         "id": "200g",
@@ -610,7 +610,7 @@ window.PANTRY_SIZES = {
         "pack": "140 g",
         "amount": 140.0,
         "unit": "g",
-        "priceCents": 580
+        "priceCents": 590
       },
       {
         "id": "280g",
@@ -656,7 +656,7 @@ window.PANTRY_SIZES = {
         "pack": "60 g",
         "amount": 60.0,
         "unit": "g",
-        "priceCents": 580
+        "priceCents": 590
       },
       {
         "id": "120g",
@@ -725,7 +725,7 @@ window.PANTRY_SIZES = {
         "pack": "50 g",
         "amount": 50.0,
         "unit": "g",
-        "priceCents": 480
+        "priceCents": 490
       },
       {
         "id": "100g",
@@ -764,7 +764,7 @@ window.PANTRY_SIZES = {
         "pack": "50 g",
         "amount": 50.0,
         "unit": "g",
-        "priceCents": 480
+        "priceCents": 490
       },
       {
         "id": "100g",
@@ -787,7 +787,7 @@ window.PANTRY_SIZES = {
         "pack": "100 g",
         "amount": 100.0,
         "unit": "g",
-        "priceCents": 480
+        "priceCents": 490
       },
       {
         "id": "200g",
@@ -826,7 +826,7 @@ window.PANTRY_SIZES = {
         "pack": "50 g",
         "amount": 50.0,
         "unit": "g",
-        "priceCents": 480
+        "priceCents": 490
       },
       {
         "id": "100g",
@@ -1071,7 +1071,7 @@ window.PANTRY_SIZES = {
         "pack": "70 g",
         "amount": 70.0,
         "unit": "g",
-        "priceCents": 480
+        "priceCents": 490
       },
       {
         "id": "140g",
@@ -1248,7 +1248,7 @@ window.PANTRY_SIZES = {
         "pack": "50 g",
         "amount": 50.0,
         "unit": "g",
-        "priceCents": 480
+        "priceCents": 490
       },
       {
         "id": "100g",
@@ -1374,7 +1374,7 @@ window.PANTRY_SIZES = {
         "pack": "50 g",
         "amount": 50.0,
         "unit": "g",
-        "priceCents": 480
+        "priceCents": 490
       },
       {
         "id": "100g",
@@ -1710,7 +1710,7 @@ window.PANTRY_SIZES = {
         "id": "classic",
         "label": "Klassik",
         "pack": "4 Produkte · Klassik",
-        "priceCents": 3710,
+        "priceCents": 3790,
         "boxItems": [
           {
             "product": "oil",
@@ -1733,7 +1733,7 @@ window.PANTRY_SIZES = {
             "variant": "250g"
           }
         ],
-        "individualTotalCents": 3200
+        "individualTotalCents": 3220
       },
       {
         "id": "large",
@@ -1770,7 +1770,7 @@ window.PANTRY_SIZES = {
         "id": "classic",
         "label": "Klassik",
         "pack": "3 Produkte · Klassik",
-        "priceCents": 3760,
+        "priceCents": 3790,
         "boxItems": [
           {
             "product": "truffle",
@@ -1820,7 +1820,7 @@ window.PANTRY_SIZES = {
         "id": "classic",
         "label": "Klassik",
         "pack": "4 Produkte · Klassik",
-        "priceCents": 4040,
+        "priceCents": 4090,
         "boxItems": [
           {
             "product": "romesco",
@@ -1843,7 +1843,7 @@ window.PANTRY_SIZES = {
             "variant": "100g"
           }
         ],
-        "individualTotalCents": 3570
+        "individualTotalCents": 3590
       },
       {
         "id": "large",
@@ -1880,7 +1880,7 @@ window.PANTRY_SIZES = {
         "id": "classic",
         "label": "Klassik",
         "pack": "3 Produkte · Klassik",
-        "priceCents": 3210,
+        "priceCents": 3290,
         "boxItems": [
           {
             "product": "tapenade",
@@ -1898,7 +1898,7 @@ window.PANTRY_SIZES = {
             "variant": "500ml"
           }
         ],
-        "individualTotalCents": 2810
+        "individualTotalCents": 2830
       },
       {
         "id": "large",
@@ -1930,7 +1930,7 @@ window.PANTRY_SIZES = {
         "id": "classic",
         "label": "Klassik",
         "pack": "3 Produkte · Klassik",
-        "priceCents": 2090,
+        "priceCents": 2190,
         "boxItems": [
           {
             "product": "caponata",
@@ -1948,7 +1948,7 @@ window.PANTRY_SIZES = {
             "variant": "50g"
           }
         ],
-        "individualTotalCents": 1690
+        "individualTotalCents": 1700
       },
       {
         "id": "large",
@@ -1980,7 +1980,7 @@ window.PANTRY_SIZES = {
         "id": "classic",
         "label": "Klassik",
         "pack": "3 Produkte · Klassik",
-        "priceCents": 2190,
+        "priceCents": 2290,
         "boxItems": [
           {
             "product": "herbsalt",
@@ -1998,7 +1998,7 @@ window.PANTRY_SIZES = {
             "variant": "140g"
           }
         ],
-        "individualTotalCents": 1830
+        "individualTotalCents": 1840
       },
       {
         "id": "large",
@@ -2030,7 +2030,7 @@ window.PANTRY_SIZES = {
         "id": "classic",
         "label": "Klassik",
         "pack": "4 Produkte · Klassik",
-        "priceCents": 2480,
+        "priceCents": 2490,
         "boxItems": [
           {
             "product": "ajvar",
@@ -2053,7 +2053,7 @@ window.PANTRY_SIZES = {
             "variant": "50g"
           }
         ],
-        "individualTotalCents": 2010
+        "individualTotalCents": 2020
       },
       {
         "id": "large",
@@ -2090,7 +2090,7 @@ window.PANTRY_SIZES = {
         "id": "classic",
         "label": "Klassik",
         "pack": "3 Produkte · Klassik",
-        "priceCents": 1950,
+        "priceCents": 1990,
         "boxItems": [
           {
             "product": "olivepaste",
@@ -2108,7 +2108,7 @@ window.PANTRY_SIZES = {
             "variant": "250g"
           }
         ],
-        "individualTotalCents": 1550
+        "individualTotalCents": 1560
       },
       {
         "id": "large",
@@ -2140,7 +2140,7 @@ window.PANTRY_SIZES = {
         "id": "classic",
         "label": "Klassik",
         "pack": "3 Produkte · Klassik",
-        "priceCents": 3550,
+        "priceCents": 3590,
         "boxItems": [
           {
             "product": "zaatar",
@@ -2158,7 +2158,7 @@ window.PANTRY_SIZES = {
             "variant": "500ml"
           }
         ],
-        "individualTotalCents": 3150
+        "individualTotalCents": 3170
       },
       {
         "id": "large",
@@ -2190,7 +2190,7 @@ window.PANTRY_SIZES = {
         "id": "classic",
         "label": "Klassik",
         "pack": "3 Produkte · Klassik",
-        "priceCents": 2090,
+        "priceCents": 2190,
         "boxItems": [
           {
             "product": "harissa",
@@ -2208,7 +2208,7 @@ window.PANTRY_SIZES = {
             "variant": "50g"
           }
         ],
-        "individualTotalCents": 1690
+        "individualTotalCents": 1710
       },
       {
         "id": "large",
@@ -2240,7 +2240,7 @@ window.PANTRY_SIZES = {
         "id": "classic",
         "label": "Klassik",
         "pack": "3 Produkte · Klassik",
-        "priceCents": 3450,
+        "priceCents": 3490,
         "boxItems": [
           {
             "product": "dukkah",
@@ -2258,7 +2258,7 @@ window.PANTRY_SIZES = {
             "variant": "500ml"
           }
         ],
-        "individualTotalCents": 3090
+        "individualTotalCents": 3100
       },
       {
         "id": "large",
@@ -2298,7 +2298,7 @@ window.PANTRY_SIZES = {
         "pack": "220 g",
         "amount": 220,
         "unit": "g",
-        "priceCents": 580
+        "priceCents": 590
       },
       {
         "id": "440g",
