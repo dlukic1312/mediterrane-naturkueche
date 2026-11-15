@@ -40,8 +40,7 @@ if(new Set(ids).size!==60)throw new Error('Die Startkollektion benötigt 60 unte
 window.CULINARIA_START60=Object.freeze(ids);
 const byCategory={};for(const id of ids){const p=root.catalog.find(x=>x[0]===id);(byCategory[p[2]]??=[]).push(id);}
 window.CULINARIA_START60_BY_CATEGORY=byCategory;
-}
-/* Sechs regionale Geschenkboxen mit je zwei Varianten; reine Shopvorschau. */
+/* Elf regionale Geschenkboxen mit je zwei Varianten; reine Shopvorschau. */
 const regionalBoxes=[
  ['slavonija','Slavonija · Herzhaft & würzig','Kulenova seka, Slavonska kobasica, Ajvar','Kulen, Kulenova seka, Slavonska kobasica, Ajvar, Pflaumenmus',34.90,59.90,0,'NAV-BALKAN'],
  ['istra','Istra · Olivenöl & Trüffel','Istrisches Olivenöl, Fuži, Trüffelsalz','Istrisches Olivenöl, Fuži, Trüffelcreme mit echtem Trüffel, getrocknete Steinpilze, Kräutersalz',39.90,69.90,1,'NAV-ADRIA'],
