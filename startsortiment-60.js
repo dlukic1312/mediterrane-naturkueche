@@ -62,15 +62,15 @@ for(const [id,name,cat,pack,price] of supplemental){
 }
 /* Elf regionale Geschenkboxen mit je zwei Varianten; reine Shopvorschau. */
 const regionalBoxes=[
- ['slavonija','Slavonija · Herzhaft & würzig','Kulenova seka, Slavonska kobasica, Ajvar','Kulen, Kulenova seka, Slavonska kobasica, Ajvar, Pflaumenmus',34.90,59.90,0,'NAV-BALKAN'],
- ['istra','Istra · Olivenöl & Trüffel','Olivenöl, Fuži, Trüffelsalz','Olivenöl, Fuži, Trüffelcreme mit echtem Trüffel, getrocknete Steinpilze, Kräutersalz',39.90,69.90,1,'NAV-ADRIA'],
- ['dalmacija','Dalmacija · Sonne & Meer','Olivenöl, Kapern, Kräuter','Olivenöl, Inćuni (raumtemperaturstabile Konserve), Kapern, Feigen, Kräuter',34.90,59.90,2,'NAV-ADRIA'],
+ ['slavonija','Slawonien · Herzhaft & würzig','Kulenova seka, Slavonska kobasica, Ajvar','Kulen, Kulenova seka, Slavonska kobasica, Ajvar, Pflaumenmus',34.90,59.90,0,'NAV-BALKAN'],
+ ['istra','Istrien · Olivenöl & Trüffel','Olivenöl, Fuži, Trüffelsalz','Olivenöl, Fuži, Trüffelcreme mit echtem Trüffel, getrocknete Steinpilze, Kräutersalz',39.90,69.90,1,'NAV-ADRIA'],
+ ['dalmacija','Dalmatien · Sonne & Meer','Olivenöl, Kapern, Kräuter','Olivenöl, Inćuni (raumtemperaturstabile Konserve), Kapern, Feigen, Kräuter',34.90,59.90,2,'NAV-ADRIA'],
  ['medimurje','Međimurje · Gold des Nordens','Kürbiskernöl, geröstete Kürbiskerne, Fruchtaufstrich','Kürbiskernöl, Kürbiskerne, Honig, Fruchtaufstrich, haltbares Gebäck',29.90,49.90,3,'NAV-BALKAN'],
  ['pag','Pag · Salz & Salbei','Meersalz, Salbeihonig, Kräuter','Meersalz, Salbeihonig, Kräuter, gereifter Hartkäse (nur nach Produkt- und Versandfreigabe), weitere passende Spezialität',34.90,59.90,4,'NAV-ADRIA'],
  ['kvarner','Kvarner · Inseln & Berge','Kastanienhonig, Feigenkonfekt, Kräuter','Kastanienhonig, Feigenkonfekt, Olivenöl, Kräuter, Fruchtaufstrich',29.90,49.90,5,'NAV-ADRIA'],
- ['bosna','Bosna · Pflaumen & Vorratsküche','Apfelpekmez, getrocknete Pflaumen, Bergkräuter','Apfelpekmez, Pflaumenbestilj, getrocknete Pflaumen, Bergkräuter, traditionelles haltbares Gebäck',29.90,49.90,6,'NAV-BALKAN'],
- ['hercegovina','Hercegovina · Feigen & Granatapfel','Getrocknete Feigen, Granatapfelzubereitung, Kräuter','Trockenfeigen, Granatapfelzubereitung, Feigenkonfitüre, Honig, mediterrane Kräuter',34.90,54.90,7,'NAV-ADRIA'],
- ['montenegro','Crna Gora · Küste & Berge','Olivenöl, Oliven, getrocknete Feigen','Olivenöl, Tafeloliven, getrocknete Feigen, Honig, Bergkräuter',34.90,59.90,8,'NAV-ADRIA'],
+ ['bosna','Bosnien · Pflaumen & Vorratsküche','Apfelpekmez, getrocknete Pflaumen, Bergkräuter','Apfelpekmez, Pflaumenbestilj, getrocknete Pflaumen, Bergkräuter, traditionelles haltbares Gebäck',29.90,49.90,6,'NAV-BALKAN'],
+ ['hercegovina','Herzegowina · Feigen & Granatapfel','Getrocknete Feigen, Granatapfelzubereitung, Kräuter','Trockenfeigen, Granatapfelzubereitung, Feigenkonfitüre, Honig, mediterrane Kräuter',34.90,54.90,7,'NAV-ADRIA'],
+ ['montenegro','Montenegro · Küste & Berge','Olivenöl, Oliven, getrocknete Feigen','Olivenöl, Tafeloliven, getrocknete Feigen, Honig, Bergkräuter',34.90,59.90,8,'NAV-ADRIA'],
  ['vojvodina','Vojvodina · Paprika & Obstgarten','Paprikagewürz, Trockennudeln, Pflaumenaufstrich','Paprikagewürz, Trockennudeln, Pflaumenaufstrich, eingelegtes Gemüse, Sauerkirschkonfitüre',29.90,49.90,9,'NAV-BALKAN'],
  ['kosovo','Kosovo · Paprika & Bergkräuter','Ajvar, eingelegte Paprika, Bergkräuter','Ajvar, eingelegte Paprika, Gewürzpaprika, Bergkräuter, Beerenkonfitüre',29.90,49.90,10,'NAV-BALKAN']
 ];
