@@ -92,7 +92,7 @@ const hypotheses={
   ],
   "sea": [
     "Pag",
-    "allgemein"
+    "regional-exklusiv"
   ],
   "sage": [
     "Pag",
@@ -108,7 +108,7 @@ const hypotheses={
   ],
   "chestnut-honey": [
     "Kvarner",
-    "allgemein"
+    "regional-exklusiv"
   ],
   "figbread": [
     "Kvarner",
@@ -120,7 +120,7 @@ const hypotheses={
   ],
   "apple-pekmez": [
     "Bosnien",
-    "allgemein"
+    "regional-exklusiv"
   ],
   "prunes": [
     "Bosnien",
@@ -132,7 +132,7 @@ const hypotheses={
   ],
   "pomegranatemolasses": [
     "Herzegowina",
-    "allgemein"
+    "regional-exklusiv"
   ],
   "thyme": [
     "Herzegowina",
@@ -140,7 +140,7 @@ const hypotheses={
   ],
   "tableolives": [
     "Montenegro",
-    "allgemein"
+    "regional-exklusiv"
   ],
   "paprikapowdermild": [
     "Vojvodina",
@@ -148,7 +148,7 @@ const hypotheses={
   ],
   "dried-noodles": [
     "Vojvodina",
-    "allgemein"
+    "regional-exklusiv"
   ],
   "pickled-peppers": [
     "Kosovo",
@@ -499,7 +499,7 @@ const additionalPrototypes={
   ],
   "motar": [
     "Dalmatien",
-    "allgemein"
+    "regional-exklusiv"
   ],
   "arancini": [
     "Dalmatien",
@@ -526,6 +526,7 @@ for(const [id,plan] of Object.entries(additionalPrototypes)){
  if(hypotheses[id])throw Error('Doppelte Herkunftsplanung: '+id);
  hypotheses[id]=plan;
 }
+hypotheses["ajvar-kosovo"]=["Kosovo","regional-exklusiv"];
 const regionalKeys={
  'Slawonien':'slavonija','Istrien':'istra','Dalmatien':'dalmacija',
  'Međimurje':'medimurje','Pag':'pag','Kvarner':'kvarner',
