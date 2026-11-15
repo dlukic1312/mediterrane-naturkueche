@@ -15,11 +15,15 @@ function orderTotals(){const subtotal=cartItems().reduce((sum,row)=>sum+row.vari
 function hasMappedDistribution(c){return !!c&&(c.distributionRooms?.some(id=>window.MEDITERRANEAN_ROOMS.isRoom(id))||[...(c.mapRegions||c.regions||[]),...(c.relatedRegions||[]).map(r=>r.id)].some(id=>window.MEDITERRANEAN.regions.some(r=>r.id===id)))}
 function renderGifts(){const host=$('regional-gifts');if(!host)return;host.replaceChildren();products.filter(p=>window.MEDITERRANEAN.connections[p[0]].giftRooms&&window.shopNavigation.isFocus(p)).forEach(p=>{const card=document.createElement('article');card.className='gift';const image=document.createElement('div');image.className='product-img';const photo=document.createElement('div');photo.className='product-photo';photo.style.cssText=productPhotoStyle(p);photo.setAttribute('role','img');photo.setAttribute('aria-label','Illustration: '+p[1]);image.append(photo);const body=document.createElement('div'),title=document.createElement('h3'),text=document.createElement('p'),price=document.createElement('strong'),details=document.createElement('button'),add=document.createElement('button');title.textContent=p[1];text.textContent=p[7];price.textContent='Ab '+window.pantrySizes.money(window.pantrySizes.minimum(p[0]).priceCents);details.type=add.type='button';details.className='btn light';details.textContent='Inhalt entdecken';details.dataset.home=p[0];add.className='btn';add.textContent='Größe wählen';add.dataset.home=p[0];body.append(title,text,price,details,add);card.append(image,body);host.append(card)})}
 function render(){
- const regional=products.filter(p=>window.shopNavigation.isFocus(p)&&(!selectedRoom||window.shopNavigation.inRoom(p,selectedRoom)));
+ const startCollection=new URLSearchParams(location.search).get('kollektion')==='start60';
+ const regional=products.filter(p=>(startCollection?window.CULINARIA_START60?.includes(p[0]):window.shopNavigation.isFocus(p))&&(!selectedRoom||window.shopNavigation.inRoom(p,selectedRoom)));
  let scoped=regional.filter(p=>!group||window.shopNavigation.groupFor(p)===group);
  const picks=['oil','tableolives','ajvar','mandarinspread','elderflowersyrup','gift-adria'];
  if(!selectedRoom&&!group&&cat==='Alle'&&!query&&sort==='curated')scoped=scoped.slice().sort((a,b)=>(picks.includes(a[0])?picks.indexOf(a[0]):99)-(picks.includes(b[0])?picks.indexOf(b[0]):99));
  window.shopNavigation.filters({cat,selectedRoom,query,group,products:scoped,regional,sort,catalogScope});
+ const note=document.getElementById('start60-note');
+ if(note)note.hidden=!startCollection;
+
  let matched=scoped.filter(p=>(cat==='Alle'||p[2]===cat)&&searchText(p).includes(normalizeSearch(query)));
  const gifting=group==='gifts'||cat==='Geschenke';if(gifting&&giftBudget)matched=matched.filter(p=>window.pantrySizes.minimum(p[0]).priceCents<=giftBudget);renderGiftBudgets(gifting);if(gifting)$('result-count').textContent=$('result-count').textContent.replace(/^\d+/,String(matched.length));const budgetURL=new URL(location.href);gifting&&giftBudget?budgetURL.searchParams.set('budget',giftBudget):budgetURL.searchParams.delete('budget');history.replaceState(null,'',budgetURL);
  if(sort==='name')matched.sort((a,b)=>(window.MEDITERRANEAN_I18N?.text(a[1])||a[1]).localeCompare(window.MEDITERRANEAN_I18N?.text(b[1])||b[1],window.MEDITERRANEAN_I18N?.locale||'de-DE'));
