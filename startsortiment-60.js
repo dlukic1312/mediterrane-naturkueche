@@ -40,4 +40,37 @@ if(new Set(ids).size!==60)throw new Error('Die Startkollektion benötigt 60 unte
 window.CULINARIA_START60=Object.freeze(ids);
 const byCategory={};for(const id of ids){const p=root.catalog.find(x=>x[0]===id);(byCategory[p[2]]??=[]).push(id);}
 window.CULINARIA_START60_BY_CATEGORY=byCategory;
+}
+/* Sechs regionale Geschenkboxen mit je zwei Varianten; reine Shopvorschau. */
+const regionalBoxes=[
+ ['slavonija','Slavonija · Herzhaft & würzig','Kulenova seka, Slavonska kobasica, Ajvar','Kulen, Kulenova seka, Slavonska kobasica, Ajvar, Pflaumenmus',34.90,59.90,0,'NAV-BALKAN'],
+ ['istra','Istra · Olivenöl & Trüffel','Istrisches Olivenöl, Fuži, Trüffelsalz','Istrisches Olivenöl, Fuži, Trüffelcreme mit echtem Trüffel, getrocknete Steinpilze, Kräutersalz',39.90,69.90,1,'NAV-ADRIA'],
+ ['dalmacija','Dalmacija · Sonne & Meer','Olivenöl, Kapern, dalmatinische Kräuter','Dalmatinisches Olivenöl, Inćuni (raumtemperaturstabile Konserve), Kapern, Feigen, Kräuter',34.90,59.90,2,'NAV-ADRIA'],
+ ['medimurje','Međimurje · Gold des Nordens','Kürbiskernöl, geröstete Kürbiskerne, Fruchtaufstrich','Kürbiskernöl, Kürbiskerne, Honig, regionaltypischer Fruchtaufstrich, haltbares Gebäck',29.90,49.90,3,'NAV-BALKAN'],
+ ['pag','Pag · Salz & Salbei','Paška sol, Salbeihonig, Kräuter','Paška sol, Salbeihonig, Kräuter, Paški sir (nur nach Versandfreigabe), weitere Insel-Spezialität',34.90,59.90,4,'NAV-ADRIA'],
+ ['kvarner','Kvarner · Inseln & Berge','Kastanienhonig, Feigenkonfekt, Kräuter','Kastanienhonig, Feigenkonfekt, Olivenöl, regionale Kräuter, Fruchtaufstrich',29.90,49.90,5,'NAV-ADRIA']
+];
+for(const [slug,title,small,large,smallPrice,largePrice,picture,room] of regionalBoxes){
+ const id='regionalbox-'+slug;
+ if(root.catalog.some(p=>p[0]===id))continue;
+ root.catalog.push([id,'Genussbox '+title,'Geschenke','Entdeckerbox / Genussbox',smallPrice,'giftroom-'+picture,'Regionale Geschenkidee','Entdeckerbox: '+small+'. Genussbox: '+large+'. Unverbindliche Zusammenstellung; Bestandteile, Herkunft und ungekühlte Versandfähigkeit sind noch nicht geprüft.']);
+ sizes.defaults[id]='entdecker';
+ sizes.products[id]=[
+  {id:'entdecker',pack:'Entdeckerbox · 3 Produkte',amount:null,unit:null,priceCents:Math.round(smallPrice*100),label:'Entdeckerbox · '+small},
+  {id:'genuss',pack:'Genussbox · 5 Produkte',amount:null,unit:null,priceCents:Math.round(largePrice*100),label:'Genussbox · '+large}
+ ];
+ root.connections[id]={
+  regions:[],text:'Regionale Geschenkidee. Keine bestätigte Herkunft oder tatsächliche Zusammenstellung.',
+  kind:'Kuratiertes Geschenkset',type:'modern',giftRooms:[room],relatedRegions:[],sources:[],
+  boxItems:[small,large],
+  shopDescription:'Entdeckerbox: '+small+'. Genussbox: '+large+'. Beispielkonzept; die konkrete Zusammensetzung wird vor einem Verkauf festgelegt.',
+  commercialOrigin:{ingredients:null,processing:null,status:'Noch keine Lieferanten- und Herkunftsfreigabe'},
+  preservation:{format:'Nur ungekühlt versandfähige Artikel',freshProduct:false,verifiedShelfLife:null,note:'Alle Bestandteile müssen vor Verkauf einzeln freigegeben werden.'},
+  pricePresentation:{currency:'EUR',taxIncluded:true,basis:'Unverbindlicher Entwurfspreis'},
+  review:{date:'2026-11-15',scope:'Gestaltungsentwurf',exclusiveOriginClaim:false,supplierOriginVerified:false},
+  culinaryRange:{label:'Regionale Inspiration',summary:'Kulinarisch inspirierte Kollektion; keine verifizierte Lieferherkunft.',basis:'provisional',exclusive:false},
+  launchSelection:{included:true,focus:['NAV-ADRIA','NAV-BALKAN'],reason:'Regionale Geschenkbox in zwei Größen',reviewed:'2026-11-15'}
+ };
+}
+window.CULINARIA_REGIONAL_BOXES=Object.freeze(regionalBoxes.map(r=>'regionalbox-'+r[0]));
 })();
