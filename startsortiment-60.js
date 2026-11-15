@@ -78,7 +78,7 @@ const boxContents={"slavonija":[["kulenova-seka","slavonska-kobasica","ajvar"],[
 for(const [slug,title,small,large,smallPrice,largePrice,picture,room] of regionalBoxes){
  const id='regionalbox-'+slug;
  if(root.catalog.some(p=>p[0]===id))continue;
- root.catalog.push([id,'Genussbox · inspiriert von '+title,'Geschenke','Entdeckerbox / Genussbox',smallPrice,'giftroom-'+picture,'Regionale Geschenkidee','Entdeckerbox: '+small+'. Genussbox: '+large+'. Unverbindliche Zusammenstellung; Bestandteile, Herkunft und ungekühlte Versandfähigkeit sind noch nicht geprüft.']);
+ root.catalog.push([id,'Genussbox '+title,'Geschenke','Entdeckerbox / Genussbox',smallPrice,'giftroom-'+picture,'Regionale Geschenkidee','Entdeckerbox: '+small+'. Genussbox: '+large+'. Unverbindliche Zusammenstellung; Bestandteile, Herkunft und ungekühlte Versandfähigkeit sind noch nicht geprüft.']);
  sizes.defaults[id]='entdecker';
  sizes.products[id]=[
   {id:'entdecker',pack:'Entdeckerbox · 3 Produkte',amount:null,unit:null,priceCents:Math.round(smallPrice*100),label:'Entdeckerbox · 3 Produkte',includedDescription:small,boxItems:boxContents[slug][0].map(product=>({product,quantity:1}))},
