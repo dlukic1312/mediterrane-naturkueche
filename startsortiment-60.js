@@ -40,6 +40,26 @@ if(new Set(ids).size!==60)throw new Error('Die Startkollektion benötigt 60 unte
 window.CULINARIA_START60=Object.freeze(ids);
 const byCategory={};for(const id of ids){const p=root.catalog.find(x=>x[0]===id);(byCategory[p[2]]??=[]).push(id);}
 window.CULINARIA_START60_BY_CATEGORY=byCategory;
+/* Zusätzliche Einzelartikel: Entwürfe, keine bestätigten Lieferprodukte. */
+const supplemental=[["fuzi-pasta","Fuži · trockene Pasta","Gemüse & Antipasti","250 g",5.9],["truffle-cream","Trüffelcreme mit echtem Trüffel","Würzprodukte","90 g",10.9],["dried-porcini","Getrocknete Steinpilze","Gemüse & Antipasti","30 g",7.9],["shelf-biscuits","Haltbares Traditionsgebäck","Früchte & Süßes","150 g",5.9],["apple-pekmez","Apfelpekmez","Früchte & Süßes","220 g",5.9],["plum-bestilj","Pflaumenbestilj","Früchte & Süßes","220 g",5.9],["dried-noodles","Traditionelle Trockennudeln","Gemüse & Antipasti","250 g",4.9],["sour-cherry-jam","Sauerkirschkonfitüre","Früchte & Süßes","220 g",5.9],["pickled-peppers","Eingelegte Paprika","Gemüse & Antipasti","350 g",5.9],["berry-jam","Beerenkonfitüre","Früchte & Süßes","220 g",5.9]];
+for(const [id,name,cat,pack,price] of supplemental){
+ if(root.catalog.some(p=>p[0]===id))continue;
+ const amount=parseFloat(pack),unit=pack.includes('ml')?'ml':'g',priceCents=Math.round(price*100);
+ root.catalog.push([id,name,cat,pack,price,'demo-'+id,'Produktskizze','Geplanter Einzelartikel für Geschenkboxen. Weder Herkunft noch konkrete Ware, Zutaten, Allergenangaben oder Versandfähigkeit sind bestätigt.']);
+ sizes.defaults[id]=String(amount)+unit;
+ sizes.products[id]=[{id:sizes.defaults[id],pack,amount,unit,priceCents,label:pack}];
+ root.connections[id]={
+  regions:[],text:'Nur ein Shop-Entwurf; keine Herkunftsbehauptung.',
+  kind:'Sortimentskandidat',type:'modern',relatedRegions:[],sources:[],
+  commercialOrigin:{ingredients:null,processing:null,status:'Nicht verifiziert'},
+  preservation:{format:'Ungekühlte Ware nur nach Produktspezifikation',freshProduct:false,verifiedShelfLife:null,note:'Versandfähigkeit vor Aufnahme prüfen.'},
+  review:{date:'2026-11-15',scope:'Sortimentskonzept',exclusiveOriginClaim:false,supplierOriginVerified:false},
+  culinaryRange:{label:'Kulinarische Verwendung',summary:'Vorgeschlagener Artikel, ohne zugewiesene Herkunft.',basis:'provisional',exclusive:false},
+  shopDescription:'Entwurfsartikel; Verpackung, Herkunft, Zutaten und Versandfähigkeit sind noch nicht geprüft.',
+  pricePresentation:{currency:'EUR',taxIncluded:true,basis:'Unverbindlicher Entwurfspreis'},
+  launchSelection:{included:true,focus:['NAV-ADRIA','NAV-BALKAN'],reason:'Einzelartikel für regionale Themenboxen',reviewed:'2026-11-15'}
+ };
+}
 /* Elf regionale Geschenkboxen mit je zwei Varianten; reine Shopvorschau. */
 const regionalBoxes=[
  ['slavonija','Slavonija · Herzhaft & würzig','Kulenova seka, Slavonska kobasica, Ajvar','Kulen, Kulenova seka, Slavonska kobasica, Ajvar, Pflaumenmus',34.90,59.90,0,'NAV-BALKAN'],
@@ -54,14 +74,15 @@ const regionalBoxes=[
  ['vojvodina','Vojvodina · Paprika & Obstgarten','Paprikagewürz, Trockennudeln, Pflaumenaufstrich','Paprikagewürz, Trockennudeln, Pflaumenaufstrich, eingelegtes Gemüse, Sauerkirschkonfitüre',29.90,49.90,9,'NAV-BALKAN'],
  ['kosovo','Kosovo · Paprika & Bergkräuter','Ajvar, eingelegte Paprika, Bergkräuter','Ajvar, eingelegte Paprika, Gewürzpaprika, Bergkräuter, Beerenkonfitüre',29.90,49.90,10,'NAV-BALKAN']
 ];
+const boxContents={"slavonija":[["kulenova-seka","slavonska-kobasica","ajvar"],["kulen","kulenova-seka","slavonska-kobasica","ajvar","plum"]],"istra":[["truffle","fuzi-pasta","trufflesalt"],["truffle","fuzi-pasta","truffle-cream","dried-porcini","herbsalt"]],"dalmacija":[["oil","capers","oregano"],["oil","incuni","capers","fig","oregano"]],"medimurje":[["pumpkinoil","pumpkinseeds","mandarinspread"],["pumpkinoil","pumpkinseeds","sage-honey","mandarinspread","shelf-biscuits"]],"pag":[["sea","sage-honey","sage"],["sea","sage-honey","sage","sheep-cheese","figjam"]],"kvarner":[["chestnut-honey","figbread","savory"],["chestnut-honey","figbread","oil","savory","figjam"]],"bosna":[["apple-pekmez","prunes","savory"],["apple-pekmez","plum-bestilj","prunes","savory","shelf-biscuits"]],"hercegovina":[["fig","pomegranatemolasses","thyme"],["fig","pomegranatemolasses","figjam","sage-honey","thyme"]],"montenegro":[["oil","tableolives","fig"],["oil","tableolives","fig","chestnut-honey","savory"]],"vojvodina":[["paprikapowdermild","dried-noodles","plum"],["paprikapowdermild","dried-noodles","plum","pickled-peppers","sour-cherry-jam"]],"kosovo":[["ajvar","pickled-peppers","savory"],["ajvar","pickled-peppers","paprikapowderhot","savory","berry-jam"]]};
 for(const [slug,title,small,large,smallPrice,largePrice,picture,room] of regionalBoxes){
  const id='regionalbox-'+slug;
  if(root.catalog.some(p=>p[0]===id))continue;
  root.catalog.push([id,'Genussbox · inspiriert von '+title,'Geschenke','Entdeckerbox / Genussbox',smallPrice,(picture>8?'demo-'+id:'giftroom-'+picture),'Regionale Geschenkidee','Entdeckerbox: '+small+'. Genussbox: '+large+'. Unverbindliche Zusammenstellung; Bestandteile, Herkunft und ungekühlte Versandfähigkeit sind noch nicht geprüft.']);
  sizes.defaults[id]='entdecker';
  sizes.products[id]=[
-  {id:'entdecker',pack:'Entdeckerbox · 3 Produkte',amount:null,unit:null,priceCents:Math.round(smallPrice*100),label:'Entdeckerbox · 3 Produkte',includedDescription:small},
-  {id:'genuss',pack:'Genussbox · 5 Produkte',amount:null,unit:null,priceCents:Math.round(largePrice*100),label:'Genussbox · 5 Produkte',includedDescription:large}
+  {id:'entdecker',pack:'Entdeckerbox · 3 Produkte',amount:null,unit:null,priceCents:Math.round(smallPrice*100),label:'Entdeckerbox · 3 Produkte',includedDescription:small,boxItems:boxContents[slug][0].map(product=>({product,quantity:1}))},
+  {id:'genuss',pack:'Genussbox · 5 Produkte',amount:null,unit:null,priceCents:Math.round(largePrice*100),label:'Genussbox · 5 Produkte',includedDescription:large,boxItems:boxContents[slug][1].map(product=>({product,quantity:1}))}
  ];
  root.connections[id]={
   regions:[],text:'Kulinarische Themenbox: Der Regionsname bezeichnet die geschmackliche Inspiration, nicht die Herkunft der Produkte. Derselbe Artikel kann in mehreren Boxen enthalten sein.',
@@ -76,6 +97,8 @@ for(const [slug,title,small,large,smallPrice,largePrice,picture,room] of regiona
   launchSelection:{included:true,focus:['NAV-ADRIA','NAV-BALKAN'],reason:'Regionale Geschenkbox in zwei Größen',reviewed:'2026-11-15'}
  };
 }
+for(const [slug,variants] of Object.entries(boxContents))for(const ids of variants)for(const id of ids){if(!root.catalog.some(p=>p[0]===id)||!sizes.products[id]?.length)throw new Error('Fehlender Geschenkboxartikel: '+slug+' / '+id);}
+window.CULINARIA_BOX_CONTENTS=Object.freeze(boxContents);
 window.CULINARIA_BOX_ORIGIN_RULE='Box-Region ist ausschließlich kulinarische Inspiration; Herkunft je Artikel unabhängig und nur nach Nachweis.';
 window.CULINARIA_REGIONAL_BOXES=Object.freeze(regionalBoxes.map(r=>'regionalbox-'+r[0]));
 })();
