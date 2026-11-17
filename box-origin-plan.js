@@ -551,12 +551,13 @@ for(const [slug,variants] of Object.entries(boxes))for(const ids of variants)for
  if(kind==='regional-exklusiv'&&regionalKeys[region]!==slug)
   throw Error('Regionsexklusives Produkt ist der falschen Box zugeordnet: '+id+' / '+slug);
 }
+const curatedRegion={"tableolives":"Dalmatien","ajvar":"Slawonien","paprikapowdermild":"Slawonien","dried-noodles":"Slawonien","pickled-peppers":"Slawonien","sour-cherry-jam":"Međimurje","paprikapowderhot":"Slawonien","berry-jam":"Bosnien","paprikaflakesmild":"Slawonien","paprikaflakeshot":"Slawonien","driedpeppers":"Slawonien","caraway":"Međimurje","cherrysyrup":"Međimurje","walnutoil":"Međimurje","ajvar-hot":"Bosnien","ajvar-kosovo":"Bosnien"};
 const entries={};
 for(const [id,[region,kind]] of Object.entries(hypotheses)){
  if(!allProducts.has(id))throw Error('Herkunftsplanung verweist auf fehlenden Artikel: '+id);
  const exclusive=kind==='regional-exklusiv';
  entries[id]=Object.freeze({
-   likelyRegion:region,displayRegion:region,regionalExclusive:exclusive,originStatus:'prototype',
+   likelyRegion:region,displayRegion:region,curatedRegion:curatedRegion[id]||region,regionalExclusive:exclusive,originStatus:'prototype',
    rawMaterials:exclusive?'ausschließlich '+region:'in der Musterwelt '+region,
    processing:exclusive?'ausschließlich '+region:'noch nicht festgelegt',
    sourcingRequirement:exclusive?
@@ -568,5 +569,6 @@ for(const [id,[region,kind]] of Object.entries(hypotheses)){
  if(connection)connection.originPlan=entries[id];
 }
 window.CULINARIA_ORIGIN_PLAN=Object.freeze(entries);
+window.CULINARIA_CURATED_REGION=Object.freeze(curatedRegion);
 window.CULINARIA_ORIGIN_RULE=Object.freeze({mode:'prototype',productionRequiresVerification:true,regionalSpecificExclusive:true,sharedProductsAllowed:true});
 })();
