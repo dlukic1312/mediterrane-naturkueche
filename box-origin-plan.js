@@ -527,6 +527,9 @@ for(const [id,plan] of Object.entries(additionalPrototypes)){
  hypotheses[id]=plan;
 }
 hypotheses["ajvar-kosovo"]=["Kosovo","regional-exklusiv"];
+const originChanges={"ajvar":"Slawonien","ajvar-hot":"Bosnien","ajvar-kosovo":"Bosnien","tableolives":"Dalmatien","paprikapowdermild":"Slawonien","paprikapowderhot":"Slawonien","paprikaflakesmild":"Slawonien","paprikaflakeshot":"Slawonien","driedpeppers":"Slawonien","caraway":"Međimurje","cherrysyrup":"Međimurje","walnutoil":"Međimurje","dried-noodles":"Slawonien","sour-cherry-jam":"Međimurje","pickled-peppers":"Slawonien","berry-jam":"Bosnien"};
+for(const [id,region] of Object.entries(originChanges))hypotheses[id]=[region,'allgemein'];
+const regionalMembership={"ajvar":["Slawonien","Bosnien","Herzegowina"],"ajvar-hot":["Slawonien","Bosnien","Herzegowina"],"pickled-peppers":["Slawonien","Bosnien","Herzegowina"],"paprikapowderhot":["Slawonien","Bosnien"],"paprikaflakeshot":["Slawonien","Bosnien"],"driedpeppers":["Slawonien","Bosnien"],"tableolives":["Dalmatien","Istrien"],"caraway":["Međimurje","Slawonien"],"cherrysyrup":["Međimurje","Slawonien"],"sour-cherry-jam":["Međimurje","Slawonien"]};
 const regionalKeys={
  'Slawonien':'slavonija','Istrien':'istra','Dalmatien':'dalmacija',
  'Međimurje':'medimurje','Pag':'pag','Kvarner':'kvarner',
@@ -557,7 +560,7 @@ for(const [id,[region,kind]] of Object.entries(hypotheses)){
  if(!allProducts.has(id))throw Error('Herkunftsplanung verweist auf fehlenden Artikel: '+id);
  const exclusive=kind==='regional-exklusiv';
  entries[id]=Object.freeze({
-   likelyRegion:region,displayRegion:region,curatedRegion:curatedRegion[id]||region,regionalExclusive:exclusive,originStatus:'prototype',
+   likelyRegion:region,displayRegion:region,curatedRegion:curatedRegion[id]||region,culinaryRegions:Object.freeze(regionalMembership[id]||[curatedRegion[id]||region]),regionalExclusive:exclusive,originStatus:'prototype',
    rawMaterials:exclusive?'ausschließlich '+region:'in der Musterwelt '+region,
    processing:exclusive?'ausschließlich '+region:'noch nicht festgelegt',
    sourcingRequirement:exclusive?
