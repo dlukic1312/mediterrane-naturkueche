@@ -72,10 +72,11 @@ const regionalBoxes=[
  ['hercegovina','Herzegowina · Feigen & Granatapfel','Getrocknete Feigen, Granatapfelzubereitung, Kräuter','Trockenfeigen, Granatapfelzubereitung, Feigenkonfitüre, Honig, mediterrane Kräuter',34.90,54.90,7,'NAV-ADRIA'],
 ];
 const boxContents={"slavonija":[["kulenova-seka","slavonska-kobasica","ajvar"],["kulen","kulenova-seka","slavonska-kobasica","ajvar","plum"]],"istra":[["truffle","fuzi-pasta","trufflesalt"],["truffle","fuzi-pasta","truffle-cream","dried-porcini","rosemary"]],"dalmacija":[["oil","capers","motar"],["oil","incuni","capers","fig","motar"]],"medimurje":[["pumpkinoil","pumpkinseeds","mandarinspread"],["pumpkinoil","pumpkinseeds","sage-honey","mandarinspread","shelf-biscuits"]],"pag":[["sea","sage-honey","sage"],["sea","sage-honey","sage","paski-sir","figjam"]],"kvarner":[["chestnut-honey","figbread","savory"],["chestnut-honey","figbread","oil","savory","figjam"]],"bosna":[["apple-pekmez","prunes","savory"],["apple-pekmez","plum-bestilj","prunes","savory","shelf-biscuits"]],"hercegovina":[["fig","pomegranatemolasses","thyme"],["fig","pomegranatemolasses","figjam","sage-honey","thyme"]]};
+const giftWorldNames={"istra":"Histria","dalmacija":"Dalmatia","pag":"Mare Adriaticum","kvarner":"Mare Adriaticum","bosna":"Illyricum","hercegovina":"Illyricum","slavonija":"Pannonia","medimurje":"Pannonia"};
 for(const [slug,title,small,large,smallPrice,largePrice,picture,room] of regionalBoxes){
  const id='regionalbox-'+slug;
  if(root.catalog.some(p=>p[0]===id))continue;
- root.catalog.push([id,'Genussbox '+title,'Geschenke','Entdeckerbox / Genussbox',smallPrice,'giftroom-'+picture,'Regionale Geschenkidee','Entdeckerbox: '+small+'. Genussbox: '+large+'. Unverbindliche Zusammenstellung; Bestandteile, Herkunft und ungekühlte Versandfähigkeit sind noch nicht geprüft.']);
+ root.catalog.push([id,'Genussbox '+(giftWorldNames[slug] ? giftWorldNames[slug]+' · ' : '')+title,'Geschenke','Entdeckerbox / Genussbox',smallPrice,'giftroom-'+picture,'Regionale Geschenkidee','Entdeckerbox: '+small+'. Genussbox: '+large+'. Unverbindliche Zusammenstellung; Bestandteile, Herkunft und ungekühlte Versandfähigkeit sind noch nicht geprüft.']);
  sizes.defaults[id]='entdecker';
  sizes.products[id]=[
   {id:'entdecker',pack:'Entdeckerbox · 3 Produkte',amount:null,unit:null,priceCents:Math.round(smallPrice*100),label:'Entdeckerbox · 3 Produkte',includedDescription:small,boxItems:boxContents[slug][0].map(product=>({product,quantity:1}))},
