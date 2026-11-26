@@ -25,12 +25,14 @@ jobs:
         uses: actions/checkout@v4
       - name: Sortiment und regionale Zuordnungen prüfen
         run: node scripts/validate-content.mjs
+      - name: Öffentliche Dateien bereitstellen
+        run: python3 scripts/stage_pages.py
       - name: GitHub Pages vorbereiten
         uses: actions/configure-pages@v5
       - name: Website hochladen
         uses: actions/upload-pages-artifact@v4
         with:
-          path: .
+          path: _site
       - name: Website veröffentlichen
         id: deployment
         uses: actions/deploy-pages@v4
