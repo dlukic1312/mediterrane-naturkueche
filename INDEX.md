@@ -6,3 +6,6 @@
 - [Content validation](scripts/validate-content.mjs)
 - [Publication manifest](publish-manifest.json)
 - [Deployment](.github/workflows/pages.yml)
+- [Staged links/resources/navigation validation](scripts/check_staged.py)
+- [Publication contract tests](tests/test_publication.py)
+- [Explicit unchanged-migration audit](.github/workflows/verify-migration.yml)
